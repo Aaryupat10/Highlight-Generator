@@ -145,6 +145,10 @@ def score_segment(text: str, local_context: str = "") -> tuple[float, str, list[
         if any(re.search(p, low) for p in patterns):
             matches.append((event, score, event.replace("_", " ")))
     event, base, reason = max(matches, key=lambda x: x[1]) if matches else ("routine", 0.0, "")
+    if event != "routine":
+        mention_context = analyze_event(text, event)["event_context"]
+        if mention_context in {"negated", "hypothetical", "retrospective"}:
+            return 0.0, "routine", []
     # Suppress common non-event mentions that keyword matching otherwise mistakes
     # for live chances, cards, or set pieces.
     if event == "chance_or_shot" and re.search(
@@ -323,7 +327,14 @@ def write_outputs(out_dir: Path, segments: list[Segment], highlights: list[dict[
     transcript_lines = [f"# Full timestamped transcript: {video.name}", "", note, ""]
     transcript_lines.extend(f"[{timestamp(s.start)}–{timestamp(s.end)}] {s.text_english or s.text}" + (f"\n\nOriginal: {s.text}" if s.text_english and s.text_english != s.text else "") for s in segments)
     (out_dir / "transcript.md").write_text("\n\n".join(transcript_lines) + "\n", encoding="utf-8")
-    score_note = (f"Hybrid ranking: football event phrase matching plus a trained match-half sequence model ({sequence_model.supervision if sequence_model is not None else getattr(classifier, 'supervision', 'unknown supervision')}); not a calibrated probability or a direct measure of highlight quality."
+    model_kind = (
+        "project-trained BiGRU sequence model"
+        if sequence_predictions is not None
+        else "project-trained TF-IDF/PyTorch MLP"
+        if classifier is not None and getattr(classifier, "encoder", None) is not None
+        else "project-trained text classifier"
+    )
+    score_note = (f"Hybrid ranking: football event phrase matching plus a {model_kind} ({sequence_model.supervision if sequence_model is not None else getattr(classifier, 'supervision', 'unknown supervision')}); not a calibrated probability or a direct measure of highlight quality."
                   if classifier is not None or sequence_predictions is not None else "Rule-match score, not a calibrated probability or measured confidence.")
     deep_learning_stage = ("project-trained BiGRU with temporal self-attention and eventness/event-family heads; exploratory weak supervision" if sequence_predictions is not None else ("project-trained shared TF-IDF/PyTorch MLP with eventness and broad event-family heads; family output is experimental and weak-label trained" if classifier is not None and hasattr(classifier, "event_classes") else "project-trained PyTorch feed-forward binary reranker using match-context text") if classifier is not None else "not used; phrase rules only")
     pipeline_stages = {

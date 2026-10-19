@@ -17,6 +17,12 @@ The teammate's complete ten-stage proposal and the new 2023–24 match-details C
 
 The NLP/DL pipeline uses pretrained Whisper for speech recognition, with either Whisper's English translation task or optional NLLB text translation. Project-written event phrase rules propose candidates; a project-trained PyTorch feed-forward network reranks them using surrounding commentary. The preferred TF-IDF model fits its vocabulary and IDF values on project data; the hashed-feature model remains available. Rule-only and linear baselines are retained. TF-IDF model explanations remove one active feature at a time and report which removals lower the candidate score; this is feature perturbation, not attention. Event evidence and discourse cues are exported for inspection. This is not a fine-tuned Transformer or the originally proposed hierarchical model. No trained coreference, semantic-role, player identity, or excitement head exists yet. Automatic language detection and translation have been tried on Spanish, Russian, and French examples. Translation can be inaccurate, so do not claim reliable performance on every language.
 
+### English text preprocessing
+
+`src/nlp_analysis.py` applies Unicode normalization, standardizes common apostrophes and dashes, removes zero-width characters, collapses whitespace, and keeps emphasis punctuation and capitalization. It adds event evidence and local negation, hypothetical, retrospective, live-action, and excitement cues. Candidate scoring suppresses event phrases that are clearly negated, hypothetical, or retrospective, while checking separate clauses so a later positive event is retained. These are transparent English-focused rules, not a guarantee of correct interpretation for every sentence. Original ASR and translated segment text remain separately available in pipeline output.
+
+`src/text_classifier.py` uses the same normalization, case-folded unigram/bigram features, punctuation/emphasis indicators, and separate cue features. The TF-IDF vocabulary and IDF weights are fitted from the project training split. After changing these features, retrain and compare match-held-out metrics before replacing the deployed checkpoint.
+
 ## Requirements on the Mac
 
 - Python 3.10–3.12 recommended.
@@ -90,16 +96,16 @@ The trained model is a genuine but small PyTorch neural network (8,192 hashed te
 The course-based alternative fits its own vocabulary and TF-IDF weights from project commentary, then trains a PyTorch MLP from random initialization. It does not use pretrained text embeddings. Reproduce training and match-held-out evaluation with:
 
 ```bash
-python3 src/train_tfidf_highlight.py
+python3 src/train_tfidf_highlight.py --out models/commentary_tfidf_mlp_preprocessed.pt
 ```
 
-The saved checkpoint is `models/commentary_tfidf_mlp.pt`. On the same seven match-held-out folds it reached macro F1 0.655 (weighted F1 0.654), compared with 0.636 (0.624) for the hashed-feature MLP and 0.553 (0.552) for the TF-IDF linear baseline. This is a modest exploratory gain on mixed weak event labels and a small number of manually reviewed examples, not a validated measure of subjective highlight quality. Use it in the pipeline with:
+The updated checkpoint is `models/commentary_tfidf_mlp_preprocessed.pt`. It includes normalized unigram/bigram TF-IDF features plus project-engineered negation, hypothetical, retrospective, live-action, punctuation, capitalization, and excitement cues. On the same seven match-held-out folds it reached macro F1 0.667 (weighted F1 0.671), compared with macro F1 0.655 for the earlier TF-IDF MLP. This small change is exploratory and uses mixed weak event labels plus a small manually reviewed set; it is not a validated measure of subjective highlight quality or universal English commentary performance. The earlier checkpoint remains available for comparison. Use the updated one in the pipeline with:
 
 ```bash
-python3 src/pipeline.py "/path/to/match.mkv" --start-seconds 0 --duration-seconds 180 --out outputs/tfidf_demo --model small --language auto --translate-to-english --classifier-model models/commentary_tfidf_mlp.pt --min-score 0.5
+python3 src/pipeline.py "/path/to/match.mkv" --start-seconds 0 --duration-seconds 180 --out outputs/tfidf_preprocessed_demo --model small --language auto --translate-to-english --classifier-model models/commentary_tfidf_mlp_preprocessed.pt --min-score 0.5
 ```
 
-For candidate ranking without rerunning Whisper, use `models/commentary_tfidf_mlp.pt` with `src/rerank_transcript.py` and a saved `transcript.csv`.
+For candidate ranking without rerunning Whisper, use `models/commentary_tfidf_mlp_preprocessed.pt` with `src/rerank_transcript.py` and a saved `transcript.csv`.
 
 ### Multi-task event-family model
 

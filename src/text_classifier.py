@@ -10,12 +10,15 @@ from typing import Any
 
 import torch
 
+from nlp_analysis import analyze_event, normalize_commentary
+
 FEATURES = 8192
 TOKEN_RE = re.compile(r"[\w']+", re.UNICODE)
 
 
 def text_features(text: str) -> list[str]:
     """Return reproducible unigram/bigram features plus lightweight text cues."""
+    text = normalize_commentary(text)
     raw_tokens = TOKEN_RE.findall(text)
     tokens = [token.casefold() for token in raw_tokens]
     features = tokens + [f"{a} {b}" for a, b in zip(tokens, tokens[1:])]
@@ -24,9 +27,16 @@ def text_features(text: str) -> list[str]:
     words = [token for token in raw_tokens if any(ch.isalpha() for ch in token)]
     if words and sum(word.isupper() for word in words) / len(words) >= 0.3:
         features.append("__HIGH_UPPERCASE__")
-    # Keep negation as lexical features and add a cue for the classifier.
-    if any(token in {"no", "not", "never", "cannot", "can't", "couldn't", "didn't", "without"} for token in tokens):
-        features.append("__NEGATION__")
+    # Keep polarity and discourse cues as distinct project-fitted features.
+    cues = analyze_event(text)
+    cue_features = {
+        "has_negation": "__NEGATION__",
+        "has_hypothetical_language": "__HYPOTHETICAL__",
+        "has_retrospective_language": "__RETROSPECTIVE__",
+        "has_live_action_language": "__LIVE_ACTION__",
+        "has_excitement_cue": "__EXCITEMENT__",
+    }
+    features.extend(feature for key, feature in cue_features.items() if cues[key])
     return features
 
 

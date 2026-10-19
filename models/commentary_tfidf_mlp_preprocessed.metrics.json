@@ -1,0 +1,110 @@
+{
+  "model": "models/commentary_tfidf_mlp_preprocessed.pt",
+  "model_type": "project-trained TF-IDF + PyTorch MLP",
+  "training_matches": [
+    "arsenal_tottenham",
+    "crystal_palace_mancity",
+    "leicester_arsenal",
+    "liverpool_aston_villa",
+    "mancity_westbrom",
+    "manutd_westbrom",
+    "newcastle_chelsea"
+  ],
+  "final_model_excluded_match": "",
+  "training_examples": 380,
+  "positive_examples": 205,
+  "routine_examples": 175,
+  "all_labeled_examples": 380,
+  "skipped": 0,
+  "supervision": "mixed SoccerNet event timestamps and human-reviewed highlights",
+  "threshold": 0.5,
+  "leave_one_match_out_mlp": {
+    "arsenal_tottenham": {
+      "n": 56,
+      "precision_at_0.5": 0.7083333333333334,
+      "recall_at_0.5": 0.5666666666666667,
+      "f1_at_0.5": 0.6296296296296297
+    },
+    "crystal_palace_mancity": {
+      "n": 15,
+      "precision_at_0.5": 0.75,
+      "recall_at_0.5": 0.6,
+      "f1_at_0.5": 0.6666666666666665
+    },
+    "leicester_arsenal": {
+      "n": 73,
+      "precision_at_0.5": 0.8043478260869565,
+      "recall_at_0.5": 0.7115384615384616,
+      "f1_at_0.5": 0.7551020408163265
+    },
+    "liverpool_aston_villa": {
+      "n": 64,
+      "precision_at_0.5": 0.7317073170731707,
+      "recall_at_0.5": 0.7894736842105263,
+      "f1_at_0.5": 0.7594936708860759
+    },
+    "mancity_westbrom": {
+      "n": 52,
+      "precision_at_0.5": 0.5862068965517241,
+      "recall_at_0.5": 0.85,
+      "f1_at_0.5": 0.6938775510204082
+    },
+    "manutd_westbrom": {
+      "n": 54,
+      "precision_at_0.5": 0.5909090909090909,
+      "recall_at_0.5": 0.5909090909090909,
+      "f1_at_0.5": 0.5909090909090909
+    },
+    "newcastle_chelsea": {
+      "n": 66,
+      "precision_at_0.5": 0.5757575757575758,
+      "recall_at_0.5": 0.5757575757575758,
+      "f1_at_0.5": 0.5757575757575758
+    }
+  },
+  "leave_one_match_out_linear_baseline": {
+    "arsenal_tottenham": {
+      "n": 56,
+      "precision_at_0.5": 0.6111111111111112,
+      "recall_at_0.5": 0.36666666666666664,
+      "f1_at_0.5": 0.45833333333333326
+    },
+    "crystal_palace_mancity": {
+      "n": 15,
+      "precision_at_0.5": 0.8,
+      "recall_at_0.5": 0.4,
+      "f1_at_0.5": 0.5333333333333333
+    },
+    "leicester_arsenal": {
+      "n": 73,
+      "precision_at_0.5": 0.875,
+      "recall_at_0.5": 0.5384615384615384,
+      "f1_at_0.5": 0.6666666666666667
+    },
+    "liverpool_aston_villa": {
+      "n": 64,
+      "precision_at_0.5": 0.7407407407407407,
+      "recall_at_0.5": 0.5263157894736842,
+      "f1_at_0.5": 0.6153846153846153
+    },
+    "mancity_westbrom": {
+      "n": 52,
+      "precision_at_0.5": 0.6190476190476191,
+      "recall_at_0.5": 0.65,
+      "f1_at_0.5": 0.6341463414634146
+    },
+    "manutd_westbrom": {
+      "n": 54,
+      "precision_at_0.5": 0.6923076923076923,
+      "recall_at_0.5": 0.4090909090909091,
+      "f1_at_0.5": 0.5142857142857142
+    },
+    "newcastle_chelsea": {
+      "n": 66,
+      "precision_at_0.5": 0.6153846153846154,
+      "recall_at_0.5": 0.48484848484848486,
+      "f1_at_0.5": 0.5423728813559322
+    }
+  },
+  "warning": "Exploratory leave-one-match-out results. SoccerNet event timestamp labels indicate event-related windows, not necessarily editorial highlight quality; human-reviewed highlights are subjective. Each held-out fold fits its vocabulary and IDF on training matches only."
+}

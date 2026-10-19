@@ -139,7 +139,7 @@ def main() -> None:
         "vocabulary": encoder.vocabulary, "idf": encoder.idf,
         "training_matches": training_matches, "excluded_match": args.exclude_match or "",
         "training_examples": len(training_rows), "supervision": supervision,
-        "features": "project-fitted unigram/bigram TF-IDF plus punctuation and negation cues",
+        "features": "project-fitted unigram/bigram TF-IDF plus normalized punctuation, negation, hypothetical, retrospective, live-action, and excitement cues",
     }, args.out)
 
     summary = {
