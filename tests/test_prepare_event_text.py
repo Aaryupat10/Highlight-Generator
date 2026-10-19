@@ -40,6 +40,10 @@ class PrepareEventTextTests(unittest.TestCase):
         self.assertEqual(rows[0], {
             "commentary": "GOAL!!! Smith's shot",
             "event": "shots_on_target",
+            "event_context": "asserted_or_live",
+            "has_excitement_cue": "true",
+            "exclamation_count": "3",
+            "uppercase_word_count": "1",
             "match_id": "match_a",
             "half": "1",
             "anchor_seconds": "12.5",
@@ -66,6 +70,7 @@ class PrepareEventTextTests(unittest.TestCase):
             rows, _ = prepare_rows(source)
         self.assertEqual(rows[0]["commentary"], "A goal for City")
         self.assertEqual(rows[0]["event"], "goal")
+        self.assertEqual(rows[0]["event_context"], "asserted_or_live")
 
 
 if __name__ == "__main__":

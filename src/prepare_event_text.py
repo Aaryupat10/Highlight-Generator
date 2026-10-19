@@ -7,13 +7,28 @@ import re
 from collections import Counter
 from pathlib import Path
 
-from nlp_analysis import normalize_commentary
+from nlp_analysis import analyze_event, normalize_commentary
 
 
-OUTPUT_FIELDS = ("commentary", "event", "match_id", "half", "anchor_seconds")
+OUTPUT_FIELDS = (
+    "commentary", "event", "event_context", "has_excitement_cue",
+    "exclamation_count", "uppercase_word_count", "match_id", "half", "anchor_seconds",
+)
 TEXT_COLUMNS = ("english_commentary_context", "english_commentary", "commentary", "text")
 EVENT_COLUMNS = ("event_type", "event")
 NON_EVENT_LABELS = {"not selected by model", "unclear", "unknown", "none", "nan"}
+EVENT_ANALYSIS_TYPES = {
+    "shots_on_target": "chance_or_shot",
+    "shots_off_target": "chance_or_shot",
+    "shot": "chance_or_shot",
+    "chance": "chance_or_shot",
+    "penalty": "penalty_or_var",
+    "var": "penalty_or_var",
+    "red_card": "red_card",
+    "yellow_card": "yellow_card",
+    "corner": "corner_or_free_kick",
+    "free_kick": "corner_or_free_kick",
+}
 
 
 def _canonical_event(value: str) -> str:
@@ -54,9 +69,16 @@ def prepare_rows(source: Path) -> tuple[list[dict[str, str]], Counter[str]]:
             if raw_event.casefold() in NON_EVENT_LABELS:
                 skipped["invalid_event_label"] += 1
                 continue
+            analysis_event = EVENT_ANALYSIS_TYPES.get(event, event)
+            cues = analyze_event(commentary, analysis_event)
+            uppercase_words = re.findall(r"\b[A-Z][A-Z0-9]{1,}\b", commentary)
             prepared.append({
                 "commentary": commentary,
                 "event": event,
+                "event_context": cues["event_context"],
+                "has_excitement_cue": str(cues["has_excitement_cue"]).lower(),
+                "exclamation_count": str(commentary.count("!")),
+                "uppercase_word_count": str(len(uppercase_words)),
                 # These are metadata for grouped evaluation and timestamp alignment;
                 # the text model must not use them as predictive features.
                 "match_id": (row.get("match_id") or "").strip(),
