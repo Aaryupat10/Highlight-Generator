@@ -38,10 +38,12 @@ class PrepareEventTextTests(unittest.TestCase):
 
         self.assertEqual(len(rows), 1)
         self.assertEqual(rows[0], {
-            "commentary": "GOAL!!! Smith's shot",
+            "commentary": "GOAL!!! Smith’s shot",
             "event": "shots_on_target",
             "event_context": "asserted_or_live",
             "has_excitement_cue": "true",
+            "tokens_json": '["GOAL", "!", "!", "!", "Smith’s", "shot"]',
+            "punctuation_counts_json": '{"!": 3, "’": 1}',
             "exclamation_count": "3",
             "uppercase_word_count": "1",
             "match_id": "match_a",

@@ -6,7 +6,6 @@ trained named-entity recognition, coreference, or semantic-role labeling.
 from __future__ import annotations
 
 import re
-import unicodedata
 from typing import Any
 
 EVENT_TERMS: dict[str, tuple[str, ...]] = {
@@ -55,8 +54,6 @@ EXCITEMENT_RE = re.compile(
     re.I,
 )
 
-_ZERO_WIDTH_RE = re.compile(r"[\u200b-\u200f\u2060\ufeff]")
-_SPACE_BEFORE_PUNCT_RE = re.compile(r"\s+([,.;:!?])")
 _SENTENCE_RE = re.compile(
     r"(?<=[.!?;])\s+|\s*,\s*(?=(?:but|however|instead|yet|now|rather|and\s+then)\b)|"
     r"\s+\b(?:but|however)\b\s+|\s*[\n]+\s*",
@@ -71,19 +68,8 @@ _CURRENT_OVERRIDE_RE = re.compile(r"\b(?:now|just|this\s+time|right\s+now|here\s
 
 
 def normalize_commentary(text: str) -> str:
-    """Normalize Unicode and spacing while preserving meaning and emphasis."""
-    text = unicodedata.normalize("NFKC", text or "")
-    text = _ZERO_WIDTH_RE.sub("", text)
-    text = text.translate(str.maketrans({
-        "’": "'", "‘": "'", "‛": "'", "＇": "'",
-        "“": '"', "”": '"', "„": '"',
-        "…": "...", "–": "-", "—": "-", "−": "-",
-        "\u00a0": " ",
-    }))
-    text = re.sub(r"[\t\r\n]+", " ", text)
-    text = re.sub(r"\s+", " ", text)
-    text = _SPACE_BEFORE_PUNCT_RE.sub(r"\1", text)
-    return text.strip()
+    """Collapse whitespace only; preserve the original words and punctuation."""
+    return re.sub(r"\s+", " ", text or "").strip()
 
 
 def _term_pattern(term: str) -> re.Pattern[str]:

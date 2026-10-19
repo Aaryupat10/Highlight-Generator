@@ -4,9 +4,9 @@ from nlp_analysis import analyze_event, normalize_commentary
 
 
 class NormalizeCommentaryTests(unittest.TestCase):
-    def test_normalizes_spacing_and_unicode_without_removing_emphasis(self):
+    def test_collapses_whitespace_but_preserves_original_punctuation(self):
         text = normalize_commentary("  ＧＯＡＬ!!!\u00a0Haaland’s   shot …  ")
-        self.assertEqual(text, "GOAL!!! Haaland's shot...")
+        self.assertEqual(text, "ＧＯＡＬ!!! Haaland’s shot …")
 
 
 class EventCueTests(unittest.TestCase):
