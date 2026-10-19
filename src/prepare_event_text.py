@@ -3,9 +3,7 @@ from __future__ import annotations
 
 import argparse
 import csv
-import json
 import re
-import unicodedata
 from collections import Counter
 from pathlib import Path
 
@@ -14,10 +12,8 @@ from nlp_analysis import analyze_event, normalize_commentary
 
 OUTPUT_FIELDS = (
     "commentary", "event", "event_context", "has_excitement_cue",
-    "tokens_json", "punctuation_counts_json", "exclamation_count",
-    "uppercase_word_count", "match_id", "half", "anchor_seconds",
+    "exclamation_count", "uppercase_word_count", "match_id", "half", "anchor_seconds",
 )
-TOKEN_RE = re.compile(r"\w+(?:['’]\w+)*|[^\w\s]", re.UNICODE)
 TEXT_COLUMNS = ("english_commentary_context", "english_commentary", "commentary", "text")
 EVENT_COLUMNS = ("event_type", "event")
 NON_EVENT_LABELS = {"not selected by model", "unclear", "unknown", "none", "nan"}
@@ -61,9 +57,7 @@ def prepare_rows(source: Path) -> tuple[list[dict[str, str]], Counter[str]]:
             raise ValueError(f"No event label column found; expected one of {EVENT_COLUMNS}.")
 
         for row in reader:
-            # Keep the source wording and punctuation; normalize only whitespace.
-            raw_commentary = row.get(text_column, "") or ""
-            commentary = normalize_commentary(raw_commentary)
+            commentary = normalize_commentary(row.get(text_column, ""))
             raw_event = normalize_commentary(row.get(event_column, ""))
             event = _canonical_event(raw_event)
             if not commentary:
@@ -77,19 +71,13 @@ def prepare_rows(source: Path) -> tuple[list[dict[str, str]], Counter[str]]:
                 continue
             analysis_event = EVENT_ANALYSIS_TYPES.get(event, event)
             cues = analyze_event(commentary, analysis_event)
-            tokens = TOKEN_RE.findall(commentary)
-            punctuation_counts = Counter(
-                char for char in commentary if unicodedata.category(char).startswith("P")
-            )
-            uppercase_words = [token for token in tokens if any(ch.isalpha() for ch in token) and token.isupper()]
+            uppercase_words = re.findall(r"\b[A-Z][A-Z0-9]{1,}\b", commentary)
             prepared.append({
                 "commentary": commentary,
                 "event": event,
                 "event_context": cues["event_context"],
                 "has_excitement_cue": str(cues["has_excitement_cue"]).lower(),
-                "tokens_json": json.dumps(tokens, ensure_ascii=False),
-                "punctuation_counts_json": json.dumps(dict(punctuation_counts), ensure_ascii=False, sort_keys=True),
-                "exclamation_count": str(sum(token in {"!", "！"} for token in tokens)),
+                "exclamation_count": str(commentary.count("!")),
                 "uppercase_word_count": str(len(uppercase_words)),
                 # These are metadata for grouped evaluation and timestamp alignment;
                 # the text model must not use them as predictive features.
