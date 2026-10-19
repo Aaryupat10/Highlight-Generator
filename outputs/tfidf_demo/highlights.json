@@ -1,0 +1,38 @@
+{
+  "source_video": "1_224p.mkv",
+  "asr_model": "small",
+  "timestamp_note": "Whisper segment timestamps are estimates; verify against the video before editing.",
+  "score_note": "Hybrid ranking: football event phrase matching plus a trained event-context reranker (mixed SoccerNet event timestamps and human-reviewed highlights); not a calibrated probability or a direct measure of highlight quality.",
+  "highlights": [
+    {
+      "start_seconds": 86.0,
+      "end_seconds": 88.0,
+      "start_timestamp": "00:01:26",
+      "end_timestamp": "00:01:28",
+      "event": "chance_or_shot",
+      "score": 0.748,
+      "commentary": "primera oportunidad del marco de Joe Hart",
+      "commentary_english": "First chance at Joe Hart's frame",
+      "reasons": [
+        "chance or shot",
+        "football event phrase",
+        "trained event-context reranker"
+      ]
+    },
+    {
+      "start_seconds": 170.0,
+      "end_seconds": 172.0,
+      "start_timestamp": "00:02:50",
+      "end_timestamp": "00:02:52",
+      "event": "corner_or_free_kick",
+      "score": 0.551,
+      "commentary": "Pallas que llegaba ahí al remate en el saque de esquina",
+      "commentary_english": "Balls that came in the end zone at the corner kick",
+      "reasons": [
+        "corner or free kick",
+        "football event phrase",
+        "trained event-context reranker"
+      ]
+    }
+  ]
+}

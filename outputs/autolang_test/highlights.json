@@ -1,0 +1,33 @@
+{
+  "source_video": "1_224p.mkv",
+  "asr_model": "small",
+  "timestamp_note": "Whisper segment timestamps are estimates; verify against the video before editing.",
+  "highlights": [
+    {
+      "start_seconds": 86.0,
+      "end_seconds": 88.0,
+      "start_timestamp": "00:01:26",
+      "end_timestamp": "00:01:28",
+      "event": "chance_or_shot",
+      "score": 0.68,
+      "commentary": "primera oportunidad del marco de Joe Hart",
+      "commentary_english": "First chance at Joe Hart's frame",
+      "reasons": [
+        "chance or shot"
+      ]
+    },
+    {
+      "start_seconds": 158.0,
+      "end_seconds": 172.0,
+      "start_timestamp": "00:02:38",
+      "end_timestamp": "00:02:52",
+      "event": "corner_or_free_kick",
+      "score": 0.42,
+      "commentary": "vamos a ver el primer corner del partido Pallas que llegaba ahí al remate en el saque de esquina",
+      "commentary_english": "Let's see the first corner of the game. Balls that came in the end zone at the corner kick",
+      "reasons": [
+        "corner or free kick"
+      ]
+    }
+  ]
+}

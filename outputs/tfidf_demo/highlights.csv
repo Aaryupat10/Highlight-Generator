@@ -1,0 +1,3 @@
+start_timestamp,end_timestamp,event,score,commentary,commentary_english,reasons
+00:01:26,00:01:28,chance_or_shot,0.748,primera oportunidad del marco de Joe Hart,First chance at Joe Hart's frame,"chance or shot, football event phrase, trained event-context reranker"
+00:02:50,00:02:52,corner_or_free_kick,0.551,Pallas que llegaba ahí al remate en el saque de esquina,Balls that came in the end zone at the corner kick,"corner or free kick, football event phrase, trained event-context reranker"

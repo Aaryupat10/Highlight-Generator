@@ -1,0 +1,94 @@
+{
+  "model": "models/liverpool_holdout_diagnostic.pt",
+  "training_matches": [
+    "arsenal_tottenham",
+    "crystal_palace_mancity",
+    "leicester_arsenal",
+    "mancity_westbrom",
+    "manutd_westbrom",
+    "newcastle_chelsea"
+  ],
+  "supervision": "mixed SoccerNet event timestamps and human-reviewed highlights",
+  "training_examples": 316,
+  "positive_examples": 167,
+  "routine_examples": 149,
+  "unclear_or_blank_skipped": 0,
+  "leave_one_match_out": {
+    "arsenal_tottenham": {
+      "n": 56,
+      "precision_at_0.5": 0.5833333333333334,
+      "recall_at_0.5": 0.4666666666666667,
+      "f1_at_0.5": 0.5185185185185186
+    },
+    "crystal_palace_mancity": {
+      "n": 15,
+      "precision_at_0.5": 0.7,
+      "recall_at_0.5": 0.7,
+      "f1_at_0.5": 0.7
+    },
+    "leicester_arsenal": {
+      "n": 73,
+      "precision_at_0.5": 0.8648648648648649,
+      "recall_at_0.5": 0.6153846153846154,
+      "f1_at_0.5": 0.7191011235955056
+    },
+    "mancity_westbrom": {
+      "n": 52,
+      "precision_at_0.5": 0.5333333333333333,
+      "recall_at_0.5": 0.8,
+      "f1_at_0.5": 0.64
+    },
+    "manutd_westbrom": {
+      "n": 54,
+      "precision_at_0.5": 0.56,
+      "recall_at_0.5": 0.6363636363636364,
+      "f1_at_0.5": 0.5957446808510639
+    },
+    "newcastle_chelsea": {
+      "n": 66,
+      "precision_at_0.5": 0.5853658536585366,
+      "recall_at_0.5": 0.7272727272727273,
+      "f1_at_0.5": 0.6486486486486487
+    }
+  },
+  "linear_baseline_leave_one_match_out": {
+    "arsenal_tottenham": {
+      "n": 56,
+      "precision_at_0.5": 0.6363636363636364,
+      "recall_at_0.5": 0.4666666666666667,
+      "f1_at_0.5": 0.5384615384615385
+    },
+    "crystal_palace_mancity": {
+      "n": 15,
+      "precision_at_0.5": 0.5555555555555556,
+      "recall_at_0.5": 0.5,
+      "f1_at_0.5": 0.5263157894736842
+    },
+    "leicester_arsenal": {
+      "n": 73,
+      "precision_at_0.5": 0.9375,
+      "recall_at_0.5": 0.5769230769230769,
+      "f1_at_0.5": 0.7142857142857143
+    },
+    "mancity_westbrom": {
+      "n": 52,
+      "precision_at_0.5": 0.46875,
+      "recall_at_0.5": 0.75,
+      "f1_at_0.5": 0.5769230769230769
+    },
+    "manutd_westbrom": {
+      "n": 54,
+      "precision_at_0.5": 0.5294117647058824,
+      "recall_at_0.5": 0.4090909090909091,
+      "f1_at_0.5": 0.46153846153846156
+    },
+    "newcastle_chelsea": {
+      "n": 66,
+      "precision_at_0.5": 0.6216216216216216,
+      "recall_at_0.5": 0.696969696969697,
+      "f1_at_0.5": 0.6571428571428571
+    }
+  },
+  "model_type": "PyTorch feed-forward neural network (8192 inputs, 32 hidden units, ReLU, dropout, sigmoid output)",
+  "warning": "Exploratory match-held-out evaluation. SoccerNet event labels supervise event-related commentary, while human labels reflect subjective highlight review; interpret the held-out match metrics by their label source."
+}

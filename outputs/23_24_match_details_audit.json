@@ -1,0 +1,5761 @@
+{
+  "source": "path/to/23_24_match_details.csv",
+  "row_count": 303,
+  "columns": [
+    "id",
+    "Home",
+    "Away",
+    "Date",
+    "Stadium",
+    "Attendance",
+    "Referee",
+    "events",
+    "summary"
+  ],
+  "unique_ids": 303,
+  "date_range": [
+    "2023-08-12",
+    "2024-04-15"
+  ],
+  "missing_values": {
+    "id": 0,
+    "Home": 0,
+    "Away": 0,
+    "Date": 0,
+    "Stadium": 0,
+    "Attendance": 8,
+    "Referee": 0,
+    "events": 12,
+    "summary": 5
+  },
+  "opening_pair_checked": 291,
+  "opening_pair_matches_metadata": 0,
+  "opening_pair_exists_in_metadata_set": 288,
+  "opening_order_exists_in_metadata_set": 268,
+  "repeated_opening_pair_keys": 3,
+  "rows_with_mm_ss_timestamp": 7,
+  "rows_with_minute_marker": 2,
+  "audit_rows": [
+    {
+      "csv_line": 2,
+      "id": "93323",
+      "date": "2023-08-12",
+      "home": "Bournemouth",
+      "away": "West Ham",
+      "opening_teams_detected": [
+        "Burnley",
+        "manchester city"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 73,
+      "event_text_chars": 13896,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 3,
+      "id": "93336",
+      "date": "2023-08-19",
+      "home": "Man City",
+      "away": "Newcastle",
+      "opening_teams_detected": [
+        "Arsenal",
+        "nottingham forest"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 82,
+      "event_text_chars": 13290,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 4,
+      "id": "93343",
+      "date": "2023-08-26",
+      "home": "Brentford",
+      "away": "Crystal Palace",
+      "opening_teams_detected": [
+        "Bournemouth",
+        "West Ham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 76,
+      "event_text_chars": 12579,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 5,
+      "id": "93344",
+      "date": "2023-08-26",
+      "home": "Brighton",
+      "away": "West Ham",
+      "opening_teams_detected": [
+        "Brighton",
+        "Luton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 82,
+      "event_text_chars": 16269,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 6,
+      "id": "93347",
+      "date": "2023-08-26",
+      "home": "Everton",
+      "away": "Wolves",
+      "opening_teams_detected": [
+        "Everton",
+        "Fulham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 95,
+      "event_text_chars": 18712,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 7,
+      "id": "93341",
+      "date": "2023-08-26",
+      "home": "Arsenal",
+      "away": "Fulham",
+      "opening_teams_detected": [
+        "sheffield united",
+        "Crystal Palace"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 93,
+      "event_text_chars": 18827,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 8,
+      "id": "93349",
+      "date": "2023-08-27",
+      "home": "Newcastle",
+      "away": "Liverpool",
+      "opening_teams_detected": [
+        "Newcastle",
+        "Aston Villa"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 95,
+      "event_text_chars": 21405,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 9,
+      "id": "93350",
+      "date": "2023-08-27",
+      "home": "Sheffield Utd",
+      "away": "Man City",
+      "opening_teams_detected": [
+        "Brentford",
+        "tottenham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 84,
+      "event_text_chars": 16108,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 10,
+      "id": "93345",
+      "date": "2023-08-27",
+      "home": "Burnley",
+      "away": "Aston Villa",
+      "opening_teams_detected": [
+        "Chelsea",
+        "Liverpool"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 97,
+      "event_text_chars": 20795,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 11,
+      "id": "93358",
+      "date": "2023-09-01",
+      "home": "Luton",
+      "away": "West Ham",
+      "opening_teams_detected": [
+        "manchester united",
+        "Wolves"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 100,
+      "event_text_chars": 19160,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 12,
+      "id": "93355",
+      "date": "2023-09-02",
+      "home": "Chelsea",
+      "away": "Nott'm Forest",
+      "opening_teams_detected": [
+        "Aston Villa",
+        "Everton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 95,
+      "event_text_chars": 15977,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 13,
+      "id": "93353",
+      "date": "2023-09-02",
+      "home": "Brighton",
+      "away": "Newcastle",
+      "opening_teams_detected": [
+        "Crystal Palace",
+        "Arsenal"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 91,
+      "event_text_chars": 20334,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 14,
+      "id": "93359",
+      "date": "2023-09-02",
+      "home": "Man City",
+      "away": "Fulham",
+      "opening_teams_detected": [
+        "Fulham",
+        "Brentford"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": false,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 92,
+      "event_text_chars": 13532,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 15,
+      "id": "93354",
+      "date": "2023-09-02",
+      "home": "Burnley",
+      "away": "Spurs",
+      "opening_teams_detected": [
+        "Liverpool",
+        "Bournemouth"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 83,
+      "event_text_chars": 15946,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 16,
+      "id": "93352",
+      "date": "2023-09-02",
+      "home": "Brentford",
+      "away": "Bournemouth",
+      "opening_teams_detected": [
+        "Luton",
+        "Burnley"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 74,
+      "event_text_chars": 10945,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 17,
+      "id": "93360",
+      "date": "2023-09-02",
+      "home": "Sheffield Utd",
+      "away": "Everton",
+      "opening_teams_detected": [
+        "manchester city",
+        "Newcastle"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 72,
+      "event_text_chars": 10888,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 18,
+      "id": "93357",
+      "date": "2023-09-03",
+      "home": "Liverpool",
+      "away": "Aston Villa",
+      "opening_teams_detected": [
+        "nottingham forest",
+        "sheffield united"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": false,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 79,
+      "event_text_chars": 11161,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 19,
+      "id": "93356",
+      "date": "2023-09-03",
+      "home": "Crystal Palace",
+      "away": "Wolves",
+      "opening_teams_detected": [
+        "tottenham",
+        "manchester united"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 91,
+      "event_text_chars": 15042,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 20,
+      "id": "93351",
+      "date": "2023-09-03",
+      "home": "Arsenal",
+      "away": "Man Utd",
+      "opening_teams_detected": [
+        "West Ham",
+        "Chelsea"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": false,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 107,
+      "event_text_chars": 21038,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 21,
+      "id": "93366",
+      "date": "2023-09-16",
+      "home": "Newcastle",
+      "away": "Brentford",
+      "opening_teams_detected": [
+        "Wolves",
+        "Brighton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 102,
+      "event_text_chars": 21680,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 22,
+      "id": "93361",
+      "date": "2023-09-16",
+      "home": "Aston Villa",
+      "away": "Crystal Palace",
+      "opening_teams_detected": [
+        "Bournemouth",
+        "tottenham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 82,
+      "event_text_chars": 15729,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 23,
+      "id": "93364",
+      "date": "2023-09-16",
+      "home": "Fulham",
+      "away": "Luton",
+      "opening_teams_detected": [
+        "Arsenal",
+        "Fulham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 86,
+      "event_text_chars": 13843,
+      "has_mm_ss_timestamp": true,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 24,
+      "id": "93370",
+      "date": "2023-09-16",
+      "home": "Wolves",
+      "away": "Liverpool",
+      "opening_teams_detected": [
+        "Brentford",
+        "Crystal Palace"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 89,
+      "event_text_chars": 18376,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 25,
+      "id": "93369",
+      "date": "2023-09-16",
+      "home": "West Ham",
+      "away": "Man City",
+      "opening_teams_detected": [
+        "Brighton",
+        "West Ham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 86,
+      "event_text_chars": 15448,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 26,
+      "id": "93368",
+      "date": "2023-09-16",
+      "home": "Spurs",
+      "away": "Sheffield Utd",
+      "opening_teams_detected": [
+        "Burnley",
+        "Aston Villa"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 79,
+      "event_text_chars": 14465,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 27,
+      "id": "93365",
+      "date": "2023-09-16",
+      "home": "Man Utd",
+      "away": "Brighton",
+      "opening_teams_detected": [
+        "Chelsea",
+        "Luton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 98,
+      "event_text_chars": 19782,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 28,
+      "id": "93363",
+      "date": "2023-09-17",
+      "home": "Everton",
+      "away": "Arsenal",
+      "opening_teams_detected": [
+        "Everton",
+        "Wolves"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 98,
+      "event_text_chars": 19896,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 29,
+      "id": "93362",
+      "date": "2023-09-17",
+      "home": "Bournemouth",
+      "away": "Chelsea",
+      "opening_teams_detected": [
+        "manchester united",
+        "nottingham forest"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 85,
+      "event_text_chars": 16482,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 30,
+      "id": "93367",
+      "date": "2023-09-18",
+      "home": "Nott'm Forest",
+      "away": "Burnley",
+      "opening_teams_detected": [
+        "Newcastle",
+        "Liverpool"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 107,
+      "event_text_chars": 22564,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 31,
+      "id": "93376",
+      "date": "2023-09-23",
+      "home": "Crystal Palace",
+      "away": "Fulham",
+      "opening_teams_detected": [
+        "sheffield united",
+        "manchester city"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 80,
+      "event_text_chars": 12169,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 32,
+      "id": "93379",
+      "date": "2023-09-23",
+      "home": "Man City",
+      "away": "Nott'm Forest",
+      "opening_teams_detected": [
+        "Arsenal",
+        "manchester united"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 118,
+      "event_text_chars": 23988,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 33,
+      "id": "93374",
+      "date": "2023-09-23",
+      "home": "Burnley",
+      "away": "Man Utd",
+      "opening_teams_detected": [
+        "Brentford",
+        "Bournemouth"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 97,
+      "event_text_chars": 19254,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 34,
+      "id": "93372",
+      "date": "2023-09-23",
+      "home": "Brentford",
+      "away": "Everton",
+      "opening_teams_detected": [
+        "Brighton",
+        "Newcastle"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 92,
+      "event_text_chars": 20057,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 35,
+      "id": "93378",
+      "date": "2023-09-23",
+      "home": "Luton",
+      "away": "Wolves",
+      "opening_teams_detected": [
+        "Burnley",
+        "tottenham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 93,
+      "event_text_chars": 20420,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 36,
+      "id": "93373",
+      "date": "2023-09-24",
+      "home": "Brighton",
+      "away": "Bournemouth",
+      "opening_teams_detected": [],
+      "opening_pair_checked": false,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": false,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 0,
+      "event_text_chars": 0,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 37,
+      "id": "93371",
+      "date": "2023-09-24",
+      "home": "Arsenal",
+      "away": "Spurs",
+      "opening_teams_detected": [
+        "Crystal Palace",
+        "Wolves"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 84,
+      "event_text_chars": 14268,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 38,
+      "id": "93375",
+      "date": "2023-09-24",
+      "home": "Chelsea",
+      "away": "Aston Villa",
+      "opening_teams_detected": [
+        "Liverpool",
+        "Aston Villa"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 78,
+      "event_text_chars": 12702,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 39,
+      "id": "93377",
+      "date": "2023-09-24",
+      "home": "Liverpool",
+      "away": "West Ham",
+      "opening_teams_detected": [
+        "Luton",
+        "West Ham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 75,
+      "event_text_chars": 12156,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 40,
+      "id": "93380",
+      "date": "2023-09-24",
+      "home": "Sheffield Utd",
+      "away": "Newcastle",
+      "opening_teams_detected": [
+        "manchester city",
+        "Fulham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 83,
+      "event_text_chars": 16664,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 41,
+      "id": "93382",
+      "date": "2023-09-30",
+      "home": "Bournemouth",
+      "away": "Arsenal",
+      "opening_teams_detected": [
+        "sheffield united",
+        "Everton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 85,
+      "event_text_chars": 14122,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 42,
+      "id": "93390",
+      "date": "2023-09-30",
+      "home": "Wolves",
+      "away": "Man City",
+      "opening_teams_detected": [
+        "Bournemouth",
+        "Chelsea"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 75,
+      "event_text_chars": 14452,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 43,
+      "id": "93389",
+      "date": "2023-09-30",
+      "home": "West Ham",
+      "away": "Sheffield Utd",
+      "opening_teams_detected": [
+        "Aston Villa",
+        "Crystal Palace"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 107,
+      "event_text_chars": 20879,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 44,
+      "id": "93386",
+      "date": "2023-09-30",
+      "home": "Newcastle",
+      "away": "Burnley",
+      "opening_teams_detected": [
+        "Everton",
+        "Arsenal"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 99,
+      "event_text_chars": 21742,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 45,
+      "id": "93381",
+      "date": "2023-09-30",
+      "home": "Aston Villa",
+      "away": "Brighton",
+      "opening_teams_detected": [
+        "Fulham",
+        "Luton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 85,
+      "event_text_chars": 18182,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 46,
+      "id": "93388",
+      "date": "2023-09-30",
+      "home": "Spurs",
+      "away": "Liverpool",
+      "opening_teams_detected": [
+        "manchester united",
+        "Brighton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 83,
+      "event_text_chars": 16395,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 47,
+      "id": "93385",
+      "date": "2023-09-30",
+      "home": "Man Utd",
+      "away": "Crystal Palace",
+      "opening_teams_detected": [
+        "Newcastle",
+        "Brentford"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 79,
+      "event_text_chars": 15452,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 48,
+      "id": "93383",
+      "date": "2023-09-30",
+      "home": "Everton",
+      "away": "Luton",
+      "opening_teams_detected": [
+        "nottingham forest",
+        "Burnley"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 97,
+      "event_text_chars": 23046,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 49,
+      "id": "93387",
+      "date": "2023-10-01",
+      "home": "Nott'm Forest",
+      "away": "Brentford",
+      "opening_teams_detected": [
+        "tottenham",
+        "sheffield united"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 99,
+      "event_text_chars": 20936,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 50,
+      "id": "93384",
+      "date": "2023-10-02",
+      "home": "Fulham",
+      "away": "Chelsea",
+      "opening_teams_detected": [
+        "West Ham",
+        "manchester city"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 87,
+      "event_text_chars": 12821,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 51,
+      "id": "93335",
+      "date": "2023-10-03",
+      "home": "Luton",
+      "away": "Burnley",
+      "opening_teams_detected": [
+        "Liverpool",
+        "Wolves"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 86,
+      "event_text_chars": 15206,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 52,
+      "id": "93396",
+      "date": "2023-10-07",
+      "home": "Fulham",
+      "away": "Sheffield Utd",
+      "opening_teams_detected": [
+        "Arsenal",
+        "tottenham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 82,
+      "event_text_chars": 13188,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 53,
+      "id": "93398",
+      "date": "2023-10-07",
+      "home": "Man Utd",
+      "away": "Brentford",
+      "opening_teams_detected": [
+        "Brentford",
+        "Everton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 92,
+      "event_text_chars": 18904,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 54,
+      "id": "93395",
+      "date": "2023-10-07",
+      "home": "Everton",
+      "away": "Bournemouth",
+      "opening_teams_detected": [
+        "Burnley",
+        "manchester united"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 80,
+      "event_text_chars": 14463,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 55,
+      "id": "93393",
+      "date": "2023-10-07",
+      "home": "Burnley",
+      "away": "Chelsea",
+      "opening_teams_detected": [
+        "Chelsea",
+        "Aston Villa"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 87,
+      "event_text_chars": 13217,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 56,
+      "id": "93394",
+      "date": "2023-10-07",
+      "home": "Crystal Palace",
+      "away": "Nott'm Forest",
+      "opening_teams_detected": [
+        "Crystal Palace",
+        "Fulham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 83,
+      "event_text_chars": 17386,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 57,
+      "id": "93397",
+      "date": "2023-10-07",
+      "home": "Luton",
+      "away": "Spurs",
+      "opening_teams_detected": [
+        "Liverpool",
+        "West Ham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 78,
+      "event_text_chars": 15430,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 58,
+      "id": "93392",
+      "date": "2023-10-08",
+      "home": "Brighton",
+      "away": "Liverpool",
+      "opening_teams_detected": [
+        "Luton",
+        "Wolves"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 105,
+      "event_text_chars": 19916,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 59,
+      "id": "93400",
+      "date": "2023-10-08",
+      "home": "Wolves",
+      "away": "Aston Villa",
+      "opening_teams_detected": [
+        "manchester city",
+        "nottingham forest"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 86,
+      "event_text_chars": 14585,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 60,
+      "id": "93391",
+      "date": "2023-10-08",
+      "home": "Arsenal",
+      "away": "Man City",
+      "opening_teams_detected": [
+        "sheffield united",
+        "Newcastle"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 82,
+      "event_text_chars": 15991,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 61,
+      "id": "93399",
+      "date": "2023-10-08",
+      "home": "West Ham",
+      "away": "Newcastle",
+      "opening_teams_detected": [
+        "Bournemouth",
+        "Arsenal"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 87,
+      "event_text_chars": 18713,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 62,
+      "id": "93408",
+      "date": "2023-10-21",
+      "home": "Nott'm Forest",
+      "away": "Luton",
+      "opening_teams_detected": [
+        "Aston Villa",
+        "Brighton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 88,
+      "event_text_chars": 14717,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 63,
+      "id": "93407",
+      "date": "2023-10-21",
+      "home": "Newcastle",
+      "away": "Crystal Palace",
+      "opening_teams_detected": [
+        "Everton",
+        "Luton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 81,
+      "event_text_chars": 16549,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 64,
+      "id": "93405",
+      "date": "2023-10-21",
+      "home": "Liverpool",
+      "away": "Everton",
+      "opening_teams_detected": [
+        "Fulham",
+        "Chelsea"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 98,
+      "event_text_chars": 20443,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 65,
+      "id": "93409",
+      "date": "2023-10-21",
+      "home": "Sheffield Utd",
+      "away": "Man Utd",
+      "opening_teams_detected": [
+        "manchester united",
+        "Crystal Palace"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 74,
+      "event_text_chars": 14736,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 66,
+      "id": "93404",
+      "date": "2023-10-21",
+      "home": "Chelsea",
+      "away": "Arsenal",
+      "opening_teams_detected": [
+        "Newcastle",
+        "Burnley"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 75,
+      "event_text_chars": 14083,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 67,
+      "id": "93406",
+      "date": "2023-10-21",
+      "home": "Man City",
+      "away": "Brighton",
+      "opening_teams_detected": [
+        "nottingham forest",
+        "Brentford"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 107,
+      "event_text_chars": 20519,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 68,
+      "id": "93403",
+      "date": "2023-10-21",
+      "home": "Brentford",
+      "away": "Burnley",
+      "opening_teams_detected": [
+        "tottenham",
+        "Liverpool"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 89,
+      "event_text_chars": 17178,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 69,
+      "id": "93402",
+      "date": "2023-10-21",
+      "home": "Bournemouth",
+      "away": "Wolves",
+      "opening_teams_detected": [
+        "West Ham",
+        "sheffield united"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 84,
+      "event_text_chars": 13607,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 70,
+      "id": "93401",
+      "date": "2023-10-22",
+      "home": "Aston Villa",
+      "away": "West Ham",
+      "opening_teams_detected": [
+        "Wolves",
+        "manchester city"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 107,
+      "event_text_chars": 19856,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 71,
+      "id": "93410",
+      "date": "2023-10-23",
+      "home": "Spurs",
+      "away": "Fulham",
+      "opening_teams_detected": [
+        "Arsenal",
+        "manchester city"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 91,
+      "event_text_chars": 20622,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 72,
+      "id": "93416",
+      "date": "2023-10-27",
+      "home": "Crystal Palace",
+      "away": "Spurs",
+      "opening_teams_detected": [
+        "Brighton",
+        "Liverpool"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 83,
+      "event_text_chars": 18343,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 73,
+      "id": "93415",
+      "date": "2023-10-28",
+      "home": "Chelsea",
+      "away": "Brentford",
+      "opening_teams_detected": [
+        "Burnley",
+        "Chelsea"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 82,
+      "event_text_chars": 18840,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 74,
+      "id": "93411",
+      "date": "2023-10-28",
+      "home": "Arsenal",
+      "away": "Sheffield Utd",
+      "opening_teams_detected": [
+        "Crystal Palace",
+        "nottingham forest"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 76,
+      "event_text_chars": 14955,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 75,
+      "id": "93420",
+      "date": "2023-10-28",
+      "home": "Wolves",
+      "away": "Newcastle",
+      "opening_teams_detected": [
+        "Everton",
+        "Bournemouth"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 77,
+      "event_text_chars": 15246,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 76,
+      "id": "93413",
+      "date": "2023-10-28",
+      "home": "Bournemouth",
+      "away": "Burnley",
+      "opening_teams_detected": [
+        "Fulham",
+        "sheffield united"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 94,
+      "event_text_chars": 18087,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 77,
+      "id": "93417",
+      "date": "2023-10-29",
+      "home": "Liverpool",
+      "away": "Nott'm Forest",
+      "opening_teams_detected": [
+        "Luton",
+        "tottenham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 91,
+      "event_text_chars": 17919,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 78,
+      "id": "93419",
+      "date": "2023-10-29",
+      "home": "West Ham",
+      "away": "Everton",
+      "opening_teams_detected": [
+        "manchester united",
+        "Brentford"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 113,
+      "event_text_chars": 23272,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 79,
+      "id": "93418",
+      "date": "2023-10-29",
+      "home": "Man Utd",
+      "away": "Man City",
+      "opening_teams_detected": [
+        "West Ham",
+        "Newcastle"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 78,
+      "event_text_chars": 15671,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 80,
+      "id": "93414",
+      "date": "2023-10-29",
+      "home": "Brighton",
+      "away": "Fulham",
+      "opening_teams_detected": [
+        "Aston Villa",
+        "Wolves"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 115,
+      "event_text_chars": 23311,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 81,
+      "id": "93412",
+      "date": "2023-10-29",
+      "home": "Aston Villa",
+      "away": "Luton",
+      "opening_teams_detected": [
+        "Bournemouth",
+        "Wolves"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 82,
+      "event_text_chars": 16092,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 82,
+      "id": "93429",
+      "date": "2023-11-04",
+      "home": "Sheffield Utd",
+      "away": "Wolves",
+      "opening_teams_detected": [
+        "Aston Villa",
+        "West Ham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 74,
+      "event_text_chars": 12140,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 83,
+      "id": "93426",
+      "date": "2023-11-04",
+      "home": "Man City",
+      "away": "Bournemouth",
+      "opening_teams_detected": [
+        "Brentford",
+        "Burnley"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 83,
+      "event_text_chars": 16066,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 84,
+      "id": "93424",
+      "date": "2023-11-04",
+      "home": "Fulham",
+      "away": "Man Utd",
+      "opening_teams_detected": [
+        "Chelsea",
+        "Arsenal"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 84,
+      "event_text_chars": 13531,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 85,
+      "id": "93427",
+      "date": "2023-11-04",
+      "home": "Newcastle",
+      "away": "Arsenal",
+      "opening_teams_detected": [
+        "Liverpool",
+        "Everton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 82,
+      "event_text_chars": 16997,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 86,
+      "id": "93423",
+      "date": "2023-11-04",
+      "home": "Everton",
+      "away": "Brighton",
+      "opening_teams_detected": [
+        "manchester city",
+        "Brighton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 72,
+      "event_text_chars": 15093,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 87,
+      "id": "93422",
+      "date": "2023-11-04",
+      "home": "Burnley",
+      "away": "Crystal Palace",
+      "opening_teams_detected": [
+        "Newcastle",
+        "Crystal Palace"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 87,
+      "event_text_chars": 18977,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 88,
+      "id": "93421",
+      "date": "2023-11-04",
+      "home": "Brentford",
+      "away": "West Ham",
+      "opening_teams_detected": [
+        "nottingham forest",
+        "Luton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 81,
+      "event_text_chars": 11714,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 89,
+      "id": "93425",
+      "date": "2023-11-05",
+      "home": "Luton",
+      "away": "Liverpool",
+      "opening_teams_detected": [
+        "sheffield united",
+        "manchester united"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 90,
+      "event_text_chars": 20878,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 90,
+      "id": "93428",
+      "date": "2023-11-05",
+      "home": "Nott'm Forest",
+      "away": "Aston Villa",
+      "opening_teams_detected": [
+        "tottenham",
+        "Fulham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 83,
+      "event_text_chars": 13802,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 91,
+      "id": "93430",
+      "date": "2023-11-06",
+      "home": "Spurs",
+      "away": "Chelsea",
+      "opening_teams_detected": [
+        "Bournemouth",
+        "Burnley"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 88,
+      "event_text_chars": 18272,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 92,
+      "id": "93431",
+      "date": "2023-11-11",
+      "home": "Arsenal",
+      "away": "Burnley",
+      "opening_teams_detected": [
+        "Arsenal",
+        "sheffield united"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 80,
+      "event_text_chars": 15521,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 93,
+      "id": "93440",
+      "date": "2023-11-11",
+      "home": "Wolves",
+      "away": "Spurs",
+      "opening_teams_detected": [
+        "Aston Villa",
+        "Luton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 86,
+      "event_text_chars": 18800,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 94,
+      "id": "93438",
+      "date": "2023-11-11",
+      "home": "Man Utd",
+      "away": "Luton",
+      "opening_teams_detected": [
+        "Brighton",
+        "Fulham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 110,
+      "event_text_chars": 23453,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 95,
+      "id": "93436",
+      "date": "2023-11-11",
+      "home": "Crystal Palace",
+      "away": "Everton",
+      "opening_teams_detected": [
+        "Chelsea",
+        "Brentford"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 90,
+      "event_text_chars": 18420,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 96,
+      "id": "93433",
+      "date": "2023-11-11",
+      "home": "Bournemouth",
+      "away": "Newcastle",
+      "opening_teams_detected": [
+        "Crystal Palace",
+        "tottenham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 81,
+      "event_text_chars": 15734,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 97,
+      "id": "93435",
+      "date": "2023-11-12",
+      "home": "Chelsea",
+      "away": "Man City",
+      "opening_teams_detected": [
+        "Liverpool",
+        "nottingham forest"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 75,
+      "event_text_chars": 13165,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 98,
+      "id": "93439",
+      "date": "2023-11-12",
+      "home": "West Ham",
+      "away": "Nott'm Forest",
+      "opening_teams_detected": [
+        "manchester united",
+        "manchester city"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 95,
+      "event_text_chars": 22919,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 99,
+      "id": "93437",
+      "date": "2023-11-12",
+      "home": "Liverpool",
+      "away": "Brentford",
+      "opening_teams_detected": [
+        "West Ham",
+        "Everton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 82,
+      "event_text_chars": 17267,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 100,
+      "id": "93434",
+      "date": "2023-11-12",
+      "home": "Brighton",
+      "away": "Sheffield Utd",
+      "opening_teams_detected": [
+        "Wolves",
+        "Newcastle"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 82,
+      "event_text_chars": 16341,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 101,
+      "id": "93432",
+      "date": "2023-11-12",
+      "home": "Aston Villa",
+      "away": "Fulham",
+      "opening_teams_detected": [
+        "Brentford",
+        "West Ham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 92,
+      "event_text_chars": 20119,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 102,
+      "id": "93449",
+      "date": "2023-11-25",
+      "home": "Sheffield Utd",
+      "away": "Bournemouth",
+      "opening_teams_detected": [
+        "Burnley",
+        "Crystal Palace"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 75,
+      "event_text_chars": 14133,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 103,
+      "id": "93446",
+      "date": "2023-11-25",
+      "home": "Man City",
+      "away": "Liverpool",
+      "opening_teams_detected": [
+        "Everton",
+        "Brighton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 68,
+      "event_text_chars": 17121,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 104,
+      "id": "93441",
+      "date": "2023-11-25",
+      "home": "Brentford",
+      "away": "Arsenal",
+      "opening_teams_detected": [
+        "Fulham",
+        "manchester united"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 80,
+      "event_text_chars": 15842,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 105,
+      "id": "93447",
+      "date": "2023-11-25",
+      "home": "Newcastle",
+      "away": "Chelsea",
+      "opening_teams_detected": [
+        "Luton",
+        "Liverpool"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 79,
+      "event_text_chars": 16548,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 106,
+      "id": "93445",
+      "date": "2023-11-25",
+      "home": "Luton",
+      "away": "Crystal Palace",
+      "opening_teams_detected": [
+        "manchester city",
+        "Bournemouth"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 86,
+      "event_text_chars": 17943,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 107,
+      "id": "93442",
+      "date": "2023-11-25",
+      "home": "Burnley",
+      "away": "West Ham",
+      "opening_teams_detected": [
+        "Newcastle",
+        "Arsenal"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 87,
+      "event_text_chars": 18130,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 108,
+      "id": "93448",
+      "date": "2023-11-25",
+      "home": "Nott'm Forest",
+      "away": "Brighton",
+      "opening_teams_detected": [
+        "nottingham forest",
+        "Aston Villa"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 85,
+      "event_text_chars": 20097,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 109,
+      "id": "93450",
+      "date": "2023-11-26",
+      "home": "Spurs",
+      "away": "Aston Villa",
+      "opening_teams_detected": [
+        "sheffield united",
+        "Wolves"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 82,
+      "event_text_chars": 19713,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 110,
+      "id": "93443",
+      "date": "2023-11-26",
+      "home": "Everton",
+      "away": "Man Utd",
+      "opening_teams_detected": [
+        "tottenham",
+        "Chelsea"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 89,
+      "event_text_chars": 20428,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 111,
+      "id": "93444",
+      "date": "2023-11-27",
+      "home": "Fulham",
+      "away": "Wolves",
+      "opening_teams_detected": [
+        "Bournemouth",
+        "Newcastle"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 84,
+      "event_text_chars": 13899,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 112,
+      "id": "93459",
+      "date": "2023-12-02",
+      "home": "Nott'm Forest",
+      "away": "Everton",
+      "opening_teams_detected": [
+        "Arsenal",
+        "Burnley"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 78,
+      "event_text_chars": 17563,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 113,
+      "id": "93451",
+      "date": "2023-12-02",
+      "home": "Arsenal",
+      "away": "Wolves",
+      "opening_teams_detected": [
+        "Aston Villa",
+        "Fulham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 77,
+      "event_text_chars": 16735,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 114,
+      "id": "93458",
+      "date": "2023-12-02",
+      "home": "Newcastle",
+      "away": "Man Utd",
+      "opening_teams_detected": [
+        "Brighton",
+        "sheffield united"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 74,
+      "event_text_chars": 12745,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 115,
+      "id": "93454",
+      "date": "2023-12-02",
+      "home": "Burnley",
+      "away": "Sheffield Utd",
+      "opening_teams_detected": [
+        "Chelsea",
+        "manchester city"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 88,
+      "event_text_chars": 18521,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 116,
+      "id": "93453",
+      "date": "2023-12-02",
+      "home": "Brentford",
+      "away": "Luton",
+      "opening_teams_detected": [
+        "Crystal Palace",
+        "Everton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 72,
+      "event_text_chars": 16186,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 117,
+      "id": "93457",
+      "date": "2023-12-03",
+      "home": "Man City",
+      "away": "Spurs",
+      "opening_teams_detected": [
+        "Liverpool",
+        "Brentford"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 97,
+      "event_text_chars": 21599,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 118,
+      "id": "93460",
+      "date": "2023-12-03",
+      "home": "West Ham",
+      "away": "Crystal Palace",
+      "opening_teams_detected": [
+        "manchester united",
+        "Luton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 69,
+      "event_text_chars": 14660,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 119,
+      "id": "93456",
+      "date": "2023-12-03",
+      "home": "Liverpool",
+      "away": "Fulham",
+      "opening_teams_detected": [
+        "West Ham",
+        "nottingham forest"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 89,
+      "event_text_chars": 20347,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 120,
+      "id": "93455",
+      "date": "2023-12-03",
+      "home": "Chelsea",
+      "away": "Brighton",
+      "opening_teams_detected": [
+        "Wolves",
+        "tottenham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 110,
+      "event_text_chars": 25446,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 121,
+      "id": "93452",
+      "date": "2023-12-03",
+      "home": "Bournemouth",
+      "away": "Aston Villa",
+      "opening_teams_detected": [],
+      "opening_pair_checked": false,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": false,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 0,
+      "event_text_chars": 0,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 122,
+      "id": "93466",
+      "date": "2023-12-05",
+      "home": "Luton",
+      "away": "Arsenal",
+      "opening_teams_detected": [
+        "Burnley",
+        "West Ham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 79,
+      "event_text_chars": 14986,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 123,
+      "id": "93469",
+      "date": "2023-12-05",
+      "home": "Wolves",
+      "away": "Burnley",
+      "opening_teams_detected": [
+        "Everton",
+        "manchester united"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 101,
+      "event_text_chars": 24399,
+      "has_mm_ss_timestamp": true,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 124,
+      "id": "93463",
+      "date": "2023-12-06",
+      "home": "Crystal Palace",
+      "away": "Bournemouth",
+      "opening_teams_detected": [
+        "Fulham",
+        "Wolves"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 83,
+      "event_text_chars": 18829,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 125,
+      "id": "93465",
+      "date": "2023-12-06",
+      "home": "Fulham",
+      "away": "Nott'm Forest",
+      "opening_teams_detected": [
+        "Luton",
+        "Crystal Palace"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 92,
+      "event_text_chars": 20875,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 126,
+      "id": "93462",
+      "date": "2023-12-06",
+      "home": "Brighton",
+      "away": "Brentford",
+      "opening_teams_detected": [],
+      "opening_pair_checked": false,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": false,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 0,
+      "event_text_chars": 0,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 127,
+      "id": "93470",
+      "date": "2023-12-06",
+      "home": "Man Utd",
+      "away": "Chelsea",
+      "opening_teams_detected": [
+        "Newcastle",
+        "Chelsea"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 83,
+      "event_text_chars": 17627,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 128,
+      "id": "93461",
+      "date": "2023-12-06",
+      "home": "Aston Villa",
+      "away": "Man City",
+      "opening_teams_detected": [
+        "nottingham forest",
+        "Brighton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 73,
+      "event_text_chars": 15393,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 129,
+      "id": "93467",
+      "date": "2023-12-06",
+      "home": "Sheffield Utd",
+      "away": "Liverpool",
+      "opening_teams_detected": [
+        "sheffield united",
+        "Bournemouth"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 81,
+      "event_text_chars": 16536,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 130,
+      "id": "93464",
+      "date": "2023-12-07",
+      "home": "Everton",
+      "away": "Newcastle",
+      "opening_teams_detected": [
+        "tottenham",
+        "Aston Villa"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 99,
+      "event_text_chars": 23572,
+      "has_mm_ss_timestamp": true,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 131,
+      "id": "93468",
+      "date": "2023-12-07",
+      "home": "Spurs",
+      "away": "West Ham",
+      "opening_teams_detected": [
+        "Arsenal",
+        "Wolves"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 107,
+      "event_text_chars": 25423,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 132,
+      "id": "93471",
+      "date": "2023-12-09",
+      "home": "Aston Villa",
+      "away": "Arsenal",
+      "opening_teams_detected": [
+        "Brentford",
+        "Luton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 74,
+      "event_text_chars": 15303,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 133,
+      "id": "93480",
+      "date": "2023-12-09",
+      "home": "Wolves",
+      "away": "Nott'm Forest",
+      "opening_teams_detected": [
+        "Burnley",
+        "sheffield united"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 88,
+      "event_text_chars": 19683,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 134,
+      "id": "93478",
+      "date": "2023-12-09",
+      "home": "Sheffield Utd",
+      "away": "Brentford",
+      "opening_teams_detected": [
+        "Chelsea",
+        "Brighton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 92,
+      "event_text_chars": 20114,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 135,
+      "id": "93477",
+      "date": "2023-12-09",
+      "home": "Man Utd",
+      "away": "Bournemouth",
+      "opening_teams_detected": [
+        "Liverpool",
+        "Fulham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 80,
+      "event_text_chars": 17225,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 136,
+      "id": "93472",
+      "date": "2023-12-09",
+      "home": "Brighton",
+      "away": "Burnley",
+      "opening_teams_detected": [
+        "manchester city",
+        "tottenham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 84,
+      "event_text_chars": 18278,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 137,
+      "id": "93473",
+      "date": "2023-12-09",
+      "home": "Crystal Palace",
+      "away": "Liverpool",
+      "opening_teams_detected": [
+        "Newcastle",
+        "manchester united"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 81,
+      "event_text_chars": 19251,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 138,
+      "id": "93479",
+      "date": "2023-12-10",
+      "home": "Spurs",
+      "away": "Newcastle",
+      "opening_teams_detected": [
+        "nottingham forest",
+        "Everton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 62,
+      "event_text_chars": 16298,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 139,
+      "id": "93476",
+      "date": "2023-12-10",
+      "home": "Luton",
+      "away": "Man City",
+      "opening_teams_detected": [],
+      "opening_pair_checked": false,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": false,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 0,
+      "event_text_chars": 0,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 140,
+      "id": "93475",
+      "date": "2023-12-10",
+      "home": "Fulham",
+      "away": "West Ham",
+      "opening_teams_detected": [
+        "Aston Villa",
+        "manchester city"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 78,
+      "event_text_chars": 17050,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 141,
+      "id": "93474",
+      "date": "2023-12-10",
+      "home": "Everton",
+      "away": "Chelsea",
+      "opening_teams_detected": [
+        "Everton",
+        "Newcastle"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 68,
+      "event_text_chars": 15604,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 142,
+      "id": "93489",
+      "date": "2023-12-15",
+      "home": "Nott'm Forest",
+      "away": "Spurs",
+      "opening_teams_detected": [
+        "Fulham",
+        "nottingham forest"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 86,
+      "event_text_chars": 19268,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 143,
+      "id": "93484",
+      "date": "2023-12-16",
+      "home": "Burnley",
+      "away": "Everton",
+      "opening_teams_detected": [
+        "Luton",
+        "Arsenal"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 96,
+      "event_text_chars": 19100,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 144,
+      "id": "93488",
+      "date": "2023-12-16",
+      "home": "Newcastle",
+      "away": "Fulham",
+      "opening_teams_detected": [
+        "sheffield united",
+        "Liverpool"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 78,
+      "event_text_chars": 16608,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 145,
+      "id": "93487",
+      "date": "2023-12-16",
+      "home": "Man City",
+      "away": "Crystal Palace",
+      "opening_teams_detected": [
+        "tottenham",
+        "West Ham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 73,
+      "event_text_chars": 13474,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 146,
+      "id": "93485",
+      "date": "2023-12-16",
+      "home": "Chelsea",
+      "away": "Sheffield Utd",
+      "opening_teams_detected": [
+        "Wolves",
+        "Burnley"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 101,
+      "event_text_chars": 23843,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 147,
+      "id": "93481",
+      "date": "2023-12-17",
+      "home": "Arsenal",
+      "away": "Brighton",
+      "opening_teams_detected": [
+        "Crystal Palace",
+        "Bournemouth"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 73,
+      "event_text_chars": 12521,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 148,
+      "id": "93483",
+      "date": "2023-12-17",
+      "home": "Brentford",
+      "away": "Aston Villa",
+      "opening_teams_detected": [
+        "manchester united",
+        "Chelsea"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 91,
+      "event_text_chars": 18226,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 149,
+      "id": "93490",
+      "date": "2023-12-17",
+      "home": "West Ham",
+      "away": "Wolves",
+      "opening_teams_detected": [
+        "Aston Villa",
+        "Arsenal"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 79,
+      "event_text_chars": 17124,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 150,
+      "id": "93486",
+      "date": "2023-12-17",
+      "home": "Liverpool",
+      "away": "Man Utd",
+      "opening_teams_detected": [
+        "Brighton",
+        "Burnley"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 87,
+      "event_text_chars": 20614,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 151,
+      "id": "93492",
+      "date": "2023-12-21",
+      "home": "Crystal Palace",
+      "away": "Brighton",
+      "opening_teams_detected": [
+        "Crystal Palace",
+        "Liverpool"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 99,
+      "event_text_chars": 20981,
+      "has_mm_ss_timestamp": true,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 152,
+      "id": "93491",
+      "date": "2023-12-22",
+      "home": "Aston Villa",
+      "away": "Sheffield Utd",
+      "opening_teams_detected": [
+        "Everton",
+        "Chelsea"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 71,
+      "event_text_chars": 13931,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 153,
+      "id": "93499",
+      "date": "2023-12-23",
+      "home": "West Ham",
+      "away": "Man Utd",
+      "opening_teams_detected": [
+        "Fulham",
+        "West Ham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 80,
+      "event_text_chars": 16030,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 154,
+      "id": "93493",
+      "date": "2023-12-23",
+      "home": "Fulham",
+      "away": "Burnley",
+      "opening_teams_detected": [],
+      "opening_pair_checked": false,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": false,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 0,
+      "event_text_chars": 0,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 155,
+      "id": "93494",
+      "date": "2023-12-23",
+      "home": "Liverpool",
+      "away": "Arsenal",
+      "opening_teams_detected": [
+        "sheffield united",
+        "Brentford"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 74,
+      "event_text_chars": 15278,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 156,
+      "id": "93497",
+      "date": "2023-12-23",
+      "home": "Nott'm Forest",
+      "away": "Bournemouth",
+      "opening_teams_detected": [
+        "tottenham",
+        "Newcastle"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 103,
+      "event_text_chars": 19945,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 157,
+      "id": "93498",
+      "date": "2023-12-23",
+      "home": "Spurs",
+      "away": "Everton",
+      "opening_teams_detected": [
+        "Wolves",
+        "nottingham forest"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 95,
+      "event_text_chars": 22664,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 158,
+      "id": "93495",
+      "date": "2023-12-23",
+      "home": "Luton",
+      "away": "Newcastle",
+      "opening_teams_detected": [
+        "Arsenal",
+        "Brighton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 79,
+      "event_text_chars": 15417,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 159,
+      "id": "93500",
+      "date": "2023-12-24",
+      "home": "Wolves",
+      "away": "Chelsea",
+      "opening_teams_detected": [
+        "Brentford",
+        "Aston Villa"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 77,
+      "event_text_chars": 19359,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 160,
+      "id": "93508",
+      "date": "2023-12-26",
+      "home": "Man Utd",
+      "away": "Aston Villa",
+      "opening_teams_detected": [
+        "Burnley",
+        "Everton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 68,
+      "event_text_chars": 12127,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 161,
+      "id": "93505",
+      "date": "2023-12-26",
+      "home": "Burnley",
+      "away": "Liverpool",
+      "opening_teams_detected": [
+        "Chelsea",
+        "sheffield united"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 74,
+      "event_text_chars": 15563,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 162,
+      "id": "93510",
+      "date": "2023-12-26",
+      "home": "Sheffield Utd",
+      "away": "Luton",
+      "opening_teams_detected": [
+        "Liverpool",
+        "manchester united"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 97,
+      "event_text_chars": 24404,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 163,
+      "id": "93502",
+      "date": "2023-12-26",
+      "home": "Bournemouth",
+      "away": "Fulham",
+      "opening_teams_detected": [
+        "manchester city",
+        "Crystal Palace"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 76,
+      "event_text_chars": 17519,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 164,
+      "id": "93509",
+      "date": "2023-12-26",
+      "home": "Newcastle",
+      "away": "Nott'm Forest",
+      "opening_teams_detected": [
+        "Newcastle",
+        "Fulham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 79,
+      "event_text_chars": 16985,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 165,
+      "id": "93507",
+      "date": "2023-12-27",
+      "home": "Everton",
+      "away": "Man City",
+      "opening_teams_detected": [
+        "nottingham forest",
+        "tottenham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 82,
+      "event_text_chars": 18798,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 166,
+      "id": "93506",
+      "date": "2023-12-27",
+      "home": "Chelsea",
+      "away": "Crystal Palace",
+      "opening_teams_detected": [
+        "West Ham",
+        "Wolves"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 87,
+      "event_text_chars": 20641,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 167,
+      "id": "93503",
+      "date": "2023-12-27",
+      "home": "Brentford",
+      "away": "Wolves",
+      "opening_teams_detected": [
+        "Aston Villa",
+        "sheffield united"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 69,
+      "event_text_chars": 17814,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 168,
+      "id": "93504",
+      "date": "2023-12-28",
+      "home": "Brighton",
+      "away": "Spurs",
+      "opening_teams_detected": [
+        "Crystal Palace",
+        "Brighton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 75,
+      "event_text_chars": 14225,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 169,
+      "id": "93501",
+      "date": "2023-12-28",
+      "home": "Arsenal",
+      "away": "West Ham",
+      "opening_teams_detected": [
+        "Liverpool",
+        "Arsenal"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 73,
+      "event_text_chars": 14361,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 170,
+      "id": "93517",
+      "date": "2023-12-30",
+      "home": "Nott'm Forest",
+      "away": "Man Utd",
+      "opening_teams_detected": [],
+      "opening_pair_checked": false,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": false,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 0,
+      "event_text_chars": 0,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 171,
+      "id": "93515",
+      "date": "2023-12-30",
+      "home": "Luton",
+      "away": "Chelsea",
+      "opening_teams_detected": [
+        "manchester city",
+        "Brentford"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 75,
+      "event_text_chars": 14869,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 172,
+      "id": "93511",
+      "date": "2023-12-30",
+      "home": "Aston Villa",
+      "away": "Burnley",
+      "opening_teams_detected": [
+        "nottingham forest",
+        "Bournemouth"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 87,
+      "event_text_chars": 21094,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 173,
+      "id": "93516",
+      "date": "2023-12-30",
+      "home": "Man City",
+      "away": "Sheffield Utd",
+      "opening_teams_detected": [
+        "tottenham",
+        "Everton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 78,
+      "event_text_chars": 17613,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 174,
+      "id": "93520",
+      "date": "2023-12-30",
+      "home": "Wolves",
+      "away": "Everton",
+      "opening_teams_detected": [
+        "West Ham",
+        "manchester united"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 68,
+      "event_text_chars": 12113,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 175,
+      "id": "93512",
+      "date": "2023-12-30",
+      "home": "Crystal Palace",
+      "away": "Brentford",
+      "opening_teams_detected": [
+        "Wolves",
+        "Chelsea"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 115,
+      "event_text_chars": 25404,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 176,
+      "id": "93513",
+      "date": "2023-12-31",
+      "home": "Fulham",
+      "away": "Arsenal",
+      "opening_teams_detected": [
+        "Bournemouth",
+        "Fulham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 68,
+      "event_text_chars": 18172,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 177,
+      "id": "93518",
+      "date": "2023-12-31",
+      "home": "Spurs",
+      "away": "Bournemouth",
+      "opening_teams_detected": [],
+      "opening_pair_checked": false,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": false,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 0,
+      "event_text_chars": 0,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 178,
+      "id": "93514",
+      "date": "2024-01-01",
+      "home": "Liverpool",
+      "away": "Newcastle",
+      "opening_teams_detected": [
+        "Brentford",
+        "Wolves"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 103,
+      "event_text_chars": 25184,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 179,
+      "id": "93519",
+      "date": "2024-01-02",
+      "home": "West Ham",
+      "away": "Brighton",
+      "opening_teams_detected": [
+        "Brighton",
+        "tottenham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 101,
+      "event_text_chars": 21333,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 180,
+      "id": "93525",
+      "date": "2024-01-12",
+      "home": "Burnley",
+      "away": "Luton",
+      "opening_teams_detected": [
+        "Burnley",
+        "Liverpool"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 78,
+      "event_text_chars": 17815,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 181,
+      "id": "93529",
+      "date": "2024-01-13",
+      "home": "Newcastle",
+      "away": "Man City",
+      "opening_teams_detected": [
+        "Chelsea",
+        "Crystal Palace"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 77,
+      "event_text_chars": 16720,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 182,
+      "id": "93526",
+      "date": "2024-01-13",
+      "home": "Chelsea",
+      "away": "Fulham",
+      "opening_teams_detected": [
+        "Everton",
+        "manchester city"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 91,
+      "event_text_chars": 25064,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 183,
+      "id": "93527",
+      "date": "2024-01-14",
+      "home": "Everton",
+      "away": "Aston Villa",
+      "opening_teams_detected": [
+        "manchester united",
+        "Aston Villa"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 77,
+      "event_text_chars": 15257,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 184,
+      "id": "93528",
+      "date": "2024-01-14",
+      "home": "Man Utd",
+      "away": "Spurs",
+      "opening_teams_detected": [
+        "Newcastle",
+        "nottingham forest"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 84,
+      "event_text_chars": 15391,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 185,
+      "id": "93523",
+      "date": "2024-01-20",
+      "home": "Brentford",
+      "away": "Nott'm Forest",
+      "opening_teams_detected": [
+        "sheffield united",
+        "Luton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 91,
+      "event_text_chars": 20923,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 186,
+      "id": "93521",
+      "date": "2024-01-20",
+      "home": "Arsenal",
+      "away": "Crystal Palace",
+      "opening_teams_detected": [
+        "Aston Villa",
+        "Burnley"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 97,
+      "event_text_chars": 21174,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 187,
+      "id": "93522",
+      "date": "2024-01-21",
+      "home": "Bournemouth",
+      "away": "Liverpool",
+      "opening_teams_detected": [
+        "Crystal Palace",
+        "Brentford"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 84,
+      "event_text_chars": 20919,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 188,
+      "id": "93530",
+      "date": "2024-01-21",
+      "home": "Sheffield Utd",
+      "away": "West Ham",
+      "opening_teams_detected": [
+        "Fulham",
+        "Arsenal"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 78,
+      "event_text_chars": 17330,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 189,
+      "id": "93524",
+      "date": "2024-01-22",
+      "home": "Brighton",
+      "away": "Wolves",
+      "opening_teams_detected": [
+        "Liverpool",
+        "Newcastle"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 106,
+      "event_text_chars": 26210,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 190,
+      "id": "93532",
+      "date": "2024-01-30",
+      "home": "Crystal Palace",
+      "away": "Sheffield Utd",
+      "opening_teams_detected": [
+        "Luton",
+        "Chelsea"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 68,
+      "event_text_chars": 17778,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 191,
+      "id": "93531",
+      "date": "2024-01-30",
+      "home": "Aston Villa",
+      "away": "Newcastle",
+      "opening_teams_detected": [
+        "manchester city",
+        "sheffield united"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 72,
+      "event_text_chars": 15919,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 192,
+      "id": "93535",
+      "date": "2024-01-30",
+      "home": "Nott'm Forest",
+      "away": "Arsenal",
+      "opening_teams_detected": [
+        "West Ham",
+        "Brighton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 83,
+      "event_text_chars": 21066,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 193,
+      "id": "93534",
+      "date": "2024-01-30",
+      "home": "Luton",
+      "away": "Brighton",
+      "opening_teams_detected": [
+        "Wolves",
+        "Everton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 101,
+      "event_text_chars": 23315,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 194,
+      "id": "93533",
+      "date": "2024-01-30",
+      "home": "Fulham",
+      "away": "Everton",
+      "opening_teams_detected": [
+        "Bournemouth",
+        "Liverpool"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 98,
+      "event_text_chars": 23665,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 195,
+      "id": "93539",
+      "date": "2024-01-31",
+      "home": "Liverpool",
+      "away": "Chelsea",
+      "opening_teams_detected": [
+        "Arsenal",
+        "Crystal Palace"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 77,
+      "event_text_chars": 14026,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 196,
+      "id": "93540",
+      "date": "2024-01-31",
+      "home": "Man City",
+      "away": "Burnley",
+      "opening_teams_detected": [
+        "Brentford",
+        "nottingham forest"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 85,
+      "event_text_chars": 20934,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 197,
+      "id": "93536",
+      "date": "2024-01-31",
+      "home": "Spurs",
+      "away": "Brentford",
+      "opening_teams_detected": [
+        "Brighton",
+        "Wolves"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 87,
+      "event_text_chars": 22487,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 198,
+      "id": "93537",
+      "date": "2024-02-01",
+      "home": "West Ham",
+      "away": "Bournemouth",
+      "opening_teams_detected": [
+        "Burnley",
+        "Luton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 86,
+      "event_text_chars": 18666,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 199,
+      "id": "93538",
+      "date": "2024-02-01",
+      "home": "Wolves",
+      "away": "Man Utd",
+      "opening_teams_detected": [
+        "Chelsea",
+        "Fulham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 89,
+      "event_text_chars": 18465,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 200,
+      "id": "93549",
+      "date": "2024-02-03",
+      "home": "Newcastle",
+      "away": "Luton",
+      "opening_teams_detected": [
+        "Everton",
+        "Aston Villa"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 75,
+      "event_text_chars": 17000,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 201,
+      "id": "93545",
+      "date": "2024-02-03",
+      "home": "Burnley",
+      "away": "Fulham",
+      "opening_teams_detected": [
+        "manchester united",
+        "tottenham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 77,
+      "event_text_chars": 17457,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 202,
+      "id": "93544",
+      "date": "2024-02-03",
+      "home": "Brighton",
+      "away": "Crystal Palace",
+      "opening_teams_detected": [
+        "Newcastle",
+        "manchester city"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 79,
+      "event_text_chars": 18228,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 203,
+      "id": "93547",
+      "date": "2024-02-03",
+      "home": "Everton",
+      "away": "Spurs",
+      "opening_teams_detected": [
+        "sheffield united",
+        "West Ham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 81,
+      "event_text_chars": 18018,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 204,
+      "id": "93550",
+      "date": "2024-02-03",
+      "home": "Sheffield Utd",
+      "away": "Aston Villa",
+      "opening_teams_detected": [
+        "Aston Villa",
+        "Newcastle"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 92,
+      "event_text_chars": 22236,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 205,
+      "id": "93548",
+      "date": "2024-02-04",
+      "home": "Man Utd",
+      "away": "West Ham",
+      "opening_teams_detected": [
+        "Fulham",
+        "Everton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 63,
+      "event_text_chars": 17085,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 206,
+      "id": "93546",
+      "date": "2024-02-04",
+      "home": "Chelsea",
+      "away": "Wolves",
+      "opening_teams_detected": [
+        "Luton",
+        "Brighton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 78,
+      "event_text_chars": 15981,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 207,
+      "id": "93542",
+      "date": "2024-02-04",
+      "home": "Bournemouth",
+      "away": "Nott'm Forest",
+      "opening_teams_detected": [
+        "nottingham forest",
+        "Arsenal"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 81,
+      "event_text_chars": 18131,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 208,
+      "id": "93541",
+      "date": "2024-02-04",
+      "home": "Arsenal",
+      "away": "Liverpool",
+      "opening_teams_detected": [
+        "tottenham",
+        "Brentford"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 95,
+      "event_text_chars": 22696,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 209,
+      "id": "93543",
+      "date": "2024-02-05",
+      "home": "Brentford",
+      "away": "Man City",
+      "opening_teams_detected": [
+        "West Ham",
+        "Bournemouth"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 76,
+      "event_text_chars": 14274,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 210,
+      "id": "93556",
+      "date": "2024-02-10",
+      "home": "Man City",
+      "away": "Everton",
+      "opening_teams_detected": [
+        "manchester united",
+        "Wolves"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 98,
+      "event_text_chars": 22469,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 211,
+      "id": "93553",
+      "date": "2024-02-10",
+      "home": "Fulham",
+      "away": "Bournemouth",
+      "opening_teams_detected": [],
+      "opening_pair_checked": false,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": false,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 0,
+      "event_text_chars": 0,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 212,
+      "id": "93557",
+      "date": "2024-02-10",
+      "home": "Nott'm Forest",
+      "away": "Newcastle",
+      "opening_teams_detected": [
+        "Liverpool",
+        "Chelsea"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 111,
+      "event_text_chars": 26065,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 213,
+      "id": "93560",
+      "date": "2024-02-10",
+      "home": "Wolves",
+      "away": "Brentford",
+      "opening_teams_detected": [],
+      "opening_pair_checked": false,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": false,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 0,
+      "event_text_chars": 0,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 214,
+      "id": "93558",
+      "date": "2024-02-10",
+      "home": "Spurs",
+      "away": "Brighton",
+      "opening_teams_detected": [
+        "Bournemouth",
+        "nottingham forest"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 73,
+      "event_text_chars": 13017,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 215,
+      "id": "93555",
+      "date": "2024-02-10",
+      "home": "Luton",
+      "away": "Sheffield Utd",
+      "opening_teams_detected": [
+        "Arsenal",
+        "Liverpool"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 94,
+      "event_text_chars": 23352,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 216,
+      "id": "93554",
+      "date": "2024-02-10",
+      "home": "Liverpool",
+      "away": "Burnley",
+      "opening_teams_detected": [
+        "Brentford",
+        "manchester city"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 80,
+      "event_text_chars": 14899,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 217,
+      "id": "93559",
+      "date": "2024-02-11",
+      "home": "West Ham",
+      "away": "Arsenal",
+      "opening_teams_detected": [
+        "Brighton",
+        "Crystal Palace"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 69,
+      "event_text_chars": 17466,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 218,
+      "id": "93551",
+      "date": "2024-02-11",
+      "home": "Aston Villa",
+      "away": "Man Utd",
+      "opening_teams_detected": [
+        "Burnley",
+        "Fulham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 78,
+      "event_text_chars": 16091,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 219,
+      "id": "93552",
+      "date": "2024-02-12",
+      "home": "Crystal Palace",
+      "away": "Chelsea",
+      "opening_teams_detected": [
+        "Chelsea",
+        "Wolves"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 91,
+      "event_text_chars": 22562,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 220,
+      "id": "93566",
+      "date": "2024-02-17",
+      "home": "Man City",
+      "away": "Chelsea",
+      "opening_teams_detected": [
+        "Everton",
+        "tottenham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 81,
+      "event_text_chars": 15498,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 221,
+      "id": "93562",
+      "date": "2024-02-17",
+      "home": "Burnley",
+      "away": "Arsenal",
+      "opening_teams_detected": [
+        "manchester united",
+        "West Ham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 70,
+      "event_text_chars": 13923,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 222,
+      "id": "93564",
+      "date": "2024-02-17",
+      "home": "Fulham",
+      "away": "Aston Villa",
+      "opening_teams_detected": [
+        "Newcastle",
+        "Luton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 88,
+      "event_text_chars": 20885,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 223,
+      "id": "93567",
+      "date": "2024-02-17",
+      "home": "Newcastle",
+      "away": "Bournemouth",
+      "opening_teams_detected": [
+        "sheffield united",
+        "Aston Villa"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 89,
+      "event_text_chars": 17078,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 224,
+      "id": "93568",
+      "date": "2024-02-17",
+      "home": "Nott'm Forest",
+      "away": "West Ham",
+      "opening_teams_detected": [
+        "Aston Villa",
+        "manchester united"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 105,
+      "event_text_chars": 26027,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": true
+    },
+    {
+      "csv_line": 225,
+      "id": "93570",
+      "date": "2024-02-17",
+      "home": "Spurs",
+      "away": "Wolves",
+      "opening_teams_detected": [
+        "Crystal Palace",
+        "Chelsea"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 94,
+      "event_text_chars": 23155,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 226,
+      "id": "93561",
+      "date": "2024-02-17",
+      "home": "Brentford",
+      "away": "Liverpool",
+      "opening_teams_detected": [
+        "Liverpool",
+        "Burnley"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 86,
+      "event_text_chars": 21996,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 227,
+      "id": "93569",
+      "date": "2024-02-18",
+      "home": "Sheffield Utd",
+      "away": "Brighton",
+      "opening_teams_detected": [
+        "Luton",
+        "sheffield united"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 66,
+      "event_text_chars": 18475,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 228,
+      "id": "93565",
+      "date": "2024-02-18",
+      "home": "Luton",
+      "away": "Man Utd",
+      "opening_teams_detected": [
+        "manchester city",
+        "Everton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 89,
+      "event_text_chars": 17134,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 229,
+      "id": "93563",
+      "date": "2024-02-19",
+      "home": "Everton",
+      "away": "Crystal Palace",
+      "opening_teams_detected": [
+        "nottingham forest",
+        "Newcastle"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 96,
+      "event_text_chars": 18796,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 230,
+      "id": "93496",
+      "date": "2024-02-20",
+      "home": "Man City",
+      "away": "Brentford",
+      "opening_teams_detected": [
+        "tottenham",
+        "Brighton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 82,
+      "event_text_chars": 17598,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 231,
+      "id": "93577",
+      "date": "2024-02-21",
+      "home": "Liverpool",
+      "away": "Luton",
+      "opening_teams_detected": [
+        "West Ham",
+        "Arsenal"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 91,
+      "event_text_chars": 19953,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 232,
+      "id": "93571",
+      "date": "2024-02-24",
+      "home": "Arsenal",
+      "away": "Newcastle",
+      "opening_teams_detected": [
+        "Liverpool",
+        "Brentford"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 110,
+      "event_text_chars": 26298,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 233,
+      "id": "93573",
+      "date": "2024-02-24",
+      "home": "Bournemouth",
+      "away": "Man City",
+      "opening_teams_detected": [
+        "Burnley",
+        "Arsenal"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 74,
+      "event_text_chars": 16949,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 234,
+      "id": "93576",
+      "date": "2024-02-24",
+      "home": "Crystal Palace",
+      "away": "Burnley",
+      "opening_teams_detected": [
+        "Everton",
+        "Crystal Palace"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 67,
+      "event_text_chars": 19834,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 235,
+      "id": "93574",
+      "date": "2024-02-24",
+      "home": "Brighton",
+      "away": "Everton",
+      "opening_teams_detected": [],
+      "opening_pair_checked": false,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": false,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 0,
+      "event_text_chars": 0,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 236,
+      "id": "93572",
+      "date": "2024-02-24",
+      "home": "Aston Villa",
+      "away": "Nott'm Forest",
+      "opening_teams_detected": [
+        "Luton",
+        "manchester united"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 96,
+      "event_text_chars": 19910,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 237,
+      "id": "93578",
+      "date": "2024-02-24",
+      "home": "Man Utd",
+      "away": "Fulham",
+      "opening_teams_detected": [
+        "manchester city",
+        "Chelsea"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 73,
+      "event_text_chars": 16548,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 238,
+      "id": "93580",
+      "date": "2024-02-25",
+      "home": "Wolves",
+      "away": "Sheffield Utd",
+      "opening_teams_detected": [
+        "Newcastle",
+        "Bournemouth"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 85,
+      "event_text_chars": 21315,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 239,
+      "id": "93579",
+      "date": "2024-02-26",
+      "home": "West Ham",
+      "away": "Brentford",
+      "opening_teams_detected": [
+        "nottingham forest",
+        "West Ham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 74,
+      "event_text_chars": 15779,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 240,
+      "id": "93585",
+      "date": "2024-03-02",
+      "home": "Luton",
+      "away": "Aston Villa",
+      "opening_teams_detected": [
+        "sheffield united",
+        "Brighton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 70,
+      "event_text_chars": 18498,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 241,
+      "id": "93583",
+      "date": "2024-03-02",
+      "home": "Everton",
+      "away": "West Ham",
+      "opening_teams_detected": [
+        "tottenham",
+        "Wolves"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 105,
+      "event_text_chars": 24641,
+      "has_mm_ss_timestamp": true,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 242,
+      "id": "93584",
+      "date": "2024-03-02",
+      "home": "Fulham",
+      "away": "Brighton",
+      "opening_teams_detected": [
+        "Bournemouth",
+        "manchester city"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 75,
+      "event_text_chars": 14979,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 243,
+      "id": "93587",
+      "date": "2024-03-02",
+      "home": "Newcastle",
+      "away": "Wolves",
+      "opening_teams_detected": [
+        "Arsenal",
+        "Newcastle"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 100,
+      "event_text_chars": 24648,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 244,
+      "id": "93588",
+      "date": "2024-03-02",
+      "home": "Nott'm Forest",
+      "away": "Liverpool",
+      "opening_teams_detected": [
+        "Aston Villa",
+        "nottingham forest"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 81,
+      "event_text_chars": 17282,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 245,
+      "id": "93590",
+      "date": "2024-03-02",
+      "home": "Spurs",
+      "away": "Crystal Palace",
+      "opening_teams_detected": [],
+      "opening_pair_checked": false,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": false,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 0,
+      "event_text_chars": 0,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 246,
+      "id": "93581",
+      "date": "2024-03-02",
+      "home": "Brentford",
+      "away": "Chelsea",
+      "opening_teams_detected": [
+        "Liverpool",
+        "Luton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 84,
+      "event_text_chars": 18923,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 247,
+      "id": "93586",
+      "date": "2024-03-03",
+      "home": "Man City",
+      "away": "Man Utd",
+      "opening_teams_detected": [
+        "manchester united",
+        "Fulham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 83,
+      "event_text_chars": 17576,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 248,
+      "id": "93582",
+      "date": "2024-03-03",
+      "home": "Burnley",
+      "away": "Bournemouth",
+      "opening_teams_detected": [
+        "West Ham",
+        "Brentford"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 80,
+      "event_text_chars": 16985,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 249,
+      "id": "93589",
+      "date": "2024-03-04",
+      "home": "Sheffield Utd",
+      "away": "Arsenal",
+      "opening_teams_detected": [
+        "Wolves",
+        "sheffield united"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 66,
+      "event_text_chars": 17749,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 250,
+      "id": "93600",
+      "date": "2024-03-09",
+      "home": "Wolves",
+      "away": "Fulham",
+      "opening_teams_detected": [
+        "Brentford",
+        "Chelsea"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 83,
+      "event_text_chars": 21077,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 251,
+      "id": "93596",
+      "date": "2024-03-09",
+      "home": "Crystal Palace",
+      "away": "Luton",
+      "opening_teams_detected": [
+        "Burnley",
+        "Bournemouth"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 85,
+      "event_text_chars": 14077,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 252,
+      "id": "93593",
+      "date": "2024-03-09",
+      "home": "Bournemouth",
+      "away": "Sheffield Utd",
+      "opening_teams_detected": [
+        "Everton",
+        "West Ham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 75,
+      "event_text_chars": 19759,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 253,
+      "id": "93598",
+      "date": "2024-03-09",
+      "home": "Man Utd",
+      "away": "Everton",
+      "opening_teams_detected": [
+        "Fulham",
+        "Brighton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 81,
+      "event_text_chars": 14070,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 254,
+      "id": "93591",
+      "date": "2024-03-09",
+      "home": "Arsenal",
+      "away": "Brentford",
+      "opening_teams_detected": [
+        "Luton",
+        "Aston Villa"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 88,
+      "event_text_chars": 17963,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 255,
+      "id": "93594",
+      "date": "2024-03-10",
+      "home": "Brighton",
+      "away": "Nott'm Forest",
+      "opening_teams_detected": [
+        "manchester city",
+        "manchester united"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 99,
+      "event_text_chars": 25093,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 256,
+      "id": "93597",
+      "date": "2024-03-10",
+      "home": "Liverpool",
+      "away": "Man City",
+      "opening_teams_detected": [
+        "Newcastle",
+        "Wolves"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 75,
+      "event_text_chars": 17545,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 257,
+      "id": "93599",
+      "date": "2024-03-10",
+      "home": "West Ham",
+      "away": "Burnley",
+      "opening_teams_detected": [
+        "nottingham forest",
+        "Liverpool"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 78,
+      "event_text_chars": 17169,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 258,
+      "id": "93592",
+      "date": "2024-03-10",
+      "home": "Aston Villa",
+      "away": "Spurs",
+      "opening_teams_detected": [
+        "sheffield united",
+        "Arsenal"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 78,
+      "event_text_chars": 16518,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 259,
+      "id": "93595",
+      "date": "2024-03-11",
+      "home": "Chelsea",
+      "away": "Newcastle",
+      "opening_teams_detected": [
+        "Bournemouth",
+        "sheffield united"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 86,
+      "event_text_chars": 14730,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 260,
+      "id": "93482",
+      "date": "2024-03-13",
+      "home": "Bournemouth",
+      "away": "Luton",
+      "opening_teams_detected": [],
+      "opening_pair_checked": false,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": false,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 0,
+      "event_text_chars": 0,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 261,
+      "id": "93606",
+      "date": "2024-03-16",
+      "home": "Fulham",
+      "away": "Spurs",
+      "opening_teams_detected": [
+        "Aston Villa",
+        "tottenham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 88,
+      "event_text_chars": 23607,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 262,
+      "id": "93607",
+      "date": "2024-03-16",
+      "home": "Luton",
+      "away": "Nott'm Forest",
+      "opening_teams_detected": [
+        "Brighton",
+        "nottingham forest"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 83,
+      "event_text_chars": 17531,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": true
+    },
+    {
+      "csv_line": 263,
+      "id": "93603",
+      "date": "2024-03-16",
+      "home": "Burnley",
+      "away": "Brentford",
+      "opening_teams_detected": [
+        "Chelsea",
+        "Newcastle"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 97,
+      "event_text_chars": 18719,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 264,
+      "id": "93609",
+      "date": "2024-03-17",
+      "home": "West Ham",
+      "away": "Aston Villa",
+      "opening_teams_detected": [
+        "Crystal Palace",
+        "Luton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 69,
+      "event_text_chars": 17518,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 265,
+      "id": "93612",
+      "date": "2024-03-30",
+      "home": "Bournemouth",
+      "away": "Everton",
+      "opening_teams_detected": [
+        "Liverpool",
+        "manchester city"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 110,
+      "event_text_chars": 26443,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 266,
+      "id": "93614",
+      "date": "2024-03-30",
+      "home": "Chelsea",
+      "away": "Burnley",
+      "opening_teams_detected": [
+        "manchester united",
+        "Everton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 86,
+      "event_text_chars": 22118,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 267,
+      "id": "93618",
+      "date": "2024-03-30",
+      "home": "Nott'm Forest",
+      "away": "Crystal Palace",
+      "opening_teams_detected": [
+        "West Ham",
+        "Burnley"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 74,
+      "event_text_chars": 16043,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 268,
+      "id": "93619",
+      "date": "2024-03-30",
+      "home": "Sheffield Utd",
+      "away": "Fulham",
+      "opening_teams_detected": [
+        "Wolves",
+        "Fulham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 80,
+      "event_text_chars": 16778,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 269,
+      "id": "93620",
+      "date": "2024-03-30",
+      "home": "Spurs",
+      "away": "Luton",
+      "opening_teams_detected": [
+        "Arsenal",
+        "Chelsea"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": false,
+      "event_lines": 72,
+      "event_text_chars": 18885,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 270,
+      "id": "93611",
+      "date": "2024-03-30",
+      "home": "Aston Villa",
+      "away": "Wolves",
+      "opening_teams_detected": [
+        "Burnley",
+        "Brentford"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 76,
+      "event_text_chars": 13822,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 271,
+      "id": "93613",
+      "date": "2024-03-30",
+      "home": "Brentford",
+      "away": "Man Utd",
+      "opening_teams_detected": [
+        "Fulham",
+        "tottenham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 82,
+      "event_text_chars": 18193,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 272,
+      "id": "93617",
+      "date": "2024-03-30",
+      "home": "Newcastle",
+      "away": "West Ham",
+      "opening_teams_detected": [
+        "Luton",
+        "nottingham forest"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 90,
+      "event_text_chars": 20626,
+      "has_mm_ss_timestamp": true,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 273,
+      "id": "93615",
+      "date": "2024-03-31",
+      "home": "Liverpool",
+      "away": "Brighton",
+      "opening_teams_detected": [
+        "West Ham",
+        "Aston Villa"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 84,
+      "event_text_chars": 18064,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 274,
+      "id": "93616",
+      "date": "2024-03-31",
+      "home": "Man City",
+      "away": "Arsenal",
+      "opening_teams_detected": [
+        "Bournemouth",
+        "Everton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 79,
+      "event_text_chars": 20451,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 275,
+      "id": "93624",
+      "date": "2024-04-02",
+      "home": "Burnley",
+      "away": "Wolves",
+      "opening_teams_detected": [
+        "Aston Villa",
+        "Wolves"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 87,
+      "event_text_chars": 20802,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 276,
+      "id": "93622",
+      "date": "2024-04-02",
+      "home": "Bournemouth",
+      "away": "Crystal Palace",
+      "opening_teams_detected": [
+        "Brentford",
+        "manchester united"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 76,
+      "event_text_chars": 12551,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 277,
+      "id": "93630",
+      "date": "2024-04-02",
+      "home": "Newcastle",
+      "away": "Everton",
+      "opening_teams_detected": [
+        "Chelsea",
+        "Burnley"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 86,
+      "event_text_chars": 19601,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 278,
+      "id": "93626",
+      "date": "2024-04-02",
+      "home": "West Ham",
+      "away": "Spurs",
+      "opening_teams_detected": [
+        "Liverpool",
+        "Brighton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 76,
+      "event_text_chars": 15956,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 279,
+      "id": "93625",
+      "date": "2024-04-02",
+      "home": "Nott'm Forest",
+      "away": "Fulham",
+      "opening_teams_detected": [
+        "manchester city",
+        "Arsenal"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 65,
+      "event_text_chars": 14259,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 280,
+      "id": "93629",
+      "date": "2024-04-03",
+      "home": "Man City",
+      "away": "Aston Villa",
+      "opening_teams_detected": [
+        "Newcastle",
+        "West Ham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 88,
+      "event_text_chars": 18759,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 281,
+      "id": "93623",
+      "date": "2024-04-03",
+      "home": "Brentford",
+      "away": "Brighton",
+      "opening_teams_detected": [
+        "nottingham forest",
+        "Crystal Palace"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 84,
+      "event_text_chars": 20424,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 282,
+      "id": "93621",
+      "date": "2024-04-03",
+      "home": "Arsenal",
+      "away": "Luton",
+      "opening_teams_detected": [
+        "sheffield united",
+        "Fulham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 88,
+      "event_text_chars": 15073,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 283,
+      "id": "93627",
+      "date": "2024-04-04",
+      "home": "Chelsea",
+      "away": "Man Utd",
+      "opening_teams_detected": [
+        "tottenham",
+        "Luton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 91,
+      "event_text_chars": 21179,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 284,
+      "id": "93628",
+      "date": "2024-04-04",
+      "home": "Liverpool",
+      "away": "Sheffield Utd",
+      "opening_teams_detected": [
+        "Bournemouth",
+        "Crystal Palace"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 71,
+      "event_text_chars": 16030,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 285,
+      "id": "93633",
+      "date": "2024-04-06",
+      "home": "Crystal Palace",
+      "away": "Man City",
+      "opening_teams_detected": [
+        "Arsenal",
+        "Luton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 82,
+      "event_text_chars": 17275,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 286,
+      "id": "93631",
+      "date": "2024-04-06",
+      "home": "Aston Villa",
+      "away": "Brentford",
+      "opening_teams_detected": [
+        "Brentford",
+        "Brighton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 82,
+      "event_text_chars": 17269,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 287,
+      "id": "93634",
+      "date": "2024-04-06",
+      "home": "Everton",
+      "away": "Burnley",
+      "opening_teams_detected": [
+        "Burnley",
+        "Wolves"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 72,
+      "event_text_chars": 14808,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 288,
+      "id": "93635",
+      "date": "2024-04-06",
+      "home": "Fulham",
+      "away": "Newcastle",
+      "opening_teams_detected": [
+        "nottingham forest",
+        "Fulham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 90,
+      "event_text_chars": 20081,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 289,
+      "id": "93636",
+      "date": "2024-04-06",
+      "home": "Luton",
+      "away": "Bournemouth",
+      "opening_teams_detected": [
+        "West Ham",
+        "tottenham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 82,
+      "event_text_chars": 19662,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 290,
+      "id": "93640",
+      "date": "2024-04-06",
+      "home": "Wolves",
+      "away": "West Ham",
+      "opening_teams_detected": [
+        "Chelsea",
+        "manchester united"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 86,
+      "event_text_chars": 18426,
+      "has_mm_ss_timestamp": true,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 291,
+      "id": "93632",
+      "date": "2024-04-06",
+      "home": "Brighton",
+      "away": "Arsenal",
+      "opening_teams_detected": [
+        "Newcastle",
+        "Everton"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 87,
+      "event_text_chars": 17138,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 292,
+      "id": "93638",
+      "date": "2024-04-07",
+      "home": "Sheffield Utd",
+      "away": "Chelsea",
+      "opening_teams_detected": [
+        "Liverpool",
+        "sheffield united"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 69,
+      "event_text_chars": 14296,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 293,
+      "id": "93639",
+      "date": "2024-04-07",
+      "home": "Spurs",
+      "away": "Nott'm Forest",
+      "opening_teams_detected": [
+        "manchester city",
+        "Aston Villa"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 78,
+      "event_text_chars": 16456,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 294,
+      "id": "93637",
+      "date": "2024-04-07",
+      "home": "Man Utd",
+      "away": "Liverpool",
+      "opening_teams_detected": [
+        "Aston Villa",
+        "Brentford"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 81,
+      "event_text_chars": 17952,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 295,
+      "id": "93648",
+      "date": "2024-04-13",
+      "home": "Newcastle",
+      "away": "Spurs",
+      "opening_teams_detected": [
+        "Brighton",
+        "Arsenal"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 80,
+      "event_text_chars": 17287,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 296,
+      "id": "93643",
+      "date": "2024-04-13",
+      "home": "Brentford",
+      "away": "Sheffield Utd",
+      "opening_teams_detected": [
+        "Crystal Palace",
+        "manchester city"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 84,
+      "event_text_chars": 20547,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 297,
+      "id": "93644",
+      "date": "2024-04-13",
+      "home": "Burnley",
+      "away": "Brighton",
+      "opening_teams_detected": [
+        "Everton",
+        "Burnley"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 83,
+      "event_text_chars": 20213,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 298,
+      "id": "93649",
+      "date": "2024-04-13",
+      "home": "Nott'm Forest",
+      "away": "Wolves",
+      "opening_teams_detected": [
+        "Fulham",
+        "Newcastle"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 92,
+      "event_text_chars": 20743,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 299,
+      "id": "93642",
+      "date": "2024-04-13",
+      "home": "Bournemouth",
+      "away": "Man Utd",
+      "opening_teams_detected": [
+        "Luton",
+        "Bournemouth"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 69,
+      "event_text_chars": 13183,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 300,
+      "id": "93647",
+      "date": "2024-04-13",
+      "home": "Man City",
+      "away": "Luton",
+      "opening_teams_detected": [
+        "manchester united",
+        "Liverpool"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 87,
+      "event_text_chars": 19293,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 301,
+      "id": "93641",
+      "date": "2024-04-14",
+      "home": "Arsenal",
+      "away": "Aston Villa",
+      "opening_teams_detected": [
+        "sheffield united",
+        "Chelsea"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 85,
+      "event_text_chars": 19772,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 302,
+      "id": "93650",
+      "date": "2024-04-14",
+      "home": "West Ham",
+      "away": "Fulham",
+      "opening_teams_detected": [
+        "tottenham",
+        "nottingham forest"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 96,
+      "event_text_chars": 23197,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 303,
+      "id": "93646",
+      "date": "2024-04-14",
+      "home": "Liverpool",
+      "away": "Crystal Palace",
+      "opening_teams_detected": [
+        "Wolves",
+        "West Ham"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 95,
+      "event_text_chars": 15708,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    },
+    {
+      "csv_line": 304,
+      "id": "93645",
+      "date": "2024-04-15",
+      "home": "Chelsea",
+      "away": "Everton",
+      "opening_teams_detected": [
+        "Bournemouth",
+        "manchester united"
+      ],
+      "opening_pair_checked": true,
+      "opening_pair_matches_metadata": false,
+      "opening_pair_exists_in_metadata_set": true,
+      "opening_order_exists_in_metadata_set": true,
+      "event_lines": 73,
+      "event_text_chars": 19951,
+      "has_mm_ss_timestamp": false,
+      "has_minute_marker": false
+    }
+  ]
+}

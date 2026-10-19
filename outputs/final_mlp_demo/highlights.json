@@ -1,0 +1,23 @@
+{
+  "source_video": "1_224p.mkv",
+  "asr_model": "small",
+  "timestamp_note": "Whisper segment timestamps are estimates; verify against the video before editing.",
+  "score_note": "Hybrid ranking: football event phrase matching plus a trained event-context reranker (SoccerNet timestamp-aligned event labels); not a calibrated probability or a direct measure of highlight quality.",
+  "highlights": [
+    {
+      "start_seconds": 83.0,
+      "end_seconds": 86.0,
+      "start_timestamp": "00:01:23",
+      "end_timestamp": "00:01:26",
+      "event": "chance_or_shot",
+      "score": 0.618,
+      "commentary": "The high shot to the front of the Crystal Palace.",
+      "commentary_english": "The high shot to the front of the Crystal Palace.",
+      "reasons": [
+        "chance or shot",
+        "football event phrase",
+        "trained event-context reranker"
+      ]
+    }
+  ]
+}

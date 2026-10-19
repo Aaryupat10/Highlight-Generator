@@ -1,0 +1,43 @@
+{
+  "source_video": "1_224p.mkv",
+  "asr_model": "base",
+  "timestamp_note": "Whisper segment timestamps are estimates; verify against the video before editing.",
+  "highlights": [
+    {
+      "start_seconds": 41.88,
+      "end_seconds": 44.28,
+      "start_timestamp": "00:00:41",
+      "end_timestamp": "00:00:44",
+      "event": "penalty_or_var",
+      "score": 0.88,
+      "commentary": "and in front of a ball that gave a penalty in the table",
+      "reasons": [
+        "penalty or var"
+      ]
+    },
+    {
+      "start_seconds": 82.56,
+      "end_seconds": 85.92,
+      "start_timestamp": "00:01:22",
+      "end_timestamp": "00:01:25",
+      "event": "chance_or_shot",
+      "score": 0.68,
+      "commentary": "and the shot at the front of the Cristal Palas,",
+      "reasons": [
+        "chance or shot"
+      ]
+    },
+    {
+      "start_seconds": 157.48,
+      "end_seconds": 172.36,
+      "start_timestamp": "00:02:37",
+      "end_timestamp": "00:02:52",
+      "event": "corner_or_free_kick",
+      "score": 0.42,
+      "commentary": "Let's go to the first corner of the game, that came to the remate in the corner,",
+      "reasons": [
+        "corner or free kick"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "source_video": "Liverpool vs Aston Villa direct Whisper translation (held out)",
+  "asr_model": "saved transcript",
+  "timestamp_note": "Whisper segment timestamps are estimates; verify against the video before editing.",
+  "score_note": "Hybrid ranking: football event phrase matching plus a trained event-context reranker (mixed SoccerNet event timestamps and human-reviewed highlights); not a calibrated probability or a direct measure of highlight quality.",
+  "highlights": [
+    {
+      "start_seconds": 79.83,
+      "end_seconds": 83.83,
+      "start_timestamp": "00:01:19",
+      "end_timestamp": "00:01:23",
+      "event": "goal",
+      "score": 0.817,
+      "commentary": "But there were pre-match scores, as it begins with a goal from Liverpool.",
+      "commentary_english": "But there were pre-match scores, as it begins with a goal from Liverpool.",
+      "reasons": [
+        "football event phrase",
+        "goal",
+        "trained event-context reranker"
+      ]
+    },
+    {
+      "start_seconds": 1878.06,
+      "end_seconds": 1879.06,
+      "start_timestamp": "00:31:18",
+      "end_timestamp": "00:31:19",
+      "event": "goal",
+      "score": 0.726,
+      "commentary": "a goal by Salah Genton",
+      "commentary_english": "a goal by Salah Genton",
+      "reasons": [
+        "football event phrase",
+        "goal",
+        "trained event-context reranker"
+      ]
+    },
+    {
+      "start_seconds": 2428.82,
+      "end_seconds": 2429.82,
+      "start_timestamp": "00:40:28",
+      "end_timestamp": "00:40:29",
+      "event": "chance_or_shot",
+      "score": 0.645,
+      "commentary": "Khaton's shot",
+      "commentary_english": "Khaton's shot",
+      "reasons": [
+        "chance or shot",
+        "football event phrase",
+        "trained event-context reranker"
+      ]
+    },
+    {
+      "start_seconds": 954.98,
+      "end_seconds": 992.17,
+      "start_timestamp": "00:15:54",
+      "end_timestamp": "00:16:32",
+      "event": "chance_or_shot",
+      "score": 0.64,
+      "commentary": "managed to shoot,",
+      "commentary_english": "managed to shoot,",
+      "reasons": [
+        "chance or shot",
+        "football event phrase",
+        "trained event-context reranker"
+      ]
+    },
+    {
+      "start_seconds": 2297.93,
+      "end_seconds": 2298.93,
+      "start_timestamp": "00:38:17",
+      "end_timestamp": "00:38:18",
+      "event": "chance_or_shot",
+      "score": 0.595,
+      "commentary": "to shoot the ball",
+      "commentary_english": "to shoot the ball",
+      "reasons": [
+        "chance or shot",
+        "football event phrase",
+        "trained event-context reranker"
+      ]
+    },
+    {
+      "start_seconds": 104.93,
+      "end_seconds": 109.93,
+      "start_timestamp": "00:01:44",
+      "end_timestamp": "00:01:49",
+      "event": "corner_or_free_kick",
+      "score": 0.563,
+      "commentary": "From the left leg, he is put into the corner of the gate.",
+      "commentary_english": "From the left leg, he is put into the corner of the gate.",
+      "reasons": [
+        "corner or free kick",
+        "football event phrase",
+        "trained event-context reranker"
+      ]
+    },
+    {
+      "start_seconds": 1570.16,
+      "end_seconds": 1571.16,
+      "start_timestamp": "00:26:10",
+      "end_timestamp": "00:26:11",
+      "event": "chance_or_shot",
+      "score": 0.552,
+      "commentary": "has made a great shot at Giordano Mavi",
+      "commentary_english": "has made a great shot at Giordano Mavi",
+      "reasons": [
+        "chance or shot",
+        "football event phrase",
+        "trained event-context reranker"
+      ]
+    },
+    {
+      "start_seconds": 2441.96,
+      "end_seconds": 2445.68,
+      "start_timestamp": "00:40:41",
+      "end_timestamp": "00:40:45",
+      "event": "corner_or_free_kick",
+      "score": 0.537,
+      "commentary": "the ball goes to the corner",
+      "commentary_english": "the ball goes to the corner",
+      "reasons": [
+        "corner or free kick",
+        "football event phrase",
+        "trained event-context reranker"
+      ]
+    }
+  ]
+}

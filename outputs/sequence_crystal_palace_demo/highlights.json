@@ -1,0 +1,182 @@
+{
+  "source_video": "1_224p.mkv",
+  "asr_model": "small",
+  "timestamp_note": "Whisper segment timestamps are estimates; verify against the video before editing.",
+  "score_note": "Hybrid ranking: football event phrase matching plus a trained match-half sequence model (weak SoccerNet event timestamps plus manually reviewed examples); not a calibrated probability or a direct measure of highlight quality.",
+  "pipeline_stages": {
+    "speech_to_text": "pretrained Faster-Whisper; language auto-detection or user override",
+    "translation": "optional pretrained NLLB translation to English; timestamps retained",
+    "nlp_preprocessing": "project-written text normalization, lexical event evidence, and negation/hypothetical/retrospective/live-action cues",
+    "coreference": "conservative short-window pronoun linking only when a unique verified player alias is present; otherwise unresolved",
+    "event_extraction": "project-written event rules plus lexical event frames; actor/team arguments are candidates, not full SRL predictions",
+    "text_representation": "project-fitted TF-IDF unigram/bigram features when TF-IDF checkpoint is selected; otherwise hashed word features",
+    "deep_learning": "project-trained BiGRU with temporal self-attention and eventness/event-family heads; exploratory weak supervision",
+    "temporal_selection": "score-based nearby-event grouping with a reported peak timestamp and density",
+    "explainability": "TF-IDF feature ablation when available; this is not an attention map",
+    "limitations": [
+      "Coreference and event-role extraction use conservative dictionary/phrase heuristics, not trained coreference or SRL models",
+      "Only fixture team names are auto-read from SoccerNet-style paths; player names require a verified aliases JSON",
+      "No human excitement labels in current training data",
+      "Event-family head, when present, is weak-label trained and performed poorly on rare classes in match-held-out review",
+      "No claim of universal accuracy across languages or competitions"
+    ]
+  },
+  "highlights": [
+    {
+      "start_seconds": 83.0,
+      "end_seconds": 86.0,
+      "start_timestamp": "00:01:23",
+      "end_timestamp": "00:01:26",
+      "event": "chance_or_shot",
+      "score": 0.854,
+      "rule_score": 0.68,
+      "model_score": 0.996,
+      "event_frame": {
+        "event_type": "chance_or_shot",
+        "event_evidence": [
+          "shot"
+        ],
+        "has_negation": false,
+        "has_hypothetical_language": false,
+        "has_retrospective_language": false,
+        "has_live_action_language": false,
+        "has_excitement_cue": false,
+        "player_mentions": [],
+        "team_mentions": [
+          "Crystal Palace"
+        ],
+        "entity_mentions": [
+          {
+            "type": "team",
+            "canonical": "Crystal Palace",
+            "surface": "Crystal Palace"
+          }
+        ],
+        "coreference": {
+          "pronouns": [],
+          "antecedent_candidate": null,
+          "method": "unresolved",
+          "confidence": "none"
+        },
+        "event_frame": {
+          "action_type": "chance_or_shot",
+          "actor_candidates": [],
+          "team_candidates": [
+            "Crystal Palace"
+          ],
+          "outcome_cues": [],
+          "method": "lexical frame; candidate arguments only"
+        },
+        "peak_timestamp": "00:01:23",
+        "peak_seconds": 83.0,
+        "candidate_segment_count": 1,
+        "temporal_density": 0.2847,
+        "ranker": "phrase_rules",
+        "temporal_attention_context": [
+          {
+            "timestamp": "00:02:41",
+            "weight": 0.0127
+          },
+          {
+            "timestamp": "00:02:39",
+            "weight": 0.0127
+          },
+          {
+            "timestamp": "00:02:42",
+            "weight": 0.0127
+          }
+        ],
+        "predicted_event_family": {
+          "label": "shot_or_chance",
+          "score": 0.9971340894699097,
+          "probabilities": {
+            "goal": 0.0015899083809927106,
+            "shot_or_chance": 0.9971340894699097,
+            "card": 0.0012760224053636193
+          }
+        },
+        "model_evidence": []
+      },
+      "commentary": "The high shot to the front of the Crystal Palace.",
+      "commentary_english": "The high shot to the front of the Crystal Palace.",
+      "reasons": [
+        "chance or shot",
+        "football event phrase",
+        "project-trained match-half sequence model"
+      ]
+    },
+    {
+      "start_seconds": 170.0,
+      "end_seconds": 172.0,
+      "start_timestamp": "00:02:50",
+      "end_timestamp": "00:02:52",
+      "event": "corner_or_free_kick",
+      "score": 0.527,
+      "rule_score": 0.42,
+      "model_score": 0.615,
+      "event_frame": {
+        "event_type": "corner_or_free_kick",
+        "event_evidence": [
+          "corner"
+        ],
+        "has_negation": false,
+        "has_hypothetical_language": false,
+        "has_retrospective_language": false,
+        "has_live_action_language": true,
+        "has_excitement_cue": false,
+        "player_mentions": [],
+        "team_mentions": [],
+        "entity_mentions": [],
+        "coreference": {
+          "pronouns": [],
+          "antecedent_candidate": null,
+          "method": "unresolved",
+          "confidence": "none"
+        },
+        "event_frame": {
+          "action_type": "corner_or_free_kick",
+          "actor_candidates": [],
+          "team_candidates": [],
+          "outcome_cues": [],
+          "method": "lexical frame; candidate arguments only"
+        },
+        "peak_timestamp": "00:02:50",
+        "peak_seconds": 170.0,
+        "candidate_segment_count": 1,
+        "temporal_density": 0.2637,
+        "ranker": "phrase_rules",
+        "temporal_attention_context": [
+          {
+            "timestamp": "00:00:13",
+            "weight": 0.0124
+          },
+          {
+            "timestamp": "00:00:10",
+            "weight": 0.0124
+          },
+          {
+            "timestamp": "00:00:08",
+            "weight": 0.0124
+          }
+        ],
+        "predicted_event_family": {
+          "label": "goal",
+          "score": 0.5646232962608337,
+          "probabilities": {
+            "goal": 0.5646232962608337,
+            "shot_or_chance": 0.00785223487764597,
+            "card": 0.4275244176387787
+          }
+        },
+        "model_evidence": []
+      },
+      "commentary": "who arrived there at the rematch in the corner.",
+      "commentary_english": "who arrived there at the rematch in the corner.",
+      "reasons": [
+        "corner or free kick",
+        "football event phrase",
+        "project-trained match-half sequence model"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+# Ranked commentary highlights
+
+Source: `1_224p.mkv`
+
+Timestamps are estimated from ASR and should be checked before video editing.
+
+## 1. Chance Or Shot — 00:02:38 to 00:02:52
+Score: 0.68
+
+vamos a ver el primer corner del partido el remate que buscaba Pallas que llegaba ahí al remate en el saque de esquina
