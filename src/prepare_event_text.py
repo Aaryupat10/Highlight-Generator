@@ -1,118 +1,128 @@
-"""Prepare a compact commentary/event dataset for project-owned NLP models."""
+"""Split football commentary at line breaks and full stops, then clean it."""
 from __future__ import annotations
 
 import argparse
 import csv
 import re
-from collections import Counter
+import unicodedata
+from collections import defaultdict
 from pathlib import Path
 
-from nlp_analysis import analyze_event, normalize_commentary
 
-
-OUTPUT_FIELDS = (
-    "commentary", "event", "event_context", "has_excitement_cue",
-    "exclamation_count", "uppercase_word_count", "match_id", "half", "anchor_seconds",
+TEXT_COLUMNS = ("events", "english_commentary_context", "english_commentary", "commentary", "text")
+CLEAN_FIELDS = (
+    "match_id", "line_no", "raw_text", "clean_text",
+    "n_exclaim", "caps_ratio", "n_caps_words",
 )
-TEXT_COLUMNS = ("english_commentary_context", "english_commentary", "commentary", "text")
-EVENT_COLUMNS = ("event_type", "event")
-NON_EVENT_LABELS = {"not selected by model", "unclear", "unknown", "none", "nan"}
-EVENT_ANALYSIS_TYPES = {
-    "shots_on_target": "chance_or_shot",
-    "shots_off_target": "chance_or_shot",
-    "shot": "chance_or_shot",
-    "chance": "chance_or_shot",
-    "penalty": "penalty_or_var",
-    "var": "penalty_or_var",
-    "red_card": "red_card",
-    "yellow_card": "yellow_card",
-    "corner": "corner_or_free_kick",
-    "free_kick": "corner_or_free_kick",
-}
+ALL_CAPS_WORD_RE = re.compile(r"\b[A-Z][A-Z0-9]+\b")
 
 
-def _canonical_event(value: str) -> str:
-    label = normalize_commentary(value).casefold()
-    if label == "routine_sample":
-        return "routine"
-    return re.sub(r"[\s-]+", "_", label)
+def clean_line(text: str) -> str:
+    """Fix spacing and one football abbreviation; preserve case and punctuation."""
+    cleaned = unicodedata.normalize("NFKC", text or "")
+    cleaned = re.sub(r"[\u200b-\u200f\u2060\ufeff]", "", cleaned)
+    cleaned = re.sub(r"\s+", " ", cleaned).strip()
+
+    def expand_pen(match: re.Match[str]) -> str:
+        word = match.group(0)
+        if word.isupper():
+            return "PENALTY"
+        if word[:1].isupper():
+            return "Penalty"
+        return "penalty"
+
+    return re.sub(r"\bpen\b", expand_pen, cleaned, flags=re.IGNORECASE)
 
 
-def _first_column(fieldnames: list[str] | None, candidates: tuple[str, ...]) -> str | None:
+def excitement_features(text: str) -> dict[str, str]:
+    letters = [char for char in text if char.isalpha()]
+    uppercase_count = sum(char.isupper() for char in letters)
+    caps_ratio = uppercase_count / len(letters) if letters else 0.0
+    caps_words = ALL_CAPS_WORD_RE.findall(text)
+    return {
+        "n_exclaim": str(text.count("!")),
+        "caps_ratio": f"{caps_ratio:.2f}",
+        "n_caps_words": str(len(caps_words)),
+    }
+
+
+def _find_text_column(fieldnames: list[str] | None) -> str | None:
     available = set(fieldnames or [])
-    return next((name for name in candidates if name in available), None)
+    return next((column for column in TEXT_COLUMNS if column in available), None)
 
 
-def prepare_rows(source: Path) -> tuple[list[dict[str, str]], Counter[str]]:
-    """Keep cleaned commentary, event label, and identifiers for honest splits."""
-    prepared: list[dict[str, str]] = []
-    skipped: Counter[str] = Counter()
+def prepare_rows(source: Path) -> list[dict[str, str]]:
+    """Split commentary at line breaks/full stops and prepare text and cues."""
+    rows: list[dict[str, str]] = []
+    line_numbers: dict[str, int] = defaultdict(int)
+
     with source.open(encoding="utf-8-sig", newline="") as handle:
         reader = csv.DictReader(handle)
-        text_column = _first_column(reader.fieldnames, TEXT_COLUMNS)
-        event_column = _first_column(reader.fieldnames, EVENT_COLUMNS)
+        text_column = _find_text_column(reader.fieldnames)
         if text_column is None:
-            raise ValueError(f"No commentary text column found; expected one of {TEXT_COLUMNS}.")
-        if event_column is None:
-            raise ValueError(f"No event label column found; expected one of {EVENT_COLUMNS}.")
+            raise ValueError(f"No commentary column found; expected one of {TEXT_COLUMNS}.")
 
         for row in reader:
-            commentary = normalize_commentary(row.get(text_column, ""))
-            raw_event = normalize_commentary(row.get(event_column, ""))
-            event = _canonical_event(raw_event)
-            if not commentary:
-                skipped["empty_commentary"] += 1
+            match_id = (row.get("match_id") or row.get("id") or "").strip()
+            raw_block = row.get(text_column, "") or ""
+            match_lines = [
+                sentence
+                for line in raw_block.splitlines()
+                for sentence in re.split(r"(?<=\.)\s+", line.strip())
+                if clean_line(sentence)
+            ]
+            if not match_lines:
+                # Keep a row for a match record even when the source has no commentary.
+                rows.append({
+                    "match_id": match_id,
+                    "line_no": "0",
+                    "raw_text": "",
+                    "clean_text": "",
+                    **excitement_features(""),
+                })
+                line_numbers[match_id] = max(line_numbers[match_id], 1)
                 continue
-            if not event:
-                skipped["empty_event"] += 1
-                continue
-            if raw_event.casefold() in NON_EVENT_LABELS:
-                skipped["invalid_event_label"] += 1
-                continue
-            analysis_event = EVENT_ANALYSIS_TYPES.get(event, event)
-            cues = analyze_event(commentary, analysis_event)
-            uppercase_words = re.findall(r"\b[A-Z][A-Z0-9]{1,}\b", commentary)
-            prepared.append({
-                "commentary": commentary,
-                "event": event,
-                "event_context": cues["event_context"],
-                "has_excitement_cue": str(cues["has_excitement_cue"]).lower(),
-                "exclamation_count": str(commentary.count("!")),
-                "uppercase_word_count": str(len(uppercase_words)),
-                # These are metadata for grouped evaluation and timestamp alignment;
-                # the text model must not use them as predictive features.
-                "match_id": (row.get("match_id") or "").strip(),
-                "half": (row.get("half") or "").strip(),
-                "anchor_seconds": (row.get("anchor_seconds") or row.get("start_seconds") or "").strip(),
-            })
-    return prepared, skipped
+
+            for raw_text in match_lines:
+                clean_text = clean_line(raw_text)
+                line_no = line_numbers[match_id]
+                line_numbers[match_id] += 1
+                rows.append({
+                    "match_id": match_id,
+                    "line_no": str(line_no),
+                    "raw_text": raw_text,
+                    "clean_text": clean_text,
+                    **excitement_features(clean_text),
+                })
+
+    return rows
+
+
+def _write_csv(path: Path, fields: tuple[str, ...], rows: list[dict[str, str]]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fields)
+        writer.writeheader()
+        writer.writerows(rows)
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("input_csv", type=Path, help="Dataset CSV containing commentary and event/event_type columns")
-    parser.add_argument("--out", type=Path, default=Path("data/preprocessed_event_text.csv"))
+    parser.add_argument("input_csv", type=Path, help="CSV containing a commentary text column")
+    parser.add_argument("--out", type=Path, default=Path("data/commentary_clean.csv"))
     args = parser.parse_args()
     if not args.input_csv.is_file():
         parser.error(f"Input CSV does not exist: {args.input_csv}")
 
     try:
-        rows, skipped = prepare_rows(args.input_csv)
+        rows = prepare_rows(args.input_csv)
     except (OSError, ValueError, csv.Error) as exc:
         parser.error(str(exc))
     if not rows:
-        parser.error("No rows had both non-empty commentary and an event label.")
+        parser.error("No non-empty commentary lines were found.")
 
-    args.out.parent.mkdir(parents=True, exist_ok=True)
-    with args.out.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=OUTPUT_FIELDS)
-        writer.writeheader()
-        writer.writerows(rows)
-
-    counts = Counter(row["event"] for row in rows)
-    print(f"Prepared {len(rows)} labeled commentary rows; skipped {sum(skipped.values())} rows.")
-    print(f"Event labels: {dict(sorted(counts.items()))}")
-    print(f"Skipped rows: {dict(sorted(skipped.items())) or 'none'}")
+    _write_csv(args.out, CLEAN_FIELDS, rows)
+    print(f"Prepared {len(rows)} commentary lines.")
     print(f"Saved: {args.out.resolve()}")
 
 
