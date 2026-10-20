@@ -1,0 +1,206 @@
+Cluster ids (c0, c1...) are local to each block of lines.
+
+   0  Hello and welcome to live coverage of [the [Premier League|c0] clash between [[Burnle|c2]y and [Manchester Cit|c|c1]3]y|c4] at Turf Moor.
+   1  [The Premier League|c0] is back for a new season, and [it|c0] gets underway with [an intriguing match-up between [[a newly promoted sid|c2]e and [the reigning ch|c1]ampion|c3]s|c4].
+   2  [Burnley|c2] could have hardly been given a tougher opening fixture, but [they|c2] should come into [it|c1] with confidence after cruising to the Championship title last time out in [their|c2] first season back in the second tier.
+   3  Led by [Vincent Kompany, a Citizens' legend from [his|c5] playing c|c5]areer, [Burnley|c2] reached 101 points and secured promotion with seven games to play, and [they|c2] will be hoping to get off the mark with a positive result on home soil.
+        c0: Premier League (0) | The Premier League (1) | it (1)
+        c1: the Premier League clash between Burnley and Manchester City at Turf Moor (0) | an intriguing match-up between a newly promoted side and the reigning champions (1) | it (2)
+        c2: Burnley (0) | a newly promoted side (1) | Burnley (2) | they (2) | their (2) | Burnley (3) | they (3)
+        c3: Burnley and Manchester City (0) | a newly promoted side and the reigning champions (1)
+        c4: Manchester City (0) | the reigning champions (1)
+        c5: Vincent Kompany, a Citizens' legend from his playing career (3) | his (3)
+
+   4  [City|c5], meanwhile, claimed a historic treble last term, finally winning [their|c5] first Champions League title while also taking [Premier League|c0] and FA Cup glory.
+   5  It has been a transfer window of change with key players of recent years such as Riyad Mahrez and Ilkay Gundogan leaving [the club|c3], but [they|c3] still come into [this campaign|c1] expected to be frontrunners and [they|c3] will be looking to get off to a winning start as [they|c3] bid for a sixth [Premier League|c0] crown in seven seasons.
+  10  [Kompany|c6] includes six new signings as Trafford, signed from [City|c5] in this window, starts between the sticks while O'Shea comes into the back four alongside [Al Dakhil, who has had [his|c7] loan move made permanent after impressing last s|c7]eason.
+  11  Berge, Koleosho and Amdouni are the other fresh faces set to play from the off.
+        c0: Premier League (0, context) | The Premier League (1, context) | Premier League (4) | Premier League (5)
+        c1: a new season (1, context) | it (1, context) | this campaign (5)
+        c3: Burnley (0, context) | a newly promoted side (1, context) | Burnley (2, context) | they (2, context) | their (2, context) | Burnley (3, context) | they (3, context) | the club (5) | they (5) | they (5) | they (5)
+        c5: Manchester City (0, context) | the reigning champions (1, context) | City (4) | their (4) | City (10)
+        c6: Vincent Kompany, a Citizens' legend from his playing career (3, context) | his (3, context) | Kompany (10)
+        c7: Al Dakhil, who has had his loan move made permanent after impressing last season (10) | his (10)
+
+  12  In contrast, [Pep Guardiola|c5] opts to leave [[hi|c5]s new arrivals|c6] on the bench as [Gvardiol and Kovacic|c7] will be made to wait for [their|c7] competitive [City|c0] debuts.
+  13  Key defenders John Stones and Ruben Dias both miss out through injury while Grealish is on the bench.
+  14  Lewis starts and so does Alvarez, charged with supporting the prolific Haaland in attack.
+  15  [The two teams|c8] make [their|c8] way onto the pitch ahead of the opening [Premier League|c2] game of [the season|c9]!
+        c0: City (4, context) | their (4, context) | the club (5, context) | City (10, context) | City (12)
+        c2: Premier League (4, context) | Premier League (5, context) | Premier League (15)
+        c5: Pep Guardiola (12) | his (12)
+        c6: six new signings (10, context) | his new arrivals (12)
+        c7: Gvardiol and Kovacic (12) | their (12)
+        c8: The two teams (15) | their (15)
+        c9: this campaign (5, context) | the season (15)
+
+  16  Burnley kick [us|c2] off, and [we|c2] are underway in what promises to be another thrilling campaign!
+  17  [De Bruyne|c6] wins an early corner as [City|c3] look to quiet the lively home crowd with [an opening goal|c7].
+  18  GOAL!!! [HAALAND|c4] PUTS [CITY|c3] AHEAD!!! Having netted 36 [Premier League|c5] goals last season, it has taken just four minutes for [him|c6] to open [his|c6] account for this campaign.
+  19  [It|c7] is a typical [Haaland|c4] goal as [he|c6] lurks in the box while [De Bruyne|c6] lofts a deep cross for Rodri.
+        c2: The two teams (15, context) | their (15, context) | us (16) | we (16)
+        c3: City (12, context) | City (17) | CITY (18)
+        c4: the prolific Haaland (14, context) | HAALAND (18) | Haaland (19)
+        c5: Premier League (15, context) | Premier League (18)
+        c6: De Bruyne (17) | him (18) | his (18) | he (19) | De Bruyne (19)
+        c7: an opening goal (17) | It (19)
+
+  20  [The midfielder|c5] nods [it|c6] back across, and [the Norway international|c5] is waiting to smash home and put [the champions|c1] 1-0 up!
+  21  [[Rodri'|c5]s header|c7] was clever to put [it|c7] on a plate for [Haaland, who finished with typical aplomb|c4].
+  22  [Burnley|c1] fans and players [scream|c8] for a penalty as Amdouni goes down under the challenge of Akanji, but the referee waves away [the protests|c8] before a VAR review confirms no spot-kick will be awarded.
+  23  It is far from the ideal start for Kompany and [the Clarets, who find [themselves|c9] a goal down against the defending cham|c9]pions.
+        c1: Burnley (16, context) | City (17, context) | CITY (18, context) | the champions (20) | Burnley (22)
+        c4: HAALAND (18, context) | Haaland (19, context) | he (19, context) | Haaland, who finished with typical aplomb (21)
+        c5: Rodri (19, context) | The midfielder (20) | the Norway international (20) | Rodri's (21)
+        c6: a deep cross for Rodri (19, context) | it (20)
+        c7: Rodri's header (21) | it (21)
+        c8: scream (22) | the protests (22)
+        c9: the Clarets, who find themselves a goal down against the defending champions (23) | themselves (23)
+
+  24  Can [they|c4] respond?
+  25  De Bruyne whips [a dangerous ball|c6] into the box, and [Haaland|c5] is there to meet [it|c6] at the back post.
+  26  It is at an awkward height, though, and [the striker|c5] can only volley high over the crossbar.
+  27  [Haaland – who scored twice in [City's|c2] opening Premier League game last sea|c5]son – scored a hat-trick in [his|c5] only previous game against [Burnley|c2], a 6-0 win in last season's FA Cup quarter-final.
+        c2: the champions (20, context) | Burnley (22, context) | the defending champions (23, context) | City's (27) | Burnley (27)
+        c4: Kompany and the Clarets, who find themselves a goal down against the defending champions (23, context) | themselves (23, context) | they (24)
+        c5: Haaland, who finished with typical aplomb (21, context) | Haaland (25) | the striker (26) | Haaland – who scored twice in City's opening Premier League game last season – (27) | his (27)
+        c6: a dangerous ball (25) | it (25)
+
+  28  It took [him|c1] only four minutes to net here in the opening game for [the Citizens|c3] for a second campaign in a row.
+  29  [Burnley|c4] work [the ball|c5] nicely into [the visitors'|c4] penalty area, and [it|c5] eventually ends up at the feet of [Koleosho|c6].
+  30  [The 18-year-old|c6] tries to pick out the far corner, but [he|c6] gets well underneath [[hi|c6]s effort|c7] and [Ederson|c8] watches [it|c7] soar over [his|c8] crossbar.
+  31  That was better from Kompany's side, though.
+        c1: Haaland (25, context) | the striker (26, context) | Haaland – who scored twice in City's opening Premier League game last season – (27, context) | his (27, context) | him (28)
+        c3: City's (27, context) | the Citizens (28)
+        c4: Burnley (27, context) | Burnley (29) | the visitors' (29)
+        c5: the ball (29) | it (29)
+        c6: Koleosho (29) | The 18-year-old (30) | he (30) | his (30)
+        c7: his effort (30) | it (30)
+        c8: Ederson (30) | his (30)
+
+  32  Trafford makes a brilliant stop to deny Rodri's header after [Burnley|c0] were caught out at a set-piece situation, though a delayed flag goes up for offside and the goal would not have counted anyway.
+  33  Amdouni gives [Ederson|c3] [his|c3] first test of the contest, though [the [City|c0] goalk|c3]eeper is able to get down and save the low shot with relative ease.
+  34  [City|c0] have had 69.7 per cent of the possession so far, but [Burnley|c0] are certainly showing no signs of being overawed and have exhibited some neat attacking play [themselves|c0].
+  35  Guardiola may be forced into [an early change|c5], and [it|c5] would be an especially damaging one too as [De Bruyne|c6] clutches at [his|c6] hamstring.
+        c0: the Citizens (28, context) | Burnley (29, context) | the visitors' (29, context) | Burnley (32) | City (33) | City (34) | Burnley (34) | themselves (34)
+        c3: him (28, context) | Ederson (30, context) | his (30, context) | Ederson (33) | his (33) | the City goalkeeper (33)
+        c5: an early change (35) | it (35)
+        c6: De Bruyne (35) | his (35)
+
+  36  [De Bruyne|c4] does indeed limp off, and [Kovacic|c5] comes on in [his|c4] place for [his|c5] [City|c1] debut.
+  37  [Haaland|c6] has now contributed to at least one goal in [his|c6] last seven Premier League away games (seven goals, one assist).
+  38  [Rodri|c7] makes a vital interception to nip the ball away from [Amdouni|c8] after Lewis [gave|c9] possession away in a dangerous situation.
+  39  [That|c9] is a huge let-off for [the youngster|c7].
+        c1: City (33, context) | City (34, context) | City (36)
+        c4: De Bruyne (35, context) | his (35, context) | De Bruyne (36) | his (36)
+        c5: Kovacic (36) | his (36)
+        c6: Haaland (37) | his (37)
+        c7: Rodri's (32, context) | Rodri (38) | the youngster (39)
+        c8: Amdouni (33, context) | Amdouni (38)
+        c9: gave (38) | That (39)
+
+  40  [Foster|c5] cuts in on [his|c5] right foot and tries to curl into the far corner, but [he|c5] cannot get enough bend on [[hi|c5]s effort|c6] and [it|c6] flies wide of the post.
+  41  [Burnley|c7] are looking lively when [they|c7] come forward.
+  42  [Burnley|c7] have won just one of [their|c7] last 23 league matches against Manchester City (D6 L16) and have lost the last eight in a row by an aggregate score of 26-1.
+  43  [They|c7] have responded well to going behind here, though.
+        c5: Foster (40) | his (40) | he (40) | his (40)
+        c6: his effort (40) | it (40)
+        c7: Burnley (41) | they (41) | Burnley (42) | their (42) | They (43)
+
+  44  [City|c3] are just enjoying a spell of possession as [they|c3] try to slow the momentum [[thei|c3]r hosts|c3] had built up in recent minutes.
+  45  Some brilliant interplay between Kovacic and [Foden|c4] takes [the latter|c4] into a dangerous position in [the [Burnley|c2|c6]] box, but [Trafford|c5] does brilliantly to race out of [his|c5] goal and snuff out the chance for a shot.
+  46  GOAL!!! HAALAND AGAIN!!! It is a quite brilliant finish to put [City|c3] 2-0 up, perhaps against the run of play, as [he|c5] receives the ball in [the box|c6] from Alvarez.
+  47  [He|c5] opts to shoot first-time, and [he|c5] curls superbly into the top left corner, kissing the crossbar and going in to put [[hi|c5]s team|c2] in control at Turf Moor.
+        c2: Burnley (41, context) | they (41, context) | Burnley (42, context) | their (42, context) | They (43, context) | Burnley (45) | his team (47)
+        c3: Manchester City (42, context) | City (44) | they (44) | their (44) | their hosts (44) | City (46)
+        c4: Foden (45) | the latter (45)
+        c5: Trafford (45) | his (45) | he (46) | He (47) | he (47) | his (47)
+        c6: the Burnley box (45) | the box (46)
+
+  48  [Alvarez's|c5] lay-off was perfectly weighted for [Haaland|c6] to arrow home.
+  49  [Burnley|c2] will feel hard done by to be two behind, but [City|c0] have been magnificently ruthless.
+  50  Two shots on target and two goals for [the Citizens, who are surely on [their|c0] way to three points to kick off the s|c0]eason.
+  51  In all competitions, [City|c0] have won 11 games in a row against [Burnley|c2], scoring 40 goals and conceding just one.
+        c0: City (44, context) | they (44, context) | their (44, context) | City (46, context) | his team (47, context) | City (49) | the Citizens, who are surely on their way to three points to kick off the season (50) | their (50) | City (51)
+        c2: their hosts (44, context) | Burnley (45, context) | Burnley (49) | Burnley (51)
+        c5: Alvarez (46, context) | Alvarez's (48)
+        c6: HAALAND (46, context) | Haaland (48)
+
+  52  [They|c0] beat [them|c1] 6-0 in the FA Cup last season, inflicting [the Clarets'|c1] heaviest defeat since losing 6-0 to [City [themselve|c0]s|c0] in March 1999 in a league game.
+  53  Having responded well to [City's|c0] first goal, the second does seem to have knocked the wind out of [Burnley's|c1] sails and the home crowd have certainly quietened.
+  54  It may be a case of getting to the break just the two goals down to regroup and go again in the second 45 minutes.
+  55  There will be five minutes of additional time at the end of this first half.
+        c0: City (49, context) | the Citizens, who are surely on their way to three points to kick off the season (50, context) | their (50, context) | City (51, context) | They (52) | City themselves (52) | themselves (52) | City's (53)
+        c1: Burnley (49, context) | Burnley (51, context) | them (52) | the Clarets' (52) | Burnley's (53)
+
+  56  [Burnley|c0] have won [their|c0] opening game in just two of [their|c0] eight previous Premier League seasons (D1 L5), winning 3-2 at reigning champions Chelsea in 2017-18 and 3-0 at home to Southampton in 2019-20.
+  57  HALF-TIME: [BURNLEY|c0] 0-2 [MANCHESTER CITY|c1]
+  58  The half-time whistle blows as [City|c1] take a 2-0 lead into the break after a ruthless display in the opening period.
+  59  [They|c1] were ahead after just four minutes, [Haaland|c2] opening [his|c2] account for the season by smashing home from Rodri's clever headed assist.
+        c0: They (52, context) | the Clarets' (52, context) | Burnley's (53, context) | Burnley (56) | their (56) | their (56) | BURNLEY (57)
+        c1: City themselves (52, context) | themselves (52, context) | City's (53, context) | MANCHESTER CITY (57) | City (58) | They (59)
+        c2: Haaland (59) | his (59)
+
+  60  [Burnley|c0] responded well to going 1-0 down and could have levelled through Koleosho and then Foster, but [they|c0] would go two goals behind before [the break|c3] as [Haaland|c2] curled home superbly from Alvarez's lay-off to leave [the champions|c1] very much in the ascendancy at the interval.
+  61  [Burnley|c0] are in an unfamiliar situation having been so dominant in the Championship last season, but [Kompany|c4] will remain encouraged by [[hi|c4]s team's|c0] first-half performance despite the scoreline.
+  62  It would take an almighty effort to recover anything from this game though, facing a side who are unbeaten in [their last 44 [Premier League|c5] |c6]games when leading at half-time, failing to win just three of [those|c6].
+  63  [City|c1] get us back underway for the second period.
+        c0: Burnley (56, context) | their (56, context) | their (56, context) | BURNLEY (57, context) | Burnley (60) | they (60) | Burnley (61) | his team's (61)
+        c1: MANCHESTER CITY (57, context) | City (58, context) | They (59, context) | the champions (60) | City (63)
+        c2: Haaland (59, context) | his (59, context) | Haaland (60)
+        c3: the break (58, context) | the break (60)
+        c4: Kompany (61) | his (61)
+        c5: Premier League (56, context) | Premier League (62)
+        c6: their last 44 Premier League games (62) | those (62)
+
+  64  [City|c3] have won [their|c3] opening [Premier League|c4] game in 12 of the last 14 seasons, with both exceptions coming against Tottenham (0-0 in 2010-11, 0-1 in 2021-22).
+  65  [They|c3] look on [their|c3] way to another victory to kick off the season here.
+  66  [O'Shea|c8] makes an important intervention to nip in and take the ball off the toes of [Haaland|c5] after Silva tried to feed [the striker|c5].
+  67  [Haaland|c5] races onto [[Alvarez'|c6]s throughball|c7] but [the pass|c7] takes [him|c6] wide, and [O'Shea|c8] does well to race back and block [the forward's|c6] eventual shot behind for a corner.
+        c3: City (63, context) | City (64) | their (64) | They (65) | their (65)
+        c4: Premier League (62, context) | Premier League (64)
+        c5: Haaland (60, context) | Haaland (66) | the striker (66) | Haaland (67)
+        c6: Alvarez's (60, context) | Alvarez's (67) | him (67) | the forward's (67)
+        c7: Alvarez's throughball (67) | the pass (67)
+        c8: O'Shea (66) | O'Shea (67)
+
+  68  [Rodri|c6] lets fly with [a fierce effort from 30 yards out|c5], and [Trafford|c7] is forced to tip [it|c5] over [his|c6] crossbar for a corner.
+  69  [The [City|c0] midfi|c6]elder then gets [his|c6] head on the end of [the resulting set-piece|c8], but [Trafford|c7] is again equal to [it|c8] and gathers down to [his|c6] right.
+  70  [The Clarets|c0] will have to produce more going forward if [they|c0] are to make an unlikely comeback, accumulating just 0.23 xG (expected goals) to this point.
+  71  A sweeping [City|c0] move sees [them|c0] carve Burnley open again.
+        c0: their (64, context) | They (65, context) | their (65, context) | City (69) | The Clarets (70) | they (70) | City (71) | them (71)
+        c5: a fierce effort from 30 yards out (68) | it (68)
+        c6: Rodri (68) | his (68) | The City midfielder (69) | his (69) | his (69)
+        c7: Trafford (68) | Trafford (69)
+        c8: the resulting set-piece (69) | it (69)
+
+  72  [Haaland|c6] lays the ball to [his|c6] right for [Alvarez|c7], but [the Argentina international's|c7] first touch takes [him|c7] wide and [his|c7] drive ends up flying well wide of the right post.
+  73  [Kompany|c8] looks to [his|c8] bench, first introducing [Bruun Larsen|c9] for [his|c9] [Burnley|c10] debut in place of Koleosho.
+  74  Zaroury also comes on for Amdouni.
+  75  What impact will those changes have on [the hosts'|c4] attacking efforts?
+        c4: The Clarets (70, context) | they (70, context) | them (71, context) | the hosts' (75)
+        c6: Haaland (72) | his (72)
+        c7: Alvarez (72) | the Argentina international's (72) | him (72) | his (72)
+        c8: Kompany (73) | his (73)
+        c9: Bruun Larsen (73) | his (73)
+        c10: Burnley (71, context) | Burnley (73)
+
+  76  [Burnley's|c4] last shot came all the way back in the 37th minute.
+  77  For all of [their|c4] impressive work, [they|c4] have just lacked a little in the final third in this game.
+  78  [[Rodr|c5]i marauds|c5] forwards and space looks to have opened up for [him|c5] to smash towards goal.
+  79  [He|c5] just seems hesitant to pull the trigger, though, and by the time [he|c5] finally does, a [Burnley|c4] defender is well-placed to block [[hi|c5]s drive|c6].
+        c4: Burnley (73, context) | the hosts' (75, context) | Burnley's (76) | their (77) | they (77) | Burnley (79)
+        c5: Rodri (78) | Rodri marauds (78) | him (78) | He (79) | he (79) | his (79)
+        c6: his drive (72, context) | his drive (79)
+
+  80  With 20 minutes to play, can [City|c3] see the remainder of [the game|c2] out for three points to kick off what [they|c3] hope will be another successful defence of [their|c3] Premier League crown?
+  81  [Foden|c4] tries to pick out [Haaland|c6] in lots of space in the box, but [he|c4] gets [the cross|c5] wrong and [it|c5] flies well out of [[hi|c4]s striker's|c4] reach.
+  82  Beyer limps off for Benson.
+  83  GOAL!!! [RODRI|c1] SURELY KILLS [IT|c5] OFF!!! After [City|c3] were awarded a free-kick for Al Dakhil bundling over [Haaland|c6], [Foden's|c4] set-piece delivery causes havoc in the [Burnley|c0] box as [they|c0] fail to clear [their|c0] lines.
+        c0: Burnley's (76, context) | their (77, context) | they (77, context) | Burnley (79, context) | Burnley (83) | they (83) | their (83)
+        c1: Rodri (78, context) | Rodri marauds (78, context) | him (78, context) | He (79, context) | he (79, context) | his (79, context) | RODRI (83)
+        c2: this game (77, context) | the game (80)
+        c3: City (80) | they (80) | their (80) | City (83)
+        c4: Foden (81) | he (81) | his (81) | his striker's (81) | Foden's (83)
+        c5: the cross (81) | it (81) | IT (83)
+        c6: Haaland (81) | Haaland (83)
