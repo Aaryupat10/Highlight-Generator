@@ -1,9 +1,0 @@
-{
-  "teams": {
-    "Example Club": ["Example FC", "The Example"],
-    "Other Club": ["Other FC"]
-  },
-  "players": {
-    "Full Player Name": ["Surname", "Verified Nickname"]
-  }
-}
