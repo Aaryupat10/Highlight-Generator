@@ -1,0 +1,1175 @@
+start_seconds,end_seconds,start_timestamp,end_timestamp,text,event,score
+0.0,2.0,00:00:00,00:00:02,y el primero comienza el partido.,routine,0.0
+2.0,4.0,00:00:02,00:00:04,Balón que puso en juego el match de Cesiri,routine,0.0
+4.0,6.0,00:00:04,00:00:06,que actúa a la derecha de sus pantallas,routine,0.0
+6.0,8.0,00:00:06,00:00:08,"Camiseta, celeste pantalón blanco",routine,0.0
+8.0,10.0,00:00:08,00:00:10,su uniforme titular en frente también,routine,0.0
+10.0,13.0,00:00:10,00:00:13,con Camiseta azul grana y pantalón azul,routine,0.0
+13.0,16.0,00:00:13,00:00:16,el Cristal Pallas el sorprendente segundo de esta Premier League,routine,0.0
+16.0,18.0,00:00:16,00:00:18,2015-2016,routine,0.0
+18.0,21.0,00:00:18,00:00:21,como siempre mejor fútbol del mundo aquí en Movistar Plus,routine,0.0
+21.0,23.0,00:00:21,00:00:23,porque somos la casa del fútbol,routine,0.0
+23.0,25.0,00:00:23,00:00:25,Balón ya y para Joe Hart,routine,0.0
+25.0,27.0,00:00:25,00:00:27,hablamos de esa última victoria del City,routine,0.0
+27.0,28.0,00:00:27,00:00:28,antes del Parón,routine,0.0
+28.0,31.0,00:00:28,00:00:31,por los partidos de clasificación para la Euro de Francia 2016,routine,0.0
+31.0,33.0,00:00:31,00:00:33,y que vimos también aquí en Movistar Plus,routine,0.0
+33.0,36.0,00:00:33,00:00:36,2-0 partido bien jugado y bien ganado,routine,0.0
+36.0,39.0,00:00:36,00:00:39,por los de Pelegrini con goles de Rahim Sterling,routine,0.0
+39.0,42.0,00:00:39,00:00:42,y Fernandinho ante el Wathford de Quique Sánchez Flores,routine,0.0
+42.0,44.0,00:00:42,00:00:44,y en frente a un Pallas que dio un puñetazo,routine,0.0
+44.0,46.0,00:00:44,00:00:46,en la mesa en Stanford Bridge,routine,0.0
+46.0,48.0,00:00:46,00:00:48,con los goles de Saco y Ward contra el Chelsea,routine,0.0
+48.0,50.0,00:00:48,00:00:50,"Sí, desde luego fue una de las grandes sorpresas",routine,0.0
+50.0,52.0,00:00:50,00:00:52,de la última jornada esa victoria,routine,0.0
+52.0,54.0,00:00:52,00:00:54,de un buen Cristal Pallas además,routine,0.0
+54.0,56.0,00:00:54,00:00:56,de un Cristal Pallas con todas las virtudes,routine,0.0
+56.0,58.0,00:00:56,00:00:58,que hemos comentado antes,routine,0.0
+58.0,60.0,00:00:58,00:01:00,"con esa energía, esa intensidad que tiene el equipo",routine,0.0
+60.0,62.0,00:01:00,00:01:02,pero además con momentos dominando,routine,0.0
+62.0,64.0,00:01:02,00:01:04,y dominando bien al Chelsea,routine,0.0
+64.0,66.0,00:01:04,00:01:06,así que vimos una gran versión en todos los sentidos del Pallas,routine,0.0
+66.0,68.0,00:01:06,00:01:08,que está ahí arriba de momento,routine,0.0
+68.0,70.0,00:01:08,00:01:10,por méritos propios ya a Lampard,routine,0.0
+70.0,72.0,00:01:10,00:01:12,y en el tramo final de la temporada pasada,routine,0.0
+72.0,74.0,00:01:12,00:01:14,nos mostró muy buenas cosas con este equipo,routine,0.0
+74.0,76.0,00:01:14,00:01:16,ya lo hizo rendir a muy buen nivel,routine,0.0
+76.0,78.0,00:01:16,00:01:18,Y eso que Newcastle se había convertido,routine,0.0
+78.0,80.0,00:01:18,00:01:20,casi en el enemigo público número 1,routine,0.0
+80.0,82.0,00:01:20,00:01:22,de los aficionados Mac Pease,routine,0.0
+82.0,84.0,00:01:22,00:01:24,Cuidado que pisa la área Bolas y el disparo alto,chance_or_shot,0.68
+84.0,86.0,00:01:24,00:01:26,para el delantero de Cristal Pallas,routine,0.0
+86.0,88.0,00:01:26,00:01:28,primera oportunidad del marco de Joe Hart,routine,0.0
+88.0,90.0,00:01:28,00:01:30,"Un poquito egoísta, pide perdón ahí",routine,0.0
+90.0,92.0,00:01:30,00:01:32,este es un jugador dificilísimo de frenar,routine,0.0
+92.0,94.0,00:01:32,00:01:34,en este tipo de transiciones,routine,0.0
+94.0,96.0,00:01:34,00:01:36,vemos como Kolarov ha perdido la posición,routine,0.0
+96.0,98.0,00:01:36,00:01:38,le ganan la espalda al lateral,routine,0.0
+98.0,100.0,00:01:38,00:01:40,Servio que llega tarde,routine,0.0
+100.0,102.0,00:01:40,00:01:42,y ahí encuentra Bolas,routine,0.0
+102.0,104.0,00:01:42,00:01:44,y Metros Quadrados para hacer de las suyas,routine,0.0
+104.0,106.0,00:01:44,00:01:46,este es un jugador que como el Manchester City,routine,0.0
+106.0,108.0,00:01:46,00:01:48,no vigile de cerca,routine,0.0
+108.0,110.0,00:01:48,00:01:50,en este tipo de acciones en velocidad,routine,0.0
+110.0,112.0,00:01:50,00:01:52,es dificilísimo de parar,routine,0.0
+112.0,114.0,00:01:52,00:01:54,jugador muy explosivo,routine,0.0
+114.0,116.0,00:01:54,00:01:56,delantero centro,routine,0.0
+116.0,118.0,00:01:56,00:01:58,con goleño,routine,0.0
+118.0,120.0,00:01:58,00:02:00,cuando Balón lo tiene ahí,routine,0.0
+120.0,122.0,00:02:00,00:02:02,"el guarda metalex Macarzy, patea en largo",routine,0.0
+122.0,124.0,00:02:02,00:02:04,buscando precisamente la posición de Yannick Bolas,routine,0.0
+124.0,126.0,00:02:04,00:02:06,la bajaba ahí perfectamente de cara,routine,0.0
+126.0,128.0,00:02:06,00:02:08,para la sal,routine,0.0
+128.0,130.0,00:02:08,00:02:10,devuelve Cuidado que pueda hacerle un roto,routine,0.0
+130.0,132.0,00:02:10,00:02:12,la saga de los Idiesens,routine,0.0
+132.0,134.0,00:02:12,00:02:14,el centro lo manda Corneer Binzen,routine,0.0
+134.0,136.0,00:02:14,00:02:16,con Pani que pide aplicación,routine,0.0
+136.0,138.0,00:02:16,00:02:18,porque el Pallas está llegando muy fácil,routine,0.0
+138.0,140.0,00:02:18,00:02:20,"sí, ya vemos que es fútbol directo",routine,0.0
+140.0,142.0,00:02:20,00:02:22,lo que piensa el Pallas,routine,0.0
+142.0,144.0,00:02:22,00:02:24,aprovecha todos los espacios que está dejando,routine,0.0
+144.0,146.0,00:02:24,00:02:26,el Manchester City entre líneas en este inicio de partido,routine,0.0
+146.0,148.0,00:02:26,00:02:28,con el equipo bastante desperdigado,routine,0.0
+148.0,150.0,00:02:28,00:02:30,y no muy bien colocado,routine,0.0
+150.0,152.0,00:02:30,00:02:32,y luego,routine,0.0
+152.0,154.0,00:02:32,00:02:34,ese estilo tan directo,routine,0.0
+154.0,156.0,00:02:34,00:02:36,esa verticalidad,routine,0.0
+156.0,158.0,00:02:36,00:02:38,del equipo local,routine,0.0
+158.0,160.0,00:02:38,00:02:40,vamos a ver el primer Corneer del partido,routine,0.0
+160.0,162.0,00:02:40,00:02:42,lo bota ahí,routine,0.0
+162.0,164.0,00:02:42,00:02:44,en ese envío Bacari sacó,routine,0.0
+164.0,166.0,00:02:44,00:02:46,el remate que buscaba,chance_or_shot,0.68
+166.0,168.0,00:02:46,00:02:48,toda la,routine,0.0
+168.0,170.0,00:02:48,00:02:50,armada del Cristal,routine,0.0
+170.0,172.0,00:02:50,00:02:52,Pallas que llegaba ahí al remate en el saque de esquina,chance_or_shot,0.68
+172.0,174.0,00:02:52,00:02:54,no hay tiempo que perder,routine,0.0
+174.0,176.0,00:02:54,00:02:56,el saque de banda para Martin Kelly,routine,0.0
+176.0,178.0,00:02:56,00:02:58,desborda con potencia perfecto saco,routine,0.0
+178.0,180.0,00:02:58,00:03:00,"el centro al área, se pase a la pelota",routine,0.0
+180.0,182.0,00:03:00,00:03:02,que bien la pinchó ahí,routine,0.0
+182.0,184.0,00:03:02,00:03:04,a dejarlas rápidamente otra vez Bolas,routine,0.0
+184.0,186.0,00:03:04,00:03:06,"y la vuelve a pedir, Bolas en el disparo",chance_or_shot,0.68
+186.0,188.0,00:03:06,00:03:08,a sedio total del Pallas,routine,0.0
+188.0,190.0,00:03:08,00:03:10,el chute que acaba en las manos de Yohar,chance_or_shot,0.68
+190.0,192.0,00:03:10,00:03:12,que manda Corneer,routine,0.0
+192.0,194.0,00:03:12,00:03:14,"sí, y hace bien porque era un balón que se envenenaba",routine,0.0
+194.0,196.0,00:03:14,00:03:16,y si lo intentaba,routine,0.0
+196.0,198.0,00:03:16,00:03:18,le podía generar un problema,routine,0.0
+198.0,200.0,00:03:18,00:03:20,venía también con muchos efectos a pelota,routine,0.0
+200.0,202.0,00:03:20,00:03:22,yo creo que Yohar está conservador,routine,0.0
+202.0,204.0,00:03:22,00:03:24,pero hace lo correcto debido al efecto de la pelota,routine,0.0
+204.0,206.0,00:03:24,00:03:26,salida en tromba del equipo de Adam Patio,routine,0.0
+206.0,208.0,00:03:26,00:03:28,y además cuando este equipo,routine,0.0
+208.0,210.0,00:03:28,00:03:30,juega con esta determinación,routine,0.0
+210.0,212.0,00:03:30,00:03:32,es muy difícil de frenar,routine,0.0
+212.0,214.0,00:03:32,00:03:34,porque físicamente es un equipo muy poderoso,routine,0.0
+214.0,216.0,00:03:34,00:03:36,ahora vez el Corneer para el Pallas,routine,0.0
+216.0,218.0,00:03:36,00:03:38,la aficionico encantada,routine,0.0
+218.0,220.0,00:03:38,00:03:40,balón al segundo palo,routine,0.0
+220.0,222.0,00:03:40,00:03:42,había opción de remate pero ya imposible,chance_or_shot,0.68
+222.0,224.0,00:03:42,00:03:44,para Papés Suague,routine,0.0
+224.0,226.0,00:03:44,00:03:46,es un equipo muy orgánico,routine,0.0
+226.0,228.0,00:03:46,00:03:48,tren expreso que ya quedado pasado,routine,0.0
+228.0,230.0,00:03:48,00:03:50,de moda un auténtico tren de alta velocidad,routine,0.0
+230.0,232.0,00:03:50,00:03:52,el lateral Sénegales,routine,0.0
+232.0,234.0,00:03:52,00:03:54,intenta jugar ahí el City,routine,0.0
+234.0,236.0,00:03:54,00:03:56,pero le dura muy poco la pelota a los de Pelegrini,routine,0.0
+236.0,238.0,00:03:56,00:03:58,vuelta a las sandadas tiene que salir con Pani,routine,0.0
+238.0,240.0,00:03:58,00:04:00,e impone ahí su calidad,routine,0.0
+240.0,242.0,00:04:00,00:04:02,muy bien con Pani sobre todo que sangre fría,routine,0.0
+242.0,244.0,00:04:02,00:04:04,para recortar en esa posición,routine,0.0
+244.0,246.0,00:04:04,00:04:06,pero fíjate el Pallas,routine,0.0
+246.0,248.0,00:04:06,00:04:08,sobre excitado el equipo,routine,0.0
+248.0,250.0,00:04:08,00:04:10,recuperando el balón y saliendo a toda velocidad,routine,0.0
+250.0,252.0,00:04:10,00:04:12,generando problemas muy graves al City,routine,0.0
+252.0,254.0,00:04:12,00:04:14,ahora le intenta el líder,routine,0.0
+254.0,256.0,00:04:14,00:04:16,de esta Premier League 2015-2016,routine,0.0
+256.0,258.0,00:04:16,00:04:18,la pelota para Sergio Cunagüero,routine,0.0
+258.0,260.0,00:04:18,00:04:20,calma señores,routine,0.0
+260.0,262.0,00:04:20,00:04:22,parece decir ahí el argentino,routine,0.0
+262.0,264.0,00:04:22,00:04:24,la pelota ya para Nassri,routine,0.0
+264.0,266.0,00:04:24,00:04:26,va a intentar hacerlo a circular en corto para Kolarov,routine,0.0
+266.0,268.0,00:04:26,00:04:28,en Servio con Fernandinho,routine,0.0
+268.0,270.0,00:04:28,00:04:30,entre líneas ahí está el Cunagüero,routine,0.0
+270.0,272.0,00:04:30,00:04:32,conecta con Wilfred Boni,routine,0.0
+272.0,274.0,00:04:32,00:04:34,aguanta ahí el Marfileño,routine,0.0
+274.0,276.0,00:04:34,00:04:36,apertura buena esa banda para Jesús Navas,routine,0.0
+276.0,278.0,00:04:36,00:04:38,el centro del español Boni,routine,0.0
+278.0,280.0,00:04:38,00:04:40,giró el cuello a toda velocidad y con potencia,routine,0.0
+280.0,282.0,00:04:40,00:04:42,pero no sorprendió Macarcio,routine,0.0
+282.0,284.0,00:04:42,00:04:44,bueno no hemos comentado Eduardo pero al final está,routine,0.0
+284.0,286.0,00:04:44,00:04:46,Johan Kavash en el once inicial,routine,0.0
+286.0,288.0,00:04:46,00:04:48,viene hablando toda la semana,routine,0.0
+288.0,290.0,00:04:48,00:04:50,desde que acabaron los compromisos,routine,0.0
+290.0,292.0,00:04:50,00:04:52,internacionales en los que por cierto,routine,0.0
+292.0,294.0,00:04:52,00:04:54,Kavash no pudo terminar el partido contra Portugal,routine,0.0
+294.0,296.0,00:04:54,00:04:56,tuvo que ser sustituido,routine,0.0
+296.0,298.0,00:04:56,00:04:58,y se venía diciendo que Kavash,routine,0.0
+298.0,300.0,00:04:58,00:05:00,estaba lesionado y al final Kavash,routine,0.0
+300.0,302.0,00:05:00,00:05:02,está en el once y supongo que,routine,0.0
+302.0,304.0,00:05:02,00:05:04,estará algo tocado porque,routine,0.0
+304.0,306.0,00:05:04,00:05:06,es difícil pasar de ser baja,routine,0.0
+306.0,308.0,00:05:06,00:05:08,ser alta así de la noche a la mañana,routine,0.0
+308.0,310.0,00:05:08,00:05:10,digo yo que al 100% no debe estar,routine,0.0
+310.0,312.0,00:05:10,00:05:12,pero,routine,0.0
+312.0,314.0,00:05:12,00:05:14,es el ojito derecho de su entrenador,routine,0.0
+314.0,316.0,00:05:14,00:05:16,"ya le tuvo en el Newcastle, se lo ha traído",routine,0.0
+316.0,318.0,00:05:16,00:05:18,"al Cristal Palas, récord de traspaso",routine,0.0
+318.0,320.0,00:05:18,00:05:20,de la historia del club,routine,0.0
+320.0,322.0,00:05:20,00:05:22,es un gran jugador Kavash y hoy está en el once inicial,routine,0.0
+322.0,325.44,00:05:22,00:05:25,están intentándolo ahora,routine,0.0
+325.44,327.44,00:05:25,00:05:27,el match de Tessini,routine,0.0
+327.44,329.44,00:05:27,00:05:29,balón para Wilfred Boni que arranca,routine,0.0
+329.44,331.44,00:05:29,00:05:31,era un dos contra tres y hay balance defensivo,routine,0.0
+331.44,333.44,00:05:31,00:05:33,de los sigos y ahí falta,corner_or_free_kick,0.42
+333.44,335.44,00:05:33,00:05:35,sobre el ex del,routine,0.0
+335.44,337.44,00:05:35,00:05:37,Vitesse,routine,0.0
+337.44,339.44,00:05:37,00:05:39,y Suance entre otros,routine,0.0
+339.44,341.44,00:05:39,00:05:41,el match de Tessini también sabe ser vertical,routine,0.0
+341.44,343.44,00:05:41,00:05:43,no sólo el Pista al Palas,routine,0.0
+343.44,345.44,00:05:43,00:05:45,y cuando,routine,0.0
+345.44,347.44,00:05:45,00:05:47,el Palas pierde la pelota,routine,0.0
+347.44,349.44,00:05:47,00:05:49,estamos ya en directo a punto de marcar,routine,0.0
+349.44,351.44,00:05:49,00:05:51,a Isamir Nasri,routine,0.0
+351.44,353.44,00:05:51,00:05:53,lo evitó el guardamete Alex McCarthy,routine,0.0
+353.44,355.44,00:05:53,00:05:55,sorprendido del realizador inglés,routine,0.0
+355.44,357.44,00:05:55,00:05:57,cuando va a recuperar ya otra vez,routine,0.0
+357.44,359.44,00:05:57,00:05:59,el match de Tessini,routine,0.0
+359.44,361.44,00:05:59,00:06:01,si nos perdemos,routine,0.0
+361.44,363.44,00:06:01,00:06:03,un segundo,routine,0.0
+363.44,365.44,00:06:03,00:06:05,nos perdemos algo importante,routine,0.0
+365.44,367.44,00:06:05,00:06:07,seguro que ya ha tomado nota,routine,0.0
+367.44,369.44,00:06:07,00:06:09,el realizador inglés,routine,0.0
+369.44,371.44,00:06:09,00:06:11,ya no le vuelve a pasar,routine,0.0
+371.44,373.44,00:06:11,00:06:13,es un partido de ritmo muy alto de momento,routine,0.0
+373.44,375.44,00:06:13,00:06:15,en el que el balón no para de llegar,routine,0.0
+375.44,377.44,00:06:15,00:06:17,de una área a otra y donde,routine,0.0
+377.44,379.44,00:06:17,00:06:19,sin ocasiones,routine,0.0
+379.44,381.44,00:06:19,00:06:21,clamorosas pero sí que se están produciendo,routine,0.0
+381.44,383.44,00:06:21,00:06:23,situaciones de gol con frecuencia,goal,1.0
+383.44,385.44,00:06:23,00:06:25,ha salido en tromba el Cristal Palas,routine,0.0
+385.44,387.44,00:06:25,00:06:27,dominando,routine,0.0
+387.44,389.44,00:06:27,00:06:29,manejándole el bueno pero el City que crece,routine,0.0
+389.44,391.44,00:06:29,00:06:31,para eso es el líder de la Premier,routine,0.0
+391.44,393.44,00:06:31,00:06:33,vaya error ahí en esa perdida de Mangala,routine,0.0
+393.44,395.44,00:06:33,00:06:35,y Volasi en el disparo,chance_or_shot,0.68
+395.44,397.44,00:06:35,00:06:37,Johara Parado,chance_or_shot,0.68
+397.44,399.44,00:06:37,00:06:39,"que parada, abajo",chance_or_shot,0.68
+399.44,401.44,00:06:39,00:06:41,blocando otra una pérdida de balón,routine,0.0
+401.44,403.44,00:06:41,00:06:43,está gravísima en el Manchester City,routine,0.0
+403.44,405.44,00:06:43,00:06:45,en la salida del equipo,routine,0.0
+405.44,407.44,00:06:45,00:06:47,y que pocas dudas tiene el Cristal Palas,routine,0.0
+407.44,409.44,00:06:47,00:06:49,en cuanto recupera,routine,0.0
+409.44,411.44,00:06:49,00:06:51,es verticalidad pura,routine,0.0
+411.44,413.44,00:06:51,00:06:53,es vértigo puro el equipo con Volasi,routine,0.0
+413.44,415.44,00:06:53,00:06:55,que es una auténtica pesadilla,routine,0.0
+415.44,417.44,00:06:55,00:06:57,ahí,routine,0.0
+417.44,419.44,00:06:57,00:06:59,no hemos llegado a ver si tenía alguna otra opción mejor,routine,0.0
+419.44,421.44,00:06:59,00:07:01,esta es por cierto repetida,routine,0.0
+421.44,423.44,00:07:01,00:07:03,que el Realizador se comió,routine,0.0
+423.44,425.44,00:07:03,00:07:05,una buen saque,routine,0.0
+425.44,427.44,00:07:05,00:07:07,con mucha intención de Yaya Turé,routine,0.0
+427.44,430.75,00:07:07,00:07:10,está intentándolo,routine,0.0
+430.75,432.75,00:07:10,00:07:12,el Manchester City,routine,0.0
+432.75,434.75,00:07:12,00:07:14,con Nassri para colar ofrecendo al área,routine,0.0
+434.75,436.75,00:07:14,00:07:16,lo acabas sacando como podía,routine,0.0
+436.75,438.75,00:07:16,00:07:18,"Scott Down, balón en el saque de banda",routine,0.0
+438.75,440.75,00:07:18,00:07:20,partido jugado de tu a tu de poder a poder,routine,0.0
+440.75,442.75,00:07:20,00:07:22,y de área a área no tiene centro el campo,routine,0.0
+442.75,444.75,00:07:22,00:07:24,el partido es un auténtico,routine,0.0
+444.75,446.75,00:07:24,00:07:26,vértigo por parte de los dos equipos,routine,0.0
+446.75,451.79,00:07:26,00:07:31,está ese,routine,0.0
+451.79,457.41,00:07:31,00:07:37,balón de Nassri,routine,0.0
+457.41,459.41,00:07:37,00:07:39,voy a jugarlo ahí con Fernandinho,routine,0.0
+459.41,461.41,00:07:39,00:07:41,"Yaya Turé, balón abierto por Bakar",routine,0.0
+461.41,463.41,00:07:41,00:07:43,y Sañá,routine,0.0
+463.41,465.41,00:07:43,00:07:45,lo voy a intentar ahí desde la banda,routine,0.0
+465.41,467.41,00:07:45,00:07:47,"Nassri, era Jesús Navas",routine,0.0
+467.41,470.75,00:07:47,00:07:50,ahí saque de banda para el Manchester City,routine,0.0
+470.75,472.75,00:07:50,00:07:52,al final es Zaja el que está en la izquierda,routine,0.0
+472.75,474.75,00:07:52,00:07:54,Volasi está en punta,routine,0.0
+474.75,476.75,00:07:54,00:07:56,como nos ofrecía la realización,routine,0.0
+476.75,478.75,00:07:56,00:07:58,tenía razón,routine,0.0
+478.75,480.75,00:07:58,00:08:00,que Volasi iba a jugar en punta,routine,0.0
+480.75,482.75,00:08:00,00:08:02,aunque bueno él puede jugar también,routine,0.0
+482.75,484.75,00:08:02,00:08:04,un segundo delantero puede jugar en cualquiera,routine,0.0
+484.75,486.75,00:08:04,00:08:06,a las dos bandas,routine,0.0
+486.75,488.75,00:08:06,00:08:08,es velocidad,routine,0.0
+488.75,490.75,00:08:08,00:08:10,y cualquiera de esas posiciones le va bien,routine,0.0
+490.75,492.75,00:08:10,00:08:12,para su tipo de juego,routine,0.0
+492.75,494.75,00:08:12,00:08:14,ha empezado el partido a toda máquina,routine,0.0
+494.75,498.45,00:08:14,00:08:18,en este Sejar Spark,routine,0.0
+498.45,500.45,00:08:18,00:08:20,en un Grisal Palace,routine,0.0
+500.45,502.45,00:08:20,00:08:22,que quiere demostrar por qué,routine,0.0
+502.45,504.45,00:08:22,00:08:24,es el segundo en la tabla,routine,0.0
+504.45,506.45,00:08:24,00:08:26,y que puede tuitear hoy por hoy,routine,0.0
+506.45,508.45,00:08:26,00:08:28,al mejor equipo,routine,0.0
+508.45,515.38,00:08:28,00:08:35,de la Premier,routine,0.0
+515.38,517.38,00:08:35,00:08:37,para que lo intente Martin Kelly,routine,0.0
+517.38,519.38,00:08:37,00:08:39,a anticipación de Colaro vuelve a jugar,routine,0.0
+519.38,521.38,00:08:39,00:08:41,Kelly atrás,routine,0.0
+521.38,523.38,00:08:41,00:08:43,de Scott Dunn,routine,0.0
+523.38,525.38,00:08:43,00:08:45,conectando con el veterano noruego,routine,0.0
+525.38,527.38,00:08:45,00:08:47,Brett Hangelan,routine,0.0
+527.38,529.38,00:08:47,00:08:49,"un seguro de vida, ahí para Lampardio",routine,0.0
+529.38,531.38,00:08:49,00:08:51,un jugador ya muy experto,routine,0.0
+531.38,533.38,00:08:51,00:08:53,para un Grisal Palace que a buen seguro,routine,0.0
+533.38,535.38,00:08:53,00:08:55,no esperaba comenzar así la temporada,routine,0.0
+535.38,537.38,00:08:55,00:08:57,pero está maravillando en su mejor inicio,routine,0.0
+537.38,539.38,00:08:57,00:08:59,desde la temporada 2006-2007,routine,0.0
+539.38,541.38,00:08:59,00:09:01,cuando también consiguieron 9 puntos,routine,0.0
+541.38,543.38,00:09:01,00:09:03,en las cuatro primeras jornadas,routine,0.0
+543.38,545.38,00:09:03,00:09:05,han conseguido además,routine,0.0
+545.38,547.38,00:09:05,00:09:07,5 victorias en los últimos partidos,routine,0.0
+547.38,549.38,00:09:07,00:09:09,ligueros,routine,0.0
+549.38,551.38,00:09:09,00:09:11,y eso hace que al Palace le empieza a respetar,routine,0.0
+551.38,553.38,00:09:11,00:09:13,y mucho,routine,0.0
+553.38,555.38,00:09:13,00:09:15,además ya digo que a las virtudes,routine,0.0
+555.38,557.38,00:09:15,00:09:17,que está mostrando,routine,0.0
+557.38,559.38,00:09:17,00:09:19,no son fruto de la casualidad,routine,0.0
+559.38,561.38,00:09:19,00:09:21,todo lo bueno que hace este equipo,routine,0.0
+561.38,563.38,00:09:21,00:09:23,lo agresivo que es y lo rápido,routine,0.0
+563.38,565.38,00:09:23,00:09:25,que juega cada vez que roba la pelota,routine,0.0
+565.38,567.38,00:09:25,00:09:27,todo eso es muy difícil,routine,0.0
+567.38,569.38,00:09:27,00:09:29,de defender,routine,0.0
+569.38,571.38,00:09:29,00:09:31,sobre todo ante jugadores tan potentes,routine,0.0
+571.38,573.38,00:09:31,00:09:33,no estamos hablando sólo de jugadores rápidos,routine,0.0
+573.38,575.38,00:09:33,00:09:35,como puede ser Navas,routine,0.0
+575.38,577.38,00:09:35,00:09:37,o jugadores,routine,0.0
+577.38,579.38,00:09:37,00:09:39,especial calidad técnica como Agüero,routine,0.0
+579.38,581.38,00:09:39,00:09:41,estamos hablando de jugadores,routine,0.0
+581.38,583.38,00:09:41,00:09:43,de un nivel físico,routine,0.0
+583.38,585.38,00:09:43,00:09:45,brutal,routine,0.0
+585.38,587.38,00:09:45,00:09:47,que por eso cada vez que el equipo se muestra,routine,0.0
+587.38,589.38,00:09:47,00:09:49,tan agresivo en la presión y tan vertical,routine,0.0
+589.38,591.38,00:09:49,00:09:51,en la salida pues es difícil de frenar,routine,0.0
+591.38,593.38,00:09:51,00:09:53,luego lo que ya le cuesta un poco más,routine,0.0
+593.38,595.38,00:09:53,00:09:55,es atacar en posicional pero bueno,routine,0.0
+595.38,597.38,00:09:55,00:09:57,para eso está Johan Cavals,routine,0.0
+597.38,599.38,00:09:57,00:09:59,para sacar la pelota jugada como ahora,routine,0.0
+599.38,601.38,00:09:59,00:10:01,el recorte hay problemas para Bacari,routine,0.0
+601.38,603.38,00:10:01,00:10:03,Sañá y Falta,corner_or_free_kick,0.42
+603.38,605.38,00:10:03,00:10:05,en esa acción a toda velocidad,routine,0.0
+605.38,607.38,00:10:05,00:10:07,y ya decíamos que están en banda izquierda,routine,0.0
+607.38,609.38,00:10:07,00:10:09,y las está pidiendo todas también,routine,0.0
+609.38,611.38,00:10:09,00:10:11,ahí en cara,routine,0.0
+611.38,614.62,00:10:11,00:10:14,y a Sañá no le queda otra que cometer Falta,corner_or_free_kick,0.42
+616.62,618.62,00:10:16,00:10:18,10 minutos ya de partido en este estadio,routine,0.0
+618.62,620.62,00:10:18,00:10:20,de Sejas Park,routine,0.0
+620.62,622.62,00:10:20,00:10:22,con el Cristal Palas tratando de tú a tú,routine,0.0
+622.62,624.62,00:10:22,00:10:24,al líder de la Premier League,routine,0.0
+624.62,626.62,00:10:24,00:10:26,llegando con oportunidades sobre todo,routine,0.0
+626.62,628.62,00:10:26,00:10:28,esas dos que ha tenido ya,routine,0.0
+628.62,630.62,00:10:28,00:10:30,Janik Bolasi el jugador con goleño,routine,0.0
+630.62,632.62,00:10:30,00:10:32,que está siendo de momento el mejor estilete,routine,0.0
+632.62,634.62,00:10:32,00:10:34,en el conjunto que dirige Alain Partiu,routine,0.0
+634.62,637.97,00:10:34,00:10:37,ahí está 5 hombres,routine,0.0
+637.97,639.97,00:10:37,00:10:39,de los e-goals en el área intentaba el remate,chance_or_shot,0.68
+639.97,641.97,00:10:39,00:10:41,pero lo tenía complicado ahí,routine,0.0
+641.97,643.97,00:10:41,00:10:43,Bacari sacó,routine,0.0
+643.97,645.97,00:10:43,00:10:45,balón suelto para Suagé,routine,0.0
+645.97,647.97,00:10:45,00:10:47,desviado el shot del atralo izquierdo del Palas,chance_or_shot,0.68
+647.97,649.97,00:10:47,00:10:49,como está llegando el equipo,routine,0.0
+649.97,651.97,00:10:49,00:10:51,de Partiu,routine,0.0
+651.97,653.97,00:10:51,00:10:53,y como está sufriendo el líder de la Premier,routine,0.0
+653.97,655.97,00:10:53,00:10:55,"si, no ejecutó bien",routine,0.0
+655.97,657.97,00:10:55,00:10:57,yo creo de esa falta lateral,corner_or_free_kick,0.42
+657.97,659.97,00:10:57,00:10:59,quedó el golpeo de pelota,routine,0.0
+659.97,661.97,00:10:59,00:11:01,demasiado plano,routine,0.0
+661.97,663.97,00:11:01,00:11:03,no hubo opciones para los rematadores,routine,0.0
+663.97,665.97,00:11:03,00:11:05,y que le cayó el balón a Suagé,routine,0.0
+665.97,667.97,00:11:05,00:11:07,y no se lo pensó dos veces,routine,0.0
+667.97,669.97,00:11:07,00:11:09,quedó el arranque de partido,routine,0.0
+669.97,671.97,00:11:09,00:11:11,del Palas,routine,0.0
+671.97,673.97,00:11:11,00:11:13,tres ocasiones ya para los e-goals,routine,0.0
+673.97,675.97,00:11:13,00:11:15,por solo una de los side descents,routine,0.0
+675.97,677.97,00:11:15,00:11:17,como está sufriendo,routine,0.0
+677.97,679.97,00:11:17,00:11:19,el conjunto celeste en este choque,routine,0.0
+679.97,681.97,00:11:19,00:11:21,ya de la quinta jornada de la Premier,routine,0.0
+681.97,683.97,00:11:21,00:11:23,hablábamos de que todavía no han encajado,routine,0.0
+683.97,685.97,00:11:23,00:11:25,goles pero,routine,0.0
+685.97,687.97,00:11:25,00:11:27,están viendo cómo llega una y otra vez,routine,0.0
+687.97,689.97,00:11:27,00:11:29,el Palas en este encuentro,routine,0.0
+689.97,691.97,00:11:29,00:11:31,y Hart está sufriendo,routine,0.0
+691.97,693.97,00:11:31,00:11:33,de manera clara en este arranque de partido,routine,0.0
+693.97,700.86,00:11:33,00:11:40,ahí está Volasi,routine,0.0
+700.86,702.86,00:11:40,00:11:42,la decíamos hoy jugando más por dentro,routine,0.0
+702.86,704.86,00:11:42,00:11:44,no es nuevo,routine,0.0
+704.86,706.86,00:11:44,00:11:46,para nada pero sí que a veces juega,routine,0.0
+706.86,708.86,00:11:46,00:11:48,en la izquierda,routine,0.0
+708.86,710.86,00:11:48,00:11:50,en lugar de Zaha que estamos viendo hoy,routine,0.0
+710.86,712.86,00:11:50,00:11:52,incluso en la derecha,routine,0.0
+712.86,714.86,00:11:52,00:11:54,donde hoy estamos viendo a Saco,routine,0.0
+714.86,716.86,00:11:54,00:11:56,son muy intercambiables,routine,0.0
+716.86,718.86,00:11:56,00:11:58,esos cuatro futbolistas,routine,0.0
+718.86,720.86,00:11:58,00:12:00,"Zaha, Puncho, Saco y Volasi",routine,0.0
+720.86,722.86,00:12:00,00:12:02,son de un patrón muy parecido,routine,0.0
+722.86,724.86,00:12:02,00:12:04,"muy veloces, muy físicos",routine,0.0
+724.86,726.86,00:12:04,00:12:06,con mucha movilidad al balón,routine,0.0
+726.86,728.86,00:12:06,00:12:08,rebotado al final,routine,0.0
+728.86,730.86,00:12:08,00:12:10,"Wifresa, movilidad",routine,0.0
+730.86,732.86,00:12:10,00:12:12,"velocidad, potencia",routine,0.0
+732.86,734.86,00:12:12,00:12:14,aparecen por cualquier parte del campo,routine,0.0
+734.86,736.86,00:12:14,00:12:16,un 4-2-4 lo que juegan,routine,0.0
+736.86,738.86,00:12:16,00:12:18,porque tiene la línea de 4 por delante,routine,0.0
+738.86,740.86,00:12:18,00:12:20,Kavash,routine,0.0
+740.86,742.86,00:12:20,00:12:22,que hace una labor más constructiva,routine,0.0
+742.86,744.86,00:12:22,00:12:24,con MacArthur que es más destructivo,routine,0.0
+744.86,746.86,00:12:24,00:12:26,y luego estos cuatro que estamos diciendo,routine,0.0
+746.86,748.86,00:12:26,00:12:28,que ya digo que tienen patrón muy similar,routine,0.0
+748.86,750.86,00:12:28,00:12:30,y que todos juegan a gran velocidad,routine,0.0
+750.86,752.86,00:12:30,00:12:32,bueno el corte ahí,routine,0.0
+752.86,754.86,00:12:32,00:12:34,de Breg Hangeland que viene a Cristal Palas,routine,0.0
+754.86,756.86,00:12:34,00:12:36,parece el líder,routine,0.0
+756.86,758.86,00:12:36,00:12:38,y por contra,routine,0.0
+758.86,760.86,00:12:38,00:12:40,parece el equipo modesto aunque segundo en la tabla,routine,0.0
+760.86,762.86,00:12:40,00:12:42,el Manchester City,routine,0.0
+762.86,764.86,00:12:42,00:12:44,que está campeando el temporada como puede,routine,0.0
+764.86,766.86,00:12:44,00:12:46,dice Mike Jones,routine,0.0
+766.86,768.86,00:12:46,00:12:48,"ante la agresividad, la velocidad",routine,0.0
+768.86,770.86,00:12:48,00:12:50,y toda la intensidad,routine,0.0
+770.86,774.3,00:12:50,00:12:54,que está poniendo el equipo de Adam Partio,routine,0.0
+774.3,776.3,00:12:54,00:12:56,lo vimos frente al Chelsea como a rinconó,routine,0.0
+776.3,778.3,00:12:56,00:12:58,el Palas al vigente,routine,0.0
+778.3,780.3,00:12:58,00:13:00,campeón de la Premier y hoy está haciendo lo propio,routine,0.0
+780.3,784.03,00:13:00,00:13:04,con el Manchester City,routine,0.0
+784.03,786.03,00:13:04,00:13:06,que está valiente de jugar a fútbol,routine,0.0
+786.03,788.03,00:13:06,00:13:08,ese gesto habitual de Adam Partio,routine,0.0
+788.03,790.03,00:13:08,00:13:10,que parece siempre muy enfadado en la banda,routine,0.0
+790.03,792.03,00:13:10,00:13:12,a veces supongo que lo estará,routine,0.0
+792.03,794.03,00:13:12,00:13:14,lo estará de verdad,routine,0.0
+794.03,796.03,00:13:14,00:13:16,pero no para de transmitir,routine,0.0
+796.03,798.03,00:13:16,00:13:18,intensidad a sus jugadores,routine,0.0
+798.03,800.03,00:13:18,00:13:20,el City tiene,routine,0.0
+800.03,802.03,00:13:20,00:13:22,como sea que intentar llevar,routine,0.0
+802.03,804.03,00:13:22,00:13:24,el partido a su terreno,routine,0.0
+804.03,806.03,00:13:24,00:13:26,intentar que lo que predomine,routine,0.0
+806.03,808.03,00:13:26,00:13:28,y lo que prevalezca sea la calidad,routine,0.0
+808.03,810.03,00:13:28,00:13:30,aunque hoy evidentemente sin Silva,routine,0.0
+810.03,812.03,00:13:30,00:13:32,pues le cuesta mucho más,routine,0.0
+812.03,814.03,00:13:32,00:13:34,porque Silva es el galvanizador,routine,0.0
+814.03,818.24,00:13:34,00:13:38,de este equipo,routine,0.0
+818.24,820.24,00:13:38,00:13:40,"Málva que juega ahí, Yaya Toure en corto",routine,0.0
+820.24,822.24,00:13:40,00:13:42,con Colaros,routine,0.0
+822.24,824.24,00:13:42,00:13:44,el recorte del Servio,routine,0.0
+824.24,826.24,00:13:44,00:13:46,trazando ese balón,routine,0.0
+826.24,828.24,00:13:46,00:13:48,Yaya Toure con problemas Fernandinho consigue descargar,routine,0.0
+828.24,830.24,00:13:48,00:13:50,para Sergio Agüero,routine,0.0
+830.24,832.24,00:13:50,00:13:52,la pelota la tiene ahí en la frontera,routine,0.0
+832.24,834.24,00:13:52,00:13:54,Bonnie abre para Navas,routine,0.0
+834.24,836.24,00:13:54,00:13:56,va a encarar el español en corto para Agüero,routine,0.0
+836.24,838.24,00:13:56,00:13:58,ahí está atascado el City,routine,0.0
+838.24,840.24,00:13:58,00:14:00,la pierda el Kun,routine,0.0
+840.24,842.24,00:14:00,00:14:02,el Kun aprovecha que está,routine,0.0
+842.24,844.24,00:14:02,00:14:04,y que Bonnie es el delantero centro,routine,0.0
+844.24,846.24,00:14:04,00:14:06,para venir mucho a recibir,routine,0.0
+846.24,848.24,00:14:06,00:14:08,entre líneas,routine,0.0
+848.24,850.24,00:14:08,00:14:10,Navas va a buscar ahí el centro,routine,0.0
+850.24,852.24,00:14:10,00:14:12,la pelota es de,routine,0.0
+852.24,854.24,00:14:12,00:14:14,Yaya Toure,routine,0.0
+854.24,856.24,00:14:14,00:14:16,va a cari sañar el envío al área,routine,0.0
+856.24,858.24,00:14:16,00:14:18,en el primer palo,routine,0.0
+858.24,868.4,00:14:18,00:14:28,el balón directamente al lateral,routine,0.0
+868.4,870.4,00:14:28,00:14:30,bonito partido que nos están ofreciendo,routine,0.0
+870.4,872.4,00:14:30,00:14:32,el segundo y el líder de esta Premier League,routine,0.0
+872.4,874.4,00:14:32,00:14:34,Cristal Palas,routine,0.0
+874.4,876.4,00:14:34,00:14:36,que comenzó la temporada ganando,routine,0.0
+876.4,878.4,00:14:36,00:14:38,a domicilio al Norwich,routine,0.0
+878.4,880.4,00:14:38,00:14:40,y después perdió,routine,0.0
+880.4,882.4,00:14:40,00:14:42,a quien se ha aspargado con 1-2,routine,0.0
+882.4,884.4,00:14:42,00:14:44,frente al Arsenal,routine,0.0
+884.4,886.4,00:14:44,00:14:46,y posteriormente dos victorias consecutivas,routine,0.0
+886.4,888.4,00:14:46,00:14:48,ante las Tombillas 2-1,routine,0.0
+888.4,890.4,00:14:48,00:14:50,y frente al Chelsea en la última jornada,routine,0.0
+890.4,892.4,00:14:50,00:14:52,por 1-2 en Stafford Bridge,routine,0.0
+892.4,894.4,00:14:52,00:14:54,pues Victoria es una derrota,routine,0.0
+894.4,896.4,00:14:54,00:14:56,para los Londonenses,routine,0.0
+896.4,898.4,00:14:56,00:14:58,y frente al Manchester City,routine,0.0
+898.4,900.4,00:14:58,00:15:00,todo victorias,routine,0.0
+900.4,902.4,00:15:00,00:15:02,4-4,routine,0.0
+902.4,904.4,00:15:02,00:15:04,Westbron 0-3,routine,0.0
+904.4,906.4,00:15:04,00:15:06,después el 3-0 al Chelsea,routine,0.0
+906.4,908.4,00:15:06,00:15:08,0-2 en Woodison Park,routine,0.0
+908.4,910.4,00:15:08,00:15:10,frente al Everton y por último,routine,0.0
+910.4,912.4,00:15:10,00:15:12,0-2 a Watford,routine,0.0
+912.4,914.4,00:15:12,00:15:14,en la cuarta antes del Parón,routine,0.0
+914.4,916.4,00:15:14,00:15:16,para los partidos de clasificación,routine,0.0
+916.4,918.4,00:15:16,00:15:18,para la Eurocopa de Francia 2016,routine,0.0
+918.4,920.4,00:15:18,00:15:20,jugando ahí Yaya Toure,routine,0.0
+920.4,922.4,00:15:20,00:15:22,en corto para Wifred Bonny,routine,0.0
+922.4,924.4,00:15:22,00:15:24,apertura ahí para Nass,routine,0.0
+924.4,926.4,00:15:24,00:15:26,en real banta la cabeza al francés,routine,0.0
+926.4,928.4,00:15:26,00:15:28,el envío a la frontal del área,routine,0.0
+928.4,930.4,00:15:28,00:15:30,recicla ese balón,routine,0.0
+930.4,932.4,00:15:30,00:15:32,Yaya Toure vuelta a empezar para el City,routine,0.0
+932.4,934.4,00:15:32,00:15:34,Toure en corto,routine,0.0
+934.4,936.4,00:15:34,00:15:36,Pony ahí el Andaluz,routine,0.0
+936.4,938.4,00:15:36,00:15:38,Aisa que doanda,routine,0.0
+938.4,940.4,00:15:38,00:15:40,Yo creo que esto es lo que más le conviene al Manchester City,routine,0.0
+940.4,942.4,00:15:40,00:15:42,por supuesto que se arriesga,routine,0.0
+942.4,944.4,00:15:42,00:15:44,al tener tanta gente delante de la pelota,routine,0.0
+944.4,946.4,00:15:44,00:15:46,a que al producirse una pérdida,routine,0.0
+946.4,948.4,00:15:46,00:15:48,le puedan coger a la contra,routine,0.0
+948.4,950.4,00:15:48,00:15:50,pero que el equipo tenga,routine,0.0
+950.4,952.4,00:15:50,00:15:52,la pelota y le intente mover,routine,0.0
+952.4,954.4,00:15:52,00:15:54,de un lado a otro,routine,0.0
+954.4,956.4,00:15:54,00:15:56,que obliga a bascular al pista al Palace,routine,0.0
+956.4,958.4,00:15:56,00:15:58,me parece la mejor receta,routine,0.0
+958.4,960.4,00:15:58,00:16:00,teniendo en cuenta su superioridad técnica sobre el rival,routine,0.0
+960.4,962.4,00:16:00,00:16:02,Nass en real,routine,0.0
+962.4,964.4,00:16:02,00:16:04,en corto ahí para Agüero,routine,0.0
+964.4,966.4,00:16:04,00:16:06,intenta ahí el Q,routine,0.0
+966.4,968.4,00:16:06,00:16:08,pero muy bien tapado,routine,0.0
+968.4,970.4,00:16:08,00:16:10,en esa acción,routine,0.0
+970.4,972.4,00:16:10,00:16:12,por James MacArthur en el Escoces,routine,0.0
+972.4,974.4,00:16:12,00:16:14,o en corto Agüero,routine,0.0
+974.4,976.4,00:16:14,00:16:16,para Nassenri,routine,0.0
+976.4,978.4,00:16:16,00:16:18,la pelota es de Mangala,routine,0.0
+978.4,982.93,00:16:18,00:16:22,obviamente Nassenri,routine,0.0
+982.93,984.93,00:16:22,00:16:24,las bajas como bien decías Gaby,routine,0.0
+984.93,986.93,00:16:24,00:16:26,para el City son de gran calado,routine,0.0
+986.93,988.93,00:16:26,00:16:28,pero tiene todavía Artilla,routine,0.0
+988.93,990.93,00:16:28,00:16:30,suficiente en el campo y en el banquillo,routine,0.0
+990.93,992.93,00:16:30,00:16:32,Pelegrini para llevarse,routine,0.0
+992.93,994.93,00:16:32,00:16:34,un partido de hoy,routine,0.0
+994.93,996.93,00:16:34,00:16:36,y además tiene a De Bruyne en el banquillo,routine,0.0
+996.93,998.93,00:16:36,00:16:38,todos estamos diciendo que vaya profundidad,routine,0.0
+998.93,1000.93,00:16:38,00:16:40,de armario que tiene el Manchester City,routine,0.0
+1000.93,1002.93,00:16:40,00:16:42,hoy es de esos días en los que se muestra,routine,0.0
+1002.93,1004.93,00:16:42,00:16:44,la profundidad de armario,routine,0.0
+1004.93,1006.93,00:16:44,00:16:46,yo creo que en un partido tan complicado,routine,0.0
+1006.93,1008.93,00:16:46,00:16:48,en un campo más estrecho,routine,0.0
+1008.93,1010.93,00:16:48,00:16:50,con un rival tan agresivo,routine,0.0
+1010.93,1012.93,00:16:50,00:16:52,"y tan físico, yo creo que Manuel Pelegrini",routine,0.0
+1012.93,1014.93,00:16:52,00:16:54,no ha querido hacer debutar a De Bruyne,routine,0.0
+1014.93,1016.93,00:16:54,00:16:56,probablemente le hará debutar,routine,0.0
+1016.93,1018.93,00:16:56,00:16:58,igual en la segunda parte,routine,0.0
+1018.93,1020.93,00:16:58,00:17:00,ya veremos si hay necesitado,routine,0.0
+1020.93,1022.93,00:17:00,00:17:02,probablemente para un partido así,routine,0.0
+1022.93,1024.93,00:17:02,00:17:04,ha preferido la experiencia,routine,0.0
+1024.93,1026.93,00:17:04,00:17:06,de Nassenri en el once inicial,routine,0.0
+1026.93,1028.93,00:17:06,00:17:08,cuidado ahí con el...,routine,0.0
+1028.93,1030.93,00:17:08,00:17:10,"Palas, Balón para que lo intente",routine,0.0
+1030.93,1032.93,00:17:10,00:17:12,con muchos problemas,routine,0.0
+1032.93,1034.93,00:17:12,00:17:14,"Bolasie, el envío con ese férico suelto",routine,0.0
+1034.93,1036.93,00:17:14,00:17:16,dentro del área,routine,0.0
+1036.93,1038.93,00:17:16,00:17:18,para que lo intentara Johan Kavash,routine,0.0
+1038.93,1040.93,00:17:18,00:17:20,se perdió el international blue,routine,0.0
+1040.93,1042.93,00:17:20,00:17:22,quería salir ahí el City,routine,0.0
+1042.93,1044.93,00:17:22,00:17:24,la falta muy dura sobre Agüero,corner_or_free_kick,0.42
+1044.93,1046.93,00:17:24,00:17:26,tarjeta amarilla para Scottan,yellow_card,0.58
+1046.93,1048.93,00:17:26,00:17:28,primera amarilla del partido,routine,0.0
+1048.93,1053.68,00:17:28,00:17:33,hemos podido ver la falta,corner_or_free_kick,0.42
+1053.68,1055.68,00:17:33,00:17:35,"no tiene buena pinta, la forma en la que se duele",routine,0.0
+1055.68,1057.68,00:17:35,00:17:37,"el cuna agüero, vaya potencia",routine,0.0
+1057.68,1059.68,00:17:37,00:17:39,de Bolasie otra vez,routine,0.0
+1059.68,1061.68,00:17:39,00:17:41,que además de rapidez,routine,0.0
+1061.68,1063.68,00:17:41,00:17:43,"se mete el cuerpo, vaya patada",routine,0.0
+1063.68,1065.68,00:17:43,00:17:45,"vaya patada, tremenda, amarilla",routine,0.0
+1065.68,1067.68,00:17:45,00:17:47,justísima para Dan,routine,0.0
+1067.68,1069.68,00:17:47,00:17:49,para un agüero que se iba,routine,0.0
+1069.68,1071.68,00:17:49,00:17:51,y aquí tenemos la acción anterior,routine,0.0
+1071.68,1073.68,00:17:51,00:17:53,no hemos visto el origen,routine,0.0
+1073.68,1075.68,00:17:53,00:17:55,que es otra acción más de Bolasie,routine,0.0
+1075.68,1077.68,00:17:55,00:17:57,habiendo ganado la espalda a la defensa,routine,0.0
+1077.68,1079.68,00:17:57,00:17:59,y además,routine,0.0
+1079.68,1081.68,00:17:59,00:18:01,una vez que lo hace,routine,0.0
+1081.68,1083.68,00:18:01,00:18:03,ya es casi imposible quitarle la pelota,routine,0.0
+1083.68,1085.68,00:18:03,00:18:05,porque te mete el cuerpo,routine,0.0
+1085.68,1087.68,00:18:05,00:18:07,y es tan poderoso físicamente,routine,0.0
+1087.68,1089.68,00:18:07,00:18:09,que es verdaderamente complicado,routine,0.0
+1089.68,1091.68,00:18:09,00:18:11,Jala no sea nada,routine,0.0
+1091.68,1093.68,00:18:11,00:18:13,esa forma de dolerse,routine,0.0
+1093.68,1095.68,00:18:13,00:18:15,no pinta nada bien,routine,0.0
+1095.68,1097.68,00:18:15,00:18:17,pero Jala se quede ensusto,routine,0.0
+1097.68,1099.68,00:18:17,00:18:19,lo de Agüero,routine,0.0
+1099.68,1101.68,00:18:19,00:18:21,La falta sobre el international con la albiceleste,corner_or_free_kick,0.42
+1101.68,1103.68,00:18:21,00:18:23,gesto serio de preocupación,routine,0.0
+1103.68,1105.68,00:18:23,00:18:25,en Manuel Pellegrini,routine,0.0
+1105.68,1107.68,00:18:25,00:18:27,el técnico de los sidesense,routine,0.0
+1107.68,1109.68,00:18:27,00:18:29,a la frente del Manchester City,routine,0.0
+1111.68,1113.68,00:18:31,00:18:33,la temporada pasada cayeron,routine,0.0
+1113.68,1115.68,00:18:33,00:18:35,frente al poderío del Chelsea de José Mourinho,routine,0.0
+1115.68,1117.68,00:18:35,00:18:37,pero la actual ha empezado,routine,0.0
+1117.68,1119.68,00:18:37,00:18:39,con fuerza,routine,0.0
+1119.68,1121.68,00:18:39,00:18:41,el equipo de Manchester y vaya falta,corner_or_free_kick,0.42
+1121.68,1123.68,00:18:41,00:18:43,muy dura de Dan con esa patada sobre,routine,0.0
+1123.68,1125.68,00:18:43,00:18:45,que un agüero quería frenarle como fuese,routine,0.0
+1125.68,1129.18,00:18:45,00:18:49,el expeditivo ahí el central,routine,0.0
+1129.18,1131.18,00:18:49,00:18:51,del Palace 28 años,routine,0.0
+1131.18,1133.18,00:18:51,00:18:53,primera cartulina amarilla,routine,0.0
+1133.18,1136.53,00:18:53,00:18:56,en el día de hoy,routine,0.0
+1136.53,1138.53,00:18:56,00:18:58,el Palace que está sorprendiendo a propios,routine,0.0
+1138.53,1140.53,00:18:58,00:19:00,porque pocos podían esperar,routine,0.0
+1140.53,1142.53,00:19:00,00:19:02,este rendimiento de un equipo que siempre,routine,0.0
+1142.53,1144.53,00:19:02,00:19:04,está en mitad de la tabla hacia abajo,routine,0.0
+1144.53,1146.53,00:19:04,00:19:06,o incluso más hacia abajo que mitad de la tabla,routine,0.0
+1146.53,1148.53,00:19:06,00:19:08,"sí, pero bueno ya comentábamos",routine,0.0
+1148.53,1150.53,00:19:08,00:19:10,que la temporada pasada,routine,0.0
+1150.53,1152.53,00:19:10,00:19:12,al llegar a Lampardio,routine,0.0
+1152.53,1154.53,00:19:12,00:19:14,el equipo tuvo una reacción,routine,0.0
+1154.53,1156.53,00:19:14,00:19:16,"muy evidente, muy clara",routine,0.0
+1156.53,1158.53,00:19:16,00:19:18,una mejoría,routine,0.0
+1160.53,1162.53,00:19:20,00:19:22,clarísima,routine,0.0
+1162.53,1164.53,00:19:22,00:19:24,y esto es simplemente la continuidad,routine,0.0
+1164.53,1166.53,00:19:24,00:19:26,pues ahí a lo mejor hay Penalti de Fernandinho,penalty_or_var,0.88
+1166.53,1168.53,00:19:26,00:19:28,y por eso nos lo muestran una vez a vez,routine,0.0
+1168.53,1170.53,00:19:28,00:19:30,"aquí, ahí",routine,0.0
+1170.53,1172.53,00:19:30,00:19:32,es verdad que hay una exageración,routine,0.0
+1172.53,1174.53,00:19:32,00:19:34,por parte de Caball,routine,0.0
+1174.53,1176.53,00:19:34,00:19:36,pero hay una zancadilla también,routine,0.0
+1176.53,1180.06,00:19:36,00:19:40,difícil siempre saber,routine,0.0
+1180.06,1182.06,00:19:40,00:19:42,para el espectador,routine,0.0
+1182.06,1184.06,00:19:42,00:19:44,si,routine,0.0
+1184.06,1186.06,00:19:44,00:19:46,cierto contacto es suficiente o no,routine,0.0
+1186.06,1188.06,00:19:46,00:19:48,la zancadilla existe,routine,0.0
+1188.06,1190.06,00:19:48,00:19:50,luego Caball exagera y a lo mejor,routine,0.0
+1190.06,1192.06,00:19:50,00:19:52,por ahí es por donde el árbitro,routine,0.0
+1192.06,1194.06,00:19:52,00:19:54,ha preferido no pitar,routine,0.0
+1194.06,1196.06,00:19:54,00:19:56,"pero vamos, la zancadilla existe",routine,0.0
+1196.06,1202.13,00:19:56,00:20:02,20 minutos ya de partido,routine,0.0
+1202.13,1204.13,00:20:02,00:20:04,en Sejas Park,routine,0.0
+1204.13,1206.13,00:20:04,00:20:06,con ese empate a hacer un inicial en la quinta jornada,routine,0.0
+1206.13,1208.13,00:20:06,00:20:08,de la Premier League,routine,0.0
+1208.13,1210.13,00:20:08,00:20:10,como siempre mejor fútbol del mundo aquí en Movistar Plus,routine,0.0
+1210.13,1212.13,00:20:10,00:20:12,la casa del fútbol,routine,0.0
+1212.13,1214.13,00:20:12,00:20:14,vamos viendo al líder de la Premier,routine,0.0
+1214.13,1216.13,00:20:14,00:20:16,y al sorprendente segundo,routine,0.0
+1216.13,1218.13,00:20:16,00:20:18,pero que de seguir así cada día lo será menos,routine,0.0
+1218.13,1220.13,00:20:18,00:20:20,no va a ser ya una sorpresa,routine,0.0
+1220.13,1222.13,00:20:20,00:20:22,ver a los de Lampardio,routine,0.0
+1222.13,1224.13,00:20:22,00:20:24,en esas posiciones de privilegio,routine,0.0
+1224.13,1226.13,00:20:24,00:20:26,de una Premier,routine,0.0
+1226.13,1228.13,00:20:26,00:20:28,que tiene por detrás,routine,0.0
+1228.13,1230.13,00:20:28,00:20:30,de Líberton,routine,0.0
+1230.13,1232.13,00:20:30,00:20:32,que ha jugado ya su partido en el día de hoy,routine,0.0
+1232.13,1234.13,00:20:32,00:20:34,frente al Chelsea,routine,0.0
+1234.13,1236.13,00:20:34,00:20:36,va a intentar ahí,routine,0.0
+1236.13,1238.13,00:20:36,00:20:38,"Valasi, Resbalaba",routine,0.0
+1238.13,1240.13,00:20:38,00:20:40,ahí el delantero del Cristal Palas,routine,0.0
+1240.13,1242.13,00:20:40,00:20:42,la pone ahí con ese buen movimiento de Espeja Company,routine,0.0
+1242.13,1244.13,00:20:42,00:20:44,pues llegaba Leicester City como cuarto,routine,0.0
+1244.13,1246.13,00:20:44,00:20:46,y el son si quinto,routine,0.0
+1246.13,1248.13,00:20:46,00:20:48,vamos con ocho puntos,routine,0.0
+1248.13,1250.13,00:20:48,00:20:50,que balones divididos son todos para el Cristal Palas,routine,0.0
+1250.13,1252.13,00:20:50,00:20:52,es una de las razones por las que el equipo local,routine,0.0
+1252.13,1255.47,00:20:52,00:20:55,estaba mandando también,routine,0.0
+1255.47,1257.47,00:20:55,00:20:57,en cuanto a una pelota está dividida,routine,0.0
+1257.47,1259.47,00:20:57,00:20:59,"hay un choque, una disputa",routine,0.0
+1259.47,1261.47,00:20:59,00:21:01,prácticamente todo es para el Palas,routine,0.0
+1261.47,1267.28,00:21:01,00:21:07,saca de banda ahí para,routine,0.0
+1267.28,1269.28,00:21:07,00:21:09,Martin Kelly,routine,0.0
+1269.28,1271.28,00:21:09,00:21:11,el público encantado con su equipo,routine,0.0
+1271.28,1273.28,00:21:11,00:21:13,hoy en Sejas Park,routine,0.0
+1273.28,1275.28,00:21:13,00:21:15,prácticamente no se cree este arranque de temporada,routine,0.0
+1275.28,1277.28,00:21:15,00:21:17,pero es totalmente cierto,routine,0.0
+1277.28,1279.28,00:21:17,00:21:19,su equipo le está haciendo fenomenal,routine,0.0
+1279.28,1281.28,00:21:19,00:21:21,la tenía Ima Karzur rodeado de camisetas,routine,0.0
+1281.28,1283.28,00:21:21,00:21:23,"celestes, mete el pie",routine,0.0
+1283.28,1285.28,00:21:23,00:21:25,"Ima Karzur, película y con Pancheon",routine,0.0
+1285.28,1289.65,00:21:25,00:21:29,había fuera de juego,routine,0.0
+1289.65,1291.65,00:21:29,00:21:31,fuera del juego ahí del cerebro,routine,0.0
+1291.65,1293.65,00:21:31,00:21:33,"el jugador, del arquitecto",routine,0.0
+1293.65,1302.43,00:21:33,00:21:42,del fútbol ofensivo de Cristal Palas,routine,0.0
+1302.43,1304.43,00:21:42,00:21:44,el City que sigue ahí,routine,0.0
+1304.43,1306.43,00:21:44,00:21:46,"atascado, apenas hay circulación de balón",routine,0.0
+1306.43,1308.43,00:21:46,00:21:48,"fluidez entre Fernandinho, Yaya Tauré",routine,0.0
+1308.43,1310.43,00:21:48,00:21:50,y luego las bandas con Navas,routine,0.0
+1310.43,1312.43,00:21:50,00:21:52,y Nasry,routine,0.0
+1312.43,1314.43,00:21:52,00:21:54,"y Agüero que se sigue doliendo, que eso es lo peor",routine,0.0
+1314.43,1316.43,00:21:54,00:21:56,qué gesto de dolor de Agüero,routine,0.0
+1316.43,1318.43,00:21:56,00:21:58,vamos a ver si puede continuar,routine,0.0
+1318.43,1320.43,00:21:58,00:22:00,se probará un ratito,routine,0.0
+1320.43,1322.43,00:22:00,00:22:02,pero está cogeando,routine,0.0
+1322.43,1324.43,00:22:02,00:22:04,vamos a estar pendientes de él porque en cualquier momento,routine,0.0
+1324.43,1326.43,00:22:04,00:22:06,va a hacer un gesto,routine,0.0
+1326.43,1330.32,00:22:06,00:22:10,de cambio,routine,0.0
+1330.32,1332.32,00:22:10,00:22:12,balón ahí para,routine,0.0
+1332.32,1334.32,00:22:12,00:22:14,"Fernandinho, descargando, ahí para",routine,0.0
+1334.32,1336.32,00:22:14,00:22:16,Vincent Compani,routine,0.0
+1336.32,1338.32,00:22:16,00:22:18,"Sañá, en su segunda temporada",routine,0.0
+1338.32,1340.32,00:22:18,00:22:20,en el Manchester City,routine,0.0
+1340.32,1342.32,00:22:20,00:22:22,después de haber actuado las anteriores,routine,0.0
+1342.32,1344.32,00:22:22,00:22:24,en el Arsenal,routine,0.0
+1344.32,1346.32,00:22:24,00:22:26,"Mayga, la cruce Hangelang, quiere jugar",routine,0.0
+1346.32,1348.32,00:22:26,00:22:28,y lo consigue en corto para Suagé,routine,0.0
+1348.32,1350.32,00:22:28,00:22:30,tiene mucha confianza al Palas,routine,0.0
+1350.32,1352.32,00:22:30,00:22:32,"se reven con todo, incluso en el día de hoy",routine,0.0
+1352.32,1354.32,00:22:32,00:22:34,ante líder de la Premier,routine,0.0
+1354.32,1356.32,00:22:34,00:22:36,Duce Fernandinho entre líneas,routine,0.0
+1356.32,1358.32,00:22:36,00:22:38,"pero no, cambio de ritmo del Q",routine,0.0
+1358.32,1360.32,00:22:38,00:22:40,"ya no puede continuar, hizo falta",corner_or_free_kick,0.42
+1360.32,1362.32,00:22:40,00:22:42,sigue reenquiando ahí Agüero,routine,0.0
+1362.32,1364.32,00:22:42,00:22:44,hay este gesto que temíamos,routine,0.0
+1364.32,1366.32,00:22:44,00:22:46,no puede seguir Agüero,routine,0.0
+1366.32,1368.32,00:22:46,00:22:48,qué lástima,routine,0.0
+1368.32,1370.32,00:22:48,00:22:50,qué lástima y qué,routine,0.0
+1370.32,1372.32,00:22:50,00:22:52,palo durísimo para el Manchester City,routine,0.0
+1372.32,1374.32,00:22:52,00:22:54,recordamos,routine,0.0
+1374.32,1376.32,00:22:54,00:22:56,si alguien ha llegado tarde a la retransmisión,routine,0.0
+1376.32,1378.32,00:22:56,00:22:58,está sin Silva y sin Sterling ya,routine,0.0
+1378.32,1380.32,00:22:58,00:23:00,supongo que va a entrar de Bruyne,routine,0.0
+1380.32,1382.32,00:23:00,00:23:02,ahora ya no podrá dilatar,routine,0.0
+1382.32,1384.32,00:23:02,00:23:04,lo más el debut,routine,0.0
+1384.32,1386.32,00:23:04,00:23:06,de uno de los jugadores más caros de la historia,routine,0.0
+1386.32,1388.32,00:23:06,00:23:08,Manuel Pellegrini,routine,0.0
+1388.32,1390.32,00:23:08,00:23:10,porque Wilfred Bonny puede quedar,routine,0.0
+1390.32,1392.32,00:23:10,00:23:12,como punta y de Bruyne,routine,0.0
+1392.32,1394.32,00:23:12,00:23:14,colocarse en la izquierda,routine,0.0
+1394.32,1396.32,00:23:14,00:23:16,Nardi meterse,routine,0.0
+1396.32,1398.32,00:23:16,00:23:18,más hacia adentro,routine,0.0
+1398.32,1400.32,00:23:18,00:23:20,"bueno, ya veremos, el que manda es el ingeniero",routine,0.0
+1402.32,1404.32,00:23:22,00:23:24,vemos la opción,routine,0.0
+1404.32,1406.32,00:23:24,00:23:26,"que toma, damos ideas",routine,0.0
+1408.32,1410.32,00:23:28,00:23:30,"pero qué pena, estaba el pun",routine,0.0
+1410.32,1412.32,00:23:30,00:23:32,además en esa labor,routine,0.0
+1412.32,1414.32,00:23:32,00:23:34,que a él también le gusta mucho,routine,0.0
+1414.32,1416.32,00:23:34,00:23:36,"de segundo punta, viniendo mucho a recibir",routine,0.0
+1416.32,1418.32,00:23:36,00:23:38,aprovechando que Bonny muchas veces,routine,0.0
+1418.32,1420.32,00:23:38,00:23:40,fijaba a los centrales,routine,0.0
+1420.32,1422.32,00:23:40,00:23:42,esa labor que muchas veces le toca a él,routine,0.0
+1422.32,1424.32,00:23:42,00:23:44,cuando juegan 4-2-3-1 el equipo,routine,0.0
+1424.32,1426.32,00:23:44,00:23:46,"y él es el hombre más adelantado, hoy Bonny era más 9",routine,0.0
+1426.32,1428.32,00:23:46,00:23:48,y él podía más,routine,0.0
+1428.32,1430.32,00:23:48,00:23:50,"venir a recibir, estaba entrando",routine,0.0
+1430.32,1432.32,00:23:50,00:23:52,haciendo muy buenas recepciones entre líneas,routine,0.0
+1434.32,1436.32,00:23:54,00:23:56,y yo creo que estaba disfrutando del partido,routine,0.0
+1436.32,1438.32,00:23:56,00:23:58,aunque no había tenido grandes ocasiones,routine,0.0
+1438.32,1440.32,00:23:58,00:24:00,efectivamente se prepara Kevin de Bruyne,routine,0.0
+1440.32,1442.32,00:24:00,00:24:02,ya no puede,routine,0.0
+1442.32,1444.32,00:24:02,00:24:04,no se puede dilatar más el debut,routine,0.0
+1444.32,1446.32,00:24:04,00:24:06,han sacado el partido a Cunagüero,routine,0.0
+1446.32,1448.32,00:24:06,00:24:08,los hombres de Cristal Pallas con esa durísima entrada,routine,0.0
+1448.32,1450.32,00:24:08,00:24:10,"de Scott Dunn, esa patada",routine,0.0
+1450.32,1452.32,00:24:10,00:24:12,una patada muy dura y,routine,0.0
+1452.32,1454.32,00:24:12,00:24:14,a mucha altura,routine,0.0
+1454.32,1456.32,00:24:14,00:24:16,una acción muy fea de Dunn,routine,0.0
+1456.32,1458.32,00:24:16,00:24:18,se ha cargado ahí a Cunagüero,routine,0.0
+1458.32,1460.32,00:24:18,00:24:20,le ha lesionado y tiene que dejar el partido,routine,0.0
+1462.32,1464.32,00:24:22,00:24:24,era internacional con Alviz y Leste,routine,0.0
+1464.32,1466.32,00:24:24,00:24:26,una baja muy importante para Manchester City por si fuera poco,routine,0.0
+1466.32,1468.32,00:24:26,00:24:28,ya está preparado Kevin de Bruyne,routine,0.0
+1468.32,1470.32,00:24:28,00:24:30,75 millones de euros,routine,0.0
+1470.32,1472.32,00:24:30,00:24:32,le ha costado el fichaje,routine,0.0
+1472.32,1474.32,00:24:32,00:24:34,a Manchester City procedente del Bosburgo,routine,0.0
+1474.32,1476.32,00:24:34,00:24:36,primeros minutos,routine,0.0
+1476.32,1478.32,00:24:36,00:24:38,a ver donde se coloca,routine,0.0
+1478.32,1480.32,00:24:38,00:24:40,este es un,routine,0.0
+1480.32,1482.32,00:24:40,00:24:42,es un talento enorme el que tiene Kevin de Bruyne,routine,0.0
+1482.32,1484.32,00:24:42,00:24:44,es un jugador un poco frío,routine,0.0
+1484.32,1486.32,00:24:44,00:24:46,a veces le cuesta entrar,routine,0.0
+1486.32,1488.32,00:24:46,00:24:48,en los partidos,routine,0.0
+1488.32,1490.32,00:24:48,00:24:50,y no porque no sea competitivo pero es su forma,routine,0.0
+1490.32,1492.32,00:24:50,00:24:52,de ser,routine,0.0
+1492.32,1494.32,00:24:52,00:24:54,es un jugador al que,routine,0.0
+1494.32,1496.32,00:24:54,00:24:56,muchas veces se evade,routine,0.0
+1496.32,1498.32,00:24:56,00:24:58,entre comillas y desaparece los partidos,routine,0.0
+1498.32,1500.32,00:24:58,00:25:00,pero tienen una calidad,routine,0.0
+1500.32,1502.32,00:25:00,00:25:02,"inmensa, jugador diestro, rapidísimo",routine,0.0
+1502.32,1504.32,00:25:02,00:25:04,gran conducción,routine,0.0
+1504.32,1506.32,00:25:04,00:25:06,y yo creo que,routine,0.0
+1506.32,1508.32,00:25:06,00:25:08,está más cómodo arrancando en banda derecha,routine,0.0
+1508.32,1510.32,00:25:08,00:25:10,en banda izquierda,routine,0.0
+1510.32,1512.32,00:25:10,00:25:12,perdón que es su zona donde más le gusta jugar,routine,0.0
+1512.32,1514.32,00:25:12,00:25:14,que donde le han colocado,routine,0.0
+1514.32,1516.32,00:25:14,00:25:16,porque está más de segundo delantero,routine,0.0
+1516.32,1518.32,00:25:16,00:25:18,por detrás de Wilfred Bonny,routine,0.0
+1518.32,1520.32,00:25:18,00:25:20,haciendo de Agüero en realidad,routine,0.0
+1520.32,1522.32,00:25:20,00:25:22,debuta ya Kevin de Bruyne,routine,0.0
+1522.32,1524.32,00:25:22,00:25:24,en el Manchester City,routine,0.0
+1524.32,1526.32,00:25:24,00:25:26,lo fichó el día 30,routine,0.0
+1528.32,1530.32,00:25:28,00:25:30,el mes de agosto antes de que acabara,routine,0.0
+1530.32,1532.32,00:25:30,00:25:32,el mercado de plazo de fichajes,routine,0.0
+1532.32,1534.32,00:25:32,00:25:34,y Tarjeta Marilla por esa dura entrada ahora también,routine,0.0
+1534.32,1536.32,00:25:34,00:25:36,las cuentas pendientes ya,routine,0.0
+1536.32,1538.32,00:25:36,00:25:38,la patada que ha lesionado Agüero,routine,0.0
+1538.32,1540.32,00:25:38,00:25:40,sin ninguna duda muchos jugadores,routine,0.0
+1540.32,1542.32,00:25:40,00:25:42,del City están,routine,0.0
+1542.32,1544.32,00:25:42,00:25:44,mascando la lesión de su compañero,routine,0.0
+1544.32,1546.32,00:25:44,00:25:46,la patada que le han pegado,routine,0.0
+1546.32,1548.32,00:25:46,00:25:48,fíjate la discusión entre técnicos,routine,0.0
+1548.32,1550.32,00:25:48,00:25:50,tremenda discusión,routine,0.0
+1550.32,1552.32,00:25:50,00:25:52,es la imagen del partido,routine,0.0
+1552.32,1554.32,00:25:52,00:25:54,y Pellegrini enfrentados cara a cara,routine,0.0
+1554.32,1556.32,00:25:54,00:25:56,después de la patada,routine,0.0
+1556.32,1558.32,00:25:56,00:25:58,que lesionó a Agüero,routine,0.0
+1558.32,1560.32,00:25:58,00:26:00,y que es la que ha podido romper hostilidades,routine,0.0
+1560.32,1562.32,00:26:00,00:26:02,esperemos que no pero,routine,0.0
+1562.32,1564.32,00:26:02,00:26:04,Yaya Turé ha ido también,routine,0.0
+1564.32,1566.32,00:26:04,00:26:06,muy fuerte abajo,routine,0.0
+1566.32,1568.32,00:26:06,00:26:08,y esa entrada sobre Agüero,routine,0.0
+1568.32,1570.32,00:26:08,00:26:10,y la lesión de Agüero está en la fíjate,routine,0.0
+1570.32,1572.32,00:26:10,00:26:12,durísimo y ha podido ser roja,routine,0.0
+1572.32,1575.63,00:26:12,00:26:15,casi de roja,routine,0.0
+1575.63,1577.63,00:26:15,00:26:17,tremendo tramo de partido,routine,0.0
+1577.63,1579.63,00:26:17,00:26:19,la espereza del Cristal Pallas,routine,0.0
+1579.63,1581.63,00:26:19,00:26:21,que comentábamos al principio del partido,routine,0.0
+1581.63,1583.63,00:26:21,00:26:23,y ahora el partido,routine,0.0
+1583.63,1585.63,00:26:23,00:26:25,está en la patada,routine,0.0
+1585.63,1587.63,00:26:25,00:26:27,ahí está el saque de la falta,corner_or_free_kick,0.42
+1587.63,1589.63,00:26:27,00:26:29,a final hubo opción después de ese envío,routine,0.0
+1589.63,1591.63,00:26:29,00:26:31,de Jason Panchum,routine,0.0
+1591.63,1593.63,00:26:31,00:26:33,como se está poniendo el partido,routine,0.0
+1593.63,1595.63,00:26:33,00:26:35,empezó muy bien rápido,routine,0.0
+1595.63,1597.63,00:26:35,00:26:37,intenso,routine,0.0
+1597.63,1599.63,00:26:37,00:26:39,con mucha velocidad,routine,0.0
+1599.63,1601.63,00:26:39,00:26:41,con los dos equipos lanzados al ataque,routine,0.0
+1601.63,1603.63,00:26:41,00:26:43,especialmente el local el Pallas,routine,0.0
+1603.63,1605.63,00:26:43,00:26:45,el segundo de la tabla,routine,0.0
+1605.63,1607.63,00:26:45,00:26:47,y ahora se está empezando a poner duro,routine,0.0
+1607.63,1609.63,00:26:47,00:26:49,y muy muy tenso,routine,0.0
+1609.63,1611.63,00:26:49,00:26:51,y el partido,routine,0.0
+1611.63,1613.63,00:26:51,00:26:53,es que además como está el campo,routine,0.0
+1613.63,1615.63,00:26:53,00:26:55,lleno de jugadores chiquitines,routine,0.0
+1615.63,1617.63,00:26:55,00:26:57,madre mía,routine,0.0
+1617.63,1619.63,00:26:57,00:26:59,las que se están liando ahí,routine,0.0
+1619.63,1621.63,00:26:59,00:27:01,esas bestias físicas,routine,0.0
+1621.63,1623.63,00:27:01,00:27:03,que tienen los dos equipos,routine,0.0
+1623.63,1625.63,00:27:03,00:27:05,y que ahora mismo van al choque con todo,routine,0.0
+1625.63,1627.63,00:27:05,00:27:07,porque hay una enorme rivalidad,routine,0.0
+1627.63,1629.63,00:27:07,00:27:09,generada en este mismo partido,routine,0.0
+1629.63,1633.33,00:27:09,00:27:13,seguramente a raíz de aquella patada,routine,0.0
+1633.33,1635.33,00:27:13,00:27:15,de Dan que se cargó Agüero,routine,0.0
+1635.33,1637.33,00:27:15,00:27:17,la cara del argentino se lo cuente,routine,0.0
+1637.33,1639.33,00:27:17,00:27:19,lo dice todo,routine,0.0
+1639.33,1641.33,00:27:19,00:27:21,porque la patada de Scott Dan,routine,0.0
+1641.33,1643.33,00:27:21,00:27:23,fue realmente fuerte,routine,0.0
+1643.33,1645.33,00:27:23,00:27:25,le dejó ya arrenquear,routine,0.0
+1645.33,1647.33,00:27:25,00:27:27,y luego no ha podido continuar,routine,0.0
+1647.33,1649.33,00:27:27,00:27:29,el delantero del match este serie,routine,0.0
+1649.33,1651.33,00:27:29,00:27:31,eso ha permitido el debut,routine,0.0
+1651.33,1653.33,00:27:31,00:27:33,de Kevin de Bruyne,routine,0.0
+1653.33,1655.33,00:27:33,00:27:35,el internacional belga,routine,0.0
+1655.33,1657.33,00:27:35,00:27:37,que no convenció hace algunas temporadas,routine,0.0
+1657.33,1659.33,00:27:37,00:27:39,a José Mourinho en el Chelsea,routine,0.0
+1659.33,1661.33,00:27:39,00:27:41,le traspasaron al bolsburgo,routine,0.0
+1661.33,1663.33,00:27:41,00:27:43,por 21 millones y medio de euros,routine,0.0
+1663.33,1665.33,00:27:43,00:27:45,y ahora el club alemán ha hecho el negocio de su vida,routine,0.0
+1665.33,1667.33,00:27:45,00:27:47,entiendolo por 75 millones,routine,0.0
+1667.33,1669.33,00:27:47,00:27:49,y ahora el gol de la match este serie,goal,1.0
+1669.33,1671.33,00:27:49,00:27:51,"la pierde ahí, el Cristal Párez",routine,0.0
+1671.33,1673.33,00:27:51,00:27:53,Valón inoportuno de Coláros,routine,0.0
+1673.33,1675.33,00:27:53,00:27:55,saque de puerta,routine,0.0
+1675.33,1677.33,00:27:55,00:27:57,que partido,routine,0.0
+1677.33,1679.33,00:27:57,00:27:59,lo toca así da Calambre,routine,0.0
+1679.33,1681.33,00:27:59,00:28:01,es verdaderamente eléctrico,routine,0.0
+1681.33,1683.33,00:28:01,00:28:03,todo lo que está pasando,routine,0.0
+1683.33,1685.33,00:28:03,00:28:05,desde los refirrafes,routine,0.0
+1685.33,1687.33,00:28:05,00:28:07,hasta el propio fútbol de los dos equipos,routine,0.0
+1687.33,1689.33,00:28:07,00:28:09,porque tampoco el match este serie,routine,0.0
+1689.33,1691.33,00:28:09,00:28:11,está pudiendo hacer su fútbol,routine,0.0
+1691.33,1694.67,00:28:11,00:28:14,un fútbol más pausado,routine,0.0
+1694.67,1696.67,00:28:14,00:28:16,saque de Joe Hart,routine,0.0
+1696.67,1698.67,00:28:16,00:28:18,para empezar de llevar ya algunos minutos,routine,0.0
+1698.67,1700.67,00:28:18,00:28:20,sin tener que intervenir,routine,0.0
+1700.67,1702.67,00:28:20,00:28:22,todavía sigue,routine,0.0
+1702.67,1704.67,00:28:22,00:28:24,"muy, muy atento",routine,0.0
+1704.67,1706.67,00:28:24,00:28:26,a lo que pueda ocurrir porque,routine,0.0
+1706.67,1708.67,00:28:26,00:28:28,"el Cristal Párez juega en tres, cuatro toques",routine,0.0
+1708.67,1710.67,00:28:28,00:28:30,y le puede sorprender en cualquier situación,routine,0.0
+1710.67,1712.67,00:28:30,00:28:32,ahora sí,routine,0.0
+1712.67,1714.67,00:28:32,00:28:34,"empieza a presionar, a elevar la línea",routine,0.0
+1714.67,1716.67,00:28:34,00:28:36,defensiva ahí con Alexander Coláros,routine,0.0
+1716.67,1718.67,00:28:36,00:28:38,el servidor de Cristal Párez,routine,0.0
+1718.67,1720.67,00:28:38,00:28:40,la quería bajar ahí Nassri,routine,0.0
+1720.67,1722.67,00:28:40,00:28:42,acude nuevamente Coláros mal de cara,routine,0.0
+1722.67,1724.67,00:28:42,00:28:44,contra Mangala,routine,0.0
+1724.67,1726.67,00:28:44,00:28:46,el fútbol de Jara,routine,0.0
+1726.67,1728.67,00:28:46,00:28:48,que va de cara,routine,0.0
+1728.67,1730.67,00:28:48,00:28:50,también a punto de hacerle daño,routine,0.0
+1730.67,1732.67,00:28:50,00:28:52,y lo mismo de Jara quien llega de cara,routine,0.0
+1732.67,1734.67,00:28:52,00:28:54,Pancho mete el envío al área,routine,0.0
+1734.67,1736.67,00:28:54,00:28:56,al final,routine,0.0
+1736.67,1738.67,00:28:56,00:28:58,Jara que deja que Balón se marche por la línea de fondo,routine,0.0
+1738.67,1740.67,00:28:58,00:29:00,a veces en la virtud está,routine,0.0
+1740.67,1742.67,00:29:00,00:29:02,tu propio defecto,routine,0.0
+1742.67,1744.67,00:29:02,00:29:04,a veces el Cristal Párez,routine,0.0
+1744.67,1746.67,00:29:04,00:29:06,en ese exceso de verticalidad y de vértigo,routine,0.0
+1746.67,1748.67,00:29:06,00:29:08,le falta un poquito,corner_or_free_kick,0.42
+1748.67,1750.67,00:29:08,00:29:10,de cabeza en ocasiones como en esta última acción,routine,0.0
+1750.67,1752.67,00:29:10,00:29:12,en la que Pancho ya quiso,routine,0.0
+1752.67,1754.67,00:29:12,00:29:14,de estar la entrada,routine,0.0
+1754.67,1756.67,00:29:14,00:29:16,que es tremenda de,routine,0.0
+1756.67,1758.67,00:29:16,00:29:18,de Yaya Turé,routine,0.0
+1758.67,1760.67,00:29:18,00:29:20,ahí Alampardiu que ha empezado,routine,0.0
+1760.67,1762.67,00:29:20,00:29:22,a gritar,routine,0.0
+1762.67,1764.67,00:29:22,00:29:24,y aquí es cuando se va a producir el,routine,0.0
+1764.67,1766.67,00:29:24,00:29:26,"bueno, bueno, bueno, bueno",routine,0.0
+1766.67,1768.67,00:29:26,00:29:28,la imagen del partido,routine,0.0
+1768.67,1770.67,00:29:28,00:29:30,y seguramente de la jornada en la Premier,routine,0.0
+1770.67,1772.67,00:29:30,00:29:32,y también posiblemente,routine,0.0
+1772.67,1774.67,00:29:32,00:29:34,en gran parte del fútbol mundial,routine,0.0
+1774.67,1776.67,00:29:34,00:29:36,el encontronazo y luego eso también,routine,0.0
+1776.67,1778.67,00:29:36,00:29:38,esto también honra a los dos,routine,0.0
+1778.67,1780.67,00:29:38,00:29:40,porque perdió unos papeles pero,routine,0.0
+1780.67,1782.67,00:29:40,00:29:42,ha sabido a la vez cogerlos,routine,0.0
+1782.67,1784.67,00:29:42,00:29:44,de cogerlos del suelo y ponerlos,routine,0.0
+1784.67,1786.67,00:29:44,00:29:46,encima de la mesa. Lo que hemos visto ahora es lo importante,routine,0.0
+1786.67,1788.67,00:29:46,00:29:48,porque al final cualquier persona,routine,0.0
+1788.67,1790.67,00:29:48,00:29:50,hasta la persona más calmada,routine,0.0
+1790.67,1792.67,00:29:50,00:29:52,del mundo que es Manuel Pellegrini puede,routine,0.0
+1792.67,1794.67,00:29:52,00:29:54,en un momento dado perder los nervios,routine,0.0
+1794.67,1796.67,00:29:54,00:29:56,porque los partidos son así,routine,0.0
+1796.67,1798.67,00:29:56,00:29:58,hay una enorme tensión pero luego,routine,0.0
+1798.67,1800.67,00:29:58,00:30:00,lo que hemos visto lo arregla absolutamente todo,routine,0.0
+1800.67,1802.67,00:30:00,00:30:02,seguramente luego en el túnel de vestuarios,routine,0.0
+1802.67,1807.97,00:30:02,00:30:07,lo terminarán de arreglar,routine,0.0
+1807.97,1809.97,00:30:07,00:30:09,El saque de Bandai para Bacar y Sañá,routine,0.0
+1809.97,1811.97,00:30:09,00:30:11,se ha estabilizado el partido,routine,0.0
+1811.97,1813.97,00:30:11,00:30:13,era un toma y daca en ambas porterías,routine,0.0
+1813.97,1815.97,00:30:13,00:30:15,donde habíamos visto,routine,0.0
+1815.97,1817.97,00:30:15,00:30:17,"en momento 4 oportunidades, 3 para el Palace",routine,0.0
+1817.97,1819.97,00:30:17,00:30:19,una para el City,routine,0.0
+1819.97,1821.97,00:30:19,00:30:21,y ahora los dos equipos siguen,routine,0.0
+1821.97,1823.97,00:30:21,00:30:23,golpeándose,routine,0.0
+1823.97,1825.97,00:30:23,00:30:25,pero ya no hay tanto juego en las áreas,routine,0.0
+1825.97,1827.97,00:30:25,00:30:27,ya no están en box to box,routine,0.0
+1827.97,1829.97,00:30:27,00:30:29,en los primeros 15 minutos del partido,routine,0.0
+1829.97,1833.92,00:30:29,00:30:33,recibe Kevin De Bruyne,routine,0.0
+1833.92,1835.92,00:30:33,00:30:35,el bélico para Sañá,routine,0.0
+1835.92,1837.92,00:30:35,00:30:37,está en corto para Jesús Navas,routine,0.0
+1837.92,1839.92,00:30:37,00:30:39,la busca nuevamente,routine,0.0
+1839.92,1841.92,00:30:39,00:30:41,el interrocional español,routine,0.0
+1841.92,1843.92,00:30:41,00:30:43,con la buena cobertura,routine,0.0
+1843.92,1845.92,00:30:43,00:30:45,"hay de Suague, corto de cabeza",routine,0.0
+1845.92,1847.92,00:30:45,00:30:47,"y con Pani, evitando que pudiera llegar",routine,0.0
+1847.92,1849.92,00:30:47,00:30:49,Gianni Bolasie,routine,0.0
+1849.92,1851.92,00:30:49,00:30:51,abajo de la pelota MacArthur,routine,0.0
+1851.92,1853.92,00:30:51,00:30:53,no puede hacerse con el esférico,routine,0.0
+1853.92,1855.92,00:30:53,00:30:55,"finalmente Pancheon, peligro",routine,0.0
+1855.92,1857.92,00:30:55,00:30:57,Kevin De Bruyne en la apertura para Colaro,routine,0.0
+1857.92,1859.92,00:30:57,00:30:59,puede buscar el disparo,chance_or_shot,0.68
+1859.92,1861.92,00:30:59,00:31:01,"Colaro, el pelotazo en la cara",routine,0.0
+1861.92,1870.67,00:31:01,00:31:10,de Bacar y Saquó,routine,0.0
+1870.67,1872.67,00:31:10,00:31:12,1.31 de la primera parte,routine,0.0
+1872.67,1874.67,00:31:12,00:31:14,el ambiente espectacular hoy en el,routine,0.0
+1874.67,1876.67,00:31:14,00:31:16,estadio de Sejaspar con la afición,routine,0.0
+1876.67,1878.67,00:31:16,00:31:18,de los sigos,routine,0.0
+1878.67,1880.67,00:31:18,00:31:20,que no paran ni mal a los suyos,routine,0.0
+1880.67,1882.67,00:31:20,00:31:22,y el sitio hoy lo está pasando mal,routine,0.0
+1882.67,1884.67,00:31:22,00:31:24,en esta visita a Londres,routine,0.0
+1884.67,1886.67,00:31:24,00:31:26,"Nassenri, buscó un compañero",routine,0.0
+1886.67,1888.67,00:31:26,00:31:28,muy cerca de la Colaro,routine,0.0
+1888.67,1891.95,00:31:28,00:31:31,continúa Nassenri,routine,0.0
+1891.95,1893.95,00:31:31,00:31:33,en corto para Kevin De Bruyne,routine,0.0
+1893.95,1895.95,00:31:33,00:31:35,juega ahí como pibos de fútbol,routine,0.0
+1895.95,1897.95,00:31:35,00:31:37,"a la Boni, Boni en el disparo",chance_or_shot,0.68
+1897.95,1899.95,00:31:37,00:31:39,ha salvado ahí MacArthur y continúa el peligro,routine,0.0
+1899.95,1901.95,00:31:39,00:31:41,"Nassenri Boni, saca la pelota",routine,0.0
+1901.95,1903.95,00:31:41,00:31:43,finalmente ahí MacArthur,routine,0.0
+1903.95,1905.95,00:31:43,00:31:45,ocasión muy buena para,chance_or_shot,0.68
+1905.95,1907.95,00:31:45,00:31:47,Nassenri,routine,0.0
+1907.95,1909.95,00:31:47,00:31:49,recibir de espaldas y girar a esa velocidad,routine,0.0
+1909.95,1911.95,00:31:49,00:31:51,en diablada,routine,0.0
+1911.95,1913.95,00:31:51,00:31:53,que tiene en el giro,routine,0.0
+1913.95,1915.95,00:31:53,00:31:55,Wilfred Boni ha estado punto de marcar el 0-1,routine,0.0
+1915.95,1917.95,00:31:55,00:31:57,antes,routine,0.0
+1917.95,1919.95,00:31:57,00:31:59,yo creo que algo,routine,0.0
+1919.95,1921.95,00:31:59,00:32:01,que el City necesita,routine,0.0
+1921.95,1923.95,00:32:01,00:32:03,"que San Masly, silveando",routine,0.0
+1923.95,1925.95,00:32:03,00:32:05,o haciendo de silva,routine,0.0
+1925.95,1927.95,00:32:05,00:32:07,en la medida de lo posible,routine,0.0
+1927.95,1929.95,00:32:07,00:32:09,atrayendo rivales,routine,0.0
+1929.95,1931.95,00:32:09,00:32:11,poniendo esa pausa que el Manche,routine,0.0
+1931.95,1933.95,00:32:11,00:32:13,este City necesita y que está tan acostumbrada,routine,0.0
+1933.95,1935.95,00:32:13,00:32:15,de el Canario,routine,0.0
+1935.95,1937.95,00:32:15,00:32:17,pero hoy alguien tiene que hacerlo,routine,0.0
+1937.95,1939.95,00:32:17,00:32:19,vaya acción,routine,0.0
+1939.95,1941.95,00:32:19,00:32:21,no le da oportunidad central,routine,0.0
+1941.95,1943.95,00:32:21,00:32:23,ni siquiera de intentar anticiparle,routine,0.0
+1943.95,1945.95,00:32:23,00:32:25,porque antes de que se le acerque,routine,0.0
+1945.95,1947.95,00:32:25,00:32:27,"incluso la pelota, el ya se anticipa",routine,0.0
+1947.95,1949.95,00:32:27,00:32:29,para hacer el control orientado y girar,routine,0.0
+1949.95,1951.95,00:32:29,00:32:31,es dificilísimo defender eso,routine,0.0
+1951.95,1953.95,00:32:31,00:32:33,Bonita juega el match,routine,0.0
+1953.95,1955.95,00:32:33,00:32:35,a ese City a punto de llegar el 0-1,routine,0.0
+1955.95,1957.95,00:32:35,00:32:37,con ese movimiento perfecto,routine,0.0
+1957.95,1959.95,00:32:37,00:32:39,de pibos de fútbol salas dentro del área,routine,0.0
+1959.95,1961.95,00:32:39,00:32:41,que hizo Wilfred Boni,routine,0.0
+1961.95,1963.95,00:32:41,00:32:43,el marfileño,routine,0.0
+1963.95,1965.95,00:32:43,00:32:45,a punto de marcar el primero para los de Pelegrini,routine,0.0
+1965.95,1967.95,00:32:45,00:32:47,para líder de la Premier,routine,0.0
+1967.95,1969.95,00:32:47,00:32:49,que le está pasando mal por momentos estuvo con el agua al cuello,routine,0.0
+1969.95,1971.95,00:32:49,00:32:51,el conjunto celeste,routine,0.0
+1971.95,1973.95,00:32:51,00:32:53,a pesar de perder a su,routine,0.0
+1973.95,1975.95,00:32:53,00:32:55,gran estrella,routine,0.0
+1975.95,1977.95,00:32:55,00:32:57,y eso que tiene muchas,routine,0.0
+1977.95,1979.95,00:32:57,00:32:59,Sergio Cunagüero ha empezado luego a respirar,routine,0.0
+1979.95,1981.95,00:32:59,00:33:01,y a manejar ya el partido,routine,0.0
+1981.95,1983.95,00:33:01,00:33:03,Fernandinho en corto para que viene Bruin,routine,0.0
+1983.95,1985.95,00:33:03,00:33:05,Kolarov,routine,0.0
+1985.95,1987.95,00:33:05,00:33:07,se frena ahí el servio,routine,0.0
+1987.95,1989.95,00:33:07,00:33:09,pero que nuevamente en corto para de Bruin,routine,0.0
+1989.95,1991.95,00:33:09,00:33:11,y Vélgar solo tiene 24 años,routine,0.0
+1991.95,1993.95,00:33:11,00:33:13,y durante la semana Pelegrini,routine,0.0
+1993.95,1995.95,00:33:13,00:33:15,afirmaba será muy importante,routine,0.0
+1995.95,1997.95,00:33:15,00:33:17,el match de City porque tiene unas características,routine,0.0
+1997.95,1999.95,00:33:17,00:33:19,que los hace mucha falta,corner_or_free_kick,0.42
+1999.95,2003.39,00:33:19,00:33:23,vemos luego los minutos de que vais a poner,routine,0.0
+2003.39,2005.39,00:33:23,00:33:25,durante la temporada priori van a ser muchos,routine,0.0
+2005.39,2007.39,00:33:25,00:33:27,o deberían ser muchos,routine,0.0
+2007.39,2009.39,00:33:27,00:33:29,lo bueno que tiene de Bruin para mí,routine,0.0
+2009.39,2011.39,00:33:29,00:33:31,tiene muchas cosas,routine,0.0
+2011.39,2013.39,00:33:31,00:33:33,pero por quedarme con un concepto de,routine,0.0
+2013.39,2015.39,00:33:33,00:33:35,por qué puede ser tan útil,routine,0.0
+2015.39,2017.39,00:33:35,00:33:37,es que es un jugador que para un equipo,routine,0.0
+2017.39,2019.39,00:33:37,00:33:39,como el match de City,routine,0.0
+2019.39,2021.39,00:33:39,00:33:41,tiene muchas maneras,routine,0.0
+2021.39,2023.39,00:33:41,00:33:43,y que ni mucho menos como mucha gente,routine,0.0
+2023.39,2025.39,00:33:43,00:33:45,piensa que a lo mejor no lo voy a jugar a menudo,routine,0.0
+2025.39,2027.39,00:33:45,00:33:47,el match de City lleva el peso,routine,0.0
+2027.39,2029.39,00:33:47,00:33:49,del partido y domina todos los partidos,routine,0.0
+2029.39,2031.39,00:33:49,00:33:51,no es así,routine,0.0
+2031.39,2033.39,00:33:51,00:33:53,muchas veces el match de City también repliega,routine,0.0
+2033.39,2035.39,00:33:53,00:33:55,y juega la contra,routine,0.0
+2035.39,2037.39,00:33:55,00:33:57,y de Bruin maneja muy bien los dos registros,routine,0.0
+2037.39,2039.39,00:33:57,00:33:59,sabe perfectamente ser dañino,routine,0.0
+2039.39,2041.39,00:33:59,00:34:01,ante un equipo replegado,routine,0.0
+2041.39,2043.39,00:34:01,00:34:03,porque tiene uno contra uno,routine,0.0
+2043.39,2045.39,00:34:03,00:34:05,desde parado tiene capacidad,chance_or_shot,0.68
+2045.39,2047.39,00:34:05,00:34:07,de desborde pero también es un jugador,routine,0.0
+2047.39,2049.39,00:34:07,00:34:09,que en transición rápida es devastador,routine,0.0
+2049.39,2051.39,00:34:09,00:34:11,porque tiene muchísima velocidad,routine,0.0
+2051.39,2053.39,00:34:11,00:34:13,en carrera y una gran conducción,routine,0.0
+2055.39,2057.39,00:34:15,00:34:17,así que a mí me gusta,routine,0.0
+2057.39,2059.39,00:34:17,00:34:19,mucho por eso,routine,0.0
+2059.39,2061.39,00:34:19,00:34:21,yo creo que lo mejor de él es,routine,0.0
+2061.39,2063.39,00:34:21,00:34:23,esto último es decir jugar con espacios,routine,0.0
+2063.39,2065.39,00:34:23,00:34:25,ahí es donde de Bruin es un espectáculo,routine,0.0
+2065.39,2067.39,00:34:25,00:34:27,y eso el boss burger,routine,0.0
+2067.39,2069.39,00:34:27,00:34:29,el equipo perfecto para él,routine,0.0
+2069.39,2071.39,00:34:29,00:34:31,Manchester City,routine,0.0
+2071.39,2073.39,00:34:31,00:34:33,ataca contra equipos encerrados,routine,0.0
+2073.39,2075.39,00:34:33,00:34:35,en muchos más partidos al año que el boss,routine,0.0
+2075.39,2077.39,00:34:35,00:34:37,de Bruin,routine,0.0
+2077.39,2079.39,00:34:37,00:34:39,y aunque ya digo que también de Bruin te ayuda,routine,0.0
+2079.39,2081.39,00:34:39,00:34:41,porque tiene esas cualidades que hemos dicho,routine,0.0
+2081.39,2083.39,00:34:41,00:34:43,lo mejor de él es,routine,0.0
+2083.39,2085.39,00:34:43,00:34:45,con espacios,routine,0.0
+2085.39,2087.39,00:34:45,00:34:47,donde para mí aparece el 100% del potencial,routine,0.0
+2087.39,2089.39,00:34:47,00:34:49,del jugador belga,routine,0.0
+2089.39,2091.39,00:34:49,00:34:51,ojalá esté enchufado a menudo,routine,0.0
+2091.39,2093.39,00:34:51,00:34:53,porque ya digo que es un jugador,routine,0.0
+2093.39,2095.39,00:34:53,00:34:55,con esa tendencia,routine,0.0
+2095.39,2097.39,00:34:55,00:34:57,vaya rabia,routine,0.0
+2097.39,2099.39,00:34:57,00:34:59,vaya rabia,routine,0.0
+2099.39,2101.39,00:34:59,00:35:01,esa es la imagen de Ercuna Agüero,routine,0.0
+2101.39,2103.39,00:35:01,00:35:03,minuto 35,routine,0.0
+2103.39,2105.39,00:35:03,00:35:05,en la pierna ahí,routine,0.0
+2105.39,2107.39,00:35:05,00:35:07,esa es la jugada repetida,routine,0.0
+2107.39,2109.39,00:35:07,00:35:09,la jugada en la que se lleva,routine,0.0
+2109.39,2111.39,00:35:09,00:35:11,la patada ahí tremenda,routine,0.0
+2111.39,2113.39,00:35:11,00:35:13,Ercuna Agüero,routine,0.0
+2113.39,2115.39,00:35:13,00:35:15,esta es la primera vez que vemos la patada,routine,0.0
+2115.39,2117.39,00:35:15,00:35:17,desde la cámara master,routine,0.0
+2117.39,2119.39,00:35:17,00:35:19,porque antes no la habíamos podido ver,routine,0.0
+2119.39,2121.39,00:35:19,00:35:21,un play,routine,0.0
+2121.39,2123.39,00:35:21,00:35:23,ya han tenido que,routine,0.0
+2123.39,2125.39,00:35:23,00:35:25,colocar ese apósito transparente,routine,0.0
+2125.39,2127.39,00:35:25,00:35:27,ahí en el muslo,routine,0.0
+2127.39,2129.39,00:35:27,00:35:29,en la zona superior de la rodilla,routine,0.0
+2129.39,2131.39,00:35:29,00:35:31,Ercuna Agüero,routine,0.0
+2131.39,2133.39,00:35:31,00:35:33,es al menos el mejor jugador que ha tenido,routine,0.0
+2133.39,2135.39,00:35:33,00:35:35,para él,routine,0.0
+2135.39,2137.39,00:35:35,00:35:37,por esa patada lebosa de Scott Dana,routine,0.0
+2137.39,2139.39,00:35:37,00:35:39,la carga al Pala,routine,0.0
+2139.39,2141.39,00:35:39,00:35:41,muy bien en el corte ahora Colároff,routine,0.0
+2141.39,2143.39,00:35:41,00:35:43,que se está haciendo fuerte ahí en la derecha a la izquierda,routine,0.0
+2143.39,2145.39,00:35:43,00:35:45,aunque ahora Yerra al pase,routine,0.0
+2145.39,2147.39,00:35:45,00:35:47,recupera el Pala,routine,0.0
+2147.39,2149.39,00:35:47,00:35:49,Alonago de Cavache,routine,0.0
+2149.39,2151.39,00:35:49,00:35:51,intentó llegar pero era imposible,routine,0.0
+2151.39,2153.39,00:35:51,00:35:53,ese balón,routine,0.0
+2153.39,2155.39,00:35:53,00:35:55,para Vakar Isaaco,routine,0.0
+2155.39,2157.39,00:35:55,00:35:57,un Pala es un equipo que no te da tregua,routine,0.0
+2157.39,2159.39,00:35:57,00:35:59,te ataca por tierra,routine,0.0
+2159.39,2161.79,00:35:59,00:36:01,Ivacar y sacó y el ritmo es infernal.,routine,0.0
+2162.19,2166.59,00:36:02,00:36:06,"Sí, y cuando no puede correr, también sabe jugar en largo.",routine,0.0
+2168.79,2173.39,00:36:08,00:36:13,Balones que se saltan en el centro del campo y que también hacen daño a los rivales.,routine,0.0
+2176.62,2178.82,00:36:16,00:36:18,"El salto, falla ahora, ahí, Hangelen.",routine,0.0
+2179.02,2182.82,00:36:19,00:36:22,"Toda la ventaja para Scott Dunke, deja que se haga con el esférico Macarcy.",routine,0.0
+2184.02,2186.82,00:36:24,00:36:26,"Proyecto al final ya de la primera parte, con ese empate a cero sin goles.",routine,0.0
+2187.42,2190.42,00:36:27,00:36:30,"En Sejas Park, en Manchester City.",routine,0.0
+2191.02,2197.02,00:36:31,00:36:37,"Lleva 10 victorias consecutivas en Premier, sumando las 4 de esta temporada y las 6 últimas de la pasada.",routine,0.0
+2198.02,2203.02,00:36:38,00:36:43,"Eso sí, el récord está en poder de Larsena, que sumó 14 victorias en fila en el año 2002.",routine,0.0
+2204.02,2207.02,00:36:44,00:36:47,"Ya me acuerdo, de aquellos. Fue tremendo.",routine,0.0
+2208.02,2216.02,00:36:48,00:36:56,"Larsena también, que pasó más a la historia como equipo de mucha posesión y no era así.",routine,0.0
+2218.02,2220.02,00:36:58,00:37:00,Era un equipo increíblemente veloz.,routine,0.0
+2223.39,2230.39,00:37:03,00:37:10,"Había hechos menos a los que llegué, a Patrick Vieira, a Robert Pires, a Dennis Berca, mi compañera.",routine,0.0
+2232.93,2233.93,00:37:12,00:37:13,Intenta ahí el Palace.,routine,0.0
+2233.93,2239.93,00:37:13,00:37:19,"El balón para Jason Panchion, levanta la cabeza, decide abrir para Suagé, interviene el Senegalés, nuevamente Panchion.",routine,0.0
+2239.93,2242.93,00:37:19,00:37:22,"La presión de De Bruyne, que sí, también sabe defender, roba bien el Belga.",routine,0.0
+2243.93,2248.93,00:37:23,00:37:28,"Ok, Jesús Navas para De Bruyne, la pide más arriba, Wifre Poni, perfecto ahí de Bruyne con el quiebro.",routine,0.0
+2248.93,2251.93,00:37:28,00:37:31,"De Bruyne en la frontera, Jesús Navas, el disparo, alto.",chance_or_shot,0.68
+2252.53,2254.53,00:37:32,00:37:34,"Con mucha intención, por parte de Nandaluz.",routine,0.0
+2256.53,2262.53,00:37:36,00:37:42,"Esto es lo que hablábamos, el equipo replegado y el contragolpe.",routine,0.0
+2262.53,2266.53,00:37:42,00:37:46,"Porque en este caso de Bruyne, por el perfil que menos le gusta.",routine,0.0
+2266.53,2271.53,00:37:46,00:37:51,"No tengo ninguna duda de que, si él tiene que hacer una jugada en conducción,",routine,0.0
+2271.53,2274.53,00:37:51,00:37:54,"prefiera arrancar escorado a la izquierda, eso es seguro.",routine,0.0
+2275.13,2281.13,00:37:55,00:38:01,"Aquí ha tenido que conducir por su banda mal, digamos.",routine,0.0
+2281.13,2284.13,00:38:01,00:38:04,"Porque ya decimos que está jugando como delantero en el día de hoy,",routine,0.0
+2284.13,2287.13,00:38:04,00:38:07,así que le puede tocar cualquiera de las dos bandas en alguna contra.,routine,0.0
+2287.13,2291.13,00:38:07,00:38:11,Acaba con el pecho y Fernandinho para conectar con su alter ego.,routine,0.0
+2291.13,2294.13,00:38:11,00:38:14,"Yaya Tauré, el balón sin embargo, es para Bacarista Coel Mali,",routine,0.0
+2294.13,2298.13,00:38:14,00:38:18,"que ya marcó en la última jornada frente a Chelsea, firme la marca Mangala.",goal,1.0
+2298.13,2302.13,00:38:18,00:38:22,"Insiste el Palace en segunda oleada, balón a nadie, de Johan Kavash.",routine,0.0
+2302.73,2306.73,00:38:22,00:38:26,"Público encantado porque su equipo le sigue metiendo miedo al líder,",routine,0.0
+2306.73,2308.73,00:38:26,00:38:28,nada más y nada menos.,routine,0.0
+2308.73,2313.73,00:38:28,00:38:33,"El otro era débil, pequeño, modesto Cristal Palace.",routine,0.0
+2313.73,2320.73,00:38:33,00:38:40,"Ahora con Alan Pardio, reconvertido en un equipo poderoso y que te hace mucho daño.",routine,0.0
+2320.73,2327.73,00:38:40,00:38:47,"Hay que recordar que este equipo ya tuvo una época también muy agresiva,",routine,0.0
+2327.73,2331.73,00:38:47,00:38:51,en la que fue entrenado por el ex del Stoke.,routine,0.0
+2332.33,2334.33,00:38:52,00:38:54,Por Tony Puglies.,routine,0.0
+2334.33,2341.33,00:38:54,00:39:01,"Ahí también pudimos ver a un Palace con menos calidad de la que tiene ahora,",routine,0.0
+2341.33,2344.33,00:39:01,00:39:04,porque los equipos ingleses pequeños han ido fichando.,routine,0.0
+2344.33,2348.33,00:39:04,00:39:08,"En estos últimos contratos de televisión, y ahora son más potentes,",routine,0.0
+2348.33,2353.33,00:39:08,00:39:13,pero aquel Palace de Puglies también era un equipo que metía miedo.,routine,0.0
+2353.33,2358.33,00:39:13,00:39:18,Luego Tony Puglies se marchó y dejó un gran vacío realmente.,routine,0.0
+2358.93,2363.93,00:39:18,00:39:23,"Desde que llegó Alan Pardio, el equipo ha vuelto a ser reconocido,",routine,0.0
+2363.93,2365.93,00:39:23,00:39:25,con su estilo y competitivo.,routine,0.0
+2367.93,2370.93,00:39:27,00:39:30,"Los jugadores que tienen un escaparate impresionante esta campaña,",routine,0.0
+2370.93,2374.93,00:39:30,00:39:34,"y que de seguir así y concluir en la misma manera la temporada,",routine,0.0
+2374.93,2378.93,00:39:34,00:39:38,"pueden encontrar destinos mucho más suculentes todavía,",routine,0.0
+2378.93,2381.93,00:39:38,00:39:41,"que es el House Park, Bonnie de Espaldas,",routine,0.0
+2381.93,2384.93,00:39:41,00:39:44,"con los plazos trabajó ahí de forma anti-reglamentaria,",routine,0.0
+2385.93,2387.93,00:39:45,00:39:47,un poderoso central noruego.,routine,0.0
+2387.93,2389.93,00:39:47,00:39:49,"Últimos cinco minutos de la primera parte,",routine,0.0
+2389.93,2392.93,00:39:49,00:39:52,"en ese Cristal Palace, cero manches de Serie A y cero.",routine,0.0
+2392.93,2395.93,00:39:52,00:39:55,"El mejor fútbol del mundo, como siempre aquí en Movistar Plus.",routine,0.0
+2395.93,2399.66,00:39:55,00:39:59,Bonnie que se ha quedado en referencia en el ataque,routine,0.0
+2399.66,2403.66,00:39:59,00:40:03,"después de la salida del campo por lesión de Sergio Cunagüero,",routine,0.0
+2403.66,2409.66,00:40:03,00:40:09,tras la patada dura y alebosa que le propinara al central de Scott Dunn.,routine,0.0
+2409.66,2421.22,00:40:09,00:40:21,Posición para Hangeland.,routine,0.0
+2421.22,2426.46,00:40:21,00:40:26,Scott Dunn.,routine,0.0
+2431.55,2433.55,00:40:31,00:40:33,"Bueno, nuevamente Hangeland.",routine,0.0
+2433.55,2442.22,00:40:33,00:40:42,Ahora se tomó un respiro del City para no presionar muy arriba.,routine,0.0
+2442.22,2447.22,00:40:42,00:40:47,El Cristal Palace ante la llegada de Samir Nassenri.,routine,0.0
+2447.22,2449.22,00:40:47,00:40:49,Kolarov presionado por Saco.,routine,0.0
+2449.22,2451.22,00:40:49,00:40:51,Mangala.,routine,0.0
+2451.22,2454.22,00:40:51,00:40:54,Se ofrecía para salir yaya Toure.,routine,0.0
+2454.22,2456.22,00:40:54,00:40:56,El problema sería aquí Mangala.,routine,0.0
+2456.22,2459.22,00:40:56,00:40:59,La conexión perfecta ahora con Fernandinho.,routine,0.0
+2459.22,2462.22,00:40:59,00:41:02,"La pide ya Nassenri, le doblaba también Kolarov,",routine,0.0
+2462.22,2464.22,00:41:02,00:41:04,intentando dibujar ese 2 contra 2.,routine,0.0
+2464.22,2466.22,00:41:04,00:41:06,"A la fronta, el pase bien cortado por Dunn,",routine,0.0
+2466.22,2469.22,00:41:06,00:41:09,pero vuelve a recuperar el international play.,routine,0.0
+2469.22,2472.22,00:41:09,00:41:12,"Fernandinho en corto, para que vende Provin.",routine,0.0
+2472.22,2474.22,00:41:12,00:41:14,"Ya es Toure, el jefe.",routine,0.0
+2474.22,2476.22,00:41:14,00:41:16,"Alejandro, el ataque de su equipo.",routine,0.0
+2476.22,2478.22,00:41:16,00:41:18,Bonnie otra vez actuando como pivot.,routine,0.0
+2478.22,2480.22,00:41:18,00:41:20,"Otra de la misma, ¿no?",routine,0.0
+2480.22,2483.22,00:41:20,00:41:23,"Mismo giro sin dar tiempo al defensor,",routine,0.0
+2483.22,2485.22,00:41:23,00:41:25,ni siquiera decidir qué va a hacer.,routine,0.0
+2485.22,2492.66,00:41:25,00:41:32,"Antes de decidirlo, se anticipa y se hace ese control orientado.",routine,0.0
+2492.66,2494.66,00:41:32,00:41:34,"Está aguantando ahí, ese balón.",routine,0.0
+2494.66,2496.66,00:41:34,00:41:36,"El Manchester City con Balcari sañado,",routine,0.0
+2496.66,2498.66,00:41:36,00:41:38,"dice Mike Jones, que no hay falta.",corner_or_free_kick,0.42
+2498.66,2501.66,00:41:38,00:41:41,"La pelota para Yaya Toure, Nassenri.",routine,0.0
+2501.66,2503.66,00:41:41,00:41:43,"Se incorporaba por banda izquierda Kolarov,",routine,0.0
+2503.66,2505.66,00:41:43,00:41:45,le ve bien perfectamente de Provin.,routine,0.0
+2505.66,2507.66,00:41:45,00:41:47,La pone Kolarov mal al primer toque.,routine,0.0
+2507.66,2510.66,00:41:47,00:41:50,"No había necesidad, además, de jugar de primeras,",routine,0.0
+2510.66,2512.66,00:41:50,00:41:52,porque realmente no había cargado el área,routine,0.0
+2512.66,2514.66,00:41:52,00:41:54,todavía el Manchester City.,routine,0.0
+2514.66,2518.66,00:41:54,00:41:58,No había un posible rematador ahí.,routine,0.0
+2518.66,2520.66,00:41:58,00:42:00,Así que ahí se equivocó Kolarov.,routine,0.0
+2520.66,2523.66,00:42:00,00:42:03,"Igual sí lo había, pero estaba justo llegando, ¿no?",routine,0.0
+2523.66,2527.66,00:42:03,00:42:07,No era la clásica jugada en la que centrar de primeras,routine,0.0
+2527.66,2531.66,00:42:07,00:42:11,realmente te supone una ayuda.,routine,0.0
+2531.66,2539.69,00:42:11,00:42:19,"Está el balón para el guardameta, Alex McCarthy.",routine,0.0
+2539.69,2541.69,00:42:19,00:42:21,El saque de puerta.,routine,0.0
+2541.69,2544.69,00:42:21,00:42:24,Últimos dos minutos y medio de la primera parte.,routine,0.0
+2544.69,2548.69,00:42:24,00:42:28,"Hoy el City se está viendo apurado, presionado.",routine,0.0
+2548.69,2553.69,00:42:28,00:42:33,"Casi a veces sojudgado por el Cristal Palas,",routine,0.0
+2553.69,2556.69,00:42:33,00:42:36,que está haciendo un magnífico partido desde el pitido inicial.,routine,0.0
+2556.69,2559.69,00:42:36,00:42:39,"Aguanta ahí Kolarov, no hay falta, dice Mike Jones.",corner_or_free_kick,0.42
+2559.69,2562.69,00:42:39,00:42:42,"Se la lleva perfectamente, ahí Wifred Saga.",routine,0.0
+2562.69,2565.69,00:42:42,00:42:45,"La tiene y Volási, puede adrecer con el disparo.",chance_or_shot,0.68
+2565.69,2571.47,00:42:45,00:42:51,Volási habilita Saga en fuera de juego.,routine,0.0
+2571.47,2573.47,00:42:51,00:42:53,Un momento ahí Saga.,routine,0.0
+2573.47,2576.47,00:42:53,00:42:56,Empezó luego a raíz del minuto 20 aproximadamente,routine,0.0
+2576.47,2578.47,00:42:56,00:42:58,a ajustar más y mejor su defensa del City,routine,0.0
+2578.47,2581.47,00:42:58,00:43:01,para no dejar espacios porque le estaban matando,routine,0.0
+2581.47,2589.17,00:43:01,00:43:09,los cuadros de arriba del palas.,routine,0.0
+2589.17,2594.94,00:43:09,00:43:14,Vamos a ver ahí a Cunagüero.,routine,0.0
+2594.94,2598.94,00:43:14,00:43:18,"La protección en la pierna, en la rodilla derecha.",routine,0.0
+2598.94,2601.94,00:43:18,00:43:21,Esto de preocupación.,routine,0.0
+2601.94,2604.94,00:43:21,00:43:24,Pero no se ha ido a vestuarios.,routine,0.0
+2604.94,2606.94,00:43:24,00:43:26,Se ha quedado ahí.,routine,0.0
+2606.94,2609.94,00:43:26,00:43:29,Por lo que podemos entender que a priori,routine,0.0
+2609.94,2611.94,00:43:29,00:43:31,tal vez no sea una lesión grave.,routine,0.0
+2611.94,2613.94,00:43:31,00:43:33,"Eso esperamos desde luego, sino no estaría ahí.",routine,0.0
+2613.94,2615.94,00:43:33,00:43:35,"Si fuera grave, grave.",routine,0.0
+2615.94,2617.94,00:43:35,00:43:37,Se habría ido de ahí seguro.,routine,0.0
+2617.94,2621.94,00:43:37,00:43:41,"Me ha parecido ver que había como una incisión,",routine,0.0
+2621.94,2623.94,00:43:41,00:43:43,"una zona en la que podía haber sangre,",routine,0.0
+2623.94,2625.94,00:43:43,00:43:45,porque le haya golpeado con el taco.,routine,0.0
+2625.94,2627.94,00:43:45,00:43:47,Escota en esa dura entrada.,routine,0.0
+2627.94,2629.94,00:43:47,00:43:49,Lo veremos al final del partido.,routine,0.0
+2629.94,2634.74,00:43:49,00:43:54,Cual es el alcanzo de la lesión de Sergio Cunagüero.,routine,0.0
+2634.74,2638.74,00:43:54,00:43:58,"Ahora hay Jens Makarzur, para que juegue Johan Kavash.",routine,0.0
+2638.74,2641.74,00:43:58,00:44:01,Repite con el propio Makarzur.,routine,0.0
+2641.74,2643.74,00:44:01,00:44:03,"Pide Kavash, también ahora en la derecha.",routine,0.0
+2643.74,2646.74,00:44:03,00:44:06,"Martin Kelly, la tiene lateral derecho.",routine,0.0
+2646.74,2648.74,00:44:06,00:44:08,Jugando en corto.,routine,0.0
+2648.74,2651.74,00:44:08,00:44:11,"Ahí para Zaa, nuevamente Kelly,",routine,0.0
+2651.74,2653.74,00:44:11,00:44:13,con la presión de Nassimri.,routine,0.0
+2653.74,2655.74,00:44:13,00:44:15,No llegó de Bruin a la presión.,routine,0.0
+2655.74,2657.74,00:44:15,00:44:17,Ahora sale el Palace.,routine,0.0
+2659.74,2661.74,00:44:19,00:44:21,Esa pelota para Zako.,routine,0.0
+2663.74,2666.74,00:44:23,00:44:26,"En corto con Volási, quería jugar ahí para Asuage.",routine,0.0
+2666.74,2669.74,00:44:26,00:44:29,Se la lleva ahí Pancho en el disparo alto.,chance_or_shot,0.68
+2669.74,2671.74,00:44:29,00:44:31,No se lo piensa dos veces.,routine,0.0
+2671.74,2673.74,00:44:31,00:44:33,Tiene un tiro excepcional.,chance_or_shot,0.68
+2673.74,2675.74,00:44:33,00:44:35,Fíjate que yo creo que en esta ocasión,chance_or_shot,0.68
+2675.74,2677.74,00:44:35,00:44:37,"me decía la pena pensarse un poco más,",routine,0.0
+2677.74,2679.74,00:44:37,00:44:39,porque tenía espacio.,routine,0.0
+2679.74,2681.74,00:44:39,00:44:41,Es una zona verdaderamente peligrosa.,routine,0.0
+2681.74,2683.74,00:44:41,00:44:43,Y quizás se ha precipitado un poquito,routine,0.0
+2683.74,2685.74,00:44:43,00:44:45,disparando sobre la marcha.,routine,0.0
+2685.74,2688.74,00:44:45,00:44:48,"Yo creo que podía haber encarado a Mangala,",routine,0.0
+2688.74,2690.74,00:44:48,00:44:50,que estaba un poco vendido.,routine,0.0
+2691.74,2693.74,00:44:51,00:44:53,"Pero no, prefirió disparar.",routine,0.0
+2693.74,2695.74,00:44:53,00:44:55,"Ha bajado un poquito, claramente,",routine,0.0
+2695.74,2697.74,00:44:55,00:44:57,la fogosidad del Quistal Palace.,routine,0.0
+2697.74,2699.74,00:44:57,00:44:59,Ataca más en posicional.,routine,0.0

@@ -1,0 +1,4 @@
+start_timestamp,end_timestamp,event,score,commentary,reasons
+00:01:23,00:01:28,goal,1.0,The high shot to the front of the Crystal Palace. The first opportunity for Jo Hardt's score.,"chance or shot, goal"
+00:01:58,00:02:01,goal,1.0,"When Ballon has it there, he scores to Meta Alex McCarcy.",goal
+00:02:39,00:02:52,corner_or_free_kick,0.42,Let's see the first corner of the game. who arrived there at the rematch in the corner.,corner or free kick

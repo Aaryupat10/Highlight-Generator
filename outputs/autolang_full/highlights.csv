@@ -1,0 +1,9 @@
+start_timestamp,end_timestamp,event,score,commentary,commentary_english,reasons
+00:01:22,00:01:28,chance_or_shot,0.68,Cuidado que pisa la área Bolas y el disparo alto primera oportunidad del marco de Joe Hart,Watch out for the balls and high-shot area. First chance at Joe Hart's frame,chance or shot
+00:02:50,00:03:06,chance_or_shot,0.68,"Pallas que llegaba ahí al remate en el saque de esquina y la vuelve a pedir, Bolas en el disparo","Balls that came in the end zone at the corner kick And he asks for it again, balls in the shot","chance or shot, corner or free kick"
+00:06:33,00:06:35,chance_or_shot,0.68,y Bolasi en el disparo,And Bolasi in the shot,chance or shot
+00:31:35,00:31:39,chance_or_shot,0.68,"a la Boni, Boni en el disparo ha salvado ahí MacArthur y continúa el peligro","to the Boni, Boni in the shot He saved MacArthur there and the danger continues.",chance or shot
+00:37:31,00:37:33,chance_or_shot,0.68,"el disparo alto, con mucha intención","The high shot, with a lot of intention.",chance or shot
+00:44:27,00:44:31,chance_or_shot,0.68,"se la lleva ahí Pancho en el disparo alto no se lo piensa dos veces, tiene un tiro","He takes her there Pancho in the high shot Don't think twice, he's got a shot.",chance or shot
+00:44:51,00:44:53,chance_or_shot,0.68,"pero no, prefirió disparar","But no, he preferred to shoot.",chance or shot
+00:18:53,00:18:56,yellow_card,0.58,primera cartulina amarilla en el día de hoy,First yellow card today,yellow card

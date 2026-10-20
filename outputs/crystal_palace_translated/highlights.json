@@ -1,0 +1,21 @@
+{
+  "source_video": "1_224p.mkv",
+  "asr_model": "small",
+  "timestamp_note": "Whisper segment timestamps are estimates; verify against the video before editing.",
+  "highlights": [
+    {
+      "start_seconds": 158.0,
+      "end_seconds": 172.0,
+      "start_timestamp": "00:02:38",
+      "end_timestamp": "00:02:52",
+      "event": "chance_or_shot",
+      "score": 0.68,
+      "commentary": "vamos a ver el primer corner del partido el remate que buscaba Pallas que llegaba ahí al remate en el saque de esquina",
+      "reasons": [
+        "chance or shot",
+        "corner or free kick"
+      ],
+      "commentary_english": "Let 's see the first corner of the game the endgame that Pallas was looking for that got there at the endgame in the corner kick"
+    }
+  ]
+}

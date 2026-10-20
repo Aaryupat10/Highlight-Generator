@@ -1,0 +1,4 @@
+start_timestamp,end_timestamp,event,score,commentary,reasons
+00:00:41,00:00:44,penalty_or_var,0.88,and in front of a ball that gave a penalty in the table,penalty or var
+00:01:22,00:01:25,chance_or_shot,0.68,"and the shot at the front of the Cristal Palas,",chance or shot
+00:02:37,00:02:52,corner_or_free_kick,0.42,"Let's go to the first corner of the game, that came to the remate in the corner,",corner or free kick

@@ -1,0 +1,21 @@
+{
+  "source_video": "1_224p.mkv",
+  "asr_model": "small",
+  "timestamp_note": "Whisper segment timestamps are estimates; verify against the video before editing.",
+  "score_note": "Rule-match score, not a calibrated probability or measured confidence.",
+  "highlights": [
+    {
+      "start_seconds": 100.93,
+      "end_seconds": 109.93,
+      "start_timestamp": "00:01:40",
+      "end_timestamp": "00:01:49",
+      "event": "corner_or_free_kick",
+      "score": 0.42,
+      "commentary": "Milner stops the ball without processing, with his left foot, he is put into the corner of the turn",
+      "commentary_english": "",
+      "reasons": [
+        "corner or free kick"
+      ]
+    }
+  ]
+}

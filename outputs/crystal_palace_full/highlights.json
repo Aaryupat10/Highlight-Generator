@@ -1,0 +1,323 @@
+{
+  "source_video": "1_224p.mkv",
+  "asr_model": "small",
+  "timestamp_note": "Whisper segment timestamps are estimates; verify against the video before editing.",
+  "highlights": [
+    {
+      "start_seconds": 381.44,
+      "end_seconds": 399.44,
+      "start_timestamp": "00:06:21",
+      "end_timestamp": "00:06:39",
+      "event": "goal",
+      "score": 1.0,
+      "commentary": "situaciones de gol con frecuencia y Volasi en el disparo Johara Parado que parada, abajo",
+      "reasons": [
+        "chance or shot",
+        "goal"
+      ],
+      "commentary_english": "frequent goal situations and Volasi on the shot Johara stopped that stop, down"
+    },
+    {
+      "start_seconds": 1667.33,
+      "end_seconds": 1669.33,
+      "start_timestamp": "00:27:47",
+      "end_timestamp": "00:27:49",
+      "event": "goal",
+      "score": 1.0,
+      "commentary": "y ahora el gol de la match este serie",
+      "reasons": [
+        "goal"
+      ],
+      "commentary_english": "And now the goal of the match this series"
+    },
+    {
+      "start_seconds": 2294.13,
+      "end_seconds": 2298.13,
+      "start_timestamp": "00:38:14",
+      "end_timestamp": "00:38:18",
+      "event": "goal",
+      "score": 1.0,
+      "commentary": "que ya marcó en la última jornada frente a Chelsea, firme la marca Mangala.",
+      "reasons": [
+        "goal"
+      ],
+      "commentary_english": "who scored on the last day against Chelsea, signing the Mangala brand."
+    },
+    {
+      "start_seconds": 1164.53,
+      "end_seconds": 1166.53,
+      "start_timestamp": "00:19:24",
+      "end_timestamp": "00:19:26",
+      "event": "penalty_or_var",
+      "score": 0.88,
+      "commentary": "pues ahí a lo mejor hay Penalti de Fernandinho",
+      "reasons": [
+        "penalty or var"
+      ],
+      "commentary_english": "Well, there's probably Fernandinho's penalty there."
+    },
+    {
+      "start_seconds": 82.0,
+      "end_seconds": 84.0,
+      "start_timestamp": "00:01:22",
+      "end_timestamp": "00:01:24",
+      "event": "chance_or_shot",
+      "score": 0.68,
+      "commentary": "Cuidado que pisa la área Bolas y el disparo alto",
+      "reasons": [
+        "chance or shot"
+      ],
+      "commentary_english": "Watch out for the balls and high-shot area."
+    },
+    {
+      "start_seconds": 164.0,
+      "end_seconds": 190.0,
+      "start_timestamp": "00:02:44",
+      "end_timestamp": "00:03:10",
+      "event": "chance_or_shot",
+      "score": 0.68,
+      "commentary": "el remate que buscaba Pallas que llegaba ahí al remate en el saque de esquina y la vuelve a pedir, Bolas en el disparo el chute que acaba en las manos de Yohar",
+      "reasons": [
+        "chance or shot"
+      ],
+      "commentary_english": "The finish I was looking for Pallas who came there at the finish in the corner sack and he asks again, balls in the shot the kick that ends up in Yohar's hands"
+    },
+    {
+      "start_seconds": 220.0,
+      "end_seconds": 222.0,
+      "start_timestamp": "00:03:40",
+      "end_timestamp": "00:03:42",
+      "event": "chance_or_shot",
+      "score": 0.68,
+      "commentary": "había opción de remate pero ya imposible",
+      "reasons": [
+        "chance or shot"
+      ],
+      "commentary_english": "There was a way to finish but it was impossible."
+    },
+    {
+      "start_seconds": 637.97,
+      "end_seconds": 657.97,
+      "start_timestamp": "00:10:37",
+      "end_timestamp": "00:10:57",
+      "event": "chance_or_shot",
+      "score": 0.68,
+      "commentary": "de los e-goals en el área intentaba el remate desviado el shot del atralo izquierdo del Palas yo creo de esa falta lateral",
+      "reasons": [
+        "chance or shot",
+        "corner or free kick"
+      ],
+      "commentary_english": "I was trying to get the draw off the shot from the left atrium of the palace I think of that lateral failure"
+    },
+    {
+      "start_seconds": 1857.92,
+      "end_seconds": 1859.92,
+      "start_timestamp": "00:30:57",
+      "end_timestamp": "00:30:59",
+      "event": "chance_or_shot",
+      "score": 0.68,
+      "commentary": "puede buscar el disparo",
+      "reasons": [
+        "chance or shot"
+      ],
+      "commentary_english": "You can look for the shot."
+    },
+    {
+      "start_seconds": 1895.95,
+      "end_seconds": 1905.95,
+      "start_timestamp": "00:31:35",
+      "end_timestamp": "00:31:45",
+      "event": "chance_or_shot",
+      "score": 0.68,
+      "commentary": "a la Boni, Boni en el disparo ocasión muy buena para",
+      "reasons": [
+        "chance or shot"
+      ],
+      "commentary_english": "Boni, Boni on the shot very good occasion for"
+    },
+    {
+      "start_seconds": 2043.39,
+      "end_seconds": 2045.39,
+      "start_timestamp": "00:34:03",
+      "end_timestamp": "00:34:05",
+      "event": "chance_or_shot",
+      "score": 0.68,
+      "commentary": "desde parado tiene capacidad",
+      "reasons": [
+        "chance or shot"
+      ],
+      "commentary_english": "From the standstill it has capacity"
+    },
+    {
+      "start_seconds": 2248.93,
+      "end_seconds": 2251.93,
+      "start_timestamp": "00:37:28",
+      "end_timestamp": "00:37:31",
+      "event": "chance_or_shot",
+      "score": 0.68,
+      "commentary": "De Bruyne en la frontera, Jesús Navas, el disparo, alto.",
+      "reasons": [
+        "chance or shot"
+      ],
+      "commentary_english": "De Bruyne at the border, Jesus Navas, shooting, high."
+    },
+    {
+      "start_seconds": 2556.69,
+      "end_seconds": 2565.69,
+      "start_timestamp": "00:42:36",
+      "end_timestamp": "00:42:45",
+      "event": "chance_or_shot",
+      "score": 0.68,
+      "commentary": "Aguanta ahí Kolarov, no hay falta, dice Mike Jones. La tiene y Volási, puede adrecer con el disparo.",
+      "reasons": [
+        "chance or shot",
+        "corner or free kick"
+      ],
+      "commentary_english": "Hold on, Kolarov, there's no need, says Mike Jones, he's got it and Volási can aim with the shot."
+    },
+    {
+      "start_seconds": 2666.74,
+      "end_seconds": 2675.74,
+      "start_timestamp": "00:44:26",
+      "end_timestamp": "00:44:35",
+      "event": "chance_or_shot",
+      "score": 0.68,
+      "commentary": "Se la lleva ahí Pancho en el disparo alto. Tiene un tiro excepcional. Fíjate que yo creo que en esta ocasión",
+      "reasons": [
+        "chance or shot"
+      ],
+      "commentary_english": "He's got it there, Pancho, in the high shot."
+    },
+    {
+      "start_seconds": 1042.93,
+      "end_seconds": 1053.68,
+      "start_timestamp": "00:17:22",
+      "end_timestamp": "00:17:33",
+      "event": "yellow_card",
+      "score": 0.58,
+      "commentary": "la falta muy dura sobre Agüero tarjeta amarilla para Scottan hemos podido ver la falta",
+      "reasons": [
+        "corner or free kick",
+        "yellow card"
+      ],
+      "commentary_english": "The very hard fault on Aguero yellow card for Scottan we could see the fault"
+    },
+    {
+      "start_seconds": 331.44,
+      "end_seconds": 333.44,
+      "start_timestamp": "00:05:31",
+      "end_timestamp": "00:05:33",
+      "event": "corner_or_free_kick",
+      "score": 0.42,
+      "commentary": "de los sigos y ahí falta",
+      "reasons": [
+        "corner or free kick"
+      ],
+      "commentary_english": "♪ And that's all that's left ♪"
+    },
+    {
+      "start_seconds": 601.38,
+      "end_seconds": 614.62,
+      "start_timestamp": "00:10:01",
+      "end_timestamp": "00:10:14",
+      "event": "corner_or_free_kick",
+      "score": 0.42,
+      "commentary": "Sañá y Falta y a Sañá no le queda otra que cometer Falta",
+      "reasons": [
+        "corner or free kick"
+      ],
+      "commentary_english": "Sana and Falta and Sana has no choice but to commit Falta"
+    },
+    {
+      "start_seconds": 1099.68,
+      "end_seconds": 1101.68,
+      "start_timestamp": "00:18:19",
+      "end_timestamp": "00:18:21",
+      "event": "corner_or_free_kick",
+      "score": 0.42,
+      "commentary": "La falta sobre el international con la albiceleste",
+      "reasons": [
+        "corner or free kick"
+      ],
+      "commentary_english": "Missing on the international with the albiceleste"
+    },
+    {
+      "start_seconds": 1119.68,
+      "end_seconds": 1121.68,
+      "start_timestamp": "00:18:39",
+      "end_timestamp": "00:18:41",
+      "event": "corner_or_free_kick",
+      "score": 0.42,
+      "commentary": "el equipo de Manchester y vaya falta",
+      "reasons": [
+        "corner or free kick"
+      ],
+      "commentary_english": "The Manchester team and it's gone"
+    },
+    {
+      "start_seconds": 1358.32,
+      "end_seconds": 1360.32,
+      "start_timestamp": "00:22:38",
+      "end_timestamp": "00:22:40",
+      "event": "corner_or_free_kick",
+      "score": 0.42,
+      "commentary": "ya no puede continuar, hizo falta",
+      "reasons": [
+        "corner or free kick"
+      ],
+      "commentary_english": "He can't go on anymore. He needed to."
+    },
+    {
+      "start_seconds": 1585.63,
+      "end_seconds": 1587.63,
+      "start_timestamp": "00:26:25",
+      "end_timestamp": "00:26:27",
+      "event": "corner_or_free_kick",
+      "score": 0.42,
+      "commentary": "ahí está el saque de la falta",
+      "reasons": [
+        "corner or free kick"
+      ],
+      "commentary_english": "There's the spoil of the lack."
+    },
+    {
+      "start_seconds": 1746.67,
+      "end_seconds": 1748.67,
+      "start_timestamp": "00:29:06",
+      "end_timestamp": "00:29:08",
+      "event": "corner_or_free_kick",
+      "score": 0.42,
+      "commentary": "le falta un poquito",
+      "reasons": [
+        "corner or free kick"
+      ],
+      "commentary_english": "He's a little short."
+    },
+    {
+      "start_seconds": 1997.95,
+      "end_seconds": 1999.95,
+      "start_timestamp": "00:33:17",
+      "end_timestamp": "00:33:19",
+      "event": "corner_or_free_kick",
+      "score": 0.42,
+      "commentary": "que los hace mucha falta",
+      "reasons": [
+        "corner or free kick"
+      ],
+      "commentary_english": "I need them so much."
+    },
+    {
+      "start_seconds": 2496.66,
+      "end_seconds": 2498.66,
+      "start_timestamp": "00:41:36",
+      "end_timestamp": "00:41:38",
+      "event": "corner_or_free_kick",
+      "score": 0.42,
+      "commentary": "dice Mike Jones, que no hay falta.",
+      "reasons": [
+        "corner or free kick"
+      ],
+      "commentary_english": "Mike Jones says there's no need."
+    }
+  ]
+}

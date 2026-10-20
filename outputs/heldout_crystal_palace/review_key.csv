@@ -1,0 +1,15 @@
+review_id,sampling_group,predicted_event,rank_score
+CPH_01,model_candidate,chance_or_shot,0.712
+CPH_02,model_candidate,chance_or_shot,0.68
+CPH_03,model_candidate,chance_or_shot,0.627
+CPH_04,model_candidate,chance_or_shot,0.626
+CPH_05,model_candidate,chance_or_shot,0.6
+CPH_06,model_candidate,chance_or_shot,0.591
+CPH_07,model_candidate,chance_or_shot,0.534
+CPH_08,routine_control,,
+CPH_09,routine_control,,
+CPH_10,routine_control,,
+CPH_11,routine_control,,
+CPH_12,routine_control,,
+CPH_13,routine_control,,
+CPH_14,routine_control,,

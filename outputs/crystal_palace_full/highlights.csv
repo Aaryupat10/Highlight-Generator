@@ -1,0 +1,25 @@
+start_timestamp,end_timestamp,event,score,commentary,commentary_english,reasons
+00:06:21,00:06:39,goal,1.0,"situaciones de gol con frecuencia y Volasi en el disparo Johara Parado que parada, abajo","frequent goal situations and Volasi on the shot Johara stopped that stop, down","chance or shot, goal"
+00:27:47,00:27:49,goal,1.0,y ahora el gol de la match este serie,And now the goal of the match this series,goal
+00:38:14,00:38:18,goal,1.0,"que ya marcó en la última jornada frente a Chelsea, firme la marca Mangala.","who scored on the last day against Chelsea, signing the Mangala brand.",goal
+00:19:24,00:19:26,penalty_or_var,0.88,pues ahí a lo mejor hay Penalti de Fernandinho,"Well, there's probably Fernandinho's penalty there.",penalty or var
+00:01:22,00:01:24,chance_or_shot,0.68,Cuidado que pisa la área Bolas y el disparo alto,Watch out for the balls and high-shot area.,chance or shot
+00:02:44,00:03:10,chance_or_shot,0.68,"el remate que buscaba Pallas que llegaba ahí al remate en el saque de esquina y la vuelve a pedir, Bolas en el disparo el chute que acaba en las manos de Yohar","The finish I was looking for Pallas who came there at the finish in the corner sack and he asks again, balls in the shot the kick that ends up in Yohar's hands",chance or shot
+00:03:40,00:03:42,chance_or_shot,0.68,había opción de remate pero ya imposible,There was a way to finish but it was impossible.,chance or shot
+00:10:37,00:10:57,chance_or_shot,0.68,de los e-goals en el área intentaba el remate desviado el shot del atralo izquierdo del Palas yo creo de esa falta lateral,I was trying to get the draw off the shot from the left atrium of the palace I think of that lateral failure,"chance or shot, corner or free kick"
+00:30:57,00:30:59,chance_or_shot,0.68,puede buscar el disparo,You can look for the shot.,chance or shot
+00:31:35,00:31:45,chance_or_shot,0.68,"a la Boni, Boni en el disparo ocasión muy buena para","Boni, Boni on the shot very good occasion for",chance or shot
+00:34:03,00:34:05,chance_or_shot,0.68,desde parado tiene capacidad,From the standstill it has capacity,chance or shot
+00:37:28,00:37:31,chance_or_shot,0.68,"De Bruyne en la frontera, Jesús Navas, el disparo, alto.","De Bruyne at the border, Jesus Navas, shooting, high.",chance or shot
+00:42:36,00:42:45,chance_or_shot,0.68,"Aguanta ahí Kolarov, no hay falta, dice Mike Jones. La tiene y Volási, puede adrecer con el disparo.","Hold on, Kolarov, there's no need, says Mike Jones, he's got it and Volási can aim with the shot.","chance or shot, corner or free kick"
+00:44:26,00:44:35,chance_or_shot,0.68,Se la lleva ahí Pancho en el disparo alto. Tiene un tiro excepcional. Fíjate que yo creo que en esta ocasión,"He's got it there, Pancho, in the high shot.",chance or shot
+00:17:22,00:17:33,yellow_card,0.58,la falta muy dura sobre Agüero tarjeta amarilla para Scottan hemos podido ver la falta,The very hard fault on Aguero yellow card for Scottan we could see the fault,"corner or free kick, yellow card"
+00:05:31,00:05:33,corner_or_free_kick,0.42,de los sigos y ahí falta,♪ And that's all that's left ♪,corner or free kick
+00:10:01,00:10:14,corner_or_free_kick,0.42,Sañá y Falta y a Sañá no le queda otra que cometer Falta,Sana and Falta and Sana has no choice but to commit Falta,corner or free kick
+00:18:19,00:18:21,corner_or_free_kick,0.42,La falta sobre el international con la albiceleste,Missing on the international with the albiceleste,corner or free kick
+00:18:39,00:18:41,corner_or_free_kick,0.42,el equipo de Manchester y vaya falta,The Manchester team and it's gone,corner or free kick
+00:22:38,00:22:40,corner_or_free_kick,0.42,"ya no puede continuar, hizo falta",He can't go on anymore. He needed to.,corner or free kick
+00:26:25,00:26:27,corner_or_free_kick,0.42,ahí está el saque de la falta,There's the spoil of the lack.,corner or free kick
+00:29:06,00:29:08,corner_or_free_kick,0.42,le falta un poquito,He's a little short.,corner or free kick
+00:33:17,00:33:19,corner_or_free_kick,0.42,que los hace mucha falta,I need them so much.,corner or free kick
+00:41:36,00:41:38,corner_or_free_kick,0.42,"dice Mike Jones, que no hay falta.",Mike Jones says there's no need.,corner or free kick

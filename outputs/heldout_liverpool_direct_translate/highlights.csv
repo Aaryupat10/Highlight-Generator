@@ -1,0 +1,9 @@
+start_timestamp,end_timestamp,event,score,commentary,commentary_english,reasons
+00:01:19,00:01:23,goal,0.817,"But there were pre-match scores, as it begins with a goal from Liverpool.","But there were pre-match scores, as it begins with a goal from Liverpool.","football event phrase, goal, trained event-context reranker"
+00:31:18,00:31:19,goal,0.726,a goal by Salah Genton,a goal by Salah Genton,"football event phrase, goal, trained event-context reranker"
+00:40:28,00:40:29,chance_or_shot,0.645,Khaton's shot,Khaton's shot,"chance or shot, football event phrase, trained event-context reranker"
+00:15:54,00:16:32,chance_or_shot,0.64,"managed to shoot,","managed to shoot,","chance or shot, football event phrase, trained event-context reranker"
+00:38:17,00:38:18,chance_or_shot,0.595,to shoot the ball,to shoot the ball,"chance or shot, football event phrase, trained event-context reranker"
+00:01:44,00:01:49,corner_or_free_kick,0.563,"From the left leg, he is put into the corner of the gate.","From the left leg, he is put into the corner of the gate.","corner or free kick, football event phrase, trained event-context reranker"
+00:26:10,00:26:11,chance_or_shot,0.552,has made a great shot at Giordano Mavi,has made a great shot at Giordano Mavi,"chance or shot, football event phrase, trained event-context reranker"
+00:40:41,00:40:45,corner_or_free_kick,0.537,the ball goes to the corner,the ball goes to the corner,"corner or free kick, football event phrase, trained event-context reranker"

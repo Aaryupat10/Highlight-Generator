@@ -1,0 +1,143 @@
+{
+  "source_video": "Liverpool vs Aston Villa (held out)",
+  "asr_model": "saved transcript",
+  "timestamp_note": "Whisper segment timestamps are estimates; verify against the video before editing.",
+  "score_note": "Hybrid ranking: football event phrase matching plus a trained event-context reranker (mixed SoccerNet event timestamps and human-reviewed highlights); not a calibrated probability or a direct measure of highlight quality.",
+  "highlights": [
+    {
+      "start_seconds": 2554.9,
+      "end_seconds": 2556.9,
+      "start_timestamp": "00:42:34",
+      "end_timestamp": "00:42:36",
+      "event": "chance_or_shot",
+      "score": 0.624,
+      "commentary": "дальний удар",
+      "commentary_english": "A long shot .",
+      "reasons": [
+        "chance or shot",
+        "football event phrase",
+        "trained event-context reranker"
+      ]
+    },
+    {
+      "start_seconds": 2294.93,
+      "end_seconds": 2296.93,
+      "start_timestamp": "00:38:14",
+      "end_timestamp": "00:38:16",
+      "event": "chance_or_shot",
+      "score": 0.618,
+      "commentary": "есть еще одна возможность к Куутине обострить игру",
+      "commentary_english": "There's another chance for Quentin to step up the game.",
+      "reasons": [
+        "chance or shot",
+        "football event phrase",
+        "trained event-context reranker"
+      ]
+    },
+    {
+      "start_seconds": 952.98,
+      "end_seconds": 954.98,
+      "start_timestamp": "00:15:52",
+      "end_timestamp": "00:15:54",
+      "event": "chance_or_shot",
+      "score": 0.594,
+      "commentary": "прострелить, заработал угловой Филиппа Каутинья.",
+      "commentary_english": "I'm going to shoot Philip Kautinia.",
+      "reasons": [
+        "chance or shot",
+        "football event phrase",
+        "trained event-context reranker"
+      ]
+    },
+    {
+      "start_seconds": 2090.4,
+      "end_seconds": 2100.4,
+      "start_timestamp": "00:34:50",
+      "end_timestamp": "00:35:00",
+      "event": "chance_or_shot",
+      "score": 0.593,
+      "commentary": "аут и на берминге все мяч сохранят",
+      "commentary_english": "Out and on the berming, all the balls will be saved.",
+      "reasons": [
+        "chance or shot",
+        "football event phrase",
+        "trained event-context reranker"
+      ]
+    },
+    {
+      "start_seconds": 2214.37,
+      "end_seconds": 2216.37,
+      "start_timestamp": "00:36:54",
+      "end_timestamp": "00:36:56",
+      "event": "chance_or_shot",
+      "score": 0.573,
+      "commentary": "и он и носно выстрелить",
+      "commentary_english": "And he's gonna shoot it right.",
+      "reasons": [
+        "chance or shot",
+        "football event phrase",
+        "trained event-context reranker"
+      ]
+    },
+    {
+      "start_seconds": 1198.86,
+      "end_seconds": 1200.86,
+      "start_timestamp": "00:19:58",
+      "end_timestamp": "00:20:00",
+      "event": "chance_or_shot",
+      "score": 0.569,
+      "commentary": "у него отличный удар, но",
+      "commentary_english": "He's got a great shot, but...",
+      "reasons": [
+        "chance or shot",
+        "football event phrase",
+        "trained event-context reranker"
+      ]
+    },
+    {
+      "start_seconds": 1581.68,
+      "end_seconds": 1583.68,
+      "start_timestamp": "00:26:21",
+      "end_timestamp": "00:26:23",
+      "event": "corner_or_free_kick",
+      "score": 0.561,
+      "commentary": "не бельгийскому уголке и правокамута из баллищиков",
+      "commentary_english": "Not the Belgian corner and the ballichians ' right-hand man",
+      "reasons": [
+        "corner or free kick",
+        "football event phrase",
+        "trained event-context reranker"
+      ]
+    },
+    {
+      "start_seconds": 2427.82,
+      "end_seconds": 2429.82,
+      "start_timestamp": "00:40:27",
+      "end_timestamp": "00:40:29",
+      "event": "chance_or_shot",
+      "score": 0.561,
+      "commentary": "прострел Хаттона",
+      "commentary_english": "Shot by Hutton.",
+      "reasons": [
+        "chance or shot",
+        "football event phrase",
+        "trained event-context reranker"
+      ]
+    },
+    {
+      "start_seconds": 95.93,
+      "end_seconds": 111.93,
+      "start_timestamp": "00:01:35",
+      "end_timestamp": "00:01:51",
+      "event": "corner_or_free_kick",
+      "score": 0.548,
+      "commentary": "Альберто Маррено. Филипп Каутинио. Дальше передача в центр. Милма расстанавливает мяч и без обработки с левой ноги укладывает его в угол ворот Бреда Гузона.",
+      "commentary_english": "Alberto Marrano, Philippe Kautinio, then the center, Milma, unloading the ball, and untreated, he places it in the corner of Brad Guzon's gate.",
+      "reasons": [
+        "corner or free kick",
+        "football event phrase",
+        "trained event-context reranker"
+      ]
+    }
+  ]
+}

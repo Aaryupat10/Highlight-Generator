@@ -1,0 +1,54 @@
+{
+  "model": "models/commentary_highlight.pt",
+  "training_matches": [
+    "arsenal_tottenham",
+    "leicester_arsenal",
+    "liverpool_aston_villa",
+    "mancity_westbrom",
+    "manutd_westbrom",
+    "newcastle_chelsea"
+  ],
+  "human_labeled_examples": 60,
+  "highlight_examples": 20,
+  "routine_examples": 40,
+  "unclear_or_blank_skipped": 0,
+  "leave_one_match_out": {
+    "arsenal_tottenham": {
+      "n": 10,
+      "precision_at_0.5": 0.25,
+      "recall_at_0.5": 0.3333333333333333,
+      "f1_at_0.5": 0.28571428571428575
+    },
+    "leicester_arsenal": {
+      "n": 10,
+      "precision_at_0.5": 0.3333333333333333,
+      "recall_at_0.5": 0.3333333333333333,
+      "f1_at_0.5": 0.3333333333333333
+    },
+    "liverpool_aston_villa": {
+      "n": 10,
+      "precision_at_0.5": 0.0,
+      "recall_at_0.5": 0.0,
+      "f1_at_0.5": 0.0
+    },
+    "mancity_westbrom": {
+      "n": 10,
+      "precision_at_0.5": 0.0,
+      "recall_at_0.5": 0.0,
+      "f1_at_0.5": 0.0
+    },
+    "manutd_westbrom": {
+      "n": 10,
+      "precision_at_0.5": 0.0,
+      "recall_at_0.5": 0.0,
+      "f1_at_0.5": 0.0
+    },
+    "newcastle_chelsea": {
+      "n": 10,
+      "precision_at_0.5": 0.0,
+      "recall_at_0.5": 0.0,
+      "f1_at_0.5": 0.0
+    }
+  },
+  "warning": "Small manually labeled pilot set; report metrics as exploratory, not as proof of broad generalization."
+}

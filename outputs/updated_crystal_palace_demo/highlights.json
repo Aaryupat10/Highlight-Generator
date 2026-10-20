@@ -1,0 +1,84 @@
+{
+  "source_video": "1_224p.mkv",
+  "asr_model": "small",
+  "timestamp_note": "Whisper segment timestamps are estimates; verify against the video before editing.",
+  "score_note": "Hybrid ranking: football event phrase matching plus a trained event-context reranker (mixed SoccerNet event timestamps and human-reviewed highlights); not a calibrated probability or a direct measure of highlight quality.",
+  "pipeline_stages": {
+    "speech_to_text": "pretrained Faster-Whisper; language auto-detection or user override",
+    "translation": "optional pretrained NLLB translation to English; timestamps retained",
+    "nlp_preprocessing": "project-written text normalization, lexical event evidence, and negation/hypothetical/retrospective/live-action cues",
+    "event_extraction": "project-written event phrase rules; player/team roles left blank unless verified roster data is added",
+    "text_representation": "project-fitted TF-IDF unigram/bigram features when TF-IDF checkpoint is selected; otherwise hashed word features",
+    "deep_learning": "project-trained PyTorch feed-forward binary reranker using match-context text",
+    "temporal_selection": "score-based nearby-event grouping with a reported peak timestamp and density",
+    "explainability": "TF-IDF feature ablation when available; this is not an attention map",
+    "limitations": [
+      "No trained coreference or semantic-role model",
+      "No player identity or excitement labels in current training data",
+      "No claim of universal accuracy across languages or competitions"
+    ]
+  },
+  "highlights": [
+    {
+      "start_seconds": 83.0,
+      "end_seconds": 86.0,
+      "start_timestamp": "00:01:23",
+      "end_timestamp": "00:01:26",
+      "event": "chance_or_shot",
+      "score": 0.721,
+      "rule_score": 0.68,
+      "model_score": 0.754,
+      "event_frame": {
+        "event_type": "chance_or_shot",
+        "event_evidence": [
+          "shot"
+        ],
+        "has_negation": false,
+        "has_hypothetical_language": false,
+        "has_retrospective_language": false,
+        "has_live_action_language": false,
+        "has_excitement_cue": false,
+        "player_mentions": [],
+        "team_mentions": [],
+        "peak_timestamp": "00:01:23",
+        "peak_seconds": 83.0,
+        "candidate_segment_count": 1,
+        "temporal_density": 0.2403,
+        "ranker": "phrase_rules_plus_project_trained_model",
+        "model_evidence": [
+          {
+            "feature": "has lost",
+            "score_drop_when_removed": 0.0124
+          },
+          {
+            "feature": "pitch",
+            "score_drop_when_removed": 0.0123
+          },
+          {
+            "feature": "asks for",
+            "score_drop_when_removed": 0.0122
+          },
+          {
+            "feature": "he asks",
+            "score_drop_when_removed": 0.012
+          },
+          {
+            "feature": "shot to",
+            "score_drop_when_removed": 0.0119
+          },
+          {
+            "feature": "high shot",
+            "score_drop_when_removed": 0.0115
+          }
+        ]
+      },
+      "commentary": "The high shot to the front of the Crystal Palace.",
+      "commentary_english": "The high shot to the front of the Crystal Palace.",
+      "reasons": [
+        "chance or shot",
+        "football event phrase",
+        "trained event-context reranker"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+start_timestamp,end_timestamp,event,score,commentary,reasons
+00:00:38,00:00:48,goal,1.0,con goles de Raghim Sterling con los goles de Saco y Ward contra el Chelsea,goal
+00:01:26,00:01:28,goal,1.0,primera oportunidad del marco de Joe Hart,goal
+00:02:38,00:02:52,chance_or_shot,0.68,vamos a ver el primer corner del partido el remate que buscaba Pallas que llegaba ahí al remate en el saque de esquina,"chance or shot, corner or free kick"

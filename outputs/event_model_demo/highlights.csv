@@ -1,0 +1,2 @@
+start_timestamp,end_timestamp,event,score,commentary,commentary_english,reasons
+00:01:23,00:01:26,chance_or_shot,0.588,The high shot to the front of the Crystal Palace.,,"chance or shot, football event phrase, trained event-context reranker"
