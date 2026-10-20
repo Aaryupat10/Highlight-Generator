@@ -1,0 +1,25 @@
+{
+  "_readme": "One entry per team. header_keys = how the team is written in the lineup line (CAPITALS). nicknames = true nicknames only; short forms like 'City' or 'Man United' are derived by name_book.py. For a new league/dataset, edit this file only. Teams missing here still work, they just get no nicknames.",
+  "teams": {
+    "Arsenal": {"header_keys": ["ARSENAL"], "nicknames": ["Gunners"]},
+    "Aston Villa": {"header_keys": ["ASTON VILLA", "VILLA"], "nicknames": ["Villans"]},
+    "Bournemouth": {"header_keys": ["BOURNEMOUTH"], "nicknames": ["Cherries"]},
+    "Brentford": {"header_keys": ["BRENTFORD"], "nicknames": ["Bees"]},
+    "Brighton": {"header_keys": ["BRIGHTON"], "nicknames": ["Seagulls", "Albion"]},
+    "Burnley": {"header_keys": ["BURNLEY"], "nicknames": ["Clarets"]},
+    "Chelsea": {"header_keys": ["CHELSEA"], "nicknames": ["Blues"]},
+    "Crystal Palace": {"header_keys": ["CRYSTAL PALACE", "PALACE"], "nicknames": ["Eagles"]},
+    "Everton": {"header_keys": ["EVERTON"], "nicknames": ["Toffees"]},
+    "Fulham": {"header_keys": ["FULHAM"], "nicknames": ["Cottagers"]},
+    "Liverpool": {"header_keys": ["LIVERPOOL"], "nicknames": ["Reds"]},
+    "Luton Town": {"header_keys": ["LUTON"], "nicknames": ["Hatters"]},
+    "Manchester City": {"header_keys": ["MANCHESTER CITY", "MAN CITY"], "nicknames": ["Citizens", "Sky Blues"]},
+    "Manchester United": {"header_keys": ["MANCHESTER UNITED", "MAN UNITED", "MAN UTD"], "nicknames": ["Red Devils"]},
+    "Newcastle United": {"header_keys": ["NEWCASTLE"], "nicknames": ["Magpies", "Toon"]},
+    "Nottingham Forest": {"header_keys": ["NOTTINGHAM FOREST", "NOTT'M FOREST", "FOREST"], "nicknames": []},
+    "Sheffield United": {"header_keys": ["SHEFFIELD UNITED", "SHEFFIELD UTD"], "nicknames": ["Blades"]},
+    "Tottenham": {"header_keys": ["TOTTENHAM", "SPURS"], "nicknames": ["Spurs"]},
+    "West Ham": {"header_keys": ["WEST HAM"], "nicknames": ["Hammers", "Irons"]},
+    "Wolves": {"header_keys": ["WOLVES", "WOLVERHAMPTON"], "nicknames": ["Wanderers"]}
+  }
+}
