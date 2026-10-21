@@ -1,0 +1,687 @@
+{
+  "source_video": "Liverpool vs Aston Villa (saved translated transcript)",
+  "asr_model": "saved transcript",
+  "timestamp_note": "Whisper segment timestamps are estimates; verify against the video before editing.",
+  "score_note": "Hybrid ranking combines event rules with separate SoccerNet event alignment and human-reviewed highlight/routine labels. Scores are exploratory and are not calibrated probabilities.",
+  "pipeline_stages": {
+    "speech_to_text": "pretrained Faster-Whisper; language auto-detection or user override",
+    "translation": "optional pretrained NLLB translation to English; timestamps retained",
+    "nlp_preprocessing": "project-written Unicode/whitespace cleanup preserving case and punctuation; exclamation/caps features plus negation/hypothetical/retrospective/live-action cues",
+    "coreference": "project-written nearest-mention resolution over verified aliases; resolves only one unique player antecedent and otherwise abstains",
+    "event_extraction": "project-written event rules and event-frame patterns emit action, conservative actor candidate, team candidates, and outcome cues; target remains unresolved; not trained SRL",
+    "text_representation": "project-fitted TF-IDF unigram/bigram features when TF-IDF checkpoint is selected; otherwise hashed word features",
+    "deep_learning": "project-trained two-tier hierarchical BiGRU with local window attention, match-half attention, and separate eventness/family/highlight heads",
+    "model_supervision": "separate SoccerNet event alignment and human-reviewed highlight/routine labels",
+    "temporal_selection": "score-based nearby-event grouping with peak, candidate density, and preceding 30-second buildup statistics",
+    "explainability": "temporal attention/context mass for the sequence model; TF-IDF feature ablation for the MLP; neither is causal evidence",
+    "limitations": [
+      "Coreference and event-role extraction use conservative dictionary/phrase heuristics, not trained coreference or SRL models",
+      "Only fixture team names are auto-read from SoccerNet-style paths; player names require a verified aliases JSON",
+      "Excitement labels in the assistant review set are text-only proxies, not judgments of vocal intensity",
+      "Assistant text-only annotations are pseudo-labels and are not human ground truth",
+      "Event-family head is weak-label trained and remains experimental",
+      "No claim of universal accuracy across languages or competitions"
+    ]
+  },
+  "highlights": [
+    {
+      "start_seconds": 952.98,
+      "end_seconds": 954.98,
+      "start_timestamp": "00:15:52",
+      "end_timestamp": "00:15:54",
+      "event": "chance_or_shot",
+      "score": 0.813,
+      "rule_score": 0.68,
+      "model_score": 0.924,
+      "supervised_highlight_score": 0.924,
+      "event_score": 0.723,
+      "n_exclaim": 0,
+      "caps_ratio": 0.1071,
+      "n_caps_words": 0,
+      "excitement_score_heuristic": 0.071,
+      "event_frame": {
+        "event_type": "chance_or_shot",
+        "event_evidence": [
+          "shoot"
+        ],
+        "has_negation": false,
+        "has_hypothetical_language": false,
+        "has_retrospective_language": false,
+        "has_live_action_language": true,
+        "has_excitement_cue": false,
+        "n_exclaim": 0,
+        "caps_ratio": 0.1071,
+        "n_caps_words": 0,
+        "excitement_score_heuristic": 0.071,
+        "player_mentions": [],
+        "team_mentions": [],
+        "entity_mentions": [],
+        "coreference": {
+          "pronouns": [],
+          "antecedent_candidate": null,
+          "method": "abstained: no unique nearest verified player antecedent",
+          "confidence": "none"
+        },
+        "event_frame": {
+          "action_type": "shoot",
+          "actor": null,
+          "actor_candidates": [],
+          "team_candidates": [],
+          "patient_or_target": null,
+          "outcome_cues": [],
+          "method": "project-written event-frame patterns; arguments are conservative candidates, not trained SRL"
+        },
+        "peak_timestamp": "00:15:52",
+        "peak_seconds": 952.98,
+        "candidate_segment_count": 1,
+        "temporal_density": 0.4063,
+        "buildup_window_seconds": 30.0,
+        "buildup_segment_count": 9,
+        "buildup_mean_rank_score": 0.0,
+        "peak_position_in_candidate_seconds": 0.0,
+        "event_relatedness_score": 0.723,
+        "supervised_highlight_score": 0.924,
+        "ranker": "phrase_rules_plus_project_trained_model",
+        "temporal_attention_context": [
+          {
+            "timestamp": "00:00:02",
+            "weight": 0.0033
+          },
+          {
+            "timestamp": "00:00:14",
+            "weight": 0.0033
+          },
+          {
+            "timestamp": "00:00:29",
+            "weight": 0.0033
+          }
+        ],
+        "attention_buildup_mass": 0.0094,
+        "predicted_event_family": {
+          "label": "goal",
+          "score": 0.517726719379425,
+          "probabilities": {
+            "goal": 0.517726719379425,
+            "shot_or_chance": 0.4428698718547821,
+            "card": 0.03940340131521225
+          }
+        },
+        "event_family_agrees_with_rule": false,
+        "model_evidence": []
+      },
+      "commentary": "прострелить, заработал угловой Филиппа Каутинья.",
+      "commentary_english": "I'm going to shoot Philip Kautinia.",
+      "reasons": [
+        "chance or shot",
+        "football event phrase",
+        "project-trained two-tier hierarchical model"
+      ]
+    },
+    {
+      "start_seconds": 2294.93,
+      "end_seconds": 2296.93,
+      "start_timestamp": "00:38:14",
+      "end_timestamp": "00:38:16",
+      "event": "chance_or_shot",
+      "score": 0.627,
+      "rule_score": 0.68,
+      "model_score": 0.864,
+      "supervised_highlight_score": 0.864,
+      "event_score": 0.102,
+      "n_exclaim": 0,
+      "caps_ratio": 0.0455,
+      "n_caps_words": 0,
+      "excitement_score_heuristic": 0.03,
+      "event_frame": {
+        "event_type": "chance_or_shot",
+        "event_evidence": [
+          "chance"
+        ],
+        "has_negation": false,
+        "has_hypothetical_language": false,
+        "has_retrospective_language": false,
+        "has_live_action_language": true,
+        "has_excitement_cue": false,
+        "n_exclaim": 0,
+        "caps_ratio": 0.0455,
+        "n_caps_words": 0,
+        "excitement_score_heuristic": 0.03,
+        "player_mentions": [],
+        "team_mentions": [],
+        "entity_mentions": [],
+        "coreference": {
+          "pronouns": [],
+          "antecedent_candidate": null,
+          "method": "abstained: no unique nearest verified player antecedent",
+          "confidence": "none"
+        },
+        "event_frame": {
+          "action_type": "play",
+          "actor": null,
+          "actor_candidates": [],
+          "team_candidates": [],
+          "patient_or_target": null,
+          "outcome_cues": [],
+          "method": "project-written event-frame patterns; arguments are conservative candidates, not trained SRL"
+        },
+        "peak_timestamp": "00:38:14",
+        "peak_seconds": 2294.93,
+        "candidate_segment_count": 1,
+        "temporal_density": 0.3137,
+        "buildup_window_seconds": 30.0,
+        "buildup_segment_count": 15,
+        "buildup_mean_rank_score": 0.0,
+        "peak_position_in_candidate_seconds": 0.0,
+        "event_relatedness_score": 0.102,
+        "supervised_highlight_score": 0.864,
+        "ranker": "phrase_rules_plus_project_trained_model",
+        "temporal_attention_context": [
+          {
+            "timestamp": "00:00:02",
+            "weight": 0.0033
+          },
+          {
+            "timestamp": "00:00:14",
+            "weight": 0.0033
+          },
+          {
+            "timestamp": "00:00:29",
+            "weight": 0.0033
+          }
+        ],
+        "attention_buildup_mass": 0.0171,
+        "predicted_event_family": {
+          "label": "shot_or_chance",
+          "score": 0.4927076995372772,
+          "probabilities": {
+            "goal": 0.4522463083267212,
+            "shot_or_chance": 0.4927076995372772,
+            "card": 0.05504598468542099
+          }
+        },
+        "event_family_agrees_with_rule": true,
+        "model_evidence": []
+      },
+      "commentary": "есть еще одна возможность к Куутине обострить игру",
+      "commentary_english": "There's another chance for Quentin to step up the game.",
+      "reasons": [
+        "chance or shot",
+        "football event phrase",
+        "project-trained two-tier hierarchical model"
+      ]
+    },
+    {
+      "start_seconds": 2232.37,
+      "end_seconds": 2236.26,
+      "start_timestamp": "00:37:12",
+      "end_timestamp": "00:37:16",
+      "event": "corner_or_free_kick",
+      "score": 0.614,
+      "rule_score": 0.42,
+      "model_score": 0.662,
+      "supervised_highlight_score": 0.662,
+      "event_score": 0.712,
+      "n_exclaim": 0,
+      "caps_ratio": 0.0476,
+      "n_caps_words": 0,
+      "excitement_score_heuristic": 0.032,
+      "event_frame": {
+        "event_type": "corner_or_free_kick",
+        "event_evidence": [
+          "corner"
+        ],
+        "has_negation": false,
+        "has_hypothetical_language": true,
+        "has_retrospective_language": false,
+        "has_live_action_language": false,
+        "has_excitement_cue": false,
+        "n_exclaim": 0,
+        "caps_ratio": 0.0476,
+        "n_caps_words": 0,
+        "excitement_score_heuristic": 0.032,
+        "player_mentions": [],
+        "team_mentions": [],
+        "entity_mentions": [],
+        "coreference": {
+          "pronouns": [
+            "he"
+          ],
+          "antecedent_candidate": null,
+          "method": "abstained: no unique nearest verified player antecedent",
+          "confidence": "none"
+        },
+        "event_frame": {
+          "action_type": "corner",
+          "actor": null,
+          "actor_candidates": [],
+          "team_candidates": [],
+          "patient_or_target": null,
+          "outcome_cues": [],
+          "method": "project-written event-frame patterns; arguments are conservative candidates, not trained SRL"
+        },
+        "peak_timestamp": "00:37:12",
+        "peak_seconds": 2232.37,
+        "candidate_segment_count": 1,
+        "temporal_density": 0.1579,
+        "buildup_window_seconds": 30.0,
+        "buildup_segment_count": 12,
+        "buildup_mean_rank_score": 0.03,
+        "peak_position_in_candidate_seconds": 0.0,
+        "event_relatedness_score": 0.712,
+        "supervised_highlight_score": 0.662,
+        "ranker": "phrase_rules_plus_project_trained_model",
+        "temporal_attention_context": [
+          {
+            "timestamp": "00:00:02",
+            "weight": 0.0033
+          },
+          {
+            "timestamp": "00:00:14",
+            "weight": 0.0033
+          },
+          {
+            "timestamp": "00:00:29",
+            "weight": 0.0033
+          }
+        ],
+        "attention_buildup_mass": 0.0136,
+        "predicted_event_family": {
+          "label": "goal",
+          "score": 0.5532978773117065,
+          "probabilities": {
+            "goal": 0.5532978773117065,
+            "shot_or_chance": 0.43652552366256714,
+            "card": 0.010176644660532475
+          }
+        },
+        "event_family_agrees_with_rule": null,
+        "model_evidence": []
+      },
+      "commentary": "если он будет точно в постном угле",
+      "commentary_english": "If he's in the right corner",
+      "reasons": [
+        "corner or free kick",
+        "football event phrase",
+        "project-trained two-tier hierarchical model"
+      ]
+    },
+    {
+      "start_seconds": 1198.86,
+      "end_seconds": 1200.86,
+      "start_timestamp": "00:19:58",
+      "end_timestamp": "00:20:00",
+      "event": "chance_or_shot",
+      "score": 0.596,
+      "rule_score": 0.68,
+      "model_score": 0.356,
+      "supervised_highlight_score": 0.356,
+      "event_score": 0.995,
+      "n_exclaim": 0,
+      "caps_ratio": 0.0526,
+      "n_caps_words": 0,
+      "excitement_score_heuristic": 0.035,
+      "event_frame": {
+        "event_type": "chance_or_shot",
+        "event_evidence": [
+          "shot"
+        ],
+        "has_negation": false,
+        "has_hypothetical_language": false,
+        "has_retrospective_language": false,
+        "has_live_action_language": false,
+        "has_excitement_cue": false,
+        "n_exclaim": 0,
+        "caps_ratio": 0.0526,
+        "n_caps_words": 0,
+        "excitement_score_heuristic": 0.035,
+        "player_mentions": [],
+        "team_mentions": [],
+        "entity_mentions": [],
+        "coreference": {
+          "pronouns": [
+            "He"
+          ],
+          "antecedent_candidate": null,
+          "method": "abstained: no unique nearest verified player antecedent",
+          "confidence": "none"
+        },
+        "event_frame": {
+          "action_type": "shoot",
+          "actor": null,
+          "actor_candidates": [],
+          "team_candidates": [],
+          "patient_or_target": null,
+          "outcome_cues": [],
+          "method": "project-written event-frame patterns; arguments are conservative candidates, not trained SRL"
+        },
+        "peak_timestamp": "00:19:58",
+        "peak_seconds": 1198.86,
+        "candidate_segment_count": 1,
+        "temporal_density": 0.2982,
+        "buildup_window_seconds": 30.0,
+        "buildup_segment_count": 12,
+        "buildup_mean_rank_score": 0.0,
+        "peak_position_in_candidate_seconds": 0.0,
+        "event_relatedness_score": 0.995,
+        "supervised_highlight_score": 0.356,
+        "ranker": "phrase_rules_plus_project_trained_model",
+        "temporal_attention_context": [
+          {
+            "timestamp": "00:00:02",
+            "weight": 0.0033
+          },
+          {
+            "timestamp": "00:00:14",
+            "weight": 0.0033
+          },
+          {
+            "timestamp": "00:00:29",
+            "weight": 0.0033
+          }
+        ],
+        "attention_buildup_mass": 0.0127,
+        "predicted_event_family": {
+          "label": "shot_or_chance",
+          "score": 0.5630375742912292,
+          "probabilities": {
+            "goal": 0.41963326930999756,
+            "shot_or_chance": 0.5630375742912292,
+            "card": 0.017329130321741104
+          }
+        },
+        "event_family_agrees_with_rule": true,
+        "model_evidence": []
+      },
+      "commentary": "у него отличный удар, но",
+      "commentary_english": "He's got a great shot, but...",
+      "reasons": [
+        "chance or shot",
+        "football event phrase",
+        "project-trained two-tier hierarchical model"
+      ]
+    },
+    {
+      "start_seconds": 2090.4,
+      "end_seconds": 2100.4,
+      "start_timestamp": "00:34:50",
+      "end_timestamp": "00:35:00",
+      "event": "chance_or_shot",
+      "score": 0.583,
+      "rule_score": 0.68,
+      "model_score": 0.406,
+      "supervised_highlight_score": 0.406,
+      "event_score": 0.839,
+      "n_exclaim": 0,
+      "caps_ratio": 0.025,
+      "n_caps_words": 0,
+      "excitement_score_heuristic": 0.017,
+      "event_frame": {
+        "event_type": "chance_or_shot",
+        "event_evidence": [
+          "saved"
+        ],
+        "has_negation": false,
+        "has_hypothetical_language": false,
+        "has_retrospective_language": false,
+        "has_live_action_language": true,
+        "has_excitement_cue": false,
+        "n_exclaim": 0,
+        "caps_ratio": 0.025,
+        "n_caps_words": 0,
+        "excitement_score_heuristic": 0.017,
+        "player_mentions": [],
+        "team_mentions": [],
+        "entity_mentions": [],
+        "coreference": {
+          "pronouns": [],
+          "antecedent_candidate": null,
+          "method": "abstained: no unique nearest verified player antecedent",
+          "confidence": "none"
+        },
+        "event_frame": {
+          "action_type": "save",
+          "actor": null,
+          "actor_candidates": [],
+          "team_candidates": [],
+          "patient_or_target": null,
+          "outcome_cues": [
+            "saved"
+          ],
+          "method": "project-written event-frame patterns; arguments are conservative candidates, not trained SRL"
+        },
+        "peak_timestamp": "00:34:50",
+        "peak_seconds": 2090.4,
+        "candidate_segment_count": 1,
+        "temporal_density": 0.0583,
+        "buildup_window_seconds": 30.0,
+        "buildup_segment_count": 14,
+        "buildup_mean_rank_score": 0.0,
+        "peak_position_in_candidate_seconds": 0.0,
+        "event_relatedness_score": 0.839,
+        "supervised_highlight_score": 0.406,
+        "ranker": "phrase_rules_plus_project_trained_model",
+        "temporal_attention_context": [
+          {
+            "timestamp": "00:00:02",
+            "weight": 0.0033
+          },
+          {
+            "timestamp": "00:00:14",
+            "weight": 0.0033
+          },
+          {
+            "timestamp": "00:00:29",
+            "weight": 0.0033
+          }
+        ],
+        "attention_buildup_mass": 0.0148,
+        "predicted_event_family": {
+          "label": "shot_or_chance",
+          "score": 0.8315265774726868,
+          "probabilities": {
+            "goal": 0.16612321138381958,
+            "shot_or_chance": 0.8315265774726868,
+            "card": 0.002350298222154379
+          }
+        },
+        "event_family_agrees_with_rule": true,
+        "model_evidence": []
+      },
+      "commentary": "аут и на берминге все мяч сохранят",
+      "commentary_english": "Out and on the berming, all the balls will be saved.",
+      "reasons": [
+        "chance or shot",
+        "football event phrase",
+        "project-trained two-tier hierarchical model"
+      ]
+    },
+    {
+      "start_seconds": 95.93,
+      "end_seconds": 111.93,
+      "start_timestamp": "00:01:35",
+      "end_timestamp": "00:01:51",
+      "event": "corner_or_free_kick",
+      "score": 0.55,
+      "rule_score": 0.42,
+      "model_score": 0.79,
+      "supervised_highlight_score": 0.79,
+      "event_score": 0.201,
+      "n_exclaim": 0,
+      "caps_ratio": 0.0619,
+      "n_caps_words": 0,
+      "excitement_score_heuristic": 0.041,
+      "event_frame": {
+        "event_type": "corner_or_free_kick",
+        "event_evidence": [
+          "corner"
+        ],
+        "has_negation": false,
+        "has_hypothetical_language": false,
+        "has_retrospective_language": false,
+        "has_live_action_language": false,
+        "has_excitement_cue": false,
+        "n_exclaim": 0,
+        "caps_ratio": 0.0619,
+        "n_caps_words": 0,
+        "excitement_score_heuristic": 0.041,
+        "player_mentions": [],
+        "team_mentions": [],
+        "entity_mentions": [],
+        "coreference": {
+          "pronouns": [
+            "he"
+          ],
+          "antecedent_candidate": null,
+          "method": "abstained: no unique nearest verified player antecedent",
+          "confidence": "none"
+        },
+        "event_frame": {
+          "action_type": "corner",
+          "actor": null,
+          "actor_candidates": [],
+          "team_candidates": [],
+          "patient_or_target": null,
+          "outcome_cues": [],
+          "method": "project-written event-frame patterns; arguments are conservative candidates, not trained SRL"
+        },
+        "peak_timestamp": "00:01:35",
+        "peak_seconds": 95.93,
+        "candidate_segment_count": 1,
+        "temporal_density": 0.0344,
+        "buildup_window_seconds": 30.0,
+        "buildup_segment_count": 2,
+        "buildup_mean_rank_score": 0.0,
+        "peak_position_in_candidate_seconds": 0.0,
+        "event_relatedness_score": 0.201,
+        "supervised_highlight_score": 0.79,
+        "ranker": "phrase_rules_plus_project_trained_model",
+        "temporal_attention_context": [
+          {
+            "timestamp": "00:02:15",
+            "weight": 0.0033
+          },
+          {
+            "timestamp": "00:02:26",
+            "weight": 0.0033
+          },
+          {
+            "timestamp": "00:02:00",
+            "weight": 0.0033
+          }
+        ],
+        "attention_buildup_mass": 0.0065,
+        "predicted_event_family": {
+          "label": "goal",
+          "score": 0.9555802345275879,
+          "probabilities": {
+            "goal": 0.9555802345275879,
+            "shot_or_chance": 0.02411508746445179,
+            "card": 0.02030467987060547
+          }
+        },
+        "event_family_agrees_with_rule": null,
+        "model_evidence": []
+      },
+      "commentary": "Альберто Маррено. Филипп Каутинио. Дальше передача в центр. Милма расстанавливает мяч и без обработки с левой ноги укладывает его в угол ворот Бреда Гузона.",
+      "commentary_english": "Alberto Marrano, Philippe Kautinio, then the center, Milma, unloading the ball, and untreated, he places it in the corner of Brad Guzon's gate.",
+      "reasons": [
+        "corner or free kick",
+        "football event phrase",
+        "project-trained two-tier hierarchical model"
+      ]
+    },
+    {
+      "start_seconds": 2554.9,
+      "end_seconds": 2556.9,
+      "start_timestamp": "00:42:34",
+      "end_timestamp": "00:42:36",
+      "event": "chance_or_shot",
+      "score": 0.501,
+      "rule_score": 0.68,
+      "model_score": 0.164,
+      "supervised_highlight_score": 0.164,
+      "event_score": 0.996,
+      "n_exclaim": 0,
+      "caps_ratio": 0.1111,
+      "n_caps_words": 0,
+      "excitement_score_heuristic": 0.074,
+      "event_frame": {
+        "event_type": "chance_or_shot",
+        "event_evidence": [
+          "shot"
+        ],
+        "has_negation": false,
+        "has_hypothetical_language": false,
+        "has_retrospective_language": false,
+        "has_live_action_language": false,
+        "has_excitement_cue": false,
+        "n_exclaim": 0,
+        "caps_ratio": 0.1111,
+        "n_caps_words": 0,
+        "excitement_score_heuristic": 0.074,
+        "player_mentions": [],
+        "team_mentions": [],
+        "entity_mentions": [],
+        "coreference": {
+          "pronouns": [],
+          "antecedent_candidate": null,
+          "method": "abstained: no unique nearest verified player antecedent",
+          "confidence": "none"
+        },
+        "event_frame": {
+          "action_type": "shoot",
+          "actor": null,
+          "actor_candidates": [],
+          "team_candidates": [],
+          "patient_or_target": null,
+          "outcome_cues": [],
+          "method": "project-written event-frame patterns; arguments are conservative candidates, not trained SRL"
+        },
+        "peak_timestamp": "00:42:34",
+        "peak_seconds": 2554.9,
+        "candidate_segment_count": 1,
+        "temporal_density": 0.2505,
+        "buildup_window_seconds": 30.0,
+        "buildup_segment_count": 12,
+        "buildup_mean_rank_score": 0.0,
+        "peak_position_in_candidate_seconds": 0.0,
+        "event_relatedness_score": 0.996,
+        "supervised_highlight_score": 0.164,
+        "ranker": "phrase_rules_plus_project_trained_model",
+        "temporal_attention_context": [
+          {
+            "timestamp": "00:00:02",
+            "weight": 0.0032
+          },
+          {
+            "timestamp": "00:00:14",
+            "weight": 0.0032
+          },
+          {
+            "timestamp": "00:00:29",
+            "weight": 0.0032
+          }
+        ],
+        "attention_buildup_mass": 0.0173,
+        "predicted_event_family": {
+          "label": "shot_or_chance",
+          "score": 0.9711493253707886,
+          "probabilities": {
+            "goal": 0.024394109845161438,
+            "shot_or_chance": 0.9711493253707886,
+            "card": 0.004456531256437302
+          }
+        },
+        "event_family_agrees_with_rule": true,
+        "model_evidence": []
+      },
+      "commentary": "дальний удар",
+      "commentary_english": "A long shot .",
+      "reasons": [
+        "chance or shot",
+        "football event phrase",
+        "project-trained two-tier hierarchical model"
+      ]
+    }
+  ]
+}

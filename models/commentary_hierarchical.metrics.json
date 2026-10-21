@@ -1,0 +1,279 @@
+{
+  "model_type": "two-tier project-trained hierarchical GRU with temporal attention",
+  "training_counts": {
+    "weak_event_relatedness": 365,
+    "highlight_training_rows": 75,
+    "assistant_text_only_rows": 0,
+    "human_only_evaluation_rows": 75,
+    "matches": 7
+  },
+  "chunk_seconds": 300,
+  "threshold": 0.5,
+  "leave_one_match_out": {
+    "arsenal_tottenham": {
+      "event_relatedness": {
+        "n": 56,
+        "threshold": 0.5,
+        "accuracy": 0.5714285714285714,
+        "precision": 0.7142857142857143,
+        "recall": 0.3333333333333333,
+        "f1_positive": 0.4545454545454545,
+        "macro_f1": 0.5508021390374331,
+        "confusion": {
+          "tp": 10,
+          "fp": 4,
+          "fn": 20,
+          "tn": 22
+        }
+      },
+      "human_highlight": {
+        "n": 10,
+        "threshold": 0.5,
+        "accuracy": 0.4,
+        "precision": 0.2857142857142857,
+        "recall": 0.6666666666666666,
+        "f1_positive": 0.4,
+        "macro_f1": 0.4,
+        "confusion": {
+          "tp": 2,
+          "fp": 5,
+          "fn": 1,
+          "tn": 2
+        }
+      }
+    },
+    "crystal_palace_mancity": {
+      "human_highlight": {
+        "n": 15,
+        "threshold": 0.5,
+        "accuracy": 0.3333333333333333,
+        "precision": 0.5,
+        "recall": 0.1,
+        "f1_positive": 0.16666666666666669,
+        "macro_f1": 0.3055555555555556,
+        "confusion": {
+          "tp": 1,
+          "fp": 1,
+          "fn": 9,
+          "tn": 4
+        }
+      }
+    },
+    "leicester_arsenal": {
+      "event_relatedness": {
+        "n": 73,
+        "threshold": 0.5,
+        "accuracy": 0.4794520547945205,
+        "precision": 0.7916666666666666,
+        "recall": 0.36538461538461536,
+        "f1_positive": 0.5,
+        "macro_f1": 0.47857142857142854,
+        "confusion": {
+          "tp": 19,
+          "fp": 5,
+          "fn": 33,
+          "tn": 16
+        }
+      },
+      "human_highlight": {
+        "n": 10,
+        "threshold": 0.5,
+        "accuracy": 0.7,
+        "precision": 0.5,
+        "recall": 0.6666666666666666,
+        "f1_positive": 0.5714285714285715,
+        "macro_f1": 0.6703296703296704,
+        "confusion": {
+          "tp": 2,
+          "fp": 2,
+          "fn": 1,
+          "tn": 5
+        }
+      }
+    },
+    "liverpool_aston_villa": {
+      "event_relatedness": {
+        "n": 64,
+        "threshold": 0.5,
+        "accuracy": 0.625,
+        "precision": 0.7692307692307693,
+        "recall": 0.5263157894736842,
+        "f1_positive": 0.625,
+        "macro_f1": 0.625,
+        "confusion": {
+          "tp": 20,
+          "fp": 6,
+          "fn": 18,
+          "tn": 20
+        }
+      },
+      "human_highlight": {
+        "n": 10,
+        "threshold": 0.5,
+        "accuracy": 0.9,
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1_positive": 0.8,
+        "macro_f1": 0.8666666666666667,
+        "confusion": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 0,
+          "tn": 7
+        }
+      }
+    },
+    "mancity_westbrom": {
+      "event_relatedness": {
+        "n": 52,
+        "threshold": 0.5,
+        "accuracy": 0.6730769230769231,
+        "precision": 0.5882352941176471,
+        "recall": 0.5,
+        "f1_positive": 0.5405405405405405,
+        "macro_f1": 0.6434045986284791,
+        "confusion": {
+          "tp": 10,
+          "fp": 7,
+          "fn": 10,
+          "tn": 25
+        }
+      },
+      "human_highlight": {
+        "n": 10,
+        "threshold": 0.5,
+        "accuracy": 0.5,
+        "precision": 0.3333333333333333,
+        "recall": 0.25,
+        "f1_positive": 0.28571428571428575,
+        "macro_f1": 0.4505494505494505,
+        "confusion": {
+          "tp": 1,
+          "fp": 2,
+          "fn": 3,
+          "tn": 4
+        }
+      }
+    },
+    "manutd_westbrom": {
+      "event_relatedness": {
+        "n": 54,
+        "threshold": 0.5,
+        "accuracy": 0.6481481481481481,
+        "precision": 0.5714285714285714,
+        "recall": 0.5454545454545454,
+        "f1_positive": 0.5581395348837208,
+        "macro_f1": 0.6329159212880142,
+        "confusion": {
+          "tp": 12,
+          "fp": 9,
+          "fn": 10,
+          "tn": 23
+        }
+      },
+      "human_highlight": {
+        "n": 10,
+        "threshold": 0.5,
+        "accuracy": 0.7,
+        "precision": 0.5,
+        "recall": 0.6666666666666666,
+        "f1_positive": 0.5714285714285715,
+        "macro_f1": 0.6703296703296704,
+        "confusion": {
+          "tp": 2,
+          "fp": 2,
+          "fn": 1,
+          "tn": 5
+        }
+      }
+    },
+    "newcastle_chelsea": {
+      "event_relatedness": {
+        "n": 66,
+        "threshold": 0.5,
+        "accuracy": 0.48484848484848486,
+        "precision": 0.4827586206896552,
+        "recall": 0.42424242424242425,
+        "f1_positive": 0.45161290322580644,
+        "macro_f1": 0.48294930875576036,
+        "confusion": {
+          "tp": 14,
+          "fp": 15,
+          "fn": 19,
+          "tn": 18
+        }
+      },
+      "human_highlight": {
+        "n": 10,
+        "threshold": 0.5,
+        "accuracy": 0.5,
+        "precision": 0.5,
+        "recall": 0.2,
+        "f1_positive": 0.28571428571428575,
+        "macro_f1": 0.4505494505494506,
+        "confusion": {
+          "tp": 1,
+          "fp": 1,
+          "fn": 4,
+          "tn": 4
+        }
+      }
+    }
+  },
+  "aggregate_event_relatedness": {
+    "n": 365,
+    "threshold": 0.5,
+    "accuracy": 0.5726027397260274,
+    "precision": 0.648854961832061,
+    "recall": 0.4358974358974359,
+    "f1_positive": 0.5214723926380369,
+    "macro_f1": 0.5676668893883254,
+    "confusion": {
+      "tp": 85,
+      "fp": 46,
+      "fn": 110,
+      "tn": 124
+    }
+  },
+  "aggregate_human_highlight": {
+    "n": 75,
+    "threshold": 0.5,
+    "accuracy": 0.56,
+    "precision": 0.44,
+    "recall": 0.36666666666666664,
+    "f1_positive": 0.4,
+    "macro_f1": 0.5263157894736843,
+    "confusion": {
+      "tp": 11,
+      "fp": 14,
+      "fn": 19,
+      "tn": 31
+    }
+  },
+  "aggregate_event_family": {
+    "n": 195,
+    "accuracy": 0.7846153846153846,
+    "macro_f1": 0.5188761884414058,
+    "per_class": {
+      "goal": {
+        "support": 23,
+        "precision": 0.21428571428571427,
+        "recall": 0.13043478260869565,
+        "f1": 0.16216216216216214
+      },
+      "shot_or_chance": {
+        "support": 160,
+        "precision": 0.8470588235294118,
+        "recall": 0.9,
+        "f1": 0.8727272727272727
+      },
+      "card": {
+        "support": 12,
+        "precision": 0.5454545454545454,
+        "recall": 0.5,
+        "f1": 0.5217391304347826
+      }
+    }
+  },
+  "warning": "Exploratory only. Sparse windows and limited match coverage do not establish broad generalization. Attention weights are not causal explanations."
+}

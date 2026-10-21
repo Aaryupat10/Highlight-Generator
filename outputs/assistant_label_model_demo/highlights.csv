@@ -1,0 +1,2 @@
+start_timestamp,end_timestamp,event,score,rule_score,event_score,supervised_highlight_score,n_exclaim,caps_ratio,n_caps_words,excitement_score_heuristic,model_score,commentary,commentary_english,reasons
+00:01:23,00:01:26,chance_or_shot,0.807,0.68,0.84,0.853,0,0.0769,0,0.051,0.853,The high shot to the front of the Crystal Palace.,The high shot to the front of the Crystal Palace.,"chance or shot, football event phrase, project-trained two-tier hierarchical model"

@@ -14,7 +14,7 @@ from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Any
 
-from nlp_analysis import analyze_event, normalize_commentary
+from nlp_analysis import analyze_event, excitement_features, normalize_commentary
 from entity_resolution import add_entity_and_coreference_fields, load_entity_aliases
 
 
@@ -29,6 +29,7 @@ class Segment:
     reasons: list[str] | None = None
     rule_score: float = 0.0
     model_score: float | None = None
+    event_score: float | None = None
 
 
 EVENT_PATTERNS: list[tuple[str, float, tuple[str, ...]]] = [
@@ -174,9 +175,12 @@ def score_segment(text: str, local_context: str = "") -> tuple[float, str, list[
         return 0.0, "routine", []
     if event == "corner_or_free_kick" and re.search(r"\b(?:like|as) a corner\b", low):
         return 0.0, "routine", []
-    excitement = any(re.search(p, low) for p in EXCITEMENT)
+    text_cues = excitement_features(text)
+    caps_emphasis = text_cues["caps_ratio"] >= 0.55 and text_cues["n_caps_words"] >= 2
+    excitement = any(re.search(p, low) for p in EXCITEMENT) or caps_emphasis
     score = min(1.0, base + (0.12 if excitement and base else 0.0))
-    reasons = ([reason] if reason else []) + (["commentary emphasis"] if excitement else [])
+    emphasis_reason = "commentary capitalization emphasis" if caps_emphasis else "commentary emphasis"
+    reasons = ([reason] if reason else []) + ([emphasis_reason] if excitement else [])
     return score, event, reasons
 
 
@@ -185,15 +189,24 @@ def rank_segments(segments: list[Segment], min_score: float = 0.35, merge_gap: f
     for i, seg in enumerate(segments):
         scoring_text = seg.text_english or seg.text
         rule_score, rule_event, rule_reasons = score_segment(scoring_text, classifier_context(segments, i, radius_seconds=6.0))
+        context = classifier_context(segments, i)
+        seg.event_score = classifier.event_probability(context) if classifier is not None and hasattr(classifier, "event_probability") else None
+        seg.model_score = classifier.probability(context) if classifier is not None else None
         if sequence_predictions is not None:
             if rule_event == "routine":
                 seg.score, seg.event, seg.reasons = 0.0, "routine", []
-                seg.rule_score, seg.model_score = 0.0, None
+                seg.rule_score = 0.0
             else:
-                model_score = float(sequence_predictions["eventness"][i])
-                seg.score = round(0.45 * rule_score + 0.55 * model_score, 6)
+                if "highlight" in sequence_predictions:
+                    model_score = float(sequence_predictions["highlight"][i])
+                    seg.event_score = float(sequence_predictions["eventness"][i])
+                    seg.score = round(0.25 * rule_score + 0.25 * seg.event_score + 0.50 * model_score, 6)
+                else:
+                    model_score = float(sequence_predictions["eventness"][i])
+                    seg.score = round(0.45 * rule_score + 0.55 * model_score, 6)
                 seg.event = rule_event
-                seg.reasons = ["football event phrase", "project-trained match-half sequence model"] + rule_reasons
+                sequence_name = "project-trained two-tier hierarchical model" if "highlight" in sequence_predictions else "project-trained match-half sequence model"
+                seg.reasons = ["football event phrase", sequence_name] + rule_reasons
                 seg.rule_score, seg.model_score = rule_score, model_score
         elif classifier is not None:
             # Event phrases propose candidate moments; the trained model
@@ -201,12 +214,17 @@ def rank_segments(segments: list[Segment], min_score: float = 0.35, merge_gap: f
             # near-0.5 model priors labeling long routine passages as highlights.
             if rule_event == "routine":
                 seg.score, seg.event, seg.reasons = 0.0, "routine", []
-                seg.rule_score, seg.model_score = 0.0, None
+                seg.rule_score = 0.0
             else:
-                model_score = classifier.probability(classifier_context(segments, i))
-                seg.score = round(0.45 * rule_score + 0.55 * model_score, 6)
+                model_score = float(seg.model_score or 0.0)
+                if seg.event_score is not None:
+                    # Human-highlight and weak event-relatedness are different
+                    # trained targets; retain each score and expose the blend.
+                    seg.score = round(0.25 * rule_score + 0.25 * seg.event_score + 0.50 * model_score, 6)
+                else:
+                    seg.score = round(0.45 * rule_score + 0.55 * model_score, 6)
                 seg.event = rule_event
-                seg.reasons = ["football event phrase", "trained event-context reranker"] + rule_reasons
+                seg.reasons = ["football event phrase", "project-trained commentary model"] + rule_reasons
                 seg.rule_score, seg.model_score = rule_score, model_score
         else:
             seg.score, seg.event, seg.reasons = rule_score, rule_event, rule_reasons
@@ -235,14 +253,36 @@ def rank_segments(segments: list[Segment], min_score: float = 0.35, merge_gap: f
         frame["peak_seconds"] = round(peak.start, 2)
         frame["candidate_segment_count"] = len(group)
         frame["temporal_density"] = round(sum(s.score for s in group) / max(1, group[-1].end - group[0].start), 4)
-        frame["ranker"] = "phrase_rules_plus_project_trained_model" if classifier is not None else "phrase_rules"
+        buildup = [s for s in segments if group[0].start - 30.0 <= s.start < group[0].start]
+        frame["buildup_window_seconds"] = 30.0
+        frame["buildup_segment_count"] = len(buildup)
+        frame["buildup_mean_rank_score"] = round(sum(s.score for s in buildup) / len(buildup), 4) if buildup else 0.0
+        frame["peak_position_in_candidate_seconds"] = round(peak.start - group[0].start, 2)
+        frame["event_relatedness_score"] = round(peak.event_score, 3) if peak.event_score is not None else None
+        has_supervised_head = (classifier is not None and getattr(classifier, "model_type", "") == "pipeline_multitask_tfidf_mlp_v1") or (sequence_predictions is not None and "highlight" in sequence_predictions)
+        frame["supervised_highlight_score"] = round(peak.model_score, 3) if has_supervised_head and peak.model_score is not None else None
+        frame["ranker"] = "phrase_rules_plus_project_trained_model" if (classifier is not None or sequence_predictions is not None) else "phrase_rules"
         peak_index = next(i for i, segment in enumerate(segments) if segment is peak)
         if sequence_predictions is not None:
             family_prediction = sequence_predictions["event_types"][peak_index]
             attention_row = sequence_predictions["attention"][peak_index]
             top_context = sorted(enumerate(attention_row), key=lambda item: item[1], reverse=True)
             frame["temporal_attention_context"] = [{"timestamp": timestamp(segments[j].start), "weight": round(float(weight), 4)} for j, weight in top_context[:3] if j != peak_index]
+            frame["attention_buildup_mass"] = round(sum(float(weight) for j, weight in enumerate(attention_row) if group[0].start - 30.0 <= segments[j].start < peak.start), 4)
             frame["predicted_event_family"] = family_prediction
+            rule_family = {
+                "goal": "goal",
+                "chance_or_shot": "shot_or_chance",
+                "yellow_card": "card",
+                "red_card": "card",
+            }.get(peak.event)
+            # The model has no penalty/set-piece family, so report agreement
+            # only when both labels belong to the same defined taxonomy.
+            frame["event_family_agrees_with_rule"] = (
+                family_prediction.get("label") == rule_family
+                if isinstance(family_prediction, dict) and rule_family
+                else None
+            )
         elif classifier is not None and hasattr(classifier, "predict_event_type"):
             family_prediction = classifier.predict_event_type(classifier_context(segments, peak_index))
             frame["predicted_event_family"] = family_prediction
@@ -250,6 +290,8 @@ def rank_segments(segments: list[Segment], min_score: float = 0.35, merge_gap: f
         else:
             frame["predicted_event_family"] = None
             frame["temporal_attention_context"] = []
+            frame["attention_buildup_mass"] = None
+            frame["event_family_agrees_with_rule"] = None
         if sequence_predictions is None and classifier is not None and hasattr(classifier, "explain"):
             frame["model_evidence"] = classifier.explain(classifier_context(segments, peak_index), top_n=6)
         else:
@@ -263,6 +305,12 @@ def rank_segments(segments: list[Segment], min_score: float = 0.35, merge_gap: f
             "score": round(peak.score, 3),
             "rule_score": round(peak.rule_score, 3),
             "model_score": round(peak.model_score, 3) if peak.model_score is not None else None,
+            "supervised_highlight_score": round(peak.model_score, 3) if has_supervised_head and peak.model_score is not None else None,
+            "event_score": round(peak.event_score, 3) if peak.event_score is not None else None,
+            "n_exclaim": frame["n_exclaim"],
+            "caps_ratio": frame["caps_ratio"],
+            "n_caps_words": frame["n_caps_words"],
+            "excitement_score_heuristic": frame["excitement_score_heuristic"],
             "event_frame": frame,
             "commentary": " ".join(s.text for s in group),
             "commentary_english": " ".join(s.text_english for s in group) if all(s.text_english for s in group) else "",
@@ -292,29 +340,24 @@ def classifier_context(segments: list[Segment], index: int, radius_seconds: floa
 def write_outputs(out_dir: Path, segments: list[Segment], highlights: list[dict[str, Any]], video: Path, model: str, classifier: Any = None, task: str = "transcribe", sequence_predictions: dict[str, Any] | None = None, sequence_model: Any = None) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
     with (out_dir / "transcript.csv").open("w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=["start_seconds", "end_seconds", "start_timestamp", "end_timestamp", "text", "text_english", "event", "rule_score", "model_score", "score", "nlp_cues_json"])
+        writer = csv.DictWriter(f, fieldnames=["start_seconds", "end_seconds", "start_timestamp", "end_timestamp", "text", "text_english", "event", "n_exclaim", "caps_ratio", "n_caps_words", "rule_score", "event_relatedness_score", "supervised_highlight_score", "model_score", "score", "nlp_cues_json"])
         writer.writeheader()
         for i, s in enumerate(segments):
-            score, event, _ = score_segment(s.text_english or s.text, classifier_context(segments, i, radius_seconds=6.0))
-            if sequence_predictions is not None:
-                if event == "routine":
-                    score = 0.0
-                    model_score = None
-                else:
-                    model_score = float(sequence_predictions["eventness"][i])
-                    score = 0.45 * score + 0.55 * model_score
-            elif classifier is not None:
-                if event == "routine":
-                    score = 0.0
-                else:
-                    score = round(0.45 * score + 0.55 * classifier.probability(classifier_context(segments, i)), 3)
-            if event == "goal" and re.search(r"\b(last match|last day|last round|previous match|last jornada|última jornada|último partido)\b", s.text_english or s.text, re.I):
-                score, event = 0.0, "routine"
-            frame = analyze_event(s.text_english or s.text, event)
-            rule_score = score_segment(s.text_english or s.text, classifier_context(segments, i, radius_seconds=6.0))[0]
-            if sequence_predictions is None:
-                model_score = classifier.probability(classifier_context(segments, i)) if classifier is not None and event != "routine" else None
-            writer.writerow({"start_seconds": round(s.start, 2), "end_seconds": round(s.end, 2), "start_timestamp": timestamp(s.start), "end_timestamp": timestamp(s.end), "text": s.text, "text_english": s.text_english, "event": event, "rule_score": round(rule_score, 3), "model_score": round(model_score, 3) if model_score is not None else "", "score": round(score, 3), "nlp_cues_json": json.dumps(frame, ensure_ascii=False)})
+            frame = analyze_event(s.text_english or s.text, s.event)
+            excitement = excitement_features(s.text)
+            frame["source_text_cues"] = excitement
+            frame["ranking_text_cues"] = excitement_features(s.text_english or s.text)
+            writer.writerow({
+                "start_seconds": round(s.start, 2), "end_seconds": round(s.end, 2),
+                "start_timestamp": timestamp(s.start), "end_timestamp": timestamp(s.end),
+                "text": s.text, "text_english": s.text_english, "event": s.event,
+                **excitement,
+                "rule_score": round(s.rule_score, 3),
+                "event_relatedness_score": round(s.event_score, 3) if s.event_score is not None else "",
+                "supervised_highlight_score": round(s.model_score, 3) if ((classifier is not None and getattr(classifier, "model_type", "") == "pipeline_multitask_tfidf_mlp_v1") or (sequence_predictions is not None and "highlight" in sequence_predictions)) and s.model_score is not None else "",
+                "model_score": round(s.model_score, 3) if s.model_score is not None else "",
+                "score": round(s.score, 3), "nlp_cues_json": json.dumps(frame, ensure_ascii=False),
+            })
     translated = any(s.text_english and s.text_english != s.text for s in segments)
     if task == "translate":
         note = "Whisper direct English translation of the detected speech. Original-language wording is not retained in this mode; timestamps are estimates."
@@ -323,24 +366,45 @@ def write_outputs(out_dir: Path, segments: list[Segment], highlights: list[dict[
     transcript_lines = [f"# Full timestamped transcript: {video.name}", "", note, ""]
     transcript_lines.extend(f"[{timestamp(s.start)}–{timestamp(s.end)}] {s.text_english or s.text}" + (f"\n\nOriginal: {s.text}" if s.text_english and s.text_english != s.text else "") for s in segments)
     (out_dir / "transcript.md").write_text("\n\n".join(transcript_lines) + "\n", encoding="utf-8")
-    score_note = (f"Hybrid ranking: football event phrase matching plus a trained match-half sequence model ({sequence_model.supervision if sequence_model is not None else getattr(classifier, 'supervision', 'unknown supervision')}); not a calibrated probability or a direct measure of highlight quality."
-                  if classifier is not None or sequence_predictions is not None else "Rule-match score, not a calibrated probability or measured confidence.")
-    deep_learning_stage = ("project-trained BiGRU with temporal self-attention and eventness/event-family heads; exploratory weak supervision" if sequence_predictions is not None else ("project-trained shared TF-IDF/PyTorch MLP with eventness and broad event-family heads; family output is experimental and weak-label trained" if classifier is not None and hasattr(classifier, "event_classes") else "project-trained PyTorch feed-forward binary reranker using match-context text") if classifier is not None else "not used; phrase rules only")
+    model_supervision = (getattr(sequence_model, "supervision", None)
+                         or getattr(classifier, "supervision", None)
+                         or "transparent event rules only")
+    pseudo_label_note = (
+        " Assistant text-only pseudo-labels, if supplied for an experiment, are not human ground truth."
+        if "assistant text-only" in model_supervision.casefold()
+        else ""
+    )
+    if sequence_predictions is not None and "highlight" in sequence_predictions:
+        score_note = f"Hybrid ranking combines event rules with {model_supervision}. Scores are exploratory and are not calibrated probabilities.{pseudo_label_note}"
+        deep_learning_stage = "project-trained two-tier hierarchical BiGRU with local window attention, match-half attention, and separate eventness/family/highlight heads"
+    elif sequence_predictions is not None:
+        score_note = f"Hybrid ranking: event phrase evidence and a project-trained match-half sequence score ({getattr(classifier, 'supervision', 'weak labels')}); scores are not calibrated probabilities or guaranteed highlight judgments."
+        deep_learning_stage = "project-trained BiGRU with temporal self-attention and eventness/event-family heads; exploratory weak supervision"
+    elif classifier is not None and getattr(classifier, "model_type", "") == "pipeline_multitask_tfidf_mlp_v1":
+        score_note = f"Hybrid ranking combines event phrase evidence with {model_supervision}. Components and final rank are exploratory scores, not calibrated probabilities.{pseudo_label_note}"
+        deep_learning_stage = "project-trained TF-IDF/PyTorch MLP with separately supervised eventness, event-family, and human highlight-value heads"
+    elif classifier is not None:
+        score_note = f"Hybrid ranking: football event phrase matching plus a trained event-context model ({getattr(classifier, 'supervision', 'unknown supervision')}); score is not calibrated."
+        deep_learning_stage = "project-trained PyTorch text classifier; label meaning depends on the checkpoint's training data"
+    else:
+        score_note = "Rule-match score, not a calibrated probability or measured confidence."
+        deep_learning_stage = "not used; phrase rules only"
     pipeline_stages = {
         "speech_to_text": "pretrained Faster-Whisper; language auto-detection or user override",
         "translation": "optional pretrained NLLB translation to English; timestamps retained",
-        "nlp_preprocessing": "project-written text normalization, lexical event evidence, and negation/hypothetical/retrospective/live-action cues",
-        "coreference": "conservative short-window pronoun linking only when a unique verified player alias is present; otherwise unresolved",
-        "event_extraction": "project-written event rules plus lexical event frames; actor/team arguments are candidates, not full SRL predictions",
+        "nlp_preprocessing": "project-written Unicode/whitespace cleanup preserving case and punctuation; exclamation/caps features plus negation/hypothetical/retrospective/live-action cues",
+        "coreference": "project-written nearest-mention resolution over verified aliases; resolves only one unique player antecedent and otherwise abstains",
+        "event_extraction": "project-written event rules and event-frame patterns emit action, conservative actor candidate, team candidates, and outcome cues; target remains unresolved; not trained SRL",
         "text_representation": "project-fitted TF-IDF unigram/bigram features when TF-IDF checkpoint is selected; otherwise hashed word features",
         "deep_learning": deep_learning_stage,
-        "temporal_selection": "score-based nearby-event grouping with a reported peak timestamp and density",
-        "explainability": "TF-IDF feature ablation when available; this is not an attention map",
-        "limitations": ["Coreference and event-role extraction use conservative dictionary/phrase heuristics, not trained coreference or SRL models", "Only fixture team names are auto-read from SoccerNet-style paths; player names require a verified aliases JSON", "No human excitement labels in current training data", "Event-family head, when present, is weak-label trained and performed poorly on rare classes in match-held-out review", "No claim of universal accuracy across languages or competitions"],
+        "model_supervision": model_supervision,
+        "temporal_selection": "score-based nearby-event grouping with peak, candidate density, and preceding 30-second buildup statistics",
+        "explainability": "temporal attention/context mass for the sequence model; TF-IDF feature ablation for the MLP; neither is causal evidence",
+        "limitations": ["Coreference and event-role extraction use conservative dictionary/phrase heuristics, not trained coreference or SRL models", "Only fixture team names are auto-read from SoccerNet-style paths; player names require a verified aliases JSON", "Excitement labels in the assistant review set are text-only proxies, not judgments of vocal intensity", "Assistant text-only annotations are pseudo-labels and are not human ground truth", "Event-family head is weak-label trained and remains experimental", "No claim of universal accuracy across languages or competitions"],
     }
     (out_dir / "highlights.json").write_text(json.dumps({"source_video": video.name, "asr_model": model, "timestamp_note": "Whisper segment timestamps are estimates; verify against the video before editing.", "score_note": score_note, "pipeline_stages": pipeline_stages, "highlights": highlights}, ensure_ascii=False, indent=2), encoding="utf-8")
     with (out_dir / "highlights.csv").open("w", newline="", encoding="utf-8") as f:
-        fields = ["start_timestamp", "end_timestamp", "event", "score", "rule_score", "model_score", "commentary", "commentary_english", "reasons"]
+        fields = ["start_timestamp", "end_timestamp", "event", "score", "rule_score", "event_score", "supervised_highlight_score", "n_exclaim", "caps_ratio", "n_caps_words", "excitement_score_heuristic", "model_score", "commentary", "commentary_english", "reasons"]
         writer = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
         writer.writeheader()
         for h in highlights:
@@ -350,16 +414,30 @@ def write_outputs(out_dir: Path, segments: list[Segment], highlights: list[dict[
         md.append("No candidate moments passed the current event threshold. Inspect `transcript.csv` and adjust the threshold if needed.")
     for i, h in enumerate(highlights, 1):
         rank_label = "Hybrid rank score" if classifier is not None or sequence_predictions is not None else "Rule score"
-        md += [f"## {i}. {h['event'].replace('_', ' ').title()} — {h['start_timestamp']} to {h['end_timestamp']}", f"{rank_label}: {h['score']:.2f}", f"Peak: {h['event_frame']['peak_timestamp']} | Candidate commentary segments grouped: {h['event_frame']['candidate_segment_count']}", ""]
+        md += [f"## {i}. {h['event'].replace('_', ' ').title()} — {h['start_timestamp']} to {h['end_timestamp']}", f"{rank_label}: {h['score']:.2f}", f"Peak: {h['event_frame']['peak_timestamp']} | Candidate segments: {h['event_frame']['candidate_segment_count']} | 30-second buildup segments: {h['event_frame']['buildup_segment_count']}", ""]
+        role_frame = h["event_frame"].get("event_frame", {})
+        md.append(f"Event frame (project-written patterns): action={role_frame.get('action_type', 'unknown')}; actor={role_frame.get('actor') or 'unresolved'}; outcomes={', '.join(role_frame.get('outcome_cues', [])) or 'none detected'}.")
+        coref = h["event_frame"].get("coreference", {})
+        if coref.get("pronouns"):
+            md.append(f"Coreference: {', '.join(coref['pronouns'])} → {coref.get('antecedent_candidate') or 'unresolved'} ({coref.get('method', '')}).")
+        md.append("")
+        if h["event_frame"].get("event_relatedness_score") is not None:
+            md.append(f"Event relatedness: {h['event_frame']['event_relatedness_score']:.2f} | Supervised highlight score: {h['event_frame']['supervised_highlight_score']:.2f}")
+            md.append("")
         evidence = h["event_frame"].get("event_evidence", [])
         if evidence:
             md += [f"Event text evidence: {', '.join(evidence)}", ""]
+        md.append(f"Emphasis cues: {h['n_exclaim']} exclamation marks; caps ratio {h['caps_ratio']:.2f}; all-caps words {h['n_caps_words']}; heuristic excitement {h['excitement_score_heuristic']:.2f} (not a trained head).")
+        md.append("")
         family = h["event_frame"].get("predicted_event_family")
         if family:
-            md += [f"Experimental model event-family prediction: {family['label']} ({family['score']:.2f})", ""]
+            agrees = h["event_frame"].get("event_family_agrees_with_rule")
+            status = "agrees with" if agrees else "disagrees with"
+            md += [f"Experimental model family: {family['label']} ({family['score']:.2f}); {status} the rule-based event label `{h['event']}`. Treat this head as experimental.", ""]
         attention_context = h["event_frame"].get("temporal_attention_context", [])
         if attention_context:
             md += ["Top temporal context attended by the sequence model: " + ", ".join(f"{item['timestamp']} ({item['weight']:.2f})" for item in attention_context), ""]
+            md += [f"Attention mass on the 30-second pre-candidate buildup: {h['event_frame'].get('attention_buildup_mass', 0):.2f} (model attention is a diagnostic, not causal evidence).", ""]
         model_evidence = h["event_frame"].get("model_evidence", [])
         if model_evidence:
             md += ["Model feature evidence (removing these words lowered this candidate's score): " + ", ".join(item["feature"] for item in model_evidence), ""]
@@ -382,6 +460,7 @@ def main() -> None:
     parser.add_argument("--min-score", type=float, default=0.35, help="Minimum rule score for candidate events")
     parser.add_argument("--classifier-model", type=Path, help="Optional trained PyTorch text model from src/train_highlight_model.py; requires English text")
     parser.add_argument("--sequence-model", type=Path, help="Optional trained match-half BiGRU/temporal-attention model from src/train_sequence_model.py; use instead of --classifier-model")
+    parser.add_argument("--hierarchical-model", type=Path, help="Optional project-trained two-tier model from src/train_hierarchical_model.py; use instead of --classifier-model or --sequence-model")
     parser.add_argument("--entity-aliases", type=Path, help="Optional verified JSON roster aliases with teams and players; see data/entity_aliases.example.json")
     parser.add_argument("--merge-gap", type=float, default=12.0, help="Merge candidate commentary within this many seconds")
     parser.add_argument("--start-seconds", type=float, default=0.0, help="Start at this offset in the source video; output times remain relative to the full video")
@@ -392,8 +471,8 @@ def main() -> None:
         parser.error(f"Video file does not exist: {video}")
     if args.start_seconds < 0 or (args.duration_seconds is not None and args.duration_seconds <= 0):
         parser.error("Start must be non-negative and duration must be positive.")
-    if args.sequence_model and args.classifier_model:
-        parser.error("Use either --sequence-model or --classifier-model, not both.")
+    if sum(bool(value) for value in (args.sequence_model, args.hierarchical_model, args.classifier_model)) > 1:
+        parser.error("Use only one of --classifier-model, --sequence-model, or --hierarchical-model.")
     language = None if args.language.casefold() == "auto" else args.language
     with tempfile.TemporaryDirectory(prefix="c2h-") as temp:
         wav = Path(temp) / "audio.wav"
@@ -440,6 +519,21 @@ def main() -> None:
         print(f"Ranking with match-half attention sequence model: {args.sequence_model}")
         predictions = sequence_model.predict(sequence_texts, sequence_times)
         # Map sorted model rows back to the original transcript segment order.
+        sequence_predictions = {key: [None] * len(segments) for key in predictions}
+        for key, values in predictions.items():
+            for model_index, original_index in enumerate(ordered):
+                sequence_predictions[key][original_index] = values[model_index]
+    if args.hierarchical_model:
+        try:
+            from hierarchical_model import HierarchicalMatchModel
+            sequence_model = HierarchicalMatchModel.load(args.hierarchical_model.expanduser())
+        except Exception as exc:
+            raise SystemExit(f"Could not load hierarchical model: {exc}") from exc
+        ordered = sorted(range(len(segments)), key=lambda i: segments[i].start)
+        sequence_texts = [classifier_context(segments, i) for i in ordered]
+        sequence_times = [segments[i].start for i in ordered]
+        print(f"Ranking with project-trained two-tier hierarchical model: {args.hierarchical_model}")
+        predictions = sequence_model.predict(sequence_texts, sequence_times)
         sequence_predictions = {key: [None] * len(segments) for key in predictions}
         for key, values in predictions.items():
             for model_index, original_index in enumerate(ordered):

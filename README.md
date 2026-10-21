@@ -1,6 +1,12 @@
 # Commentary2Highlight MVP
 
+Current audited pipeline status and newest experiments are in [`PROJECT_STATUS.md`](PROJECT_STATUS.md). The default training commands use human highlight labels plus separate SoccerNet event-alignment labels; assistant-written pseudo-labels are opt-in only. To train the two-tier hierarchy, run `python3 src/train_hierarchical_model.py --epochs 20`; to apply it to an existing timestamped transcript, use `python3 src/rerank_transcript.py path/to/transcript.csv --hierarchical-model models/commentary_hierarchical.pt`. Both learned rankers remain experimental.
+
 This is the first working-model milestone for the project: give it a football video with usable commentary audio, transcribe the speech with Whisper, rank likely important commentary moments, and export a timestamped highlight commentary list. It does not cut video clips yet.
+
+For the current audited stage-by-stage status, data limits, and latest held-out results, read [`PROJECT_STATUS.md`](PROJECT_STATUS.md). The recommended current experimental checkpoint is `models/commentary_pipeline_multitask.pt`; it separates weak event labels from human highlight judgments. Its human-label performance is still too weak to claim a reliable highlight detector. The two-tier hierarchical model is an experimental architecture and must be compared to the simpler checkpoint before being selected.
+
+The supplied 2023–24 narrative CSV has been sentence-split for preprocessing demonstration in [`outputs/preprocessing_23_24/commentary_clean.csv`](outputs/preprocessing_23_24/commentary_clean.csv). It uses generated `source_row_N` identifiers because the source's numeric `id` is a row key and disagrees with the match described in the narrative. It has no reliable event timestamps and is not used as supervised training data.
 
 The current local video inventory and audio checks are recorded in [`data/video_audio_inventory.md`](data/video_audio_inventory.md). Only three of the five currently visible MKVs have usable audio; the two Manchester City–Newcastle files have metadata audio streams but decode to empty WAV files.
 
@@ -15,7 +21,7 @@ The teammate's complete ten-stage proposal and the new 2023–24 match-details C
 5. Ranks event candidates with the phrase rules and, optionally, the project-trained PyTorch classifier using surrounding commentary context.
 6. Groups nearby candidate moments, reports the peak timestamp and component scores, and saves transcript and highlight commentary in CSV, JSON, and Markdown.
 
-The NLP/DL pipeline uses pretrained Whisper for speech recognition, with either Whisper's English translation task or optional NLLB text translation. Project-written event phrase rules propose candidates; a project-trained PyTorch feed-forward network reranks them using surrounding commentary. The preferred TF-IDF model fits its vocabulary and IDF values on project data; the hashed-feature model remains available. Rule-only and linear baselines are retained. TF-IDF model explanations remove one active feature at a time and report which removals lower the candidate score; this is feature perturbation, not attention. Event evidence and discourse cues are exported for inspection. This is not a fine-tuned Transformer or the originally proposed hierarchical model. No trained coreference, semantic-role, player identity, or excitement head exists yet. Automatic language detection and translation have been tried on Spanish, Russian, and French examples. Translation can be inaccurate, so do not claim reliable performance on every language.
+The NLP/DL path uses pretrained Faster-Whisper for speech recognition and optional English translation (direct Whisper translation or NLLB text translation). Project-written preprocessing preserves punctuation and capitalization, extracts discourse/emphasis cues, applies event phrase rules, and emits cautious entity/coreference and event-frame candidates. Project-trained TF-IDF/MLP and two-tier BiGRU attention models are trained from this project’s labels; the MLP separates weak eventness, weak event family, and human highlight value. Rule-only and linear baselines are retained. Model explanations are diagnostics, not causal evidence. Coreference and event roles are transparent heuristics, not trained general coreference/SRL models; there are no trained player-identity or vocal-excitement heads. Spanish and Russian runs have been tried, but that does not demonstrate reliable performance across languages.
 
 ## Requirements on the Mac
 
@@ -101,9 +107,22 @@ python3 src/pipeline.py "/path/to/match.mkv" --start-seconds 0 --duration-second
 
 For candidate ranking without rerunning Whisper, use `models/commentary_tfidf_mlp.pt` with `src/rerank_transcript.py` and a saved `transcript.csv`.
 
-### Multi-task event-family model
+### Assistant text-only annotation experiment (21 October 2026)
 
-The next model adds a shared text trunk with two project-trained heads: event-related vs routine, and a broad event family (`goal`, `shot_or_chance`, or `card`). The family labels come from SoccerNet event annotations and remain weak/noisy labels. Across seven match-held-out folds, event-family accuracy averaged 0.816 but macro-F1 averaged only 0.343; the accuracy is inflated by the majority shot class, and goal/card recall was poor. Treat this head as an experimental comparison, not a reliable event classifier. It does not predict player identity, excitement, or whether an event is subjectively a highlight. Train it with:
+`data/assistant_text_annotations.csv` is a separate 120-row draft annotated from English transcript text only. Each row records that provenance. It was not checked against audio/video, so the annotations are pseudo-labels rather than human ground truth; excitement labels reflect text cues, not vocal intensity. The untouched teammate queue remains `data/human_review_batch_01.csv`.
+
+Both trainers can include these rows while evaluating only on the existing human-reviewed examples:
+
+```bash
+python3 src/train_pipeline_model.py --assistant-labels data/assistant_text_annotations.csv --epochs 120 --out models/commentary_pipeline_assistant_labels.pt
+python3 src/train_hierarchical_model.py --assistant-labels data/assistant_text_annotations.csv --epochs 10 --out models/commentary_hierarchical_assistant_labels.pt
+```
+
+The controlled comparison did not improve the human-only held-out highlight F1, so these assistant-label checkpoints are retained as experiments and are not recommended as replacements. The new CSV's player, excitement, and role columns are not separate trained heads yet. See `PROJECT_STATUS.md` for metrics and caveats.
+
+### Earlier multi-task event-family baseline
+
+An earlier model adds a shared text trunk with two project-trained heads: event-related vs routine, and a broad event family (`goal`, `shot_or_chance`, or `card`). The newer three-head MLP and two-tier model are documented in `PROJECT_STATUS.md`. The family labels come from SoccerNet event annotations and remain weak/noisy labels. Treat this head as an experimental comparison, not a reliable event classifier. It does not predict player identity, excitement, or whether an event is subjectively a highlight. Train it with:
 
 ```bash
 python3 src/train_multitask_model.py
