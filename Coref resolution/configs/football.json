@@ -1,0 +1,129 @@
+{
+  "_readme": "Sport settings for the coreference step (name_book.py and resolve.py). To support another sport, copy this file, edit the values, and pass it with --config. Keys starting with an underscore are comments. Regexes are Python regexes written as JSON strings (so backslashes are doubled).",
+  "sport": "football",
+  "name_book": {
+    "_note": "How rosters are read out of the commentary text. Set lineup_regex and subs_regex to null if the commentary has no lineup lines.",
+    "lineup_regex": "^(?P<team>[A-Z][A-Za-z .&'-]*?)\\s*\\((?P<formation>\\d(?:-\\d)+)\\)\\s*[:;-]*\\s*(?P<body>.+)$",
+    "subs_regex": "^(?:(?P<team>[A-Z][A-Z .&'-]*?)\\s+)?(?:SUBS|Subs|SUBSTITUTES|Substitutes)\\s*[:;-]\\s*(?P<body>.+)$",
+    "header_suffix_regex": "\\s+(?:STARTING XI|STARTING LINEUP|LINEUP|XI)$",
+    "first_lineup_is_home": true,
+    "roles_from_formation": true,
+    "surname_particles": [
+      "al",
+      "da",
+      "de",
+      "der",
+      "di",
+      "dos",
+      "el",
+      "la",
+      "le",
+      "ten",
+      "ter",
+      "van",
+      "von"
+    ],
+    "distinctive_last_words": [
+      "Albion",
+      "Athletic",
+      "City",
+      "Forest",
+      "Hotspur",
+      "Palace",
+      "Rovers",
+      "Town",
+      "United",
+      "Villa",
+      "Wanderers"
+    ],
+    "generic_first_words": [
+      "Aston",
+      "Crystal",
+      "East",
+      "Inter",
+      "North",
+      "Real",
+      "South",
+      "West"
+    ],
+    "first_word_abbreviations": {
+      "Manchester": "Man"
+    },
+    "teams_file": "football_epl_teams.json"
+  },
+  "resolver": {
+    "_note": "Words and rules the resolver uses. roles maps a role word to the roster roles it can mean. scorer_line_regex marks a line where the next he/him/his is the scorer (null = rule off). default_rules is the stage-C rule set when --rules is not given (choose from side, goal, role, recency).",
+    "player_pronouns": [
+      "he",
+      "him",
+      "himself",
+      "his"
+    ],
+    "team_pronouns": [
+      "their",
+      "theirs",
+      "them",
+      "themselves",
+      "they"
+    ],
+    "possessive_pronouns": [
+      "his",
+      "their",
+      "theirs"
+    ],
+    "reflexive_pronouns": [
+      "himself",
+      "themselves"
+    ],
+    "roles": {
+      "striker": [
+        "FWD"
+      ],
+      "forward": [
+        "FWD"
+      ],
+      "attacker": [
+        "FWD"
+      ],
+      "frontman": [
+        "FWD"
+      ],
+      "winger": [
+        "FWD",
+        "MID"
+      ],
+      "midfielder": [
+        "MID"
+      ],
+      "defender": [
+        "DEF"
+      ],
+      "centre-back": [
+        "DEF"
+      ],
+      "full-back": [
+        "DEF"
+      ],
+      "keeper": [
+        "GK"
+      ],
+      "goalkeeper": [
+        "GK"
+      ]
+    },
+    "home_words": [
+      "home side",
+      "home team",
+      "hosts"
+    ],
+    "away_words": [
+      "away side",
+      "away team",
+      "visitors"
+    ],
+    "scorer_line_regex": "^GOAL\\W",
+    "history_lines": 6,
+    "ambiguous_lines": 10,
+    "default_rules": "side,goal,role"
+  }
+}

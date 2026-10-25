@@ -1,0 +1,245 @@
+stage A
+
+   2  Burnley could have hardly been given a tougher opening fixture, but they should come into it with confidence after cruising to the Championship title last time out in their first season back in the second tier.
+      Burnley could have hardly been given a tougher opening fixture, but Burnley should come into it with confidence after cruising to the Championship title last time out in Burnley's first season back in the second tier.
+        they -> Burnley  [model]
+        their -> Burnley  [model]
+
+   3  Led by Vincent Kompany, a Citizens' legend from his playing career, Burnley reached 101 points and secured promotion with seven games to play, and they will be hoping to get off the mark with a positive result on home soil.
+      Led by Vincent Kompany, a Citizens' legend from his playing career, Burnley reached 101 points and secured promotion with seven games to play, and Burnley will be hoping to get off the mark with a positive result on home soil.
+        his -> ?  [model]
+        they -> Burnley  [model]
+
+   4  City, meanwhile, claimed a historic treble last term, finally winning their first Champions League title while also taking Premier League and FA Cup glory.
+      City, meanwhile, claimed a historic treble last term, finally winning Manchester City's first Champions League title while also taking Premier League and FA Cup glory.
+        their -> Manchester City  [model]
+
+   5  It has been a transfer window of change with key players of recent years such as Riyad Mahrez and Ilkay Gundogan leaving the club, but they still come into this campaign expected to be frontrunners and they will be looking to get off to a winning start as they bid for a sixth Premier League crown in seven seasons.
+      It has been a transfer window of change with key players of recent years such as Riyad Mahrez and Ilkay Gundogan leaving the club, but Burnley still come into this campaign expected to be frontrunners and Burnley will be looking to get off to a winning start as Burnley bid for a sixth Premier League crown in seven seasons.
+        they -> Burnley  [model]
+        they -> Burnley  [model]
+        they -> Burnley  [model]
+
+  10  Kompany includes six new signings as Trafford, signed from City in this window, starts between the sticks while O'Shea comes into the back four alongside Al Dakhil, who has had his loan move made permanent after impressing last season.
+      Kompany includes six new signings as Trafford, signed from City in this window, starts between the sticks while O'Shea comes into the back four alongside Al Dakhil, who has had his loan move made permanent after impressing last season.
+        his -> ?  [model]
+
+  12  In contrast, Pep Guardiola opts to leave his new arrivals on the bench as Gvardiol and Kovacic will be made to wait for their competitive City debuts.
+      In contrast, Pep Guardiola opts to leave Pep Guardiola's new arrivals on the bench as Gvardiol and Kovacic will be made to wait for Gvardiol and Kovacic's competitive City debuts.
+        his -> Pep Guardiola  [model]
+        their -> Gvardiol and Kovacic  [model]
+
+  15  The two teams make their way onto the pitch ahead of the opening Premier League game of the season!
+      The two teams make their way onto the pitch ahead of the opening Premier League game of the season!
+        their -> ?  [model]
+
+  18  GOAL!!! HAALAND PUTS CITY AHEAD!!! Having netted 36 Premier League goals last season, it has taken just four minutes for him to open his account for this campaign.
+      GOAL!!! HAALAND PUTS CITY AHEAD!!! Having netted 36 Premier League goals last season, it has taken just four minutes for De Bruyne to open De Bruyne's account for this campaign.
+        him -> De Bruyne  [model]
+        his -> De Bruyne  [model]
+
+  19  It is a typical Haaland goal as he lurks in the box while De Bruyne lofts a deep cross for Rodri.
+      It is a typical Haaland goal as De Bruyne lurks in the box while De Bruyne lofts a deep cross for Rodri.
+        he -> De Bruyne  [model]
+
+  20  The midfielder nods it back across, and the Norway international is waiting to smash home and put the champions 1-0 up!
+      Rodri nods it back across, and the Norway international is waiting to smash home and put the champions 1-0 up!
+        The midfielder -> Rodri  [model]
+
+  23  It is far from the ideal start for Kompany and the Clarets, who find themselves a goal down against the defending champions.
+      It is far from the ideal start for Kompany and the Clarets, who find themselves a goal down against the defending champions.
+        themselves -> ?  [model]
+
+  24  Can they respond?
+      Can they respond?
+        they -> ?  [model]
+
+  26  It is at an awkward height, though, and the striker can only volley high over the crossbar.
+      It is at an awkward height, though, and Haaland can only volley high over the crossbar.
+        the striker -> Haaland  [model]
+
+  27  Haaland – who scored twice in City's opening Premier League game last season – scored a hat-trick in his only previous game against Burnley, a 6-0 win in last season's FA Cup quarter-final.
+      Haaland – who scored twice in City's opening Premier League game last season – scored a hat-trick in Haaland's only previous game against Burnley, a 6-0 win in last season's FA Cup quarter-final.
+        his -> Haaland  [model]
+
+  28  It took him only four minutes to net here in the opening game for the Citizens for a second campaign in a row.
+      It took Haaland only four minutes to net here in the opening game for the Citizens for a second campaign in a row.
+        him -> Haaland  [model]
+
+  29  Burnley work the ball nicely into the visitors' penalty area, and it eventually ends up at the feet of Koleosho.
+      Burnley work the ball nicely into Burnley's penalty area, and it eventually ends up at the feet of Koleosho.
+        the visitors' -> Burnley  [model]
+
+  30  The 18-year-old tries to pick out the far corner, but he gets well underneath his effort and Ederson watches it soar over his crossbar.
+      The 18-year-old tries to pick out the far corner, but Koleosho gets well underneath Koleosho's effort and Ederson watches it soar over Ederson's crossbar.
+        he -> Koleosho  [model]
+        his -> Koleosho  [model]
+        his -> Ederson  [model]
+
+  33  Amdouni gives Ederson his first test of the contest, though the City goalkeeper is able to get down and save the low shot with relative ease.
+      Amdouni gives Ederson Ederson's first test of the contest, though Ederson is able to get down and save the low shot with relative ease.
+        his -> Ederson  [model]
+        the City goalkeeper -> Ederson  [model]
+
+  34  City have had 69.7 per cent of the possession so far, but Burnley are certainly showing no signs of being overawed and have exhibited some neat attacking play themselves.
+      City have had 69.7 per cent of the possession so far, but Burnley are certainly showing no signs of being overawed and have exhibited some neat attacking play themselves.
+        themselves -> Burnley  [model]
+
+  35  Guardiola may be forced into an early change, and it would be an especially damaging one too as De Bruyne clutches at his hamstring.
+      Guardiola may be forced into an early change, and it would be an especially damaging one too as De Bruyne clutches at De Bruyne's hamstring.
+        his -> De Bruyne  [model]
+
+  36  De Bruyne does indeed limp off, and Kovacic comes on in his place for his City debut.
+      De Bruyne does indeed limp off, and Kovacic comes on in De Bruyne's place for Kovacic's City debut.
+        his -> De Bruyne  [model]
+        his -> Kovacic  [model]
+
+  37  Haaland has now contributed to at least one goal in his last seven Premier League away games (seven goals, one assist).
+      Haaland has now contributed to at least one goal in Haaland's last seven Premier League away games (seven goals, one assist).
+        his -> Haaland  [model]
+
+  40  Foster cuts in on his right foot and tries to curl into the far corner, but he cannot get enough bend on his effort and it flies wide of the post.
+      Foster cuts in on Foster's right foot and tries to curl into the far corner, but Foster cannot get enough bend on Foster's effort and it flies wide of the post.
+        his -> Foster  [model]
+        he -> Foster  [model]
+        his -> Foster  [model]
+
+  41  Burnley are looking lively when they come forward.
+      Burnley are looking lively when Burnley come forward.
+        they -> Burnley  [model]
+
+  42  Burnley have won just one of their last 23 league matches against Manchester City (D6 L16) and have lost the last eight in a row by an aggregate score of 26-1.
+      Burnley have won just one of Burnley's last 23 league matches against Manchester City (D6 L16) and have lost the last eight in a row by an aggregate score of 26-1.
+        their -> Burnley  [model]
+
+  43  They have responded well to going behind here, though.
+      Burnley have responded well to going behind here, though.
+        They -> Burnley  [model]
+
+  44  City are just enjoying a spell of possession as they try to slow the momentum their hosts had built up in recent minutes.
+      City are just enjoying a spell of possession as Manchester City try to slow the momentum Manchester City had built up in recent minutes.
+        they -> Manchester City  [model]
+        their hosts -> Manchester City  [model]
+
+  45  Some brilliant interplay between Kovacic and Foden takes the latter into a dangerous position in the Burnley box, but Trafford does brilliantly to race out of his goal and snuff out the chance for a shot.
+      Some brilliant interplay between Kovacic and Foden takes the latter into a dangerous position in the Burnley box, but Trafford does brilliantly to race out of Trafford's goal and snuff out the chance for a shot.
+        his -> Trafford  [model]
+
+  46  GOAL!!! HAALAND AGAIN!!! It is a quite brilliant finish to put City 2-0 up, perhaps against the run of play, as he receives the ball in the box from Alvarez.
+      GOAL!!! HAALAND AGAIN!!! It is a quite brilliant finish to put City 2-0 up, perhaps against the run of play, as Trafford receives the ball in the box from Alvarez.
+        he -> Trafford  [model]
+
+  47  He opts to shoot first-time, and he curls superbly into the top left corner, kissing the crossbar and going in to put his team in control at Turf Moor.
+      Trafford opts to shoot first-time, and Trafford curls superbly into the top left corner, kissing the crossbar and going in to put Trafford's team in control at Turf Moor.
+        He -> Trafford  [model]
+        he -> Trafford  [model]
+        his -> Trafford  [model]
+
+  50  Two shots on target and two goals for the Citizens, who are surely on their way to three points to kick off the season.
+      Two shots on target and two goals for the Citizens, who are surely on Manchester City's way to three points to kick off the season.
+        their -> Manchester City  [model]
+
+  52  They beat them 6-0 in the FA Cup last season, inflicting the Clarets' heaviest defeat since losing 6-0 to City themselves in March 1999 in a league game.
+      Manchester City beat Burnley 6-0 in the FA Cup last season, inflicting the Clarets' heaviest defeat since losing 6-0 to City themselves in March 1999 in a league game.
+        They -> Manchester City  [model]
+        them -> Burnley  [model]
+        themselves -> Manchester City  [model]
+
+  56  Burnley have won their opening game in just two of their eight previous Premier League seasons (D1 L5), winning 3-2 at reigning champions Chelsea in 2017-18 and 3-0 at home to Southampton in 2019-20.
+      Burnley have won Burnley's opening game in just two of Burnley's eight previous Premier League seasons (D1 L5), winning 3-2 at reigning champions Chelsea in 2017-18 and 3-0 at home to Southampton in 2019-20.
+        their -> Burnley  [model]
+        their -> Burnley  [model]
+
+  59  They were ahead after just four minutes, Haaland opening his account for the season by smashing home from Rodri's clever headed assist.
+      Manchester City were ahead after just four minutes, Haaland opening Haaland's account for the season by smashing home from Rodri's clever headed assist.
+        They -> Manchester City  [model]
+        his -> Haaland  [model]
+
+  60  Burnley responded well to going 1-0 down and could have levelled through Koleosho and then Foster, but they would go two goals behind before the break as Haaland curled home superbly from Alvarez's lay-off to leave the champions very much in the ascendancy at the interval.
+      Burnley responded well to going 1-0 down and could have levelled through Koleosho and then Foster, but Burnley would go two goals behind before the break as Haaland curled home superbly from Alvarez's lay-off to leave the champions very much in the ascendancy at the interval.
+        they -> Burnley  [model]
+
+  61  Burnley are in an unfamiliar situation having been so dominant in the Championship last season, but Kompany will remain encouraged by his team's first-half performance despite the scoreline.
+      Burnley are in an unfamiliar situation having been so dominant in the Championship last season, but Kompany will remain encouraged by Kompany's team's first-half performance despite the scoreline.
+        his -> Kompany  [model]
+
+  64  City have won their opening Premier League game in 12 of the last 14 seasons, with both exceptions coming against Tottenham (0-0 in 2010-11, 0-1 in 2021-22).
+      City have won Manchester City's opening Premier League game in 12 of the last 14 seasons, with both exceptions coming against Tottenham (0-0 in 2010-11, 0-1 in 2021-22).
+        their -> Manchester City  [model]
+
+  65  They look on their way to another victory to kick off the season here.
+      Manchester City look on Manchester City's way to another victory to kick off the season here.
+        They -> Manchester City  [model]
+        their -> Manchester City  [model]
+
+  66  O'Shea makes an important intervention to nip in and take the ball off the toes of Haaland after Silva tried to feed the striker.
+      O'Shea makes an important intervention to nip in and take the ball off the toes of Haaland after Silva tried to feed Haaland.
+        the striker -> Haaland  [model]
+
+  67  Haaland races onto Alvarez's throughball but the pass takes him wide, and O'Shea does well to race back and block the forward's eventual shot behind for a corner.
+      Haaland races onto Alvarez's throughball but the pass takes Alvarez wide, and O'Shea does well to race back and block Alvarez's eventual shot behind for a corner.
+        him -> Alvarez  [model]
+        the forward's -> Alvarez  [model]
+
+  68  Rodri lets fly with a fierce effort from 30 yards out, and Trafford is forced to tip it over his crossbar for a corner.
+      Rodri lets fly with a fierce effort from 30 yards out, and Trafford is forced to tip it over Rodri's crossbar for a corner.
+        his -> Rodri  [model]
+
+  69  The City midfielder then gets his head on the end of the resulting set-piece, but Trafford is again equal to it and gathers down to his right.
+      Rodri then gets Rodri's head on the end of the resulting set-piece, but Trafford is again equal to it and gathers down to Rodri's right.
+        The City midfielder -> Rodri  [model]
+        his -> Rodri  [model]
+        his -> Rodri  [model]
+
+  70  The Clarets will have to produce more going forward if they are to make an unlikely comeback, accumulating just 0.23 xG (expected goals) to this point.
+      The Clarets will have to produce more going forward if Manchester City are to make an unlikely comeback, accumulating just 0.23 xG (expected goals) to this point.
+        they -> Manchester City  [model]
+
+  71  A sweeping City move sees them carve Burnley open again.
+      A sweeping City move sees Manchester City carve Burnley open again.
+        them -> Manchester City  [model]
+
+  72  Haaland lays the ball to his right for Alvarez, but the Argentina international's first touch takes him wide and his drive ends up flying well wide of the right post.
+      Haaland lays the ball to Haaland's right for Alvarez, but the Argentina international's first touch takes Alvarez wide and Alvarez's drive ends up flying well wide of the right post.
+        his -> Haaland  [model]
+        him -> Alvarez  [model]
+        his -> Alvarez  [model]
+
+  73  Kompany looks to his bench, first introducing Bruun Larsen for his Burnley debut in place of Koleosho.
+      Kompany looks to Kompany's bench, first introducing Bruun Larsen for Bruun Larsen's Burnley debut in place of Koleosho.
+        his -> Kompany  [model]
+        his -> Bruun Larsen  [model]
+
+  75  What impact will those changes have on the hosts' attacking efforts?
+      What impact will those changes have on Burnley's attacking efforts?
+        the hosts' -> Burnley  [model]
+
+  77  For all of their impressive work, they have just lacked a little in the final third in this game.
+      For all of Burnley's impressive work, Burnley have just lacked a little in the final third in this game.
+        their -> Burnley  [model]
+        they -> Burnley  [model]
+
+  78  Rodri marauds forwards and space looks to have opened up for him to smash towards goal.
+      Rodri marauds forwards and space looks to have opened up for Rodri to smash towards goal.
+        him -> Rodri  [model]
+
+  79  He just seems hesitant to pull the trigger, though, and by the time he finally does, a Burnley defender is well-placed to block his drive.
+      Rodri just seems hesitant to pull the trigger, though, and by the time Rodri finally does, a Burnley defender is well-placed to block Rodri's drive.
+        He -> Rodri  [model]
+        he -> Rodri  [model]
+        his -> Rodri  [model]
+
+  80  With 20 minutes to play, can City see the remainder of the game out for three points to kick off what they hope will be another successful defence of their Premier League crown?
+      With 20 minutes to play, can City see the remainder of the game out for three points to kick off what Manchester City hope will be another successful defence of Manchester City's Premier League crown?
+        they -> Manchester City  [model]
+        their -> Manchester City  [model]
+
+  81  Foden tries to pick out Haaland in lots of space in the box, but he gets the cross wrong and it flies well out of his striker's reach.
+      Foden tries to pick out Haaland in lots of space in the box, but Foden gets the cross wrong and it flies well out of Foden's striker's reach.
+        he -> Foden  [model]
+        his -> Foden  [model]
+
+  83  GOAL!!! RODRI SURELY KILLS IT OFF!!! After City were awarded a free-kick for Al Dakhil bundling over Haaland, Foden's set-piece delivery causes havoc in the Burnley box as they fail to clear their lines.
+      GOAL!!! RODRI SURELY KILLS IT OFF!!! After City were awarded a free-kick for Al Dakhil bundling over Haaland, Foden's set-piece delivery causes havoc in the Burnley box as Burnley fail to clear Burnley's lines.
+        they -> Burnley  [model]
+        their -> Burnley  [model]
