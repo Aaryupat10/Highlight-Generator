@@ -1,0 +1,1214 @@
+{
+ "sport": "football",
+ "classes": [
+  "goal",
+  "card",
+  "near_miss",
+  "foul",
+  "routine"
+ ],
+ "possessive_pronouns": [
+  "his",
+  "her",
+  "their",
+  "its",
+  "whose"
+ ],
+ "max_gap_words": 8,
+ "short_sentence_words": 3,
+ "clause_breakers": "\\b(?:but|though|although|however|while|whereas|yet|so|as)\\b|[;:\\u2014]|\\s-\\s",
+ "non_subject_prepositions": [
+  "to",
+  "for",
+  "by",
+  "from",
+  "against",
+  "past",
+  "through",
+  "around",
+  "between",
+  "over",
+  "on",
+  "beyond",
+  "behind",
+  "via",
+  "with"
+ ],
+ "context_markers": [
+  "\\bxG\\b",
+  "expected goals",
+  "head[- ]to[- ]head",
+  "\\bprevious (?:meeting|meetings|encounter|encounters|fixture|game|match|season)\\b",
+  "\\blast (?:season|time|year|week|month|term|campaign)\\b",
+  "\\bthis (?:season|term|campaign)\\b",
+  "\\bso far (?:this|today|in)\\b",
+  "\\bunbeaten\\b",
+  "\\bsince (?:the|he|they|his|their|August|September|October|November|December|January|February|March|April|May|\\d{4})\\b",
+  "\\b(?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve) (?:shots|saves|corners|goals|points|games|matches|appearances|clean sheets|wins|defeats|league goals)\\b",
+  "\\bstarting (?:XI|line-?up)\\b",
+  "\\bteam news\\b",
+  "\\bpreview\\b",
+  "\\bwelcome to\\b",
+  "\\bgood (?:morning|afternoon|evening)\\b",
+  "^hello\\b",
+  "\\bleague table\\b",
+  "\\bstandings\\b",
+  "\\bnamed (?:in|on|as)\\b",
+  "\\bon the bench\\b",
+  "\\bsuspension\\b",
+  "\\bout (?:injured|with)\\b",
+  "\\bunavailable\\b",
+  "\\bsuspended\\b",
+  "\\b(?:one|two|three)-match ban\\b",
+  "\\bprevious outing\\b",
+  "\\bin their (?:last|previous)\\b",
+  "\\bpre-?match\\b",
+  "\\bwho (?:has|have) (?:scored|won)\\b",
+  "\\b(?:was|were|had been) (?:booked|sent off|dismissed) (?:in|on|at|during|against)\\b"
+ ],
+ "live_markers": [
+  "^[A-Z][A-Z'\\u2019.\\- ]{2,}[!?]",
+  "\\bGO+A+L+\\b",
+  "\\bFULL[- ]TIME\\b",
+  "\\bHALF[- ]TIME\\b"
+ ],
+ "modality": [
+  {
+   "label": "negated",
+   "regex": "\\b(?:no|not|never|without|fails? to|failed to|unable to|can(?:'|\\u2019)?t|cannot|couldn(?:'|\\u2019)?t|doesn(?:'|\\u2019)?t|didn(?:'|\\u2019)?t|won(?:'|\\u2019)?t|isn(?:'|\\u2019)?t|wasn(?:'|\\u2019)?t|hasn(?:'|\\u2019)?t)\\s+(?:[\\w'@\\u2019-]+\\s+){0,4}$"
+  },
+  {
+   "label": "appeal",
+   "regex": "\\b(?:appeal(?:s|ed|ing)? for|appeals|shouts? for|shout for|claims? for|claim a|calls? for|called for|wants?|wanted|demands?|pleads? for|screams? for|claim|appealing)\\s+(?:[\\w'@\\u2019-]+\\s+){0,4}$"
+  },
+  {
+   "label": "attempted",
+   "regex": "\\b(?:tries to|tried to|trying to|attempts? to|attempted to|looks? to|looked to|looking to|has a go at|wants? to)\\s+(?:[\\w'@\\u2019-]+\\s+){0,4}$"
+  },
+  {
+   "label": "unrealised",
+   "regex": "\\b(?:almost|nearly|just about|inches from|threaten(?:s|ed)? to|about to|thought (?:he|they|it|she)|thinks? (?:he|they)|could have|would have|might have|should have|could|might|would)\\s+(?:[\\w'@\\u2019-]+\\s+){0,4}$"
+  },
+  {
+   "label": "hypothetical",
+   "regex": "\\b(?:if|whether|unless)\\s+(?:[\\w'@\\u2019-]+\\s+){0,4}$"
+  }
+ ],
+ "new_subject_markers": ",\\s+(?:and\\s+)?(?:a|an|the|another|some|one)\\b",
+ "method_skip_events": [
+  "var_check",
+  "kick_off",
+  "half_time",
+  "full_time",
+  "offside",
+  "substitution",
+  "injury",
+  "foul",
+  "yellow_card",
+  "red_card",
+  "penalty_awarded",
+  "goal_disallowed"
+ ],
+ "recap_start": [
+  {
+   "regex": "^HALF[- ]TIME\\b",
+   "max_lines": 12
+  },
+  {
+   "regex": "^FULL[- ]TIME\\b",
+   "max_lines": 60
+  }
+ ],
+ "recap_end": [
+  "\\bunder ?way\\b",
+  "\\bball rolling\\b",
+  "\\bsecond half (?:is |gets )?(?:under|started|begins|begun|kicks|off)",
+  "\\bkick(?:s|ed)? off the second\\b",
+  "\\b(?:get|gets|getting)\\b[^.!?]{0,25}\\bback\\b"
+ ],
+ "prematch_end": [
+  "\\bgets?\\b[^.!?]{0,40}?\\bunder ?way\\b(?! with)",
+  "\\bkick(?:s|ed)? (?:us |things |the game |the match |proceedings )?off\\b(?! (?:the|their|his|its|a|this|time|at|in|is|will))",
+  "\\bwe(?:'re| are) (?:now )?under ?way\\b",
+  "\\bkicking off\\b",
+  "(?-i:\\bPEEP\\b)"
+ ],
+ "prematch_search_lines": 60,
+ "suppress": {
+  "goal_disallowed": [
+   "goal"
+  ],
+  "goal": [
+   "shot",
+   "chance",
+   "woodwork"
+  ],
+  "woodwork": [
+   "shot"
+  ],
+  "save": [
+   "shot"
+  ],
+  "penalty_miss": [
+   "save",
+   "shot",
+   "penalty"
+  ]
+ },
+ "outcome_from_event": {
+  "save": "saved",
+  "block": "blocked",
+  "woodwork": "hit_woodwork"
+ },
+ "events": [
+  {
+   "name": "goal",
+   "class": "goal",
+   "weight": 100,
+   "merge": true,
+   "unrealised_type": "chance",
+   "default_outcome": "scored",
+   "agent": [
+    "subject",
+    "prep:by",
+    "headline"
+   ],
+   "triggers": [
+    "(?-i:\\bGO+A+L+\\b(?!-))",
+    "\\bscor(?:es|ed|ing)\\b",
+    "\\b(?:back of the net|into the net|in the net|finds? the net|found the net|hits? the net|bulges)\\b",
+    "\\bequali[sz](?:es|ed|ing|er)\\b",
+    "\\bmak(?:es|ing) it (?:\\d|one|two|three|four|five)",
+    "\\bopen(?:s|ed|ing) the scoring\\b",
+    "\\b(?:doubles|doubled|trebles|extends|extended|restores|restored|halves|halved)\\s+(?:the|their|his|its)\\s+(?:lead|advantage|deficit)\\b",
+    "\\bpull(?:s|ed|ing)? (?:one|a goal) back\\b",
+    "\\blevel(?:s|led|ed)\\s+(?:the\\s+)?(?:score|scores|game|match|tie)\\b",
+    "\\bdraws? (?:\\w+ )?level\\b",
+    "\\bcancel(?:s|led|ling)? out\\b",
+    "\\bput(?:s|ting)?\\s+(?:@E|\\w+)\\s+(?:ahead|in front)\\b",
+    "\\b(?:poke|tap|slot|roll|bundle|head|nod|fire|smash|tuck|steer|guide|drill|lash|curl|sweep|stab|prod|convert|finish|bury|sidefoot|lift|lob|rifle|blast|power|slide|squeeze|dink|clip|arrow|thump|stroke|knock|ram|hammer|plant|fizz|volley|loop|flick|bend|work|force|turn)(?:s|es|ed|d|ing)?\\b[^.!?,;]{0,30}?(?:\\bhome\\b|into the (?:\\w+ ){0,2}(?:net|corner|roof of the net)|past @P)",
+    "\\bput(?:s|ting)?\\s+[^.!?,;]{0,30}?\\d-\\d\\s+(?:up|ahead)\\b",
+    "\\b(?:convert(?:s|ed)|dispatch(?:es|ed)|bur(?:ies|ied)|tuck(?:s|ed) away)\\s+(?:the|his|a|their)\\s+(?:penalty|spot-kick|chance)",
+    "^\\s*\\d{1,2}\\s*-\\s*\\d{1,2}\\s+(?:@T\\d+|[A-Z][A-Z .']+)[!.\\s]*$"
+   ],
+   "exclude": [
+    "\\b(?:has|have|had|having|not|never|ever|yet to|hasn't|haven't) (?:\\w+ )?scor(?:ed|ing)",
+    "\\bthe scores\\b",
+    "\\bgoal-?kick"
+   ]
+  },
+  {
+   "name": "goal_disallowed",
+   "class": "near_miss",
+   "weight": 120,
+   "merge": true,
+   "agent": [
+    "subject",
+    "any"
+   ],
+   "triggers": [
+    "\\b(?:disallowed|chalked off|ruled out|struck off|overturned)\\b",
+    "\\bno goal\\b",
+    "\\bgoal (?:is |has been |will be )?(?:not given|ruled)"
+   ],
+   "exclude": [
+    "\\bruled out (?:for|of|with|until)",
+    "\\bruled out (?:the )?(?:tournament|season|rest)"
+   ]
+  },
+  {
+   "name": "penalty",
+   "class": "foul",
+   "weight": 90,
+   "merge": true,
+   "appeal_class": "foul",
+   "agent": [
+    "subject",
+    "prep:for"
+   ],
+   "triggers": [
+    "\\b(?:awards?|awarded|gives?|given|gave|points? to|pointing to|signals?|signalled|wins?|won|earns?|earned|concedes?|conceded|conceding|gets?|has|have|had)\\s+(?:a |the |another |an )?(?:\\w+ )?penalty\\b(?!\\s+(?:area|box|spot|shout))",
+    "(?-i:\\bPENALTY\\b(?!\\s+(?:AREA|BOX)))",
+    "\\bspot[- ]kick (?:is )?(?:awarded|given)",
+    "\\bpenalty (?:to|for) @T\\b",
+    "\\bpoints? to the spot\\b",
+    "\\b(?:want|wants|wanted|claim|claims|claimed|appeal for|appeals for|shouts? for) (?:a |the |another )?penalty\\b(?!\\s+(?:area|box|spot))",
+    "\\bspot-?kick\\b"
+   ],
+   "exclude": [
+    "\\bwho (?:has|had|have) (?:a |the )?penalty",
+    "\\bpenalty (?:area|box|spot)\\b"
+   ]
+  },
+  {
+   "name": "penalty_miss",
+   "class": "near_miss",
+   "weight": 95,
+   "merge": true,
+   "agent": [
+    "subject",
+    "prep:by"
+   ],
+   "triggers": [
+    "\\b(?:miss(?:es|ed)|waste[sd]?|fluff(?:s|ed)|skies|sky|squanders?)\\b[^.!?]{0,20}\\bpenalty\\b",
+    "\\bpenalty\\b[^.!?]{0,25}\\b(?:saved|missed|hits the (?:post|bar)|is saved|over the bar|wide)\\b",
+    "\\bsav(?:es|ed) (?:the |a |his |her )?(?:\\w+ )?penalty\\b",
+    "\\bpenalty save\\b"
+   ]
+  },
+  {
+   "name": "red_card",
+   "class": "card",
+   "weight": 92,
+   "merge": true,
+   "agent": [
+    "subject",
+    "prep:for",
+    "object"
+   ],
+   "patterns": [
+    "(?:shows?|showed|shown|flashes|brandishes)\\s+(?P<agent>@P)\\s+(?:a |the )?(?:straight )?red"
+   ],
+   "triggers": [
+    "\\bred card\\b",
+    "\\bsent off\\b",
+    "\\bsending off\\b",
+    "\\bdismissed\\b",
+    "\\bmarching orders\\b",
+    "\\bsecond yellow\\b",
+    "\\bsecond booking\\b",
+    "\\bsees red\\b",
+    "\\bdirect red\\b"
+   ],
+   "exclude": [
+    "\\bhas been sent off (?:in|on|at)",
+    "\\bwas sent off (?:in|on|at|against|during)",
+    "\\bred card (?:for|in) (?:the )?(?:season|last)"
+   ]
+  },
+  {
+   "name": "yellow_card",
+   "class": "card",
+   "weight": 80,
+   "merge": true,
+   "agent": [
+    "subject",
+    "prep:for",
+    "object"
+   ],
+   "patterns": [
+    "(?:shows?|showed|shown|flashes|gives?|gave|given)\\s+(?P<agent>@P)\\s+(?:a |the )?(?:yellow|card|caution)"
+   ],
+   "triggers": [
+    "\\byellow card\\b",
+    "\\bbooked\\b",
+    "\\bbooking\\b",
+    "\\bcautioned\\b",
+    "\\bgoes? (?:in|into) the book\\b",
+    "\\bname(?:s)? in the book\\b",
+    "\\binto the referee's notebook\\b",
+    "\\byellows?\\b"
+   ],
+   "exclude": [
+    "\\byellow(?:s)? (?:shirt|shirts|kit|wall|and|army|submarine|jersey)",
+    "\\balready\\b",
+    "\\bearlier\\b",
+    "\\bon a (?:yellow|caution|booking)\\b",
+    "\\bfirst-half (?:yellow|booking)",
+    "\\bsuspend",
+    "\\bone yellow"
+   ]
+  },
+  {
+   "name": "woodwork",
+   "class": "near_miss",
+   "weight": 70,
+   "merge": true,
+   "agent": [
+    "subject",
+    "prep:by"
+   ],
+   "default_outcome": "hit_woodwork",
+   "triggers": [
+    "\\b(?:cross)?bar\\b",
+    "\\bposts?\\b",
+    "\\buprights?\\b",
+    "\\bwoodwork\\b",
+    "\\bgoal-?posts?\\b"
+   ],
+   "exclude": [
+    "(?:near|far|back|first|second|front|goal)\\s+posts?",
+    "(?:over|above|clear of|beyond|high of|under|beneath|below)\\s+(?:the|his|their|her|its|@PS)\\s+(?:cross)?bar",
+    "(?:wide|past|side|clear|inches wide|yards wide)\\s+of\\s+(?:the\\s+)?(?:\\w+\\s+)?(?:post|upright)",
+    "\\bpost[- ]?(?:match|game|season|goal)",
+    "\\bcross-?bar chal",
+    "\\bposts? (?:and|or) (?:a|the) (?:bar|bar)\\b.{0,0}$"
+   ]
+  },
+  {
+   "name": "save",
+   "class": "near_miss",
+   "weight": 60,
+   "merge": true,
+   "agent": [
+    "subject",
+    "prep:by",
+    "prep:from"
+   ],
+   "other": [
+    "any"
+   ],
+   "default_outcome": "saved",
+   "patterns": [
+    "(?P<other>@P)\\s+(?:[\\w'@]+\\s+){0,4}?(?:denied|stopped|thwarted|foiled|frustrated)[^.!?]{0,40}?\\bby\\s+(?P<agent>@P)",
+    "(?P<agent>@P)\\s+(?:[\\w'@]+\\s+){0,3}?(?:denies|stops|thwarts|foils|frustrates|keeps out)\\s+(?P<other>@P)"
+   ],
+   "triggers": [
+    "\\bsav(?:es|ed|ing)\\b",
+    "\\bsave\\b",
+    "\\bparr(?:ies|ied)\\b",
+    "\\btips? (?:it |the ball |his \\w+ )?(?:over|wide|round|around)\\b",
+    "\\bpalm(?:s|ed)\\b",
+    "\\bpush(?:es|ed) (?:it |the ball |his \\w+ )?(?:away|wide|behind)\\b",
+    "\\bden(?:ied|ies|y|ying)\\b",
+    "\\b(?:brilliant|fine|good|superb|great|smart|excellent|important|vital|fantastic|top|big|crucial|stunning|sharp|instinctive|reflex) (?:\\w+ )?(?:stop|save)\\b",
+    "\\bsnuffs? out\\b",
+    "\\bis equal to it\\b",
+    "\\bclaws? (?:it |the ball )?(?:away|out)\\b",
+    "\\bkeeps? (?:it |the ball |the shot )?out\\b",
+    "\\bturns? (?:it |the ball )?(?:over|round|around|behind|wide|away)\\b"
+   ],
+   "exclude": [
+    "\\b\\d+ saves?\\b",
+    "\\bmade \\w+ saves?\\b",
+    "\\bsaves? (?:count|percentage|total)",
+    "\\bsave (?:the|his|their) (?:blushes|day|embarrassment|point)",
+    "\\bsave (?:the|his|their|a) (?:\\w+ )?(?:game|match|season)",
+    "\\bturns? (?:the|a) (?:game|match|corner)",
+    "\\btips? (?:the|a) (?:balance|scales)"
+   ]
+  },
+  {
+   "name": "block",
+   "class": "routine",
+   "weight": 45,
+   "agent": [
+    "subject",
+    "prep:by"
+   ],
+   "other": [
+    "subject"
+   ],
+   "default_outcome": "blocked",
+   "triggers": [
+    "\\bblock(?:s|ed|ing)?\\b",
+    "\\bin the way\\b",
+    "\\bbody on the line\\b"
+   ],
+   "exclude": [
+    "\\bblock(?:s|ed)? (?:his|the|a|their|its) (?:run|path|view|route|passing|lane|vision)",
+    "\\bblock of\\b",
+    "\\bcentre-?block\\b",
+    "\\bmid-?block\\b",
+    "\\blow block\\b",
+    "\\bhigh block\\b"
+   ]
+  },
+  {
+   "name": "chance",
+   "class": "near_miss",
+   "weight": 55,
+   "agent": [
+    "subject",
+    "prep:by"
+   ],
+   "upgradable": true,
+   "triggers": [
+    "(?-i:\\b(?:HUGE CHANCE|BIG CHANCE|GREAT CHANCE|CHANCE|SO CLOSE|AGONISINGLY CLOSE|CLOSE|MISS|WIDE|OVER|SAVED?|BLOCKED|DENIED|OFF THE POST|OFF THE BAR|OFF THE WOODWORK|WHAT A CHANCE)!)",
+    "\\b(?:big|huge|great|golden|glorious|gilt-edged|clear-cut|massive|presentable|decent|good|real|fine|superb|brilliant|excellent|dangerous|half|best|early|late|early) (?:chance|opportunity)\\b",
+    "\\bchance goes begging\\b",
+    "\\bgilt-edged\\b",
+    "\\bsitter\\b",
+    "\\bopen goal\\b",
+    "\\bone[- ]on[- ]one\\b",
+    "\\bwhat a (?:chance|miss|opportunity)\\b",
+    "\\bmiss(?:es|ed)\\s+(?:the target|a sitter|an open goal|the goal|the frame|from)\\b",
+    "\\bsquander(?:s|ed)\\b",
+    "\\bwaste[sd]? (?:a |an |the )?(?:chance|opportunity)\\b",
+    "\\bclear sight of goal\\b",
+    "\\bone-?v-?one\\b"
+   ],
+   "exclude": [
+    "\\bsitters?\\b.{0,3}\\bfor\\b",
+    "\\bfirst chance\\b.{0,0}$"
+   ]
+  },
+  {
+   "name": "shot",
+   "class": "routine",
+   "weight": 50,
+   "upgradable": true,
+   "agent": [
+    "subject",
+    "prep:by",
+    "prep:from"
+   ],
+   "triggers": [
+    "\\b(?:shot|shots|strike|strikes|effort|efforts|attempt|attempts|volley|volleys|header|headed|snapshot|curler|drive)\\b",
+    "\\b(?:shoots|fires|unleashes|smashes|lashes|blasts|volleys|rifles|slams|drills|curls|scuffs|screws|skies|sclaffs|lets fly|has a go|tries his luck)\\b",
+    "\\bheads? (?:it |the ball |his \\w+ )?(?:wide|over|towards|at|on target|goalwards|just|narrowly|straight)\\b"
+   ],
+   "exclude": [
+    "shot[- ]?stopper",
+    "\\bshot[- ]?(?:count|map)\\b",
+    "\\bdrive (?:forward|into|down|up|through|past|towards the)",
+    "\\bdriven (?:in|out|cross|ball|pass)",
+    "\\bhad \\d+ (?:shots|efforts)",
+    "\\bstrike (?:partner|force|rate)\\b",
+    "\\bstrikers?\\b",
+    "\\bshots? (?:on|off) target\\b.{0,0}$",
+    "\\bfree-?kick (?:effort|attempt)\\b.{0,0}$"
+   ]
+  },
+  {
+   "name": "foul",
+   "class": "foul",
+   "weight": 40,
+   "agent": [
+    "subject",
+    "prep:by"
+   ],
+   "other": [
+    "prep:on",
+    "object"
+   ],
+   "patterns": [
+    "(?P<other>@P)\\s+(?:(?:is|was|gets|being|has been|had been|then|also)\\s+)*(?:fouled|brought down|bundled over|felled|clipped|barged|pulled back|shoved|pushed|tripped|hauled down|caught|kicked|elbowed|scythed down)\\s+by\\s+(?P<agent>@P)",
+    "(?P<agent>@P)\\s+(?:[\\w'@]+\\s+){0,5}?(?:fouls|fouled|brings down|brought down|bundles over|bundled over|fells|felled|clips|clipped|barges|barged|trips|tripped|shoves|shoved|pushes|pushed|catches|caught|hauls down|hauled down|pulls back|pulled back|kicks|kicked|elbows|elbowed|scythes down)\\s+(?:[\\w'@]+\\s+){0,1}(?P<other>@P)",
+    "(?:foul|challenge|tackle|handball)\\s+by\\s+(?P<agent>@P)\\s+(?:on|against)\\s+(?P<other>@P)",
+    "(?:foul|challenge|tackle)\\s+on\\s+(?P<other>@P)\\s+by\\s+(?P<agent>@P)"
+   ],
+   "triggers": [
+    "\\bfouls?\\b",
+    "\\bfouled\\b",
+    "\\bfouling\\b",
+    "\\bhandball\\b",
+    "\\bhand ball\\b",
+    "\\bhandled\\b",
+    "\\b(?:brings?|brought|hauls?|hauled) down\\b",
+    "\\bbundle[sd]? over\\b",
+    "\\b(?:clips|clipped|trips|tripped|shoves|shoved|barges|barged|elbows|elbowed|scythes?|scythed|kicks out|lunges? in|lunged in)\\b",
+    "\\breckless\\b",
+    "\\bdangerous (?:play|tackle|challenge)\\b",
+    "\\bstuds? up\\b",
+    "\\bpulls? back\\b",
+    "\\bpulled back\\b",
+    "\\bfree-?kick (?:is )?(?:awarded|given)\\b",
+    "\\bcommits?\\b|\\bcommitted\\b",
+    "\\bsimulation\\b"
+   ],
+   "exclude": [
+    "\\btrips? (?:to|away|back|abroad)\\b",
+    "\\bfoul[- ]?(?:count|trouble)",
+    "\\bclips? (?:the|a) (?:post|bar)",
+    "\\bclipped (?:the|a) (?:post|bar)",
+    "\\bdived? (?:to|into|down|in)\\b",
+    "\\bpulls? back (?:a|the) (?:goal|deficit)",
+    "\\bpulled back (?:a|the) (?:goal|deficit)",
+    "\\bpulls? back to",
+    "\\bkicks? (?:off|out)\\b(?! at)",
+    "\\bdive\\b.{0,0}$"
+   ]
+  },
+  {
+   "name": "var_check",
+   "class": "foul",
+   "merge": true,
+   "weight": 35,
+   "agent": [],
+   "triggers": [
+    "(?-i:\\bVAR\\b)",
+    "\\bvideo assistant\\b",
+    "\\bpitch-?side monitor\\b",
+    "\\breferee (?:goes|heads|is sent) to the (?:monitor|screen)\\b",
+    "\\bon-?field review\\b"
+   ]
+  },
+  {
+   "name": "offside",
+   "class": "routine",
+   "merge": true,
+   "weight": 30,
+   "agent": [
+    "subject",
+    "prep:against",
+    "prep:on"
+   ],
+   "triggers": [
+    "\\boffside\\b",
+    "\\boffside trap\\b",
+    "\\bflag(?:s|ged)? (?:is |goes )?up\\b",
+    "\\bassistant(?:'s)? flag\\b"
+   ]
+  },
+  {
+   "name": "substitution",
+   "class": "routine",
+   "weight": 36,
+   "agent": [
+    "subject"
+   ],
+   "other": [],
+   "patterns": [
+    "(?P<agent>@P)[\\w'@,\\s]{0,40}?\\b(?:replaces|replaced|replacing)\\s+(?P<other>@P)",
+    "(?P<other>@P)[^.!?]{0,60}?\\breplaced by\\s+(?P<agent>@P)",
+    "(?P<agent>@P)\\s+(?:[\\w'@]+\\s+){0,2}(?:comes?|came|coming) on\\s+(?:[\\w'@]+\\s+){0,3}?(?:for|in place of|instead of)\\s+(?P<other>@P)",
+    "(?P<agent>@P)\\s+(?:[\\w'@]+\\s+){0,2}(?:comes?|came|coming) on\\s+(?:[\\w'@]+\\s+){0,3}?in\\s+(?P<other>@PS)\\s+place",
+    "(?P<agent>@P)\\s+(?:[\\w'@]+\\s+){0,8}?in place of\\s+(?P<other>@P)",
+    "(?P<other>@P)\\s+(?:[\\w'@]+\\s+){0,3}?(?:limps|walks|trudges|hobbles|is helped) off\\s+(?:for|and is replaced by)\\s+(?P<agent>@P)",
+    "(?P<agent>@P)\\s+(?:is |are )?(?:introduced|brought on|sent on)\\s+(?:for|in place of|instead of)\\s+(?P<other>@P)",
+    "(?P<other>@P)\\s+(?:makes way|gives way|is replaced|is taken off|comes off|is withdrawn|is substituted|is hauled off)\\s+(?:for|by)\\s+(?P<agent>@P)",
+    "(?P<other>@P)\\s+(?:makes way|gives way)\\s+(?:[\\w'@]+\\s+){0,3}?(?:for|to)\\s+(?P<agent>@P)"
+   ],
+   "triggers": [
+    "\\bcomes? on\\b",
+    "\\bcame on\\b",
+    "\\bcoming on\\b",
+    "\\breplaces?\\b",
+    "\\breplaced\\b",
+    "\\breplacing\\b",
+    "\\bin place of\\b",
+    "\\bsubstitut(?:es|ed|ion|ions)\\b",
+    "\\bmakes? (?:his|their|a) (?:\\w+ )?(?:change|substitution)\\b",
+    "\\bcomes? off\\b",
+    "\\b(?:limps|walks|trudges|hobbles|is helped) off\\b",
+    "\\bis taken off\\b",
+    "\\bgives? way to\\b",
+    "\\bhauled off\\b",
+    "\\bis withdrawn\\b",
+    "\\bintroduced\\b",
+    "\\bmakes? way for\\b"
+   ],
+   "exclude": [
+    "\\bthe substitute\\b",
+    "\\bsubstitute (?:keeper|goalkeeper)\\b",
+    "\\b(?:one|two|three|four|five) (?:\\w+ )?(?:substitutions?|changes?)\\b.{0,15}\\b(?:left|remaining|to make)",
+    "\\bcomes? off the bench\\b.{0,0}$",
+    "\\bcomes? on strong\\b",
+    "\\bcomes? off (?:well|the|a|his|her|their)\\b",
+    "\\bcame off (?:the|a)\\b",
+    "\\bsubstitut(?:e|es) appearance"
+   ]
+  },
+  {
+   "name": "injury",
+   "class": "routine",
+   "weight": 35,
+   "agent": [
+    "subject",
+    "prep:for"
+   ],
+   "triggers": [
+    "\\binjur(?:y|ed|ies)\\b",
+    "\\btreatment\\b",
+    "\\bmedical (?:staff|attention|team|help)\\b",
+    "\\bphysios?\\b",
+    "\\bstretcher\\b",
+    "\\bgoes down (?:injured|clutching|holding|with|and (?:needs|requires|is receiving))",
+    "\\bstays? down\\b",
+    "\\bhobbl(?:es|ing|ed)\\b",
+    "\\bclutch(?:es|ing)? (?:at )?(?:his|her|@PS)\\b",
+    "\\bhead injury\\b",
+    "\\bconcussion\\b",
+    "\\bdown and requires\\b",
+    "\\blimp(?:s|ing|ed)?\\b(?! (?:effort|attempt|shot|header|finish|response|display))"
+   ],
+   "exclude": [
+    "\\bdue to injur",
+    "\\babsent\\b",
+    "\\binjured (?:\\w+ ){0,3}(?:full-?back|centre-?back|midfielder|striker|winger|forward|defender|goalkeeper|captain|right-?back|left-?back|star|duo|trio)",
+    "\\bkey injur",
+    "\\binjur(?:y|ies) (?:to|for) ",
+    "(?:from|with|after|through|out with|ruled out (?:with|by)|return from|returning from|recovering from|since)\\s+(?:an?\\s+)?(?:\\w+\\s+)?injur",
+    "\\binjury (?:list|record|problems|concerns|crisis|doubt|setback|return|absence|worries|woe)",
+    "\\binjur(?:y|ies) (?:problems|issues)",
+    "\\bunavailable\\b"
+   ]
+  },
+  {
+   "name": "corner",
+   "class": "routine",
+   "weight": 20,
+   "agent": [
+    "subject",
+    "prep:by"
+   ],
+   "team": [
+    "agent_team",
+    "subject_team",
+    "for_team",
+    "any_team"
+   ],
+   "triggers": [
+    "\\bcorners?\\b"
+   ],
+   "exclude": [
+    "\\b(?:bottom|top|far|near|upper|lower|opposite|back)\\s+(?:left|right)?\\s*corner",
+    "\\bcorner(?:s)? of the\\b",
+    "\\bcorner flag\\b",
+    "\\b(?:in|into|from|round|around|turn(?:ed)? the) (?:the |a )?corner\\b(?! kick)",
+    "\\bcorner (?:of|stand|seat)",
+    "\\bhands? ?in the corner\\b",
+    "\\bwide corner\\b.{0,0}$",
+    "\\bcorner-?back\\b",
+    "\\btight corner\\b",
+    "\\bcorner (?:count|tally)\\b",
+    "\\b\\d+ corners?\\b"
+   ]
+  },
+  {
+   "name": "free_kick",
+   "class": "routine",
+   "weight": 20,
+   "agent": [
+    "subject",
+    "prep:by",
+    "prep:from"
+   ],
+   "team": [
+    "agent_team",
+    "subject_team",
+    "for_team",
+    "any_team"
+   ],
+   "triggers": [
+    "\\bfree[- ]kicks?\\b"
+   ],
+   "exclude": [
+    "\\bfree-?kick (?:specialist|taker|routine|goal|record)",
+    "\\bdirect free-?kick goals?\\b"
+   ]
+  },
+  {
+   "name": "throw_in",
+   "class": "routine",
+   "weight": 10,
+   "agent": [
+    "subject"
+   ],
+   "team": [
+    "agent_team",
+    "subject_team",
+    "for_team",
+    "any_team"
+   ],
+   "triggers": [
+    "\\bthrow[- ]ins?\\b",
+    "\\blong throws?\\b"
+   ]
+  },
+  {
+   "name": "goal_kick",
+   "class": "routine",
+   "weight": 10,
+   "agent": [
+    "subject"
+   ],
+   "team": [
+    "agent_team",
+    "subject_team",
+    "for_team",
+    "any_team"
+   ],
+   "triggers": [
+    "\\bgoal[- ]kicks?\\b"
+   ]
+  },
+  {
+   "name": "cross",
+   "class": "routine",
+   "weight": 25,
+   "agent": [
+    "subject",
+    "prep:from",
+    "prep:by"
+   ],
+   "triggers": [
+    "\\bcross(?:es|ed|ing)?\\b(?!-bar)",
+    "\\bdeliver(?:y|ies)\\b",
+    "\\bdelivers?\\b",
+    "\\bwhips? in\\b",
+    "\\bswings? in\\b",
+    "\\bflights?\\b",
+    "\\bsets? the ball into the box\\b"
+   ],
+   "exclude": [
+    "\\bcross-?field\\b",
+    "\\bcross(?:es)? the (?:line|halfway|ball over the line)",
+    "\\bacross\\b",
+    "\\bcrossing (?:the|a) line",
+    "\\bdelivery (?:of|from) the (?:team|press)"
+   ]
+  },
+  {
+   "name": "pass",
+   "class": "routine",
+   "weight": 10,
+   "agent": [
+    "subject",
+    "prep:from"
+   ],
+   "triggers": [
+    "\\bthrough[- ]ball\\b",
+    "\\bthreads?\\b",
+    "\\bpass(?:es|ed|ing)?\\b",
+    "\\bplays? (?:it |the ball )?(?:short|through|into|across|out|back|forward|long|wide)\\b",
+    "\\bplayed in\\b",
+    "\\blays? (?:it |the ball )?off\\b",
+    "\\blay-?off\\b",
+    "\\bback-?heel\\b",
+    "\\bone-?two\\b",
+    "\\bslides? (?:a |the |it )?(?:pass|ball|through)\\b",
+    "\\bsquare(?:s|d)\\b",
+    "\\bhoofs?\\b",
+    "\\bswitch(?:es)? (?:the )?play\\b",
+    "\\bdistributes?\\b",
+    "\\blaunch(?:es|ed) (?:a |the )?(?:long )?ball\\b"
+   ],
+   "exclude": [
+    "\\bpass(?:ing)? (?:accuracy|completion|rate|count|percentage)\\b",
+    "\\b\\d+ passes\\b",
+    "\\bpassed (?:a |the )?(?:fitness|late|medical)"
+   ]
+  },
+  {
+   "name": "defensive_action",
+   "class": "routine",
+   "weight": 12,
+   "agent": [
+    "subject",
+    "prep:by"
+   ],
+   "triggers": [
+    "\\btackle[sd]?\\b",
+    "\\bwins? the ball\\b",
+    "\\bdispossess(?:es|ed)?\\b",
+    "\\binterception\\b",
+    "\\bintercepts?\\b",
+    "\\bintercepted\\b",
+    "\\bclears?\\b(?! (?:the|his|their) (?:head|mind))",
+    "\\bcleared\\b",
+    "\\bclearance\\b",
+    "\\bheads? (?:it )?(?:away|clear)\\b",
+    "\\bpunch(?:es|ed)\\b",
+    "\\bgathers?\\b",
+    "\\bsmothers?\\b",
+    "\\bcollects?\\b",
+    "\\bwins? the (?:header|duel|aerial)\\b",
+    "\\bslid(?:es|e) in\\b",
+    "\\bsliding\\b",
+    "\\bgets? back\\b"
+   ],
+   "exclude": [
+    "\\bclear (?:cut|view|sight|favourites|favorites|idea|advantage|leader|winner|chance)",
+    "\\bclear-?cut\\b",
+    "\\bclears? (?:his|the) (?:head|throat)",
+    "\\btackle (?:count|stats?)"
+   ]
+  },
+  {
+   "name": "dribble",
+   "class": "routine",
+   "weight": 8,
+   "agent": [
+    "subject"
+   ],
+   "triggers": [
+    "\\bdribbl(?:es|ed|ing)\\b",
+    "\\bskips? past\\b",
+    "\\bbeats? (?:his|a|two|three|their) (?:man|marker|defenders?)\\b",
+    "\\bnutmeg(?:s|ged)?\\b",
+    "\\bweaves?\\b",
+    "\\bglides? past\\b",
+    "\\bcarr(?:ies|ied)\\b",
+    "\\bsurges?\\b",
+    "\\bburst(?:s)?\\b",
+    "\\bsprints?\\b",
+    "\\brun(?:s)? (?:at|through|past|down|into)\\b",
+    "\\bdrifts? past\\b",
+    "\\bpowers? past\\b",
+    "\\bjinks?\\b"
+   ]
+  },
+  {
+   "name": "kick_off",
+   "class": "routine",
+   "merge": true,
+   "weight": 15,
+   "agent": [],
+   "triggers": [
+    "\\bkick(?:s|ed)? off\\b",
+    "\\bunder ?way\\b",
+    "\\bkick-?off\\b",
+    "(?-i:\\bPEEP\\b)",
+    "\\bsecond half (?:is |gets )?(?:under|started|begins|begun)",
+    "\\bwe are off\\b"
+   ],
+   "exclude": [
+    "\\bto kick off\\b",
+    "\\bkick(?:s|ed)? off (?:the|their|his|its|a|this)\\b",
+    "\\bkick-?off time\\b",
+    "\\bkick-?off (?:is )?(?:at|in|time)",
+    "\\bahead of kick-?off\\b",
+    "\\bbefore kick-?off\\b"
+   ]
+  },
+  {
+   "name": "half_time",
+   "class": "routine",
+   "merge": true,
+   "weight": 15,
+   "agent": [],
+   "triggers": [
+    "\\bhalf-?time\\b",
+    "\\bhalf-?time whistle\\b",
+    "\\bfirst half (?:ends|is over)\\b",
+    "\\bwhistle for half\\b",
+    "\\bat the break\\b"
+   ]
+  },
+  {
+   "name": "full_time",
+   "class": "routine",
+   "merge": true,
+   "weight": 15,
+   "agent": [],
+   "triggers": [
+    "\\bfull-?time\\b",
+    "\\bfinal whistle\\b",
+    "\\bmatch is over\\b",
+    "\\bit(?:'s| is) all over\\b",
+    "\\bgame is over\\b"
+   ]
+  }
+ ],
+ "methods": [
+  {
+   "label": "header",
+   "regex": "\\bheaders?\\b|\\bheaded\\b|\\bnod(?:s|ded)?\\b|\\bglanc(?:es|ed)\\b|\\bdiving header\\b|\\bflicks? on\\b"
+  },
+  {
+   "label": "left_foot",
+   "regex": "\\bleft[- ](?:foot(?:ed)?|boot|peg)\\b|\\bleft-?footer\\b"
+  },
+  {
+   "label": "right_foot",
+   "regex": "\\bright[- ](?:foot(?:ed)?|boot|peg)\\b|\\bright-?footer\\b"
+  },
+  {
+   "label": "volley",
+   "regex": "\\bvolley(?:s|ed)?\\b|\\bhalf-?volley\\b"
+  },
+  {
+   "label": "chip",
+   "regex": "\\bchip(?:s|ped)?\\b|\\blob(?:s|bed)?\\b|\\bpanenka\\b|\\bscoop(?:s|ed)\\b|\\bdink(?:s|ed)\\b"
+  },
+  {
+   "label": "curled",
+   "regex": "\\bcurl(?:s|ed|er|ing)\\b|\\bbend(?:s|ing)?\\b|\\bswerv\\w+"
+  },
+  {
+   "label": "first_time",
+   "regex": "\\bfirst[- ]time\\b|\\bone-?touch\\b"
+  },
+  {
+   "label": "long_range",
+   "regex": "\\blong[- ]range\\b|\\bfrom (?:distance|range|long range|outside the (?:box|area))\\b|\\b(?:2\\d|3\\d|40)[- ]?(?:yards?|yd|metres?|meters?)\\b|\\bspeculative\\b|\\bambitious\\b|\\bscreamer\\b|\\bfrom deep\\b"
+  },
+  {
+   "label": "close_range",
+   "regex": "\\bclose[- ]range\\b|\\bpoint[- ]blank\\b|\\bfrom (?:close|a yard|six yards|inside the six-yard)|\\btap-?in\\b|\\btaps? in\\b|\\bsix[- ]yard\\b|\\bempty net\\b|\\bfrom inside the box\\b|\\bat the back post\\b|\\btoe-?poke\\b"
+  },
+  {
+   "label": "low",
+   "regex": "\\blow (?:drive|shot|effort|strike|finish|cross|ball|attempt)\\b|\\bdrilled\\b|\\bgrounded\\b"
+  },
+  {
+   "label": "power",
+   "regex": "\\b(?:thunderous|powerful|rocket|thunders?|hammers?|blasts?|rasping|ferocious|fierce|booming|thumping|piledriver|bullet|rifles?|cracks?|crashes)\\b"
+  },
+  {
+   "label": "placed",
+   "regex": "\\bplaced\\b|\\bside-?foot(?:s|ed)?\\b|\\bguides\\b|\\bguided\\b|\\bsteers?\\b|\\bsteered\\b|\\btucks?\\b|\\btucked\\b|\\bslots?\\b|\\bslotted\\b|\\bcalmly\\b|\\bcool(?:ly)?\\b"
+  },
+  {
+   "label": "penalty_kick",
+   "regex": "\\bfrom the (?:penalty )?spot\\b|\\bspot-?kick\\b|\\bpenalty kick\\b|\\b(?:takes|taking|taken|converts|converted|dispatch\\w*|saves?|saved|misses?|missed) (?:the|his|a|their|her) penalty\\b"
+  }
+ ],
+ "outcomes": [
+  {
+   "label": "saved",
+   "for": [
+    "shot",
+    "chance",
+    "save",
+    "woodwork",
+    "penalty_miss"
+   ],
+   "class": "near_miss",
+   "regex": "\\b(?:sav(?:es|ed)|save|parr(?:ies|ied)|tips?|tipped|claws?|palm(?:s|ed)|denied|denies|pushes? (?:it )?(?:away|wide)|keeps? (?:it )?out|stopped|stops|turns? (?:it )?(?:round|around|wide|over|behind|away))\\b"
+  },
+  {
+   "label": "held",
+   "for": [
+    "shot",
+    "save",
+    "defensive_action",
+    "chance"
+   ],
+   "class": null,
+   "regex": "\\b(?:gather(?:s|ed)|collect(?:s|ed)|smother(?:s|ed)|claim(?:s|ed)|holds?|held|comfortabl\\w+|easy|straight (?:into|at) (?:the )?(?:arms|hands|gloves))\\b"
+  },
+  {
+   "label": "blocked",
+   "for": [
+    "shot",
+    "chance",
+    "block",
+    "cross",
+    "pass",
+    "defensive_action"
+   ],
+   "class": null,
+   "regex": "\\bblock(?:s|ed|ing)?\\b|\\bin the way\\b|\\bdeflect\\w+"
+  },
+  {
+   "label": "over",
+   "for": [
+    "shot",
+    "chance",
+    "save",
+    "woodwork",
+    "penalty_miss"
+   ],
+   "class": "near_miss",
+   "regex": "\\b(?:over|above|clears?|clearing) (?:the|his|their|her|its|@PS) (?:cross)?bar\\b|\\bsails? (?:high )?over\\b|\\bjust over\\b|\\bgoes over\\b|\\bhigh over\\b|\\bwell over\\b|\\btoo high\\b|\\bskied\\b|\\bballoons?\\b|\\bhigh and (?:wide|handsome)\\b|\\bover the top\\b.{0,0}$|\\bsails high\\b|\\bflies over\\b|\\bsoars? over\\b"
+  },
+  {
+   "label": "wide",
+   "for": [
+    "shot",
+    "chance",
+    "save",
+    "woodwork",
+    "penalty_miss"
+   ],
+   "class": "near_miss",
+   "regex": "\\b(?:wide|off target|misses the target|astray|inches wide|drifts? wide|flashes? wide|well wide|sails? wide|stray)\\b|\\bjust past the (?:near |far )?post\\b|\\bpast the (?:near |far )?post\\b|\\bnarrowly (?:past|wide|over)\\b|\\bside-?netting\\b|\\bbehind for a goal-?kick\\b|\\bgoes behind\\b|\\bgoal-?kick\\b"
+  },
+  {
+   "label": "hit_woodwork",
+   "for": [
+    "shot",
+    "chance",
+    "save",
+    "woodwork",
+    "penalty_miss"
+   ],
+   "class": "near_miss",
+   "regex": "\\b(?:hits?|off|rattles?|against|strikes?|struck|clips?|clipped|finds?|onto)\\s+(?:(?:the|his|their|her|its|@PS)\\s+|an?\\s+)?(?:inside of the\\s+|side of the\\s+)?(?:post|crossbar|bar|upright|woodwork)\\b|\\bcrossbar\\b|\\bwoodwork\\b|\\boff the (?:inside of the )?(?:post|bar)\\b"
+  },
+  {
+   "label": "on_target",
+   "for": [
+    "shot",
+    "chance",
+    "save",
+    "penalty_miss"
+   ],
+   "class": null,
+   "regex": "\\bon target\\b|\\bstraight at\\b|\\bdown the (?:middle|throat)\\b|\\btowards goal\\b|\\bat goal\\b|\\bgoalwards\\b"
+  },
+  {
+   "label": "disallowed",
+   "for": [
+    "goal_disallowed",
+    "offside"
+   ],
+   "class": "near_miss",
+   "regex": "\\b(?:disallowed|ruled out|chalked off|offside)\\b"
+  },
+  {
+   "label": "cleared",
+   "for": [
+    "cross",
+    "corner",
+    "free_kick",
+    "defensive_action",
+    "pass",
+    "shot"
+   ],
+   "class": null,
+   "regex": "\\bclear(?:s|ed|ance)\\b|\\bheads? (?:it )?(?:away|clear)\\b|\\bpunch(?:es|ed)\\b|\\bheaded (?:away|clear)\\b|\\bhacked\\b"
+  },
+  {
+   "label": "set_piece_won",
+   "for": [
+    "shot",
+    "cross",
+    "pass",
+    "block",
+    "defensive_action",
+    "save",
+    "chance",
+    "dribble",
+    "foul",
+    "woodwork"
+   ],
+   "class": null,
+   "regex": "\\bfor a (?:\\w+ )?(?:corner|throw-?in|goal-?kick|throw)\\b|\\bconced(?:es|ed|ing) (?:a |an )?(?:\\w+ )?(?:corner|free-?kick|throw)\\b|\\bwin(?:s|ning)? (?:a |an |the |another )?(?:\\w+ )?(?:corner|free-?kick|throw-?in)\\b"
+  }
+ ],
+ "sources": [
+  {
+   "label": "assist",
+   "for": [
+    "goal",
+    "shot",
+    "chance",
+    "woodwork",
+    "save",
+    "block",
+    "penalty_miss"
+   ],
+   "regex": "\\bassist(?:ed)? (?:by|from|for)? ?(?P<who>@P)|\\b(?:set up|teed up|laid on|played in|picked out|found|fed|released|supplied|provided|created)\\s+(?:for\\s+)?(?:[\\w'@]+\\s+){0,2}?(?:by|from)\\s+(?P<who2>@P)"
+  },
+  {
+   "label": "assist",
+   "for": [
+    "goal",
+    "shot",
+    "chance",
+    "woodwork",
+    "save",
+    "block",
+    "penalty_miss"
+   ],
+   "regex": "\\b(?:cross|pass|ball|delivery|corner|free-?kick|throw|through ball|centre|knock-?down|lay-?off|cut-?back|header on|flick-?on|set-?piece|set piece|lob|chip|flick|dummy|backheel|back-heel)\\s+(?:in\\s+)?(?:from|by|of)\\s+(?P<who>@P)"
+  },
+  {
+   "label": "assist",
+   "for": [
+    "goal",
+    "shot",
+    "chance",
+    "woodwork",
+    "save",
+    "block",
+    "penalty_miss"
+   ],
+   "regex": "(?P<who>@PS)\\s+(?:[\\w@'-]+\\s+){0,2}(?:cross|pass|ball|delivery|corner|free-?kick|through ball|centre|knock-?down|lay-?off|cut-?back|set-?piece|flick-?on|header|lob|chip|flick|dummy|backheel|back-heel|throw)\\b"
+  },
+  {
+   "label": "assist",
+   "for": [
+    "goal",
+    "shot",
+    "chance",
+    "woodwork",
+    "save",
+    "block",
+    "penalty_miss"
+   ],
+   "regex": "(?P<who>@P)\\s+(?:[\\w'@]+\\s+){0,2}(?:slips? in|plays? in|picks? out|sets? up|teed up|threads?|slides?|squares?|lays? (?:it |the ball )?off|feeds?|finds?|releases?|sends? through|slips? through|plays? through)\\s+(?:[\\w'@]+\\s+){0,2}@P"
+  },
+  {
+   "label": "corner",
+   "for": [
+    "goal",
+    "shot",
+    "chance",
+    "woodwork",
+    "save",
+    "block",
+    "cross"
+   ],
+   "regex": "\\b(?:from|following|after|off|at|via) (?:a|the|an|another) (?:\\w+ )?corner\\b|\\bcorner (?:comes|is swung|is delivered|is whipped|is flighted|is played|is cleared|falls|drops)\\b|\\bcorner-?kick\\b|\\bfrom the corner\\b"
+  },
+  {
+   "label": "free_kick",
+   "for": [
+    "goal",
+    "shot",
+    "chance",
+    "woodwork",
+    "save",
+    "block",
+    "cross"
+   ],
+   "regex": "\\bfrom (?:a|the) (?:\\w+ )?(?:free-?kick|set-?piece|set piece)\\b|\\bfree-?kick (?:is |comes |falls |drops )|\\bfollowing (?:a|the) free-?kick\\b|\\bset-?piece\\b"
+  },
+  {
+   "label": "throw_in",
+   "for": [
+    "goal",
+    "shot",
+    "chance",
+    "woodwork",
+    "save",
+    "block",
+    "cross"
+   ],
+   "regex": "\\bfrom (?:a|the) (?:long )?throw(?:-?in)?\\b|\\blong throw\\b"
+  },
+  {
+   "label": "rebound",
+   "for": [
+    "goal",
+    "shot",
+    "chance",
+    "woodwork",
+    "save",
+    "block"
+   ],
+   "regex": "\\brebound\\b|\\bsecond ball\\b|\\bspills?\\b|\\bloose ball\\b|\\bparried back\\b|\\bscramble\\b|\\bfalls kindly\\b|\\bdrops kindly\\b|\\bspilled\\b"
+  },
+  {
+   "label": "cross",
+   "for": [
+    "goal",
+    "shot",
+    "chance",
+    "woodwork",
+    "save",
+    "block"
+   ],
+   "regex": "\\bfrom (?:a|the|an) (?:\\w+ )?cross\\b|\\bcross comes\\b|\\bdelivery\\b|\\bcross\\b(?!-?bar)"
+  },
+  {
+   "label": "counter_attack",
+   "for": [
+    "goal",
+    "shot",
+    "chance",
+    "woodwork",
+    "save",
+    "block"
+   ],
+   "regex": "\\bcounter-?attack\\w*|\\bbreak(?:s)? away\\b|\\bon the break\\b|\\bswift break\\b|\\bquick break\\b"
+  },
+  {
+   "label": "error",
+   "for": [
+    "goal",
+    "shot",
+    "chance",
+    "woodwork",
+    "save",
+    "block"
+   ],
+   "regex": "\\bmistake\\b|\\berror\\b|\\bgift(?:s|ed)?\\b|\\bloose pass\\b|\\bgives? the ball away\\b|\\bdispossess\\w*|\\bhorrible pass\\b|\\bpoor (?:pass|touch|clearance)\\b|\\bsloppy\\b|\\bcosts?\\b"
+  }
+ ]
+}

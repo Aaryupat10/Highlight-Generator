@@ -1,0 +1,215 @@
+[0] (prematch) Hello and welcome to live coverage of the Premier League clash between Burnley and Manchester City at Turf Moor.
+
+[1] (prematch) The Premier League is back for a new season, and it gets underway with an intriguing match-up between a newly promoted side and the reigning champions.
+    * routine   kick_off         'underway'  agent=-  team=-
+
+[2] (prematch) Burnley could have hardly been given a tougher opening fixture, but they should come into it with confidence after cruising to the Championship title last time out in their first season back in the second tier.
+
+[3] (prematch) Led by Vincent Kompany, a Citizens' legend from his playing career, Burnley reached 101 points and secured promotion with seven games to play, and they will be hoping to get off the mark with a positive result on home soil.
+
+[4] (prematch) City, meanwhile, claimed a historic treble last term, finally winning their first Champions League title while also taking Premier League and FA Cup glory.
+
+[5] (prematch) It has been a transfer window of change with key players of recent years such as Riyad Mahrez and Ilkay Gundogan leaving the club, but they still come into this campaign expected to be frontrunners and they will be looking to get off to a winning start as they bid for a sixth Premier League crown in seven seasons.
+
+[10] (prematch) Kompany includes six new signings as Trafford, signed from City in this window, starts between the sticks while O'Shea comes into the back four alongside Al Dakhil, who has had his loan move made permanent after impressing last season.
+
+[11] (prematch) Berge, Koleosho and Amdouni are the other fresh faces set to play from the off.
+
+[12] (prematch) In contrast, Pep Guardiola opts to leave his new arrivals on the bench as Gvardiol and Kovacic will be made to wait for their competitive City debuts.
+
+[13] (prematch) Key defenders John Stones and Ruben Dias both miss out through injury while Grealish is on the bench.
+
+[14] (prematch) Lewis starts and so does Alvarez, charged with supporting the prolific Haaland in attack.
+
+[15] (prematch) The two teams make their way onto the pitch ahead of the opening Premier League game of the season!
+
+[16] (live) Burnley kick us off, and we are underway in what promises to be another thrilling campaign!
+    * routine   kick_off         'underway'  agent=-  team=Burnley
+
+[17] (live) De Bruyne wins an early corner as City look to quiet the lively home crowd with an opening goal.
+    * routine   corner           'corner'  agent=Kevin De Bruyne  team=Manchester City
+
+[18] (live) GOAL!!! HAALAND PUTS CITY AHEAD!!! Having netted 36 Premier League goals last season, it has taken just four minutes for him to open his account for this campaign.
+    * goal      goal             'GOAL'  agent=Erling Haaland  team=Manchester City  outcome=scored
+
+[19] (live) It is a typical Haaland goal as he lurks in the box while De Bruyne lofts a deep cross for Rodri.
+    * routine   cross            'cross'  agent=Kevin De Bruyne  team=Manchester City
+
+[20] (live) The midfielder nods it back across, and the Norway international is waiting to smash home and put the champions 1-0 up!
+    * goal      goal             'smash home'  agent=-  team=-  method=header  outcome=scored
+
+[21] (live) Rodri's header was clever to put it on a plate for Haaland, who finished with typical aplomb.
+    * routine   shot             'header'  agent=Rodri  team=Manchester City  source=assist(Rodri)  method=header
+
+[22] (live) Burnley fans and players scream for a penalty as Amdouni goes down under the challenge of Akanji, but the referee waves away the protests before a VAR review confirms no spot-kick will be awarded.
+    * foul      var_check        'VAR'  agent=-  team=Burnley
+      routine   penalty          'spot-kick'  agent=-  team=Burnley  method=penalty_kick  modality=negated
+
+[23] (live) It is far from the ideal start for Kompany and the Clarets, who find themselves a goal down against the defending champions.
+
+[24] (live) Can they respond?
+
+[25] (live) De Bruyne whips a dangerous ball into the box, and Haaland is there to meet it at the back post.
+
+[26] (live) It is at an awkward height, though, and the striker can only volley high over the crossbar.
+    * near_miss shot             'volley'  agent=Erling Haaland  team=Manchester City  method=volley  outcome=over
+
+[27] (context) Haaland – who scored twice in City's opening Premier League game last season – scored a hat-trick in his only previous game against Burnley, a 6-0 win in last season's FA Cup quarter-final.
+    * routine   goal             'scored'  agent=Erling Haaland  team=Manchester City  outcome=scored
+
+[28] (live) It took him only four minutes to net here in the opening game for the Citizens for a second campaign in a row.
+
+[29] (live) Burnley work the ball nicely into the visitors' penalty area, and it eventually ends up at the feet of Koleosho.
+
+[30] (live) The 18-year-old tries to pick out the far corner, but he gets well underneath his effort and Ederson watches it soar over his crossbar.
+    * near_miss shot             'effort'  agent=Luca Koleosho  team=Burnley  outcome=over
+
+[31] (live) That was better from Kompany's side, though.
+
+[32] (live) Trafford makes a brilliant stop to deny Rodri's header after Burnley were caught out at a set-piece situation, though a delayed flag goes up for offside and the goal would not have counted anyway.
+    * near_miss save             'brilliant stop'  agent=James Trafford  team=Burnley  other=Rodri  source=assist(Rodri)  outcome=saved
+      routine   offside          'flag goes up'  agent=-  team=Burnley
+
+[33] (live) Amdouni gives Ederson his first test of the contest, though the City goalkeeper is able to get down and save the low shot with relative ease.
+    * near_miss save             'save'  agent=Ederson  team=Manchester City  other=Mohamed Zeki Amdouni  method=low  outcome=saved
+
+[34] (live) City have had 69.7 per cent of the possession so far, but Burnley are certainly showing no signs of being overawed and have exhibited some neat attacking play themselves.
+
+[35] (live) Guardiola may be forced into an early change, and it would be an especially damaging one too as De Bruyne clutches at his hamstring.
+    * routine   injury           'clutches at his'  agent=Kevin De Bruyne  team=Manchester City
+
+[36] (live) De Bruyne does indeed limp off, and Kovacic comes on in his place for his City debut.
+      routine   injury           'limp'  agent=Kevin De Bruyne  team=Manchester City
+    * routine   substitution     'comes on'  agent=Mateo Kovacic  team=Manchester City  other=Mateo Kovacic
+
+[37] (context) Haaland has now contributed to at least one goal in his last seven Premier League away games (seven goals, one assist).
+
+[38] (live) Rodri makes a vital interception to nip the ball away from Amdouni after Lewis gave possession away in a dangerous situation.
+    * routine   defensive_action 'interception'  agent=Rodri  team=Manchester City
+
+[39] (live) That is a huge let-off for the youngster.
+
+[40] (live) Foster cuts in on his right foot and tries to curl into the far corner, but he cannot get enough bend on his effort and it flies wide of the post.
+    * near_miss chance           'curl into the far corner'  agent=-  team=-  method=right_foot+curled  outcome=wide
+
+[41] (live) Burnley are looking lively when they come forward.
+
+[42] (live) Burnley have won just one of their last 23 league matches against Manchester City (D6 L16) and have lost the last eight in a row by an aggregate score of 26-1.
+
+[43] (live) They have responded well to going behind here, though.
+
+[44] (live) City are just enjoying a spell of possession as they try to slow the momentum their hosts had built up in recent minutes.
+
+[45] (live) Some brilliant interplay between Kovacic and Foden takes the latter into a dangerous position in the Burnley box, but Trafford does brilliantly to race out of his goal and snuff out the chance for a shot.
+    * near_miss save             'snuff out'  agent=James Trafford  team=Burnley  other=Mateo Kovacic  outcome=saved
+
+[46] (live) GOAL!!! HAALAND AGAIN!!! It is a quite brilliant finish to put City 2-0 up, perhaps against the run of play, as he receives the ball in the box from Alvarez.
+    * goal      goal             'GOAL'  agent=Erling Haaland  team=Manchester City  outcome=scored
+
+[47] (live) He opts to shoot first-time, and he curls superbly into the top left corner, kissing the crossbar and going in to put his team in control at Turf Moor.
+    * goal      goal             'curls superbly into the top left corner'  agent=Erling Haaland  team=Manchester City  method=curled+first_time  outcome=scored
+
+[48] (live) Alvarez's lay-off was perfectly weighted for Haaland to arrow home.
+      routine   pass             'lay-off'  agent=Julian Alvarez  team=Manchester City
+    * goal      goal             'arrow home'  agent=Erling Haaland  team=Manchester City  source=assist(Julian Alvarez)  outcome=scored
+
+[49] (live) Burnley will feel hard done by to be two behind, but City have been magnificently ruthless.
+
+[50] (context) Two shots on target and two goals for the Citizens, who are surely on their way to three points to kick off the season.
+    * routine   shot             'shots'  agent=-  team=Manchester City  outcome=on_target
+
+[51] (context) In all competitions, City have won 11 games in a row against Burnley, scoring 40 goals and conceding just one.
+    * routine   goal             'scoring'  agent=-  team=Burnley  outcome=scored
+
+[52] (context) They beat them 6-0 in the FA Cup last season, inflicting the Clarets' heaviest defeat since losing 6-0 to City themselves in March 1999 in a league game.
+
+[53] (live) Having responded well to City's first goal, the second does seem to have knocked the wind out of Burnley's sails and the home crowd have certainly quietened.
+
+[54] (context) It may be a case of getting to the break just the two goals down to regroup and go again in the second 45 minutes.
+
+[55] (live) There will be five minutes of additional time at the end of this first half.
+
+[56] (live) Burnley have won their opening game in just two of their eight previous Premier League seasons (D1 L5), winning 3-2 at reigning champions Chelsea in 2017-18 and 3-0 at home to Southampton in 2019-20.
+
+[57] (live) HALF-TIME: BURNLEY 0-2 MANCHESTER CITY
+    * routine   half_time        'HALF-TIME'  agent=-  team=Burnley
+
+[58] (recap) The half-time whistle blows as City take a 2-0 lead into the break after a ruthless display in the opening period.
+    * routine   half_time        'half-time'  agent=-  team=Manchester City
+
+[59] (recap) They were ahead after just four minutes, Haaland opening his account for the season by smashing home from Rodri's clever headed assist.
+    * routine   goal             'smashing home'  agent=Erling Haaland  team=Manchester City  method=header  outcome=scored
+
+[60] (recap) Burnley responded well to going 1-0 down and could have levelled through Koleosho and then Foster, but they would go two goals behind before the break as Haaland curled home superbly from Alvarez's lay-off to leave the champions very much in the ascendancy at the interval.
+    * routine   goal             'curled home'  agent=Erling Haaland  team=Manchester City  source=assist(Julian Alvarez)  method=curled  outcome=scored
+      routine   pass             'lay-off'  agent=Erling Haaland  team=Manchester City
+
+[61] (recap) Burnley are in an unfamiliar situation having been so dominant in the Championship last season, but Kompany will remain encouraged by his team's first-half performance despite the scoreline.
+
+[62] (recap) It would take an almighty effort to recover anything from this game though, facing a side who are unbeaten in their last 44 Premier League games when leading at half-time, failing to win just three of those.
+    * routine   shot             'effort'  agent=-  team=-  modality=unrealised
+      routine   half_time        'half-time'  agent=-  team=-
+
+[63] (live) City get us back underway for the second period.
+    * routine   kick_off         'underway'  agent=-  team=Manchester City
+
+[64] (live) City have won their opening Premier League game in 12 of the last 14 seasons, with both exceptions coming against Tottenham (0-0 in 2010-11, 0-1 in 2021-22).
+
+[65] (live) They look on their way to another victory to kick off the season here.
+
+[66] (live) O'Shea makes an important intervention to nip in and take the ball off the toes of Haaland after Silva tried to feed the striker.
+
+[67] (live) Haaland races onto Alvarez's throughball but the pass takes him wide, and O'Shea does well to race back and block the forward's eventual shot behind for a corner.
+      routine   pass             'pass'  agent=-  team=-
+      routine   block            'block'  agent=Dara O'Shea  team=Burnley  outcome=blocked
+    * routine   shot             'shot'  agent=Erling Haaland  team=Manchester City
+      routine   corner           'corner'  agent=Erling Haaland  team=Manchester City
+
+[68] (live) Rodri lets fly with a fierce effort from 30 yards out, and Trafford is forced to tip it over his crossbar for a corner.
+    * near_miss save             'tip it over'  agent=James Trafford  team=Burnley  other=Rodri  method=long_range+power  outcome=saved
+      routine   corner           'corner'  agent=-  team=-
+
+[69] (live) The City midfielder then gets his head on the end of the resulting set-piece, but Trafford is again equal to it and gathers down to his right.
+    * routine   defensive_action 'gathers'  agent=James Trafford  team=Burnley  outcome=held
+
+[70] (context) The Clarets will have to produce more going forward if they are to make an unlikely comeback, accumulating just 0.23 xG (expected goals) to this point.
+
+[71] (live) A sweeping City move sees them carve Burnley open again.
+
+[72] (live) Haaland lays the ball to his right for Alvarez, but the Argentina international's first touch takes him wide and his drive ends up flying well wide of the right post.
+    * near_miss shot             'drive'  agent=Julian Alvarez  team=Manchester City  outcome=wide
+
+[73] (live) Kompany looks to his bench, first introducing Bruun Larsen for his Burnley debut in place of Koleosho.
+    * routine   substitution     'in place of'  agent=Jacob Bruun Larsen  team=Burnley  other=Luca Koleosho
+
+[74] (live) Zaroury also comes on for Amdouni.
+    * routine   substitution     'comes on'  agent=Anass Zaroury  team=Burnley  other=Mohamed Zeki Amdouni
+
+[75] (live) What impact will those changes have on the hosts' attacking efforts?
+    * routine   shot             'efforts'  agent=-  team=Burnley  modality=question
+
+[76] (live) Burnley's last shot came all the way back in the 37th minute.
+    * routine   shot             'shot'  agent=-  team=Burnley
+
+[77] (live) For all of their impressive work, they have just lacked a little in the final third in this game.
+
+[78] (live) Rodri marauds forwards and space looks to have opened up for him to smash towards goal.
+
+[79] (live) He just seems hesitant to pull the trigger, though, and by the time he finally does, a Burnley defender is well-placed to block his drive.
+      routine   block            'block'  agent=-  team=Burnley  method=placed  outcome=blocked
+    * routine   shot             'drive'  agent=Rodri  team=Manchester City
+
+[80] (context) With 20 minutes to play, can City see the remainder of the game out for three points to kick off what they hope will be another successful defence of their Premier League crown?
+
+[81] (live) Foden tries to pick out Haaland in lots of space in the box, but he gets the cross wrong and it flies well out of his striker's reach.
+    * routine   cross            'cross'  agent=Phil Foden  team=Manchester City
+
+[82] (live) Beyer limps off for Benson.
+    * routine   substitution     'limps off'  agent=Manuel Benson  team=Burnley  other=Jordan Beyer
+
+[83] (live) GOAL!!! RODRI SURELY KILLS IT OFF!!! After City were awarded a free-kick for Al Dakhil bundling over Haaland, Foden's set-piece delivery causes havoc in the Burnley box as they fail to clear their lines.
+    * goal      goal             'GOAL'  agent=Rodri  team=Manchester City  outcome=scored
+      routine   free_kick        'free-kick'  agent=-  team=Manchester City
+      routine   cross            'delivery'  agent=Phil Foden  team=Manchester City  source=free_kick
+      routine   defensive_action 'clear'  agent=-  team=Burnley  modality=negated
+
