@@ -1,0 +1,21 @@
+{
+  "encoder": "bert-base-uncased",
+  "dim": 768,
+  "mode": "both",
+  "pooling": "mean",
+  "max_length": 192,
+  "text_field": "text",
+  "struct_fields": [
+    "action",
+    "agent",
+    "other",
+    "team",
+    "method",
+    "source",
+    "outcome",
+    "modality"
+  ],
+  "max_events": 3,
+  "normalized": false,
+  "dtype": "float32"
+}
