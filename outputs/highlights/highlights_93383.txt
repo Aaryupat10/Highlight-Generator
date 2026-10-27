@@ -1,0 +1,41 @@
+Match 93383: 12 highlights
+
+Ranked by excitement:
+ 1. [line 75, event: GOAL, player: Zeki Amdouni, method: low cross, excitement: 1.00, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+      "GOOOOOOOOOOOOALLLLLLLLL! 1-0 BURNLEY! Koleosho continues to torment Montiel as the teenage winger drives to the byline before cutting back with a low cross towards the edge of the area."
+ 2. [line 145, event: GOAL, player: Josh Brownhill, method: empty net, excitement: 1.00, buildup_length: 7 lines, narrative_context: "sustained pressure"]
+      "GOOOOOOOOOOOOOALLLLLLLL! The Clarets strike against the run of play and Forest can only blame their defence."
+ 3. [line 117, event: GOAL, method: right-footed, curls, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "WHAT A GOALLLLLLLLLLLL! FOREST MAKE IT 1-1! Hudson-Odoi introduces himself to the City Ground in an incredible manner."
+ 4. [line 137, event: GOAL, player: Callum Hudson-Odoi, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "Scorer of a delightful equaliser, Hudson-Odoi, makes way for Milan loanee Origi to make his Forest home debut."
+ 5. [line 123, event: GOAL, excitement: 1.00, buildup_length: 5 lines, narrative_context: "sustained pressure"]
+      "Kompany makes a change straight after the equaliser."
+ 6. [line 166, event: GOAL, player: Taiwo Awoniyi, excitement: 1.00, buildup_length: 2 lines, narrative_context: "gradual late build-up"]
+      "Awoniyi comes off after another productive outing, with Wood – who scored the winner in Forest's last home game – introduced for the final few minutes."
+ 7. [line 46, event: GOAL, player: Joachim Andersen, method: left foot, excitement: 0.97, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "Forest have won their last four Premier League home games, scoring a different number of goals each time (3-1 v Brighton and Hove Albion, 4-3 v Southampton, 1-0 v Arsenal, 2-1 v Sheffield United)."
+ 8. [line 151, event: GOAL, player: Lyle Foster, excitement: 0.79, buildup_length: 5 lines, narrative_context: "sustained pressure"]
+      "Foster, whose goal has just been ruled out, has scored in his last two Premier League games for Burnley, having netted just once in his first 12 league games for the Clarets."
+ 9. [line 171, event: NEAR MISS, method: from corner, excitement: 0.78, buildup_length: 2 lines, narrative_context: "late moment after a near miss"]
+      "CHANCE! Tresor angles an inviting corner-kick towards the near post, where a stooping Foster can only head narrowly wide of the target."
+10. [line 100, event: NEAR MISS, player: Matt Turner, method: left-footed, excitement: 0.76, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "CHANCE! Koleosho, unsurprisingly, causes more problems down the left-hand side before offloading to the edge of the area."
+11. [line 111, event: NEAR MISS, player: Jordan Beyer, method: curling, six-yard, excitement: 0.74, buildup_length: 2 lines, narrative_context: "moment after a near miss"]
+      "CLOSE! Gibbs-White whips a curling set-piece towards the six-yard area but Al Dakhil heads away from danger."
+12. [line 22, event: NEAR MISS, player: Matt Turner, method: right-footed, excitement: 0.73, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+      "SAVE! Foster turns Sangare inside and out before driving towards the edge of the area, from which the Burnley striker looks to curl a right-footed attempt towards goal."
+
+In match order:
+    [line 22, event: NEAR MISS, player: Matt Turner, method: right-footed, excitement: 0.73, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+    [line 46, event: GOAL, player: Joachim Andersen, method: left foot, excitement: 0.97, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 75, event: GOAL, player: Zeki Amdouni, method: low cross, excitement: 1.00, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+    [line 100, event: NEAR MISS, player: Matt Turner, method: left-footed, excitement: 0.76, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 111, event: NEAR MISS, player: Jordan Beyer, method: curling, six-yard, excitement: 0.74, buildup_length: 2 lines, narrative_context: "moment after a near miss"]
+    [line 117, event: GOAL, method: right-footed, curls, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 123, event: GOAL, excitement: 1.00, buildup_length: 5 lines, narrative_context: "sustained pressure"]
+    [line 137, event: GOAL, player: Callum Hudson-Odoi, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 145, event: GOAL, player: Josh Brownhill, method: empty net, excitement: 1.00, buildup_length: 7 lines, narrative_context: "sustained pressure"]
+    [line 151, event: GOAL, player: Lyle Foster, excitement: 0.79, buildup_length: 5 lines, narrative_context: "sustained pressure"]
+    [line 166, event: GOAL, player: Taiwo Awoniyi, excitement: 1.00, buildup_length: 2 lines, narrative_context: "gradual late build-up"]
+    [line 171, event: NEAR MISS, method: from corner, excitement: 0.78, buildup_length: 2 lines, narrative_context: "late moment after a near miss"]

@@ -1,0 +1,26 @@
+Match 93607: 7 highlights
+
+Ranked by excitement:
+ 1. [line 76, event: GOAL, player: Anthony Elanga, method: low drive, excitement: 1.00, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "IT'S A GOAL FOR BRIGHTON BUT IT'S AN OWN GOAL! Omobamidele is the unfortunate player to have got the last touch from Gross' free-kick."
+ 2. [line 161, event: NEAR MISS, player: Bart Verbruggen, excitement: 0.75, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "BIG save from Verbruggen down to his left! It was an excellent ball from Gibbs-White as he picked out Wood."
+ 3. [line 196, event: NEAR MISS, method: from deep, excitement: 0.75, buildup_length: 0 lines, narrative_context: "sudden late moment with little build-up"]
+      "KOUYATE CLOSE! A flighted free-kick from deep goes to the left post."
+ 4. [line 120, event: NEAR MISS, player: Bart Verbruggen, excitement: 0.71, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "Origi goes close! From the mirrored position of his testing effort which Verbruggen saved low in the first period, the Belgian flies free on the right."
+ 5. [line 52, event: NEAR MISS, player: Mathias Jensen, excitement: 0.69, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "EXCELLENT SAVE SELS! It was one you'd expect him to make, yet from the right-side free-kick, Gross whips it in and Moder heads powerfully."
+ 6. [line 143, event: NEAR MISS, player: Anthony Elanga, excitement: 0.68, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "That's two clear enough chances that he's squandered today."
+ 7. [line 43, event: NEAR MISS, player: Carlos Baleba, method: left-footed, bends, excitement: 0.67, buildup_length: 0 lines, narrative_context: "sudden early moment with little build-up"]
+      "He bends his left-footed strike just past the post - yet Sels was full stretch to cover his bottom right."
+
+In match order:
+    [line 43, event: NEAR MISS, player: Carlos Baleba, method: left-footed, bends, excitement: 0.67, buildup_length: 0 lines, narrative_context: "sudden early moment with little build-up"]
+    [line 52, event: NEAR MISS, player: Mathias Jensen, excitement: 0.69, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 76, event: GOAL, player: Anthony Elanga, method: low drive, excitement: 1.00, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 120, event: NEAR MISS, player: Bart Verbruggen, excitement: 0.71, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 143, event: NEAR MISS, player: Anthony Elanga, excitement: 0.68, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 161, event: NEAR MISS, player: Bart Verbruggen, excitement: 0.75, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 196, event: NEAR MISS, method: from deep, excitement: 0.75, buildup_length: 0 lines, narrative_context: "sudden late moment with little build-up"]

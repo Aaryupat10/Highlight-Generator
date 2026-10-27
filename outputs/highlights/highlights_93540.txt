@@ -1,0 +1,35 @@
+Match 93540: 10 highlights
+
+Ranked by excitement:
+ 1. [line 32, event: GOAL, player: Ivan Toney, excitement: 1.00, buildup_length: 0 lines, narrative_context: "sudden early moment with little build-up"]
+      "He’s scored in all three of his league games against Forest, while he’s also scored in each of his last three Premier League games at the Gtech Community Stadium."
+ 2. [line 156, event: GOAL, player: Neal Maupay, method: curling, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "GOALLLL! MAUPAY SCORES! 3-2 BRENTFORD! The Bees take the lead for a second time! Toney switches the ball over to Roerslev on the right, who takes his time before curling a cross towards Maupay just inside the box."
+ 3. [line 150, event: GOAL, player: Chris Wood, method: right foot, curls from cross, excitement: 1.00, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "GOAALLLL! WOOD SCORES! 2-2! What a response from Forest."
+ 4. [line 137, event: GOAL, player: Ben Mee, method: header from assist, excitement: 1.00, buildup_length: 8 lines, narrative_context: "sustained pressure"]
+      "GOALLL! MEE SCORES! 2-1 BRENTFORD! The Bees come from behind to take the lead."
+ 5. [line 59, event: GOAL, player: Ivan Toney, method: curling, excitement: 0.99, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "GOALLLL! TONEY SCORES ON HIS RETURN! 1-1! It really couldn’t be anyone but Toney to score for the Bees! He has a free-kick just outside the box on the right and goes low with his effort, curling the ball into the bottom-right corner."
+ 6. [line 74, event: GOAL, player: Andrew Omobamidele, excitement: 0.98, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "Summer signing Omobamidele scored on his Forest debut in the FA Cup during the week and is trying to prove himself in the competitive squad."
+ 7. [line 128, event: NEAR MISS, player: Neto, excitement: 0.73, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "CHANCE! Brentford almost turn the score around."
+ 8. [line 103, event: NEAR MISS, excitement: 0.65, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "CHANCE! Toney gets on the end of a quick throw-in and pokes a pass through to Damsgaard on the byline."
+ 9. [line 82, event: NEAR MISS, player: Nuno Tavares, method: headed from assist, excitement: 0.62, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "Jensen's long throw-in from the right is headed away by Tavares before it could reach anyone inside the box."
+10. [line 177, event: NEAR MISS, player: Nicolas Dominguez, method: blasts, excitement: 0.60, buildup_length: 3 lines, narrative_context: "sustained pressure"]
+      "He gets a shot away but blasts his effort wide of the left post."
+
+In match order:
+    [line 32, event: GOAL, player: Ivan Toney, excitement: 1.00, buildup_length: 0 lines, narrative_context: "sudden early moment with little build-up"]
+    [line 59, event: GOAL, player: Ivan Toney, method: curling, excitement: 0.99, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 74, event: GOAL, player: Andrew Omobamidele, excitement: 0.98, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 82, event: NEAR MISS, player: Nuno Tavares, method: headed from assist, excitement: 0.62, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 103, event: NEAR MISS, excitement: 0.65, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 128, event: NEAR MISS, player: Neto, excitement: 0.73, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 137, event: GOAL, player: Ben Mee, method: header from assist, excitement: 1.00, buildup_length: 8 lines, narrative_context: "sustained pressure"]
+    [line 150, event: GOAL, player: Chris Wood, method: right foot, curls from cross, excitement: 1.00, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 156, event: GOAL, player: Neal Maupay, method: curling, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 177, event: NEAR MISS, player: Nicolas Dominguez, method: blasts, excitement: 0.60, buildup_length: 3 lines, narrative_context: "sustained pressure"]

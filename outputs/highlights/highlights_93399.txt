@@ -1,0 +1,41 @@
+Match 93399: 12 highlights
+
+Ranked by excitement:
+ 1. [line 85, event: GOAL, player: Martin Odegaard, excitement: 1.00, buildup_length: 6 lines, narrative_context: "moment after a scrappy spell"]
+      "Odegaard takes his time with the penalty and rolls it into the bottom left corner."
+ 2. [line 108, event: GOAL, player: Declan Rice, method: from rebound, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "Arsenal go close to scoring again."
+ 3. [line 187, event: GOAL, player: Ben White, method: header, excitement: 1.00, buildup_length: 4 lines, narrative_context: "sustained late pressure"]
+      "GOALLLLL! WHITE SCORES! 4-0 ARSENAL! What a header from White."
+ 4. [line 166, event: GOAL, player: Kai Havertz, excitement: 0.99, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+      "Havertz scored his first goal for the Gunners earlier in the game and is now coming off."
+ 5. [line 46, event: GOAL, player: Bukayo Saka, method: left foot, curling, excitement: 0.99, buildup_length: 3 lines, narrative_context: "gradual build-up"]
+      "GOALLL! SAKA SCORES! 1-0 ARSENAL! Saka nets his fourth Premier League goal of the season."
+ 6. [line 118, event: GOAL, player: Kai Havertz, excitement: 0.97, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "GOALLLL! HAVERTZ SCORES! 3-0 ARSENAL! Havertz scores his first goal for Arsenal."
+ 7. [line 176, event: GOAL, player: Gabriel Martinelli, excitement: 0.92, buildup_length: 0 lines, narrative_context: "sudden late moment with little build-up"]
+      "They have not looked like scoring in this game, with their attack being completely nullified by the Arsenal defence."
+ 8. [line 182, event: NEAR MISS, method: from assist, excitement: 0.72, buildup_length: 2 lines, narrative_context: "gradual late build-up"]
+      "SAVE! What a chance for Smith Rowe."
+ 9. [line 193, event: NEAR MISS, player: Neto, method: blasts, excitement: 0.72, buildup_length: 5 lines, narrative_context: "gradual late build-up"]
+      "SAVE! Neto stops Smith Rowe for a second time."
+10. [line 159, event: NEAR MISS, player: Gabriel Jesus, method: low strike, excitement: 0.72, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "WIDE! Jesus has a chance to score his first goal of the game."
+11. [line 34, event: NEAR MISS, player: Gabriel Jesus, method: blasts, excitement: 0.69, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+      "CHANCE! Arsenal have their first shot of the game."
+12. [line 91, event: NEAR MISS, player: Bernd Leno, method: header from corner, excitement: 0.61, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "Solanke has had a quiet game and makes a mess of a header from a corner, sending it well over the bar after a defender misses it ahead of him."
+
+In match order:
+    [line 34, event: NEAR MISS, player: Gabriel Jesus, method: blasts, excitement: 0.69, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+    [line 46, event: GOAL, player: Bukayo Saka, method: left foot, curling, excitement: 0.99, buildup_length: 3 lines, narrative_context: "gradual build-up"]
+    [line 85, event: GOAL, player: Martin Odegaard, excitement: 1.00, buildup_length: 6 lines, narrative_context: "moment after a scrappy spell"]
+    [line 91, event: NEAR MISS, player: Bernd Leno, method: header from corner, excitement: 0.61, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 108, event: GOAL, player: Declan Rice, method: from rebound, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 118, event: GOAL, player: Kai Havertz, excitement: 0.97, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 159, event: NEAR MISS, player: Gabriel Jesus, method: low strike, excitement: 0.72, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 166, event: GOAL, player: Kai Havertz, excitement: 0.99, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+    [line 176, event: GOAL, player: Gabriel Martinelli, excitement: 0.92, buildup_length: 0 lines, narrative_context: "sudden late moment with little build-up"]
+    [line 182, event: NEAR MISS, method: from assist, excitement: 0.72, buildup_length: 2 lines, narrative_context: "gradual late build-up"]
+    [line 187, event: GOAL, player: Ben White, method: header, excitement: 1.00, buildup_length: 4 lines, narrative_context: "sustained late pressure"]
+    [line 193, event: NEAR MISS, player: Neto, method: blasts, excitement: 0.72, buildup_length: 5 lines, narrative_context: "gradual late build-up"]

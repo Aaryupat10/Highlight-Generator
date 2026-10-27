@@ -213,3 +213,84 @@
       routine   cross            'delivery'  agent=Phil Foden  team=Manchester City  source=free_kick
       routine   defensive_action 'clear'  agent=-  team=Burnley  modality=negated
 
+[84] (live) It sits up nicely for Rodri to hit, and he coolly smashes home to make it 3-0 to the visitors and surely end any hopes of a Clarets comeback.
+    * goal      goal             'smashes home'  agent=Rodri  team=Manchester City  method=placed  outcome=scored
+
+[85] (live) With the result surely beyond doubt, it appears Guardiola will look to shake it up by making substitutes.
+    * routine   substitution     'substitutes'  agent=-  team=-
+
+[86] (live) Guardiola does indeed make changes, first bringing on Gvardiol for his City debut as Lewis makes way.
+
+[87] (live) Ake is replaced by Laporte.
+    * routine   substitution     'replaced'  agent=Aymeric Laporte  team=Manchester City  other=Nathan Ake
+
+[88] (live) Haaland will not get a hat-trick to start the season as his outing is over.
+
+[89] (live) Palmer is on in his place.
+
+[90] (live) Burnley lost just one home league game in 2022-23 (W16 D6), going down 2-1 against QPR in April.
+
+[91] (live) However, as a Premier League side they have lost five of their last eight at Turf Moor, and they look on course for another defeat here.
+
+[92] (live) Alvarez stings the palms of Trafford with a fierce drive, though the goalkeeper deals with it well.
+    * near_miss save             'palms'  agent=Julian Alvarez  team=Manchester City  other=James Trafford  method=power  outcome=saved
+
+[93] (live) Rodri's strike has capped an excellent performance, pulling the strings for the Citizens with an assist and a goal while leading his team in final third entries (14) and touches (88).
+    * routine   shot             'strike'  agent=Rodri  team=Manchester City
+
+[94] (live) The fourth official puts up his board and indicates there will be six minutes of additional time at the end of this game.
+
+[95] (live) Berge makes way for Brownhill.
+    * routine   substitution     'makes way for'  agent=Josh Brownhill  team=Burnley  other=Sander Berge
+
+[96] (live) Redmond enters the fray for Foster.
+
+[97] (live) Zaroury brings down Walker with a sliding challenge, receiving the first yellow of the contest.
+      foul      foul             'brings down'  agent=Anass Zaroury  team=Burnley  other=Kyle Walker
+      routine   defensive_action 'sliding'  agent=Kyle Walker  team=Manchester City
+    * card      yellow_card      'yellow'  agent=Kyle Walker  team=Manchester City
+
+[98] (live) However, VAR is checking for a potential red card, and Zaroury may be in further trouble...
+      foul      var_check        'VAR'  agent=-  team=-
+    * card      red_card         'red card'  agent=Anass Zaroury  team=Burnley
+
+[99] (live) ZAROURY IS SENT OFF!!! The replays show the substitute's right foot catches Walker high on his left leg, and a VAR review rules the tackle is worthy of a red card.
+    * card      red_card         'SENT OFF'  agent=Anass Zaroury  team=Burnley
+      foul      var_check        'VAR'  agent=-  team=-
+      routine   defensive_action 'tackle'  agent=-  team=-
+
+[100] (live) Burnley are down to 10 men!
+
+[101] (live) Walker, just involved in the incident that saw Zaroury given his marching orders, makes way for McAtee.
+    * card      red_card         'marching orders'  agent=Anass Zaroury  team=Burnley
+      routine   substitution     'makes way for'  agent=Anass Zaroury  team=Burnley
+
+[102] (live) FULL-TIME: BURNLEY 0-3 MANCHESTER CITY
+    * routine   full_time        'FULL-TIME'  agent=-  team=Burnley
+
+[103] (recap) City's Premier League title defence is off to a winning start as they claim a comfortable 3-0 triumph over newly promoted Burnley at Turf Moor.
+
+[104] (recap) They were set on their way to victory just four minutes in, Haaland thumping home Rodri's neat assist before the prolific striker made it 2-0 before the break with a sublime curling finish.
+    * routine   goal             'thumping home'  agent=Erling Haaland  team=Manchester City  method=curled+power  outcome=scored
+
+[105] (recap) It was a long way back for the Clarets, and any hopes of an unlikely turnaround were ended 15 minutes from time when Rodri smashed into the back of the net after a free-kick caused havoc in the Burnley penalty area.
+    * routine   goal             'back of the net'  agent=Rodri  team=Manchester City  outcome=scored
+      routine   free_kick        'free-kick'  agent=-  team=Burnley
+
+[106] (recap) Things got even worse for the hosts in the dying seconds as Zaroury initially received a yellow card for a foul on Walker, only for a VAR review to adjudge the tackle to be worthy of a sending-off as City run out easy victors.
+    * routine   yellow_card      'yellow card'  agent=Anass Zaroury  team=Burnley
+      routine   foul             'foul'  agent=Anass Zaroury  team=Burnley  other=Kyle Walker
+      routine   var_check        'VAR'  agent=-  team=Burnley
+      routine   defensive_action 'tackle'  agent=-  team=Burnley  outcome=held
+
+[107] (recap) The first Premier League game of the season goes the way of the champions, moving them top of the league ahead of the rest of the opening round of fixtures this weekend.
+
+[108] (recap) That is a position they will attempt not to relinquish in their bid for a sixth league title in seven seasons.
+    * routine   shot             'attempt'  agent=-  team=Burnley
+
+[109] (recap) For Kompany and Burnley, they will be encouraged by a decent performance, if not the result, in a fixture that will be one of the hardest they play all season.
+
+[110] (recap) Thanks for joining us for live coverage of Manchester City's 3-0 Premier League victory over Burnley at Turf Moor.
+
+[111] (recap) Goodbye!
+

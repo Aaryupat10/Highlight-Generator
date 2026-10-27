@@ -1,0 +1,41 @@
+Match 93572: 12 highlights
+
+Ranked by excitement:
+ 1. [line 20, event: GOAL, player: Rasmus Hojlund, method: left-footed, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+      "GOOOOOOOOALLLLLLLL! UNITED STRIKE AFTER JUST A MINUTE! The Red Devils roar into an early 1-0 lead as Hojlund finds the net for a sixth straight Premier League game."
+ 2. [line 45, event: GOAL, method: right-footed, excitement: 1.00, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+      "GOOOOOOOOOOALLLLLL! LUTON PULL ONE BACK! What a chaotic start! The Hatters are back in this clash as they make it 2-1."
+ 3. [line 31, event: GOAL, player: Thomas Kaminski, method: right-footed, volleys, excitement: 1.00, buildup_length: 6 lines, narrative_context: "sustained early pressure"]
+      "GOOOOOOOOOOOOALLLLLL! 2-0 UNITED! This could almost be game over for Luton, who have struggled to get going at Kenilworth Road."
+ 4. [line 150, event: GOAL, player: Ola Aina, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "There is still plenty of time to find an equaliser - and indeed a winner."
+ 5. [line 101, event: NEAR MISS, player: Thomas Kaminski, method: right-footed, half-volley, excitement: 0.80, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "WIDE! Luton break with speed as Morris touches over the top for Doughty, who has acres of space before dragging a right-footed half-volley wide."
+ 6. [line 38, event: NEAR MISS, player: Marcus Rashford, method: right-footed, excitement: 0.79, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+      "WIDE! United are in red-hot form."
+ 7. [line 160, event: NEAR MISS, player: Thomas Kaminski, method: from free_kick, excitement: 0.76, buildup_length: 3 lines, narrative_context: "gradual build-up"]
+      "CHANCE! The free-kick is just out of shooting range so Doughty crosses it into the box."
+ 8. [line 75, event: NEAR MISS, player: Alfie Doughty, method: left-footed, excitement: 0.74, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+      "OVER! Doughty swings a left-sided corner towards the far post, where Osho is completely unmarked."
+ 9. [line 84, event: NEAR MISS, player: David Raya, method: left-footed, powerful, excitement: 0.72, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "SO CLOSE! Garnacho tries a needless piece of skill and Morris intervenes in midfield."
+10. [line 143, event: NEAR MISS, player: Thomas Kaminski, method: left-footed, excitement: 0.72, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "Garnacho twists and turns but fires a woeful left-footed effort well over from just outside the Luton box."
+11. [line 62, event: NEAR MISS, player: Harry Maguire, method: header from assist, excitement: 0.70, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "CHANCE! The ever-reliant Doughty whips in from the left-hand side, though Morris cannot hit the target when rising above Maguire with his header."
+12. [line 130, event: NEAR MISS, method: left-footed, excitement: 0.70, buildup_length: 3 lines, narrative_context: "gradual build-up"]
+      "GOOD STOP! United break with speed after defending a Luton corner."
+
+In match order:
+    [line 20, event: GOAL, player: Rasmus Hojlund, method: left-footed, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+    [line 31, event: GOAL, player: Thomas Kaminski, method: right-footed, volleys, excitement: 1.00, buildup_length: 6 lines, narrative_context: "sustained early pressure"]
+    [line 38, event: NEAR MISS, player: Marcus Rashford, method: right-footed, excitement: 0.79, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+    [line 45, event: GOAL, method: right-footed, excitement: 1.00, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+    [line 62, event: NEAR MISS, player: Harry Maguire, method: header from assist, excitement: 0.70, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 75, event: NEAR MISS, player: Alfie Doughty, method: left-footed, excitement: 0.74, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+    [line 84, event: NEAR MISS, player: David Raya, method: left-footed, powerful, excitement: 0.72, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 101, event: NEAR MISS, player: Thomas Kaminski, method: right-footed, half-volley, excitement: 0.80, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 130, event: NEAR MISS, method: left-footed, excitement: 0.70, buildup_length: 3 lines, narrative_context: "gradual build-up"]
+    [line 143, event: NEAR MISS, player: Thomas Kaminski, method: left-footed, excitement: 0.72, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 150, event: GOAL, player: Ola Aina, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 160, event: NEAR MISS, player: Thomas Kaminski, method: from free_kick, excitement: 0.76, buildup_length: 3 lines, narrative_context: "gradual build-up"]

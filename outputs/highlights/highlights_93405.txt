@@ -1,0 +1,38 @@
+Match 93405: 11 highlights
+
+Ranked by excitement:
+ 1. [line 52, event: GOAL, player: Mykhailo Mudryk, method: from assist, excitement: 1.00, buildup_length: 4 lines, narrative_context: "gradual build-up"]
+      "GOOOOOOOOOOALLLLLLLLLL! CHELSEA MAKE IT 2-0! The Blues deal back-to-back blows to Fulham in quick succession."
+ 2. [line 62, event: GOAL, player: Mykhailo Mudryk, method: left-footed, excitement: 0.95, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "GOOD STOP! Mudryk has the chance to power past Castagne and duly obliges, reaching the byline before slamming a left-footed drive across the face of goal."
+ 3. [line 148, event: NEAR MISS, player: Robert Sanchez, method: six-yard, excitement: 0.77, buildup_length: 5 lines, narrative_context: "sustained pressure"]
+      "WHAT A SAVE! Cairney creates a chance out of nothing with a delightful low pass towards the six-yard area."
+ 4. [line 124, event: NEAR MISS, method: from cross, excitement: 0.75, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "OVER! Read marauds forward down the right flank before his front-post delivery is headed over by a stretching Vinicius."
+ 5. [line 81, event: NEAR MISS, player: Levi Colwill, method: from free_kick, excitement: 0.71, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "WIDE! Colwill has to be alert to turn behind for a corner as Wilson looks to sneak in behind the Chelsea left-back."
+ 6. [line 112, event: NEAR MISS, player: Alphonse Areola, method: left-footed, curling, excitement: 0.71, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "SAVE! Caicedo probes through the middle of the pitch before a poor Palhinha touch allows Palmer space."
+ 7. [line 35, event: NEAR MISS, player: Neto, method: right foot, excitement: 0.70, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+      "OVER! Palmer's expert footwork allows Chelsea the chance to progress up the pitch through Fernandez, who offloads to his left for Mudryk."
+ 8. [line 104, event: NEAR MISS, player: Antoine Semenyo, method: left-footed, six-yard, excitement: 0.65, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "CLOSE! Palmer has acres of room on the right-hand side before lifting a teasing left-footed delivery towards the six-yard area."
+ 9. [line 161, event: NEAR MISS, player: Alisson, method: swerving, excitement: 0.62, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]
+      "The effort is swerving but Sanchez comfortably catches in the middle of his goal."
+10. [line 22, event: NEAR MISS, player: Neto, method: right-footed, excitement: 0.59, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+      "WHAT A MISS! Broja powers in behind the Fulham defence and rounds the onrushing Leno."
+11. [line 166, event: CARD, player: Raul Jimenez, excitement: 0.52, buildup_length: 0 lines, narrative_context: "sudden late moment with little build-up"]
+      "Sanchez, in the eyes of the referee, takes too long over a goal-kick and is shown a yellow card for wasting time."
+
+In match order:
+    [line 22, event: NEAR MISS, player: Neto, method: right-footed, excitement: 0.59, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+    [line 35, event: NEAR MISS, player: Neto, method: right foot, excitement: 0.70, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+    [line 52, event: GOAL, player: Mykhailo Mudryk, method: from assist, excitement: 1.00, buildup_length: 4 lines, narrative_context: "gradual build-up"]
+    [line 62, event: GOAL, player: Mykhailo Mudryk, method: left-footed, excitement: 0.95, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 81, event: NEAR MISS, player: Levi Colwill, method: from free_kick, excitement: 0.71, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 104, event: NEAR MISS, player: Antoine Semenyo, method: left-footed, six-yard, excitement: 0.65, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 112, event: NEAR MISS, player: Alphonse Areola, method: left-footed, curling, excitement: 0.71, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 124, event: NEAR MISS, method: from cross, excitement: 0.75, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 148, event: NEAR MISS, player: Robert Sanchez, method: six-yard, excitement: 0.77, buildup_length: 5 lines, narrative_context: "sustained pressure"]
+    [line 161, event: NEAR MISS, player: Alisson, method: swerving, excitement: 0.62, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]
+    [line 166, event: CARD, player: Raul Jimenez, excitement: 0.52, buildup_length: 0 lines, narrative_context: "sudden late moment with little build-up"]

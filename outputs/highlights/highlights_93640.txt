@@ -1,0 +1,35 @@
+Match 93640: 10 highlights
+
+Ranked by excitement:
+ 1. [line 134, event: GOAL, player: Carney Chukwuemeka, method: from assist, excitement: 1.00, buildup_length: 3 lines, narrative_context: "gradual late build-up"]
+      "CHELSEA STEAL ALL THREE POINTS!!! What a way to end it! Boyhood Manchester United fan Palmer completes his hat-trick! Shortly after Chukwuemeka has a shot blocked wide for a corner, the free-scoring Chelsea forward is left unmarked on the edge of the area."
+ 2. [line 20, event: GOAL, player: Conor Gallagher, method: guides, excitement: 0.98, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+      "CHELSEA LEAD 1-0! Gallagher guides it home from near the penalty spot, and Onana just can't keep it out! Gusto's deflected cross from the right byline falls beautifully for Chelsea's captain, who side-foots it firmly into the back of the net! The hosts have taken an early lead at Stamford Bridge!"
+ 3. [line 95, event: GOAL, player: Alejandro Garnacho, method: left boot, excitement: 0.96, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "GARNACHO!!! 3-2 UNITED! THE COMEBACK IS COMPLETE! Garnacho scores, but he owes a huge debt of gratitude to Antony."
+ 4. [line 34, event: GOAL, player: Cole Palmer, method: Calmly, spot-kick, excitement: 0.90, buildup_length: 5 lines, narrative_context: "sustained early pressure"]
+      "ICE-COLD COLE PALMER STRIKES AGAIN! Calmly sending Onana the wrong way from 12 yards, boyhood Manchester United fan strokes his spot-kick into the bottom-right corner! That's his 17th goal of a superb debut season for the Blues, who now lead 2-0! We're not even midway through the first half!"
+ 5. [line 49, event: GOAL, player: Darwin Nunez, method: coolly, excitement: 0.80, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "UNITED CLAW ONE BACK! And what a gift from Caicedo! The Chelsea midfielder presents the ball on a plate for Garnacho, who does not hesitate to streak forward towards the area and then coolly slot past Petrovic from 10 yards! The goalkeeper had no chance, and it's now just 2-1 to Chelsea! Man United are suddenly offered an unexpected route back into the game!"
+ 6. [line 80, event: NEAR MISS, player: Andre Onana, method: left-footed, excitement: 0.71, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "SAVE! Chelsea continue to threaten and Jackson takes aim this time."
+ 7. [line 56, event: NEAR MISS, player: Andre Onana, method: 20 yards, excitement: 0.70, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+      "SAVE! Onana has his palms stung by Mudryk, who drives at goal from 20 yards, as Chelsea seek to restore their lead! Their heads must be spinning now, having had a two-goal advantage just minutes ago!"
+ 8. [line 85, event: NEAR MISS, player: Andre Onana, method: fierce, excitement: 0.70, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+      "GREAT SAVE! Palmer cuts inside and takes aim from the edge of the box."
+ 9. [line 39, event: NEAR MISS, player: Axel Disasi, method: at the back post, excitement: 0.69, buildup_length: 3 lines, narrative_context: "gradual build-up"]
+      "MISS! Arriving at the back post, having dropped out of Dalot's view, Disasi fails to take a good chance for Chelsea's third! He meets a cross from deep with a header, but it's guided just wide of the target!"
+10. [line 65, event: NEAR MISS, player: Malo Gusto, method: powerful, excitement: 0.62, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "OFF THE POST! A cute reverse pass by Palmer opens up space for Gallagher to shoot from a tight angle on the right, and the Chelsea captain's powerful strike crashes back off the near post! Almost a fifth goal - what a fitting finale to this wide-open first half that would have been!"
+
+In match order:
+    [line 20, event: GOAL, player: Conor Gallagher, method: guides, excitement: 0.98, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+    [line 34, event: GOAL, player: Cole Palmer, method: Calmly, spot-kick, excitement: 0.90, buildup_length: 5 lines, narrative_context: "sustained early pressure"]
+    [line 39, event: NEAR MISS, player: Axel Disasi, method: at the back post, excitement: 0.69, buildup_length: 3 lines, narrative_context: "gradual build-up"]
+    [line 49, event: GOAL, player: Darwin Nunez, method: coolly, excitement: 0.80, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 56, event: NEAR MISS, player: Andre Onana, method: 20 yards, excitement: 0.70, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+    [line 65, event: NEAR MISS, player: Malo Gusto, method: powerful, excitement: 0.62, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 80, event: NEAR MISS, player: Andre Onana, method: left-footed, excitement: 0.71, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 85, event: NEAR MISS, player: Andre Onana, method: fierce, excitement: 0.70, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+    [line 95, event: GOAL, player: Alejandro Garnacho, method: left boot, excitement: 0.96, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 134, event: GOAL, player: Carney Chukwuemeka, method: from assist, excitement: 1.00, buildup_length: 3 lines, narrative_context: "gradual late build-up"]

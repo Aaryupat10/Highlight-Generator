@@ -1,0 +1,35 @@
+Match 93488: 10 highlights
+
+Ranked by excitement:
+ 1. [line 118, event: GOAL, player: Scott McTominay, method: from close, excitement: 1.00, buildup_length: 0 lines, narrative_context: "sudden late moment with little build-up"]
+      "In the second of at least six added minutes at the end of this match, Sheffield United have committed a few more bodies forward in search of a late equaliser."
+ 2. [line 51, event: GOAL, method: from throw_in, excitement: 0.99, buildup_length: 4 lines, narrative_context: "moment after a scrappy spell"]
+      "Such deliveries could be United's best route to scoring today."
+ 3. [line 101, event: NEAR MISS, player: Wes Foderingham, method: six-yard, excitement: 0.77, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "GOOD SAVE! Alexander-Arnold slips a lovely low ball through to Nunez, who angles his run towards the right corner of the area."
+ 4. [line 56, event: NEAR MISS, player: Trent Alexander-Arnold, method: from close, excitement: 0.76, buildup_length: 4 lines, narrative_context: "gradual build-up"]
+      "He rises highest in the box, but heads over the crossbar from close range."
+ 5. [line 63, event: NEAR MISS, player: Trent Alexander-Arnold, method: volleyed from corner, excitement: 0.73, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "SHARP STOP! With great confidence and technique, Mac Allister controls the ball and then shoots in one motion, testing Foderingham from just inside the box! The goalkeeper reaches up and tips the volleyed effort over for another Liverpool corner-kick!"
+ 6. [line 78, event: NEAR MISS, player: Wes Foderingham, method: volley, powerful, excitement: 0.70, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "SUPER SAVE! Salah is denied by Foderingham! The goalkeeper reaches up and gets a strong hand to the Liverpool winger's powerful volley, tipping the ball over his crossbar! That keeps his team in it!"
+ 7. [line 35, event: NEAR MISS, player: Wes Foderingham, method: from corner, excitement: 0.67, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "After a scuffed cross by Gomez earns Liverpool a corner-kick, Van Dijk reaches the ball first but sees his tame effort tipped over by Foderingham."
+ 8. [line 29, event: NEAR MISS, player: Caoimhin Kelleher, method: volley, close range, side-foot from counter_attack, excitement: 0.66, buildup_length: 3 lines, narrative_context: "sustained early pressure"]
+      "SAVE! Kelleher keeps Liverpool level! A counter-attack by the Blades ends with McAtee being set free past Gomez and into the box, and the young midfielder's side-foot volley from 10 yards forces the Irish goalkeeper into a smart stop at close range!"
+ 9. [line 106, event: CARD, player: Pablo Sarabia, excitement: 0.55, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "Having petulantly kicked the ball way after running it out of play on the right, Nunez is shown a yellow card by the referee."
+10. [line 85, event: CARD, player: Ibrahima Konate, excitement: 0.53, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "For deliberately clipping Archer midway through the Liverpool half, Konate becomes the second Liverpool player booked today."
+
+In match order:
+    [line 29, event: NEAR MISS, player: Caoimhin Kelleher, method: volley, close range, side-foot from counter_attack, excitement: 0.66, buildup_length: 3 lines, narrative_context: "sustained early pressure"]
+    [line 35, event: NEAR MISS, player: Wes Foderingham, method: from corner, excitement: 0.67, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 51, event: GOAL, method: from throw_in, excitement: 0.99, buildup_length: 4 lines, narrative_context: "moment after a scrappy spell"]
+    [line 56, event: NEAR MISS, player: Trent Alexander-Arnold, method: from close, excitement: 0.76, buildup_length: 4 lines, narrative_context: "gradual build-up"]
+    [line 63, event: NEAR MISS, player: Trent Alexander-Arnold, method: volleyed from corner, excitement: 0.73, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 78, event: NEAR MISS, player: Wes Foderingham, method: volley, powerful, excitement: 0.70, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 85, event: CARD, player: Ibrahima Konate, excitement: 0.53, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 101, event: NEAR MISS, player: Wes Foderingham, method: six-yard, excitement: 0.77, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 106, event: CARD, player: Pablo Sarabia, excitement: 0.55, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 118, event: GOAL, player: Scott McTominay, method: from close, excitement: 1.00, buildup_length: 0 lines, narrative_context: "sudden late moment with little build-up"]

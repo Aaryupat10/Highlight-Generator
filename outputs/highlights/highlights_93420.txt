@@ -1,0 +1,32 @@
+Match 93420: 9 highlights
+
+Ranked by excitement:
+ 1. [line 46, event: GOAL, player: Dominic Solanke, excitement: 1.00, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+      "He takes aim and places a perfectly-struck shot into the net via the bottom of the crossbar! It's a composed finish that gives his side a precious two-goal advantage!"
+ 2. [line 21, event: GOAL, player: James Tarkowski, method: 20 yards, excitement: 0.95, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+      "EVERTON LEAD! After knocking lightly at the door twice, Everton stride through Bournemouth's defence and open the scoring! Zabarnyi errs to gift the ball to Garner 20 yards out, and the young midfielder drives towards goal before picking out the bottom-right corner! It's 1-0 to the Toffees, and the home fans are delighted!"
+ 3. [line 73, event: GOAL, player: Abdoulaye Doucoure, method: close-range, excitement: 0.94, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+      "The ball then rebounds back off Harrison, and Doucoure lashes it home from five yards!"
+ 4. [line 53, event: NEAR MISS, player: Abdoulaye Doucoure, method: header, close-range, excitement: 0.80, buildup_length: 3 lines, narrative_context: "sustained pressure"]
+      "OFF THE BAR! After Doucoure crosses for Calvert-Lewin, the striker climbs highest in the box and plants a close-range header against the top of the crossbar! Then, on the follow-up, Mykolenko's deflected cross is flashed just wide by Onana, who spins to strike at goal!"
+ 5. [line 61, event: NEAR MISS, player: Neto, method: close-range from error, excitement: 0.79, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "CHANCE! Another mistake by Zabarnyi lets Everton in again, but Doucoure places his close-range shot straight at Neto, who makes a straightforward save! That's a real let-off for Bournemouth, who have been abject at the back today."
+ 6. [line 85, event: NEAR MISS, player: Amadou Onana, method: header, excitement: 0.78, buildup_length: 2 lines, narrative_context: "moment after a near miss"]
+      "DOUBLE CHANCE! From a tight angle, Onana twice comes close to scoring! First he has a header blocked by Billing at the near post, then Neto denies him with a close-range save! He'll have to settle for a corner!"
+ 7. [line 78, event: NEAR MISS, method: chips, excitement: 0.75, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "CLOSE! Really enjoying himself now, McNeil again makes the play, slipping a ball through to Calvert-Lewin, who then chips the ball over a fast-closing Neto but just wide of the left-hand post!"
+ 8. [line 91, event: NEAR MISS, player: Jack Robinson, method: header from assist, excitement: 0.74, buildup_length: 5 lines, narrative_context: "sustained late pressure"]
+      "SAVE! Pickford prevents Moore from grabbing a consolation! After the Bournemouth substitute beats Patterson in the air near the penalty spot, his flicked header is pawed away by the Everton goalkeeper!"
+ 9. [line 26, event: NEAR MISS, player: Neto, method: low shot, excitement: 0.68, buildup_length: 4 lines, narrative_context: "sustained early pressure"]
+      "Following an exchange of passes by Onana and Doucoure, the ball arrives at McNeil's feet just outside the area, but he drags his low shot well wide of the right-hand post before holding his hand up by way of apology."
+
+In match order:
+    [line 21, event: GOAL, player: James Tarkowski, method: 20 yards, excitement: 0.95, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+    [line 26, event: NEAR MISS, player: Neto, method: low shot, excitement: 0.68, buildup_length: 4 lines, narrative_context: "sustained early pressure"]
+    [line 46, event: GOAL, player: Dominic Solanke, excitement: 1.00, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+    [line 53, event: NEAR MISS, player: Abdoulaye Doucoure, method: header, close-range, excitement: 0.80, buildup_length: 3 lines, narrative_context: "sustained pressure"]
+    [line 61, event: NEAR MISS, player: Neto, method: close-range from error, excitement: 0.79, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 73, event: GOAL, player: Abdoulaye Doucoure, method: close-range, excitement: 0.94, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+    [line 78, event: NEAR MISS, method: chips, excitement: 0.75, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 85, event: NEAR MISS, player: Amadou Onana, method: header, excitement: 0.78, buildup_length: 2 lines, narrative_context: "moment after a near miss"]
+    [line 91, event: NEAR MISS, player: Jack Robinson, method: header from assist, excitement: 0.74, buildup_length: 5 lines, narrative_context: "sustained late pressure"]

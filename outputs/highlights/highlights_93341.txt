@@ -1,0 +1,35 @@
+Match 93341: 10 highlights
+
+Ranked by excitement:
+ 1. [line 72, event: GOAL, method: from cross, excitement: 1.00, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "GOOOOOAAALLLL!!!! The Eagles soar into an early second half lead! Lerma drives forward and finds Ayew in space to his right."
+ 2. [line 94, event: GOAL, player: John Egan, method: low cross, excitement: 1.00, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "Egan lunges and misses the ball, which rolls through for Edouard to tap home, but he did so from an offside position and so the goal will not count!"
+ 3. [line 101, event: GOAL, player: Anthony Elanga, method: first-time, excitement: 0.99, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+      "His first-time finish has plenty of power behind it, but not quite the direction as it smashes into the side netting!"
+ 4. [line 112, event: GOAL, player: Eberechi Eze, method: header, six-yard, excitement: 0.99, buildup_length: 4 lines, narrative_context: "sustained late pressure"]
+      "SAVED!!! What a stop that is from Foderingham! Eze's delivery is met by Andersen in the six-yard box, whose downward header from close range looks certain to find the back of the net, but the goalkeeper somehow gets down to push the ball off the line and away!"
+ 5. [line 39, event: GOAL, player: Jordan Ayew, method: 35-yard, thumping from rebound, excitement: 0.97, buildup_length: 2 lines, narrative_context: "moment after a near miss"]
+      "BALL IN THE NET!!! Palace are denied an opener by the linesman's flag! A thumping 35-yard effort from Andersen is parried by Foderingham at full stretch, but Ayew is on hand to nod the loose ball into the far corner! He wheels away to celebrate, but the flag is correctly raised and the goal will not count!"
+ 6. [line 23, event: NEAR MISS, player: Alphonse Areola, method: curling, excitement: 0.77, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+      "WIDE!!! Osula flicks a long ball on and gets it back from Traore."
+ 7. [line 56, event: NEAR MISS, player: Sam Johnstone, method: 25 yards, low drive, excitement: 0.77, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "SAVED!!! Baldock's teasing cross into the box is flicked away by Andersen, but Sheffield United keep possession as Lowe tees up Norwood."
+ 8. [line 84, event: NEAR MISS, player: Wes Foderingham, method: from free_kick, excitement: 0.76, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "SAVED!!! Another Palace free-kick, this time from the left, is swung in by Eze, and Edouard is the target once again."
+ 9. [line 47, event: NEAR MISS, player: Jordan Ayew, method: from corner, excitement: 0.69, buildup_length: 3 lines, narrative_context: "sustained pressure"]
+      "OVER!!! From the corner, Guehi flicks Eze's delivery on towards Edouard, who can't keep his header down at the back post and sends it over the bar!"
+10. [line 29, event: NEAR MISS, player: Antony, excitement: 0.68, buildup_length: 0 lines, narrative_context: "sudden early moment with little build-up"]
+      "BLOCKED!!! Eze and Edouard combine on the break for Palace, with the latter bypassing several defenders as he races into the box."
+
+In match order:
+    [line 23, event: NEAR MISS, player: Alphonse Areola, method: curling, excitement: 0.77, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+    [line 29, event: NEAR MISS, player: Antony, excitement: 0.68, buildup_length: 0 lines, narrative_context: "sudden early moment with little build-up"]
+    [line 39, event: GOAL, player: Jordan Ayew, method: 35-yard, thumping from rebound, excitement: 0.97, buildup_length: 2 lines, narrative_context: "moment after a near miss"]
+    [line 47, event: NEAR MISS, player: Jordan Ayew, method: from corner, excitement: 0.69, buildup_length: 3 lines, narrative_context: "sustained pressure"]
+    [line 56, event: NEAR MISS, player: Sam Johnstone, method: 25 yards, low drive, excitement: 0.77, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 72, event: GOAL, method: from cross, excitement: 1.00, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 84, event: NEAR MISS, player: Wes Foderingham, method: from free_kick, excitement: 0.76, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 94, event: GOAL, player: John Egan, method: low cross, excitement: 1.00, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 101, event: GOAL, player: Anthony Elanga, method: first-time, excitement: 0.99, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+    [line 112, event: GOAL, player: Eberechi Eze, method: header, six-yard, excitement: 0.99, buildup_length: 4 lines, narrative_context: "sustained late pressure"]

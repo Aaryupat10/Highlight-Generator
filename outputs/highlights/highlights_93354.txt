@@ -1,0 +1,38 @@
+Match 93354: 11 highlights
+
+Ranked by excitement:
+ 1. [line 43, event: GOAL, player: Luis Diaz, method: crashes, excitement: 1.00, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "LIVERPOOL PULL LEVEL! Played in by Jota's deflected pass from the right, Diaz flicks the ball up for himself and crashes past a helpless Neto to level the game up at 1-1! With great speed of thought, the winger skilfully steers the ball home from close range and brings the Anfield crowd to its feet."
+ 2. [line 50, event: GOAL, player: Mohamed Salah, method: from the penalty spot, excitement: 0.93, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+      "Though Neto makes a superb save to keep Salah's penalty out, he then has to pick the ball out of the net when the Liverpool forward rams home the follow-up finish."
+ 3. [line 21, event: GOAL, player: Antoine Semenyo, method: from error, excitement: 0.85, buildup_length: 2 lines, narrative_context: "gradual early build-up"]
+      "BOURNEMOUTH LEAD AT ANFIELD! Semenyo strikes unerringly into the bottom-right corner to put the Cherries in front! An error by Alexander-Arnold is not swept up by the Liverpool defence, and the Solanke prods the ball through a gap before Semenyo thumps it past Alisson: it's 1-0 to the visitors!"
+ 4. [line 28, event: NEAR MISS, player: Neto, method: rasping, excitement: 0.77, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+      "SAVE! Alexander-Arnold seeks redemption for his part in Bournemouth's goal, but is just denied by Neto, who tips his rasping drive from the right byline wide for a corner."
+ 5. [line 101, event: NEAR MISS, player: Dominic Solanke, method: low shot, excitement: 0.76, buildup_length: 2 lines, narrative_context: "gradual late build-up"]
+      "A good chance is spurned by Solanke, who powers in from the left before slashing his 18-yard shot well wide of the right-hand post."
+ 6. [line 90, event: NEAR MISS, player: Diogo Jota, excitement: 0.76, buildup_length: 3 lines, narrative_context: "sustained pressure"]
+      "However, the big striker leans back on his shot and sends the ball careering over the crossbar."
+ 7. [line 59, event: NEAR MISS, player: Ibrahima Konate, method: at the back post, excitement: 0.74, buildup_length: 3 lines, narrative_context: "sustained pressure"]
+      "MISS! Konate's wait for a first Liverpool goal goes on, as he rises highest at the back post following a cross from the right but plants his header over the crossbar!"
+ 8. [line 70, event: NEAR MISS, player: Antoine Semenyo, method: swerving, powerful, excitement: 0.72, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "CLOSE! Having shrugged off both Konate and Mac Allister in midfield and then continued his run to the brink of the box, Semenyo unleashes a powerful swerving shot that zips just over the crossbar!"
+ 9. [line 110, event: NEAR MISS, player: Philip Billing, method: 25-yard, excitement: 0.72, buildup_length: 2 lines, narrative_context: "gradual late build-up"]
+      "From a 25-yard free-kick in a central position, Billing steps up and laces a wild shot well over the crossbar; summing up Bournemouth's fortunes in the final third since going ahead in the third minute."
+10. [line 33, event: NEAR MISS, player: Dominik Szoboszlai, method: from assist, excitement: 0.64, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "After a crossfield ball from Alexander-Arnold picks out Diaz on the edge of the area, the Colombian winger twice sees shots blocked before Szoboszlai slices an attempt wide of the right-hand post."
+11. [line 80, event: NEAR MISS, player: Dominik Szoboszlai, method: from outside the area, low shot, excitement: 0.58, buildup_length: 4 lines, narrative_context: "gradual build-up"]
+      "LIVERPOOL STRIKE! Making light of being one man down, the home side actually extend their lead! Within minutes of Mac Allister's sending-off, Szoboszlai drives in a low shot from outside the area, which Neto can only parry straight into the path of Jota, who then prods it over the line: 3-1 to Liverpool!"
+
+In match order:
+    [line 21, event: GOAL, player: Antoine Semenyo, method: from error, excitement: 0.85, buildup_length: 2 lines, narrative_context: "gradual early build-up"]
+    [line 28, event: NEAR MISS, player: Neto, method: rasping, excitement: 0.77, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+    [line 33, event: NEAR MISS, player: Dominik Szoboszlai, method: from assist, excitement: 0.64, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 43, event: GOAL, player: Luis Diaz, method: crashes, excitement: 1.00, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 50, event: GOAL, player: Mohamed Salah, method: from the penalty spot, excitement: 0.93, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+    [line 59, event: NEAR MISS, player: Ibrahima Konate, method: at the back post, excitement: 0.74, buildup_length: 3 lines, narrative_context: "sustained pressure"]
+    [line 70, event: NEAR MISS, player: Antoine Semenyo, method: swerving, powerful, excitement: 0.72, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 80, event: NEAR MISS, player: Dominik Szoboszlai, method: from outside the area, low shot, excitement: 0.58, buildup_length: 4 lines, narrative_context: "gradual build-up"]
+    [line 90, event: NEAR MISS, player: Diogo Jota, excitement: 0.76, buildup_length: 3 lines, narrative_context: "sustained pressure"]
+    [line 101, event: NEAR MISS, player: Dominic Solanke, method: low shot, excitement: 0.76, buildup_length: 2 lines, narrative_context: "gradual late build-up"]
+    [line 110, event: NEAR MISS, player: Philip Billing, method: 25-yard, excitement: 0.72, buildup_length: 2 lines, narrative_context: "gradual late build-up"]

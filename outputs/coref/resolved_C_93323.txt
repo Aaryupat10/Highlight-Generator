@@ -247,3 +247,74 @@ stage C, rules: goal,role,side
       GOAL!!! RODRI SURELY KILLS IT OFF!!! After City were awarded a free-kick for Al Dakhil bundling over Haaland, Foden's set-piece delivery causes havoc in the Burnley box as Burnley fail to clear Burnley's lines.
         they -> Burnley  [cluster]
         their -> Burnley  [cluster]
+
+  84  It sits up nicely for Rodri to hit, and he coolly smashes home to make it 3-0 to the visitors and surely end any hopes of a Clarets comeback.
+      It sits up nicely for Rodri to hit, and Rodri coolly smashes home to make it 3-0 to Manchester City and surely end any hopes of a Clarets comeback.
+        he -> Rodri  [rule:goal]
+        the visitors -> Manchester City  [rule:side]
+
+  86  Guardiola does indeed make changes, first bringing on Gvardiol for his City debut as Lewis makes way.
+      Guardiola does indeed make changes, first bringing on Gvardiol for Gvardiol's City debut as Lewis makes way.
+        his -> Gvardiol  [cluster]
+
+  88  Haaland will not get a hat-trick to start the season as his outing is over.
+      Haaland will not get a hat-trick to start the season as Haaland's outing is over.
+        his -> Haaland  [cluster]
+
+  89  Palmer is on in his place.
+      Palmer is on in Haaland's place.
+        his -> Haaland  [cluster]
+
+  91  However, as a Premier League side they have lost five of their last eight at Turf Moor, and they look on course for another defeat here.
+      However, as a Premier League side Burnley have lost five of Burnley's last eight at Turf Moor, and Burnley look on course for another defeat here.
+        they -> Burnley  [cluster]
+        their -> Burnley  [cluster]
+        they -> Burnley  [cluster]
+
+  92  Alvarez stings the palms of Trafford with a fierce drive, though the goalkeeper deals with it well.
+      Alvarez stings the palms of Trafford with a fierce drive, though Trafford deals with it well.
+        the goalkeeper -> Trafford  [rule:role]
+
+  93  Rodri's strike has capped an excellent performance, pulling the strings for the Citizens with an assist and a goal while leading his team in final third entries (14) and touches (88).
+      Rodri's strike has capped an excellent performance, pulling the strings for the Citizens with an assist and a goal while leading Rodri's team in final third entries (14) and touches (88).
+        his -> Rodri  [cluster]
+
+  94  The fourth official puts up his board and indicates there will be six minutes of additional time at the end of this game.
+      The fourth official puts up his board and indicates there will be six minutes of additional time at the end of this game.
+        his -> ?  [cluster]
+
+  99  ZAROURY IS SENT OFF!!! The replays show the substitute's right foot catches Walker high on his left leg, and a VAR review rules the tackle is worthy of a red card.
+      ZAROURY IS SENT OFF!!! The replays show the substitute's right foot catches Walker high on Walker's left leg, and a VAR review rules the tackle is worthy of a red card.
+        his -> Walker  [cluster]
+
+ 101  Walker, just involved in the incident that saw Zaroury given his marching orders, makes way for McAtee.
+      Walker, just involved in the incident that saw Zaroury given Zaroury's marching orders, makes way for McAtee.
+        his -> Zaroury  [cluster]
+
+ 103  City's Premier League title defence is off to a winning start as they claim a comfortable 3-0 triumph over newly promoted Burnley at Turf Moor.
+      City's Premier League title defence is off to a winning start as Burnley claim a comfortable 3-0 triumph over newly promoted Burnley at Turf Moor.
+        they -> Burnley  [cluster]
+
+ 104  They were set on their way to victory just four minutes in, Haaland thumping home Rodri's neat assist before the prolific striker made it 2-0 before the break with a sublime curling finish.
+      Burnley were set on Burnley's way to victory just four minutes in, Haaland thumping home Rodri's neat assist before Haaland made it 2-0 before the break with a sublime curling finish.
+        They -> Burnley  [cluster]
+        their -> Burnley  [cluster]
+        the prolific striker -> Haaland  [rule:role]
+
+ 106  Things got even worse for the hosts in the dying seconds as Zaroury initially received a yellow card for a foul on Walker, only for a VAR review to adjudge the tackle to be worthy of a sending-off as City run out easy victors.
+      Things got even worse for Burnley in the dying seconds as Zaroury initially received a yellow card for a foul on Walker, only for a VAR review to adjudge the tackle to be worthy of a sending-off as City run out easy victors.
+        the hosts -> Burnley  [rule:side]
+
+ 107  The first Premier League game of the season goes the way of the champions, moving them top of the league ahead of the rest of the opening round of fixtures this weekend.
+      The first Premier League game of the season goes the way of the champions, moving Burnley top of the league ahead of the rest of the opening round of fixtures this weekend.
+        them -> Burnley  [cluster]
+
+ 108  That is a position they will attempt not to relinquish in their bid for a sixth league title in seven seasons.
+      That is a position Burnley will attempt not to relinquish in Burnley's bid for a sixth league title in seven seasons.
+        they -> Burnley  [cluster]
+        their -> Burnley  [cluster]
+
+ 109  For Kompany and Burnley, they will be encouraged by a decent performance, if not the result, in a fixture that will be one of the hardest they play all season.
+      For Kompany and Burnley, they will be encouraged by a decent performance, if not the result, in a fixture that will be one of the hardest they play all season.
+        they -> ?  [cluster]
+        they -> ?  [cluster]

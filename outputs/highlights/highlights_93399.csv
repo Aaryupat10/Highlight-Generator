@@ -1,0 +1,13 @@
+﻿rank,match_id,line_no,start_line,end_line,time,event,event_prob,event_stage4,player,player_source,player_model,method,excitement,buildup_length,narrative_context,text
+1,93399,85,79,85,,goal,0.9999964833259583,goal,Martin Odegaard,stage4,Martin Odegaard,,0.9998,6,moment after a scrappy spell,Odegaard takes his time with the penalty and rolls it into the bottom left corner.
+2,93399,108,107,110,,goal,0.999989926815033,goal,Declan Rice,head_c,Declan Rice,from rebound,0.9985,1,sudden moment with little build-up,Arsenal go close to scoring again.
+3,93399,187,183,190,,goal,0.9980605840682983,goal,Ben White,stage4,Ben White,header,0.9971,4,sustained late pressure,GOALLLLL! WHITE SCORES! 4-0 ARSENAL! What a header from White.
+4,93399,166,160,166,,goal,0.9996529817581177,goal,Kai Havertz,stage4,Kai Havertz,,0.9899,6,sustained pressure,Havertz scored his first goal for the Gunners earlier in the game and is now coming off.
+5,93399,46,43,48,,goal,0.9995285868644714,goal,Bukayo Saka,stage4,Bukayo Saka,"left foot, curling",0.989,3,gradual build-up,GOALLL! SAKA SCORES! 1-0 ARSENAL! Saka nets his fourth Premier League goal of the season.
+6,93399,118,116,119,,goal,0.9929179549217224,goal,Kai Havertz,stage4,Kai Havertz,,0.9746,2,gradual build-up,GOALLLL! HAVERTZ SCORES! 3-0 ARSENAL! Havertz scores his first goal for Arsenal.
+7,93399,176,176,178,,goal,0.9115211367607117,routine,Gabriel Martinelli,head_c,Gabriel Martinelli,,0.919,0,sudden late moment with little build-up,"They have not looked like scoring in this game, with their attack being completely nullified by the Arsenal defence."
+8,93399,182,180,185,,near_miss,0.999958872795105,near_miss,,none,<other>,from assist,0.7192,2,gradual late build-up,SAVE! What a chance for Smith Rowe.
+9,93399,193,188,195,,near_miss,0.9999982118606567,near_miss,Neto,stage4,Neto,blasts,0.7171,5,gradual late build-up,SAVE! Neto stops Smith Rowe for a second time.
+10,93399,159,157,162,,near_miss,0.9999790191650391,near_miss,Gabriel Jesus,stage4,Gabriel Jesus,low strike,0.7156,2,gradual build-up,WIDE! Jesus has a chance to score his first goal of the game.
+11,93399,34,33,36,,near_miss,0.9995293021202087,near_miss,Gabriel Jesus,stage4,Gabriel Jesus,blasts,0.6877,1,sudden early moment with little build-up,CHANCE! Arsenal have their first shot of the game.
+12,93399,91,90,91,,near_miss,0.9985190033912659,near_miss,Bernd Leno,head_c,Bernd Leno,header from corner,0.6092,1,sudden moment with little build-up,"Solanke has had a quiet game and makes a mess of a header from a corner, sending it well over the bar after a defender misses it ahead of him."

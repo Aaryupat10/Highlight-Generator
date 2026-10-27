@@ -1,0 +1,41 @@
+Match 93426: 12 highlights
+
+Ranked by excitement:
+ 1. [line 143, event: GOAL, player: Saman Ghoddos, method: from distance, excitement: 1.00, buildup_length: 3 lines, narrative_context: "gradual build-up"]
+      "GHODDOS SCORES! And what a goal it is! Wissa and Norgaard link up well down the left, with the Dane clipping a cross into the middle."
+ 2. [line 47, event: GOAL, player: Yoane Wissa, excitement: 1.00, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+      "WISSA SCORES! Brentford win it back in midfield again and Maupay threads it into Mbeumo down the right of the box."
+ 3. [line 109, event: GOAL, player: Neal Maupay, method: curling, excitement: 1.00, buildup_length: 4 lines, narrative_context: "moment after a scrappy spell"]
+      "He gets it out of his feet before curling a lovely effort past Trafford and into the top corner."
+ 4. [line 37, event: NEAR MISS, player: Bryan Mbeumo, method: header from cross, excitement: 0.74, buildup_length: 4 lines, narrative_context: "gradual early build-up"]
+      "SAVE! It's cushioned out to Mbeumo on the right, and he floats a great cross into the middle where Onyeka has a completely free header."
+ 5. [line 95, event: NEAR MISS, player: Guglielmo Vicario, method: glances, excitement: 0.74, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "CHANCE! It's a poor bit of control by Pinnock as he gifts the ball to Amdouni on the edge of his own box."
+ 6. [line 126, event: NEAR MISS, player: Lyle Foster, method: from assist, excitement: 0.72, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "WHAT A CHANCE! Burnley break quickly on the counter, and Foster surges down the left."
+ 7. [line 54, event: NEAR MISS, player: James Trafford, method: low shot, excitement: 0.71, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+      "GOOD SAVE! Brentford are truly on top now and Mbeumo has space down the right again."
+ 8. [line 73, event: NEAR MISS, player: Zeki Amdouni, method: first time, excitement: 0.71, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+      "GOOD SAVE! Burnley quickly work it to the edge of the box and Amdouni is completely unmarked."
+ 9. [line 30, event: NEAR MISS, player: Mike Tresor, method: low shot, excitement: 0.70, buildup_length: 4 lines, narrative_context: "sustained early pressure"]
+      "He has a go from just outside the box, but drills his low shot wide of the near post."
+10. [line 66, event: NEAR MISS, excitement: 0.69, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+      "GOOD SAVE! Trafford doesn't get any distance on his punch as he stops it from reaching Onyeka, and Mbeumo keeps it alive on the edge of the box."
+11. [line 24, event: NEAR MISS, player: Bryan Mbeumo, method: curls, excitement: 0.69, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+      "NO GOAL! Mbeumo curls a deep free-kick into the far post and Collins stretches out a leg to volley it back across the face of goal."
+12. [line 18, event: NEAR MISS, player: Mathias Jensen, method: first time, excitement: 0.64, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+      "CHANCE! Norgaard wins an early free-kick, and Jensen takes it quickly, sliding it into the right of the box for Maupay."
+
+In match order:
+    [line 18, event: NEAR MISS, player: Mathias Jensen, method: first time, excitement: 0.64, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+    [line 24, event: NEAR MISS, player: Bryan Mbeumo, method: curls, excitement: 0.69, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+    [line 30, event: NEAR MISS, player: Mike Tresor, method: low shot, excitement: 0.70, buildup_length: 4 lines, narrative_context: "sustained early pressure"]
+    [line 37, event: NEAR MISS, player: Bryan Mbeumo, method: header from cross, excitement: 0.74, buildup_length: 4 lines, narrative_context: "gradual early build-up"]
+    [line 47, event: GOAL, player: Yoane Wissa, excitement: 1.00, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+    [line 54, event: NEAR MISS, player: James Trafford, method: low shot, excitement: 0.71, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+    [line 66, event: NEAR MISS, excitement: 0.69, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+    [line 73, event: NEAR MISS, player: Zeki Amdouni, method: first time, excitement: 0.71, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+    [line 95, event: NEAR MISS, player: Guglielmo Vicario, method: glances, excitement: 0.74, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 109, event: GOAL, player: Neal Maupay, method: curling, excitement: 1.00, buildup_length: 4 lines, narrative_context: "moment after a scrappy spell"]
+    [line 126, event: NEAR MISS, player: Lyle Foster, method: from assist, excitement: 0.72, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 143, event: GOAL, player: Saman Ghoddos, method: from distance, excitement: 1.00, buildup_length: 3 lines, narrative_context: "gradual build-up"]

@@ -1,0 +1,38 @@
+Match 93525: 11 highlights
+
+Ranked by excitement:
+ 1. [line 106, event: GOAL, player: Diogo Jota, excitement: 1.00, buildup_length: 4 lines, narrative_context: "sustained late pressure"]
+      "LIVERPOOL HAVE THEIR SECOND! 2-0! Only on the pitch for six minutes, Jota finds the back of the net in his return from injury, receiving the ball in midfield and finding Diaz before continuing on an overlapping run down the left."
+ 2. [line 24, event: GOAL, player: Lyle Foster, method: half-volley, excitement: 1.00, buildup_length: 6 lines, narrative_context: "sustained early pressure"]
+      "Burnley started the match with intent but have been pegged back early, with Nunez scoring with Liverpool’s second shot of the match."
+ 3. [line 32, event: NEAR MISS, player: James Trafford, method: 20 yards, excitement: 0.77, buildup_length: 4 lines, narrative_context: "gradual build-up"]
+      "The winger contests it and looks to add the finishing touches to put it past Trafford but the goalkeeper comes off his line assertively and makes the eventual save."
+ 4. [line 49, event: NEAR MISS, player: James Trafford, method: bend from assist, excitement: 0.76, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "Elliott picks out Salah’s overlapping run and the winger immediately fires a shot from a close angle looking to bend it into the far corner but once again Trafford is equal to it, making a definitive save after a kind deflection off Beyer."
+ 5. [line 71, event: NEAR MISS, player: Cody Gakpo, method: nodded, six-yard, excitement: 0.74, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+      "CHANCE! Tresor’s outswinging corner is nodded on by O’Shea, with Beyer meeting it inside the six-yard box."
+ 6. [line 87, event: NEAR MISS, player: Trent Alexander-Arnold, method: tuck, excitement: 0.73, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "CHANCE! Alexander-Arnold strides forward and plays an inch-perfect cross to the far post for Nunez, who unselfishly heads the ball across the face of goal for Szoboszlai."
+ 7. [line 38, event: NEAR MISS, player: James Trafford, method: from rebound, excitement: 0.71, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "LIVERPOOL SCORE BUT IT WON’T COUNT! A scramble in Burnley’s penalty area leads to a shot from Gakpo, which is well saved by Trafford in the Burnley goal."
+ 8. [line 17, event: NEAR MISS, player: James Trafford, method: first-time, excitement: 0.66, buildup_length: 2 lines, narrative_context: "gradual early build-up"]
+      "An eventual shot from the midfielder is saved well by Trafford, who parries it out of danger, but the raised offside flag ends the move."
+ 9. [line 80, event: NEAR MISS, player: Harvey Elliott, excitement: 0.64, buildup_length: 3 lines, narrative_context: "gradual build-up"]
+      "Elliott makes way, somewhat disappointed after his goal was chalked off."
+10. [line 97, event: NEAR MISS, player: Dominik Szoboszlai, method: 25 yards, excitement: 0.58, buildup_length: 4 lines, narrative_context: "gradual build-up"]
+      "It’s been a closely contested fixture - partly thanks to the two disallowed goals - which is a credit to the hosts, though they’ll need points and not plaudits if they wish to stay in the Premier League."
+11. [line 43, event: NEAR MISS, player: Cody Gakpo, method: half-volley, chips, excitement: 0.55, buildup_length: 4 lines, narrative_context: "moment after a scrappy spell"]
+      "OFF THE BAR! Alisson slips during his drop-kick but still manages to find Gakpo out on the left wing, with the forward receiving the ball and cutting inside immediately to find space."
+
+In match order:
+    [line 17, event: NEAR MISS, player: James Trafford, method: first-time, excitement: 0.66, buildup_length: 2 lines, narrative_context: "gradual early build-up"]
+    [line 24, event: GOAL, player: Lyle Foster, method: half-volley, excitement: 1.00, buildup_length: 6 lines, narrative_context: "sustained early pressure"]
+    [line 32, event: NEAR MISS, player: James Trafford, method: 20 yards, excitement: 0.77, buildup_length: 4 lines, narrative_context: "gradual build-up"]
+    [line 38, event: NEAR MISS, player: James Trafford, method: from rebound, excitement: 0.71, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 43, event: NEAR MISS, player: Cody Gakpo, method: half-volley, chips, excitement: 0.55, buildup_length: 4 lines, narrative_context: "moment after a scrappy spell"]
+    [line 49, event: NEAR MISS, player: James Trafford, method: bend from assist, excitement: 0.76, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 71, event: NEAR MISS, player: Cody Gakpo, method: nodded, six-yard, excitement: 0.74, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+    [line 80, event: NEAR MISS, player: Harvey Elliott, excitement: 0.64, buildup_length: 3 lines, narrative_context: "gradual build-up"]
+    [line 87, event: NEAR MISS, player: Trent Alexander-Arnold, method: tuck, excitement: 0.73, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 97, event: NEAR MISS, player: Dominik Szoboszlai, method: 25 yards, excitement: 0.58, buildup_length: 4 lines, narrative_context: "gradual build-up"]
+    [line 106, event: GOAL, player: Diogo Jota, excitement: 1.00, buildup_length: 4 lines, narrative_context: "sustained late pressure"]

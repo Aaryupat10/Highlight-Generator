@@ -204,3 +204,72 @@ Cluster ids (c0, c1...) are local to each block of lines.
         c4: Foden (81) | he (81) | his (81) | his striker's (81) | Foden's (83)
         c5: the cross (81) | it (81) | IT (83)
         c6: Haaland (81) | Haaland (83)
+
+  84  [It|c4] sits up nicely for [Rodri|c5] to hit, and [he|c5] coolly smashes home to make it 3-0 to [the visitors|c6] and surely end any hopes of a Clarets comeback.
+  85  With [the result|c7] surely beyond doubt, it appears [Guardiola|c8] will look to shake [it|c7] up by making substitutes.
+  86  [Guardiola|c8] does indeed make changes, first bringing on [Gvardiol|c9] for [his|c9] [City|c0] debut as Lewis makes way.
+  87  Ake is replaced by Laporte.
+        c0: City (80, context) | they (80, context) | their (80, context) | City (83, context) | they (83, context) | their (83, context) | City (86)
+        c4: Foden's set-piece delivery (83, context) | It (84)
+        c5: RODRI (83, context) | Rodri (84) | he (84)
+        c6: Burnley (83, context) | the visitors (84)
+        c7: the result (85) | it (85)
+        c8: Guardiola (85) | Guardiola (86)
+        c9: Gvardiol (86) | his (86)
+
+  88  [Haaland|c4] will not get a hat-trick to start the season as [his|c4] outing is over.
+  89  Palmer is on in [his|c4] place.
+  90  [Burnley|c5] lost just one home league game in 2022-23 (W16 D6), going down 2-1 against QPR in April.
+  91  However, as a Premier League side [they|c5] have lost five of [their|c5] last eight at Turf Moor, and [they|c5] look on course for another defeat here.
+        c4: Haaland (88) | his (88) | his (89)
+        c5: Burnley (90) | they (91) | their (91) | they (91)
+
+  92  [Alvarez|c2] [stings|c3] the palms of Trafford with a fierce drive, though [the goalkeeper|c2] deals with [it|c3] well.
+  93  [Rodri's|c4] strike has capped an excellent performance, pulling the strings for [the Citizens|c1] with an assist and a goal while leading [[his|c4] team|c1] in final third entries (14) and touches (88).
+  94  [The fourth official|c5] puts up [his|c5] board and indicates there will be six minutes of additional time at the end of this game.
+  95  Berge makes way for Brownhill.
+        c1: Burnley (90, context) | they (91, context) | their (91, context) | they (91, context) | the Citizens (93) | his team (93)
+        c2: Alvarez (92) | the goalkeeper (92)
+        c3: stings (92) | it (92)
+        c4: Rodri's (93) | his (93)
+        c5: The fourth official (94) | his (94)
+
+  96  Redmond enters the fray for Foster.
+  97  [Zaroury|c5] brings down [Walker|c6] with a sliding challenge, receiving the first yellow of the contest.
+  98  However, [VAR|c7] is checking for [a potential red card|c9], and [Zaroury|c5] may be in further trouble...
+  99  [ZAROURY|c5] IS SENT OFF!!! The replays show [the substitute's|c5] right foot [catches|c8] [Walker|c6] high on [his|c6] left leg, and a [VAR|c7] review rules [the tackle|c8] is worthy of [a red card|c9].
+        c5: Zaroury (97) | Zaroury (98) | ZAROURY (99) | the substitute's (99)
+        c6: Walker (97) | Walker (99) | his (99)
+        c7: VAR (98) | VAR (99)
+        c8: catches (99) | the tackle (99)
+        c9: a potential red card (98) | a red card (99)
+
+ 100  [Burnley|c5] are down to 10 men!
+ 101  [Walker, just involved in the incident that saw [Zaroury|c0] given [his|c0] marching orders|c1], makes way for McAtee.
+ 102  FULL-TIME: [BURNLEY|c5] 0-3 MANCHESTER CITY
+ 103  City's Premier League title defence is off to a winning start as [they|c5] claim a comfortable 3-0 triumph over [newly promoted Burnley|c5] at Turf Moor.
+        c0: Zaroury (97, context) | Zaroury (98, context) | ZAROURY (99, context) | Zaroury (101) | his (101)
+        c1: Walker (97, context) | the substitute's (99, context) | Walker (99, context) | his (99, context) | Walker, just involved in the incident that saw Zaroury given his marching orders (101)
+        c5: Burnley (100) | BURNLEY (102) | they (103) | newly promoted Burnley (103)
+
+ 104  [They|c2] were set on [their|c2] way to victory just four minutes in, Haaland thumping home [Rodri's|c3] neat assist before [the prolific striker|c3] made it 2-0 before the break with a sublime curling finish.
+ 105  It was a long way back for [the Clarets|c1], and any hopes of an unlikely turnaround were ended 15 minutes from time when [Rodri|c3] smashed into the back of the net after a free-kick caused havoc in the [Burnley|c1] penalty area.
+ 106  Things got even worse for [the hosts|c1] in the dying seconds as [Zaroury|c0] initially received a yellow card for [a foul on [Walker|c4]|c5], only for a VAR review to adjudge [the tackle|c5] to be worthy of a sending-off as [City|c2] run out easy victors.
+ 107  The first [Premier League|c6] game of the season goes the way of [the champions|c1], moving [them|c1] top of [the league|c6] ahead of the rest of the opening round of fixtures this weekend.
+        c0: Zaroury (101, context) | his (101, context) | Zaroury (106)
+        c1: Burnley (100, context) | BURNLEY (102, context) | newly promoted Burnley (103, context) | the Clarets (105) | Burnley (105) | the hosts (106) | the champions (107) | them (107)
+        c2: MANCHESTER CITY (102, context) | City's (103, context) | they (103, context) | They (104) | their (104) | City (106)
+        c3: Rodri's (104) | the prolific striker (104) | Rodri (105)
+        c4: Walker, just involved in the incident that saw Zaroury given his marching orders (101, context) | Walker (106)
+        c5: a foul on Walker (106) | the tackle (106)
+        c6: Premier League (103, context) | Premier League (107) | the league (107)
+
+ 108  That is a position [they|c0] will attempt not to relinquish in [their|c0] bid for a sixth league title in seven seasons.
+ 109  For [Kompany and [Burnley|c4]|c5], [they|c5] will be encouraged by a decent performance, if not the result, in [a fixture that will be one of the hardest [they|c5] play all season|c6].
+ 110  Thanks for joining us for live coverage of [Manchester City's|c0] 3-0 [Premier League|c3] victory over [Burnley|c4] at Turf Moor.
+ 111  Goodbye!
+        c0: They (104, context) | their (104, context) | the Clarets (105, context) | the hosts (106, context) | City (106, context) | the champions (107, context) | them (107, context) | they (108) | their (108) | Manchester City's (110)
+        c3: Premier League (107, context) | the league (107, context) | Premier League (110)
+        c4: Burnley (105, context) | Burnley (109) | Burnley (110)
+        c5: Kompany and Burnley (109) | they (109) | they (109)
+        c6: The first Premier League game of the season (107, context) | a fixture that will be one of the hardest they play all season (109)

@@ -181,3 +181,10 @@ cython_debug/
 .cursorindexingignore
 outputs/embeddings/
 outputs/pipeline_logs/
+outputs/coref/baseline_fcoref_*
+outputs/coref/resolved_A_*
+outputs/coref/*.txt
+outputs/events/*.csv
+outputs/events/*.txt
+outputs/labels/
+outputs/highlights_weak/

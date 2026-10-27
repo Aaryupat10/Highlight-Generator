@@ -1,0 +1,32 @@
+Match 93471: 9 highlights
+
+Ranked by excitement:
+ 1. [line 83, event: GOAL, player: Ethan Pinnock, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "Since scoring the second goal, though, they've slightly taken their foot off the gas."
+ 2. [line 65, event: GOAL, player: Neal Maupay, method: from close from cross, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "THE BEES LEAD! Following a cross from the left by Wissa, which is flicked on by Mee, the ball falls to Maupay deep inside Luton's area, and the French striker turns the ball home from close range! He finds the bottom-left corner, and that's 1-0 to Brentford! They've started the second half in style!"
+ 3. [line 104, event: GOAL, player: Tahith Chong, method: headed, excitement: 0.99, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]
+      "CLOSE! Barkley's free-kick from near the left byline is headed away by the first defender, then a ball in from Townsend on the right is flicked home by Chong's deft header."
+ 4. [line 90, event: GOAL, player: Thomas Kaminski, method: slots, excitement: 0.96, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "LUTON ARE BACK IN IT! A slip from Janelt on the edge of Brentford's area opens the door for Luton - and Brown strides right through! With the visitors' first strike on target, the substitute slots his shot into the bottom corner, and it's now just 2-1 to the Bees - game on!"
+ 5. [line 97, event: GOAL, player: Thomas Kaminski, method: from rebound, excitement: 0.84, buildup_length: 5 lines, narrative_context: "gradual late build-up"]
+      "THE BEES EXTEND THEIR LEAD! Twice, Lewis-Potter is denied - first by a block, then Kaminski's smart save - but Baptiste latches on to the loose ball, dribbles into the centre of Luton's area and then finds the back of the net with a powerful drive! It's 3-1 to Brentford, and surely that strike wraps up all three points!"
+ 6. [line 37, event: NEAR MISS, player: Yehor Yarmoliuk, method: from assist, excitement: 0.78, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "WIDE! The first serious shot at goal finally arrives, as Yarmoliuk thumps a deflected effort wide of the left-hand post following Janelt's cutback."
+ 7. [line 48, event: NEAR MISS, player: Thomas Kaminski, method: from assist, excitement: 0.72, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+      "A mazy out-to-in run by Wissa ends with a rather tame shot at goal from just outside Luton's area, allowing Kaminski to make a simple save in the centre of his goal."
+ 8. [line 110, event: NEAR MISS, player: Neto, method: from assist, excitement: 0.67, buildup_length: 2 lines, narrative_context: "gradual late build-up"]
+      "MISS! After Janelt's cutback is struck goalward by Onyeka then bounces out to Lewis-Potter, at the second attempt, the substitute striker prods a shot over the crossbar from close range! He was under some pressure, but that's a decent chance spurned."
+ 9. [line 71, event: NEAR MISS, player: Ben Mee, method: header from assist, excitement: 0.56, buildup_length: 3 lines, narrative_context: "gradual build-up"]
+      "Mee rises highest in the area, meeting Mbeumo's outswinging delivery, and the defender's deflected header leaves Kaminski helpless: suddenly, it's 2-0!!"
+
+In match order:
+    [line 37, event: NEAR MISS, player: Yehor Yarmoliuk, method: from assist, excitement: 0.78, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 48, event: NEAR MISS, player: Thomas Kaminski, method: from assist, excitement: 0.72, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+    [line 65, event: GOAL, player: Neal Maupay, method: from close from cross, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 71, event: NEAR MISS, player: Ben Mee, method: header from assist, excitement: 0.56, buildup_length: 3 lines, narrative_context: "gradual build-up"]
+    [line 83, event: GOAL, player: Ethan Pinnock, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 90, event: GOAL, player: Thomas Kaminski, method: slots, excitement: 0.96, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 97, event: GOAL, player: Thomas Kaminski, method: from rebound, excitement: 0.84, buildup_length: 5 lines, narrative_context: "gradual late build-up"]
+    [line 104, event: GOAL, player: Tahith Chong, method: headed, excitement: 0.99, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]
+    [line 110, event: NEAR MISS, player: Neto, method: from assist, excitement: 0.67, buildup_length: 2 lines, narrative_context: "gradual late build-up"]

@@ -1,0 +1,41 @@
+Match 93450: 12 highlights
+
+Ranked by excitement:
+ 1. [line 157, event: GOAL, player: Cameron Archer, method: crashes from rebound, excitement: 1.00, buildup_length: 4 lines, narrative_context: "gradual build-up"]
+      "GOALLL! WHAT A STRIKE FROM ARCHER! 1-0 UNITED! What a moment for the hosts! Toti tries to clear the ball away but pokes the ball against McAtee."
+ 2. [line 185, event: GOAL, player: Maximilian Kilman, method: curling, excitement: 1.00, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "GOALLLLL! WOLVES SCORE! 1-1! United fail to clear the ball away inside the box."
+ 3. [line 190, event: GOAL, player: Gustavo Hamer, method: right foot, excitement: 1.00, buildup_length: 4 lines, narrative_context: "gradual build-up"]
+      "United wanted to take Hamer off before Wolves scored the equalizer."
+ 4. [line 214, event: GOAL, player: Cameron Archer, method: header, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]
+      "He rushed away from a few defenders and blasted his shot off the bar and into the net."
+ 5. [line 205, event: GOAL, player: Oliver Norwood, method: blasts, spot-kick, excitement: 1.00, buildup_length: 7 lines, narrative_context: "late moment after a scrappy spell"]
+      "Norwood is over the spot-kick and blasts his penalty off the bar and into the net."
+ 6. [line 166, event: GOAL, player: Mario Lemina, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "Lemina does brilliantly well to turn past Norwood and bursts into United's half."
+ 7. [line 101, event: FOUL, player: Rhian Brewster, excitement: 0.84, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "Brewster thought he should have had a penalty moments before after a tackle from Toti and was taking his frustrations out."
+ 8. [line 78, event: NEAR MISS, player: Maximilian Kilman, excitement: 0.77, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "WIDE! What an opportunity for Wolves to take the lead."
+ 9. [line 45, event: NEAR MISS, player: Matz Sels, method: first-time, excitement: 0.75, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+      "The Portugal international then slices a first-time effort high and wide of the target."
+10. [line 95, event: NEAR MISS, player: Jose Sa, excitement: 0.73, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "CHANCE! Wolves squander another chance to shoot."
+11. [line 197, event: NEAR MISS, method: curls from cross, excitement: 0.73, buildup_length: 6 lines, narrative_context: "sustained late pressure"]
+      "Bogle rushes around a defender but heads it wide from a tight angle."
+12. [line 220, event: NEAR MISS, player: Oliver Norwood, method: spot-kick, excitement: 0.73, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]
+      "Captain Norwood took responsibility and crashed his spot-kick off the bar and in."
+
+In match order:
+    [line 45, event: NEAR MISS, player: Matz Sels, method: first-time, excitement: 0.75, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+    [line 78, event: NEAR MISS, player: Maximilian Kilman, excitement: 0.77, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 95, event: NEAR MISS, player: Jose Sa, excitement: 0.73, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 101, event: FOUL, player: Rhian Brewster, excitement: 0.84, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 157, event: GOAL, player: Cameron Archer, method: crashes from rebound, excitement: 1.00, buildup_length: 4 lines, narrative_context: "gradual build-up"]
+    [line 166, event: GOAL, player: Mario Lemina, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 185, event: GOAL, player: Maximilian Kilman, method: curling, excitement: 1.00, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 190, event: GOAL, player: Gustavo Hamer, method: right foot, excitement: 1.00, buildup_length: 4 lines, narrative_context: "gradual build-up"]
+    [line 197, event: NEAR MISS, method: curls from cross, excitement: 0.73, buildup_length: 6 lines, narrative_context: "sustained late pressure"]
+    [line 205, event: GOAL, player: Oliver Norwood, method: blasts, spot-kick, excitement: 1.00, buildup_length: 7 lines, narrative_context: "late moment after a scrappy spell"]
+    [line 214, event: GOAL, player: Cameron Archer, method: header, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]
+    [line 220, event: NEAR MISS, player: Oliver Norwood, method: spot-kick, excitement: 0.73, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]

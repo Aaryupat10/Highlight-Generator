@@ -1,0 +1,32 @@
+Match 93551: 9 highlights
+
+Ranked by excitement:
+ 1. [line 36, event: GOAL, player: Rodrigo Muniz, method: coolly, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "FULHAM STRIKE AGAIN! Rodrigo Muniz pounces this time, putting the visitors 2-0 up! Trafford is stranded, having edged forward off his line, and the Brazilian striker receives Robinson's pass before coolly lofting the ball over Burnley's goalkeeper and into the net! What a start from the Cottagers, who are on course for a first win at Turf Moor for more than 70 years!"
+ 2. [line 111, event: GOAL, player: David Datro Fofana, method: from cross, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]
+      "FOFANA SAVES THE DAY! Burnley draw level at the death! In the first of five added minutes for stoppages, Fofana slides home a low Odobert cross from the left! The substitute beats Ream to the ball and bundles it into the net from close range - what an impact by the Chelsea loanee! He makes it 2-2 at Turf Moor, where Fulham's long wait for a win will surely go on!"
+ 3. [line 45, event: GOAL, player: Ryan Christie, method: from assist, excitement: 0.99, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "Fulham's six January fixtures across the Premier League, FA Cup and EFL Cup saw Marco Silva's men only manage to find the net on three occasions - today, they've already scored two and look likely to add more."
+ 4. [line 91, event: GOAL, method: calmly, excitement: 0.99, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+      "BURNLEY ARE BACK IN IT! Out of nowhere, Fofana finds a goal to reduce the Clarets' arrears: it's just 2-1 to Fulham! On the break, Assignon picks out his fellow new boy in the box with a lofted pass, and as Leno is left stranded, the Chelsea loanee calmly guides home a header!"
+ 5. [line 80, event: GOAL, player: James Trafford, method: header, thumping, excitement: 0.95, buildup_length: 5 lines, narrative_context: "sustained pressure"]
+      "SUPER STOP! Trafford to the rescue again! This time, the Burnley goalkeeper reaches up to push a thumping header by Tosin towards the top of his goal! The Fulham defender rose highest and met Andreas Pereira's corner, but couldn't quite find the net!"
+ 6. [line 99, event: NEAR MISS, player: Timothy Castagne, method: glances, excitement: 0.75, buildup_length: 3 lines, narrative_context: "gradual build-up"]
+      "The latest Andreas Pereira cross almost finds Broja in the box, but Castagne instead meets it first and glances his header well wide of the target."
+ 7. [line 26, event: NEAR MISS, player: Sander Berge, method: from assist, excitement: 0.73, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+      "Berge covers across well to deny De Cordova-Reid a clear run through on goal, following an incisive low pass by Rodrigo Muniz."
+ 8. [line 52, event: NEAR MISS, player: Wilson Odobert, method: from assist, excitement: 0.70, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+      "CLOSE! Burnley are growing in confidence now! At the end of a long passing sequence inside Fulham's half, Odobert bundles his way through two challenges and fires wide from just inside the box! It zipped only inches past the right-hand post!"
+ 9. [line 60, event: CARD, player: Andreas Pereira, excitement: 0.52, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "For a clear show of dissent towards the referee, Andreas Pereira is needlessly booked on the brink of half-time."
+
+In match order:
+    [line 26, event: NEAR MISS, player: Sander Berge, method: from assist, excitement: 0.73, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+    [line 36, event: GOAL, player: Rodrigo Muniz, method: coolly, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 45, event: GOAL, player: Ryan Christie, method: from assist, excitement: 0.99, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 52, event: NEAR MISS, player: Wilson Odobert, method: from assist, excitement: 0.70, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+    [line 60, event: CARD, player: Andreas Pereira, excitement: 0.52, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 80, event: GOAL, player: James Trafford, method: header, thumping, excitement: 0.95, buildup_length: 5 lines, narrative_context: "sustained pressure"]
+    [line 91, event: GOAL, method: calmly, excitement: 0.99, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+    [line 99, event: NEAR MISS, player: Timothy Castagne, method: glances, excitement: 0.75, buildup_length: 3 lines, narrative_context: "gradual build-up"]
+    [line 111, event: GOAL, player: David Datro Fofana, method: from cross, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]

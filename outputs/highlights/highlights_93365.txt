@@ -1,0 +1,35 @@
+Match 93365: 10 highlights
+
+Ranked by excitement:
+ 1. [line 146, event: GOAL, player: Nicolas Jackson, method: six-yard, excitement: 1.00, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+      "GOAAAAAAAALLL! JACKSON IS OFF THE MARK! 3-0! This is more like it from Chelsea! Fernandez juggles the ball in midfield before finding Sterling with a long pass forward."
+ 2. [line 47, event: GOAL, player: Cole Palmer, excitement: 1.00, buildup_length: 6 lines, narrative_context: "gradual build-up"]
+      "A brilliant solo goal puts Chelsea 1-0 up!"
+ 3. [line 133, event: GOAL, player: Raheem Sterling, excitement: 1.00, buildup_length: 5 lines, narrative_context: "sustained pressure"]
+      "GOAAAAAAAAAALLL! IT'S TWO FOR STERLING, AND TWO FOR CHELSEA! The Blues have some daylight through a well-worked goal! Chelsea cause problems down the right once again, with Caicedo recycling possession to Gusto, whose cutback is swept home by Sterling from eight yards out."
+ 4. [line 165, event: GOAL, method: side-foot, excitement: 0.99, buildup_length: 3 lines, narrative_context: "sustained late pressure"]
+      "That was a decent chance to pull one back."
+ 5. [line 117, event: NEAR MISS, player: Enzo Fernandez, method: low cross, excitement: 0.74, buildup_length: 1 line, narrative_context: "moment after a near miss"]
+      "He looks for Fernandez with a low cross to the far post, and the Argentine clips the woodwork from a narrow angle! Chelsea are getting closer."
+ 6. [line 141, event: NEAR MISS, excitement: 0.73, buildup_length: 3 lines, narrative_context: "gradual build-up"]
+      "Wide! Fernandez whips his effort up and over the wall, but it drops just wide of the left-hand post."
+ 7. [line 109, event: NEAR MISS, player: Ben Chilwell, method: from corner, excitement: 0.67, buildup_length: 2 lines, narrative_context: "moment after a near miss"]
+      "Save! Chelsea's corner is cleared, but the second delivery finds Jackson spinning in behind the Luton defence."
+ 8. [line 40, event: NEAR MISS, player: Neto, method: left-footed, excitement: 0.55, buildup_length: 3 lines, narrative_context: "sustained pressure"]
+      "The left wing-back lays the ball off to Fernandez, who lifts a left-footed shot just over the crossbar."
+ 9. [line 20, event: NEAR MISS, player: Nicolas Jackson, method: first time, excitement: 0.55, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+      "Luton then come forward for the first time and win a deep free-kick, which Sanchez punches clear."
+10. [line 158, event: NEAR MISS, player: Conor Gallagher, excitement: 0.52, buildup_length: 0 lines, narrative_context: "sudden late moment with little build-up"]
+      "Chelsea clear their lines but the Hatters penalty them back, with Morris eventually seeing a shot on the turn deflect wide for a corner."
+
+In match order:
+    [line 20, event: NEAR MISS, player: Nicolas Jackson, method: first time, excitement: 0.55, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+    [line 40, event: NEAR MISS, player: Neto, method: left-footed, excitement: 0.55, buildup_length: 3 lines, narrative_context: "sustained pressure"]
+    [line 47, event: GOAL, player: Cole Palmer, excitement: 1.00, buildup_length: 6 lines, narrative_context: "gradual build-up"]
+    [line 109, event: NEAR MISS, player: Ben Chilwell, method: from corner, excitement: 0.67, buildup_length: 2 lines, narrative_context: "moment after a near miss"]
+    [line 117, event: NEAR MISS, player: Enzo Fernandez, method: low cross, excitement: 0.74, buildup_length: 1 line, narrative_context: "moment after a near miss"]
+    [line 133, event: GOAL, player: Raheem Sterling, excitement: 1.00, buildup_length: 5 lines, narrative_context: "sustained pressure"]
+    [line 141, event: NEAR MISS, excitement: 0.73, buildup_length: 3 lines, narrative_context: "gradual build-up"]
+    [line 146, event: GOAL, player: Nicolas Jackson, method: six-yard, excitement: 1.00, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+    [line 158, event: NEAR MISS, player: Conor Gallagher, excitement: 0.52, buildup_length: 0 lines, narrative_context: "sudden late moment with little build-up"]
+    [line 165, event: GOAL, method: side-foot, excitement: 0.99, buildup_length: 3 lines, narrative_context: "sustained late pressure"]

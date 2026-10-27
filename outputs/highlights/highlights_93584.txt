@@ -1,0 +1,38 @@
+Match 93584: 11 highlights
+
+Ranked by excitement:
+ 1. [line 42, event: GOAL, player: Phil Foden, method: scooped, excitement: 0.99, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "FODEN SCORES! City's pressure finally pays off! It's a lovely scooped pass from Kovacic to Haaland, and Senesi is caught on the wrong side of the forward."
+ 2. [line 69, event: NEAR MISS, player: Ederson, method: first-time, excitement: 0.81, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "GOOD SAVE! Cook threads it into Solanke, who holds off Dias long enough to cushion the ball into Christie's path."
+ 3. [line 84, event: NEAR MISS, method: from range, excitement: 0.78, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "SAVE! Kerkez strays infield this time and squares it to Kluivert."
+ 4. [line 113, event: NEAR MISS, player: Illia Zabarnyi, excitement: 0.77, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "GREAT SAVE! Zabarnyi is sliding in to stop it from reaching Haaland, but he inadvertently helps it onto his toe."
+ 5. [line 132, event: NEAR MISS, method: nods, excitement: 0.76, buildup_length: 2 lines, narrative_context: "late moment after a near miss"]
+      "It skims the post on its way wide, and that was the chance!"
+ 6. [line 24, event: NEAR MISS, player: Phil Foden, excitement: 0.73, buildup_length: 2 lines, narrative_context: "gradual early build-up"]
+      "WIDE! Ake goals long and Foden flicks a wonderful pass into Haaland's feet on the edge of the D."
+ 7. [line 102, event: NEAR MISS, player: Neto, method: header from assist, excitement: 0.72, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "GREAT SAVE! It's a great delivery from Christie on the corner, and Solanke gets away from his marker to thump a header on goal from the far post."
+ 8. [line 94, event: NEAR MISS, player: Dominic Solanke, excitement: 0.69, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "CHANCE! Solanke is picked out from a throw-in, and he does well to hold off Dias."
+ 9. [line 59, event: NEAR MISS, player: Phil Foden, method: curls, excitement: 0.69, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "He gets his shot up and over the wall, but it curls wide of the far top corner."
+10. [line 36, event: NEAR MISS, player: Bernardo Silva, method: from assist, excitement: 0.65, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "Silva finds himself in a tight spot in the corner, but he turns away from his marker long enough to pick out Foden on the edge of the box."
+11. [line 124, event: NEAR MISS, player: Dango Ouattara, excitement: 0.61, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]
+      "CLOSE! Ouattara slides in with a brilliant tackle on Rodri and plays a one-two with Christie."
+
+In match order:
+    [line 24, event: NEAR MISS, player: Phil Foden, excitement: 0.73, buildup_length: 2 lines, narrative_context: "gradual early build-up"]
+    [line 36, event: NEAR MISS, player: Bernardo Silva, method: from assist, excitement: 0.65, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 42, event: GOAL, player: Phil Foden, method: scooped, excitement: 0.99, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 59, event: NEAR MISS, player: Phil Foden, method: curls, excitement: 0.69, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 69, event: NEAR MISS, player: Ederson, method: first-time, excitement: 0.81, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 84, event: NEAR MISS, method: from range, excitement: 0.78, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 94, event: NEAR MISS, player: Dominic Solanke, excitement: 0.69, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 102, event: NEAR MISS, player: Neto, method: header from assist, excitement: 0.72, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 113, event: NEAR MISS, player: Illia Zabarnyi, excitement: 0.77, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 124, event: NEAR MISS, player: Dango Ouattara, excitement: 0.61, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]
+    [line 132, event: NEAR MISS, method: nods, excitement: 0.76, buildup_length: 2 lines, narrative_context: "late moment after a near miss"]

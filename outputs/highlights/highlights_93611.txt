@@ -1,0 +1,41 @@
+Match 93611: 12 highlights
+
+Ranked by excitement:
+ 1. [line 126, event: GOAL, player: Kristoffer Ajer, method: from cross, excitement: 1.00, buildup_length: 3 lines, narrative_context: "moment after a scrappy spell"]
+      "GOOOOOALLLL! Brentford back in it and it is 2-1."
+ 2. [line 105, event: GOAL, player: David Datro Fofana, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "GOOOOOALLLL! Fofana makes no mistake this time, and it is 2-0 to Burnley."
+ 3. [line 31, event: GOAL, player: Jacob Bruun Larsen, method: from the penalty spot, excitement: 0.99, buildup_length: 3 lines, narrative_context: "moment after a scrappy spell"]
+      "GOOOOOALLLL! Bruun Larsen stays calm and finds the left corner from the penalty spot."
+ 4. [line 39, event: NEAR MISS, player: Matt Turner, method: from assist, excitement: 0.78, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "CHANCE! Brentford's first decent chance as Jensen sends in a set piece from the right, which finds Toney, but the striker can only send his header wide from 15 yards."
+ 5. [line 60, event: GOAL, player: Bukayo Saka, excitement: 0.77, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "HUGE MISS! Shocker of a miss that from Fofana and it comes just a week after his brilliant strike against West Ham."
+ 6. [line 144, event: NEAR MISS, player: Ivan Toney, excitement: 0.74, buildup_length: 2 lines, narrative_context: "gradual late build-up"]
+      "MASSIVE MOMENT! GOAL RULED OUT! A high ball comes sailing into the back post from Baptiste."
+ 7. [line 66, event: NEAR MISS, player: Arijanet Muric, excitement: 0.73, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "BIG CHANCE! Brentford this time with a massive chance."
+ 8. [line 91, event: NEAR MISS, excitement: 0.73, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "SAVE! Burnley at it again! Taylor plays a lovely ball into the box from the left off a free-kick and tries to find a red shirt."
+ 9. [line 137, event: NEAR MISS, player: Jose Sa, excitement: 0.67, buildup_length: 2 lines, narrative_context: "late moment after a scrappy spell"]
+      "CHANCE! Odobert gets in behind Collins and in on goal."
+10. [line 44, event: NEAR MISS, player: Arijanet Muric, excitement: 0.58, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "DOUBLE SAVE! O'Shea shockingly fluffs a pass to his keeper and Muric runs back to clear the ball off the goal line."
+11. [line 149, event: NEAR MISS, excitement: 0.58, buildup_length: 4 lines, narrative_context: "sustained late pressure"]
+      "Deja vu? That disallowed Brentford goal suggests maybe not."
+12. [line 117, event: NEAR MISS, method: header, excitement: 0.53, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "A cross finds Amdouni but his header does not have much power and it is an easy save for Flekken."
+
+In match order:
+    [line 31, event: GOAL, player: Jacob Bruun Larsen, method: from the penalty spot, excitement: 0.99, buildup_length: 3 lines, narrative_context: "moment after a scrappy spell"]
+    [line 39, event: NEAR MISS, player: Matt Turner, method: from assist, excitement: 0.78, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 44, event: NEAR MISS, player: Arijanet Muric, excitement: 0.58, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 60, event: GOAL, player: Bukayo Saka, excitement: 0.77, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 66, event: NEAR MISS, player: Arijanet Muric, excitement: 0.73, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 91, event: NEAR MISS, excitement: 0.73, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 105, event: GOAL, player: David Datro Fofana, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 117, event: NEAR MISS, method: header, excitement: 0.53, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 126, event: GOAL, player: Kristoffer Ajer, method: from cross, excitement: 1.00, buildup_length: 3 lines, narrative_context: "moment after a scrappy spell"]
+    [line 137, event: NEAR MISS, player: Jose Sa, excitement: 0.67, buildup_length: 2 lines, narrative_context: "late moment after a scrappy spell"]
+    [line 144, event: NEAR MISS, player: Ivan Toney, excitement: 0.74, buildup_length: 2 lines, narrative_context: "gradual late build-up"]
+    [line 149, event: NEAR MISS, excitement: 0.58, buildup_length: 4 lines, narrative_context: "sustained late pressure"]

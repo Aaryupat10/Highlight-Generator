@@ -1,0 +1,29 @@
+Match 93634: 8 highlights
+
+Ranked by excitement:
+ 1. [line 62, event: GOAL, player: Jacob Bruun Larsen, method: volley, excitement: 1.00, buildup_length: 5 lines, narrative_context: "sustained pressure"]
+      "GOAAAL! BURNLEY LEAD 1-0! It started with the goalkeeper and it ended with Bruun Larsen stoking a fantastic volley into the bottom corner."
+ 2. [line 128, event: GOAL, player: Jay Rodriguez, method: from rebound, excitement: 0.99, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]
+      "Rodriguez has the ball in the back of the net after directing Odobert's shot onto the post then hitting the rebound in."
+ 3. [line 75, event: GOAL, excitement: 0.99, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "He has been so important for Wolves recently and he continues to be so as he makes it 1-1."
+ 4. [line 49, event: NEAR MISS, player: Jose Sa, method: header from assist, excitement: 0.81, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "WOW! WHAT A CHANCE! Doherty sneaks round the back post to send Sarabia's corner back across goal to Gomes but the Brazilian flicks his header wide."
+ 5. [line 97, event: NEAR MISS, player: Arijanet Muric, excitement: 0.77, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "A HUGE SAVE FROM MURIC! Ait-Nouri gets himself one-on-one and the Wolves goalscorer is met by Muric who has made himself big to deny him."
+ 6. [line 28, event: NEAR MISS, player: Jose Sa, method: from free_kick, excitement: 0.70, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+      "Sa is scurrying off his line again to deny Burnley a corner after Odobert's deflected shot was slowly bobbling out of play before the Portuguese slapped it out for a throw-in."
+ 7. [line 102, event: NEAR MISS, player: Jacob Bruun Larsen, method: from counter_attack, excitement: 0.66, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+      "BRUUN LARSEN IS DENIED! Burnley work the ball well and Vitinho cuts the ball back to Bruun Larsen who hits a good strike but Sa sticks out a leg to deny him."
+ 8. [line 135, event: CARD, excitement: 0.50, buildup_length: 0 lines, narrative_context: "sudden late moment with little build-up"]
+      "Yellow card, there was no intent to get the ball there really."
+
+In match order:
+    [line 28, event: NEAR MISS, player: Jose Sa, method: from free_kick, excitement: 0.70, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+    [line 49, event: NEAR MISS, player: Jose Sa, method: header from assist, excitement: 0.81, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 62, event: GOAL, player: Jacob Bruun Larsen, method: volley, excitement: 1.00, buildup_length: 5 lines, narrative_context: "sustained pressure"]
+    [line 75, event: GOAL, excitement: 0.99, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 97, event: NEAR MISS, player: Arijanet Muric, excitement: 0.77, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 102, event: NEAR MISS, player: Jacob Bruun Larsen, method: from counter_attack, excitement: 0.66, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+    [line 128, event: GOAL, player: Jay Rodriguez, method: from rebound, excitement: 0.99, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]
+    [line 135, event: CARD, excitement: 0.50, buildup_length: 0 lines, narrative_context: "sudden late moment with little build-up"]

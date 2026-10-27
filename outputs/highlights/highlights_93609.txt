@@ -1,0 +1,26 @@
+Match 93609: 7 highlights
+
+Ranked by excitement:
+ 1. [line 147, event: GOAL, player: Cauley Woodrow, method: powerful, excitement: 1.00, buildup_length: 6 lines, narrative_context: "sustained late pressure"]
+      "GOOOAAAAALLLL!! 1-1!! LUTON EQUALISE! The Hatters throw everything forward and Townsend gets the ball out of his feet on the right-hand side before delivering a dangerous ball into the penalty area."
+ 2. [line 33, event: GOAL, player: Jean-Philippe Mateta, method: from assist, excitement: 1.00, buildup_length: 2 lines, narrative_context: "gradual early build-up"]
+      "GOOOOOAAAAAALLLL!!! 1-0 PALACE!! Doughty looks to pass the ball back to his goalkeeper, but he doesn't get enough on it and Munoz races through on goal."
+ 3. [line 71, event: GOAL, player: Jean-Philippe Mateta, excitement: 0.98, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+      "He takes it past Kaminski and looks to chip it back towards goal, but he fails to hit the target! He has to be scoring from there!"
+ 4. [line 119, event: NEAR MISS, player: Thomas Kaminski, method: volley, excitement: 0.75, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "Huge chance for Palace! Eze feeds the ball to Mitchell inside the penalty area and he stands up his marker before creating space for a cross."
+ 5. [line 90, event: NEAR MISS, player: Eberechi Eze, excitement: 0.67, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "What a chance! Wharton finds Eze on the left-hand side and he delivers into the penalty area."
+ 6. [line 133, event: NEAR MISS, player: Alfie Doughty, method: ambitious, excitement: 0.65, buildup_length: 2 lines, narrative_context: "gradual late build-up"]
+      "Luton hit the bar! Doughty's cross into the penalty area looks as though it's heading out for a goal-kick, but Ogbene does superbly to help it back into the danger zone."
+ 7. [line 111, event: NEAR MISS, player: Sam Johnstone, excitement: 0.58, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "Morris gets there first and heads towards goal, but it's straight at Johnstone and the Palace goalkeeper makes a comfortable save."
+
+In match order:
+    [line 33, event: GOAL, player: Jean-Philippe Mateta, method: from assist, excitement: 1.00, buildup_length: 2 lines, narrative_context: "gradual early build-up"]
+    [line 71, event: GOAL, player: Jean-Philippe Mateta, excitement: 0.98, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+    [line 90, event: NEAR MISS, player: Eberechi Eze, excitement: 0.67, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 111, event: NEAR MISS, player: Sam Johnstone, excitement: 0.58, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 119, event: NEAR MISS, player: Thomas Kaminski, method: volley, excitement: 0.75, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 133, event: NEAR MISS, player: Alfie Doughty, method: ambitious, excitement: 0.65, buildup_length: 2 lines, narrative_context: "gradual late build-up"]
+    [line 147, event: GOAL, player: Cauley Woodrow, method: powerful, excitement: 1.00, buildup_length: 6 lines, narrative_context: "sustained late pressure"]

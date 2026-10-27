@@ -1,0 +1,13 @@
+﻿rank,match_id,line_no,start_line,end_line,time,event,event_prob,event_stage4,player,player_source,player_model,method,excitement,buildup_length,narrative_context,text
+1,93611,126,123,129,,goal,0.9999970197677612,goal,Kristoffer Ajer,stage4,<other>,from cross,0.9998,3,moment after a scrappy spell,GOOOOOALLLL! Brentford back in it and it is 2-1.
+2,93611,105,104,107,,goal,0.9999873638153076,goal,David Datro Fofana,stage4,<other>,,0.9996,1,sudden moment with little build-up,"GOOOOOALLLL! Fofana makes no mistake this time, and it is 2-0 to Burnley."
+3,93611,31,28,31,,goal,0.9975515604019165,goal,Jacob Bruun Larsen,stage4,Jacob Bruun Larsen,from the penalty spot,0.9947,3,moment after a scrappy spell,GOOOOOALLLL! Bruun Larsen stays calm and finds the left corner from the penalty spot.
+4,93611,39,38,40,,near_miss,0.9999978542327881,near_miss,Matt Turner,head_c,Matt Turner,from assist,0.7764,1,sudden moment with little build-up,"CHANCE! Brentford's first decent chance as Jensen sends in a set piece from the right, which finds Toney, but the striker can only send his header wide from 15 yards."
+5,93611,60,58,61,,goal,0.7025213837623596,near_miss,Bukayo Saka,head_c,Bukayo Saka,,0.7688,2,gradual build-up,HUGE MISS! Shocker of a miss that from Fofana and it comes just a week after his brilliant strike against West Ham.
+6,93611,144,142,147,,near_miss,0.9996240139007568,near_miss,Ivan Toney,stage4,Jose Sa,,0.7351,2,gradual late build-up,MASSIVE MOMENT! GOAL RULED OUT! A high ball comes sailing into the back post from Baptiste.
+7,93611,66,66,69,,near_miss,0.9999933242797852,near_miss,Arijanet Muric,stage4,Sam Johnstone,,0.7325,0,sudden moment with little build-up,BIG CHANCE! Brentford this time with a massive chance.
+8,93611,91,89,91,,near_miss,0.9993431568145752,near_miss,,none,<other>,,0.73,2,gradual build-up,SAVE! Burnley at it again! Taylor plays a lovely ball into the box from the left off a free-kick and tries to find a red shirt.
+9,93611,137,135,139,,near_miss,0.9993624091148376,near_miss,Jose Sa,head_c,Jose Sa,,0.6739,2,late moment after a scrappy spell,CHANCE! Odobert gets in behind Collins and in on goal.
+10,93611,44,42,45,,near_miss,0.995632529258728,near_miss,Arijanet Muric,stage4,Tommy Doyle,,0.5786,2,gradual build-up,DOUBLE SAVE! O'Shea shockingly fluffs a pass to his keeper and Muric runs back to clear the ball off the goal line.
+11,93611,149,145,151,,near_miss,0.9915453195571899,near_miss,,none,<other>,,0.5775,4,sustained late pressure,Deja vu? That disallowed Brentford goal suggests maybe not.
+12,93611,117,117,117,,near_miss,0.9570660591125488,near_miss,,none,<other>,header,0.5278,0,sudden moment with little build-up,A cross finds Amdouni but his header does not have much power and it is an easy save for Flekken.

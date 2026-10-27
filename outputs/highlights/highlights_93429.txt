@@ -1,0 +1,32 @@
+Match 93429: 9 highlights
+
+Ranked by excitement:
+ 1. [line 35, event: GOAL, player: Douglas Luiz, method: first time, excitement: 1.00, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+      "Watkins did well to play the ball back for Douglas Luiz to lash home."
+ 2. [line 64, event: GOAL, player: Pau Torres, method: left foot, from outside the box, excitement: 1.00, buildup_length: 4 lines, narrative_context: "moment after a scrappy spell"]
+      "Alvarez laid the ball off to Bowen before the deflection took the ball into the back of the net."
+ 3. [line 88, event: GOAL, player: Leon Bailey, excitement: 0.99, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]
+      "He keeps his composure to fire past Areola to surely make the points safe."
+ 4. [line 44, event: GOAL, player: Mohammed Kudus, excitement: 0.99, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "Antonio's shot from a tight angle smashes into the side netting."
+ 5. [line 58, event: GOAL, player: Douglas Luiz, method: FROM THE SPOT, excitement: 0.99, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "DOUGLAS LUIZ SCORES FROM THE SPOT!!! The midfielder grabs his second of the game as he smashes his penalty down the middle, and Villa are 2-0 up! It is a long way back for West Ham now."
+ 6. [line 76, event: GOAL, player: Ollie Watkins, method: from assist, excitement: 0.99, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+      "McGinn's pass was excellent to pick out Watkins before the striker thumped home."
+ 7. [line 69, event: NEAR MISS, player: Nayef Aguerd, method: nod, excitement: 0.78, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "Cash makes a big block to nod Aguerd's acrobatic volley over the crossbar and out for a corner."
+ 8. [line 19, event: NEAR MISS, player: Alphonse Areola, method: curling, from distance, excitement: 0.77, buildup_length: 2 lines, narrative_context: "early moment after a near miss"]
+      "SAVE! Douglas Luiz's curling effort from distance looks to be flying into the top corner, until Areola makes an acrobatic stop to tip it wide at full stretch."
+ 9. [line 13, event: NEAR MISS, player: Emiliano Martinez, excitement: 0.73, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+      "Martinez makes a great save to deny Bowen, though a delayed flag goes up for offside and the goal would not have counted anyway."
+
+In match order:
+    [line 13, event: NEAR MISS, player: Emiliano Martinez, excitement: 0.73, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+    [line 19, event: NEAR MISS, player: Alphonse Areola, method: curling, from distance, excitement: 0.77, buildup_length: 2 lines, narrative_context: "early moment after a near miss"]
+    [line 35, event: GOAL, player: Douglas Luiz, method: first time, excitement: 1.00, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+    [line 44, event: GOAL, player: Mohammed Kudus, excitement: 0.99, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 58, event: GOAL, player: Douglas Luiz, method: FROM THE SPOT, excitement: 0.99, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 64, event: GOAL, player: Pau Torres, method: left foot, from outside the box, excitement: 1.00, buildup_length: 4 lines, narrative_context: "moment after a scrappy spell"]
+    [line 69, event: NEAR MISS, player: Nayef Aguerd, method: nod, excitement: 0.78, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 76, event: GOAL, player: Ollie Watkins, method: from assist, excitement: 0.99, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+    [line 88, event: GOAL, player: Leon Bailey, excitement: 0.99, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]

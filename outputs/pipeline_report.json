@@ -1,0 +1,22 @@
+{
+  "stages": {
+    "3": {
+      "done_before": 8,
+      "ok": 283,
+      "failed": 0
+    },
+    "4": {
+      "ok": 283,
+      "failed": 0
+    },
+    "5": {
+      "matches": 283,
+      "ok": true
+    },
+    "7": {
+      "ok": true
+    }
+  },
+  "failed": [],
+  "seconds": 5961
+}

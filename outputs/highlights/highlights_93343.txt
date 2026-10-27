@@ -1,0 +1,26 @@
+Match 93343: 7 highlights
+
+Ranked by excitement:
+ 1. [line 71, event: GOAL, player: Jarrod Bowen, method: curling, excitement: 0.93, buildup_length: 2 lines, narrative_context: "sustained pressure"]
+      "WHAT A GOAL!!!!!! BOWEN SCORES A STUNNER!!!!! 1-0 WEST HAM!!!! Bowen opens his account for the season with a curling strike into the top-left corner."
+ 2. [line 99, event: GOAL, player: Dominic Solanke, method: 25 yards, excitement: 0.88, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "GOALLLLLLLLLLLLLLLLLLLLLLLLLLLL!!!! SOLANKE GETS A LEVELLER!!!!!! 1-1!!!!! Solanke pounces on Semenyo's strike and rounds Areola before slotting his effort home."
+ 3. [line 30, event: NEAR MISS, player: Dominic Solanke, method: left foot from assist, excitement: 0.81, buildup_length: 0 lines, narrative_context: "sudden early moment with little build-up"]
+      "WIDE! Solanke chases a long ball into the right channel and cuts inside on the edge of the box."
+ 4. [line 88, event: NEAR MISS, method: right-footed, bends, excitement: 0.66, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "OFF THE BAR! Bournemouth come close to a leveller courtesy of a brilliant strike from Rothwell."
+ 5. [line 56, event: NEAR MISS, method: 25 yards, excitement: 0.55, buildup_length: 3 lines, narrative_context: "moment after a scrappy spell"]
+      "SAVE! Brooks opens up space for a strike from 25 yards, angling his effort low towards the bottom-right corner."
+ 6. [line 78, event: NEAR MISS, player: Alphonse Areola, method: blasts, excitement: 0.52, buildup_length: 1 line, narrative_context: "moment after a near miss"]
+      "The forward blasts a strike towards the near post that Areola turns behind for a corner."
+ 7. [line 43, event: ROUTINE, player: Philip Billing, excitement: 0.50, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "Billing responds for the hosts with a drive down the right flank and he wins the Cherries a corner as Aguerd clears behind."
+
+In match order:
+    [line 30, event: NEAR MISS, player: Dominic Solanke, method: left foot from assist, excitement: 0.81, buildup_length: 0 lines, narrative_context: "sudden early moment with little build-up"]
+    [line 43, event: ROUTINE, player: Philip Billing, excitement: 0.50, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 56, event: NEAR MISS, method: 25 yards, excitement: 0.55, buildup_length: 3 lines, narrative_context: "moment after a scrappy spell"]
+    [line 71, event: GOAL, player: Jarrod Bowen, method: curling, excitement: 0.93, buildup_length: 2 lines, narrative_context: "sustained pressure"]
+    [line 78, event: NEAR MISS, player: Alphonse Areola, method: blasts, excitement: 0.52, buildup_length: 1 line, narrative_context: "moment after a near miss"]
+    [line 88, event: NEAR MISS, method: right-footed, bends, excitement: 0.66, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 99, event: GOAL, player: Dominic Solanke, method: 25 yards, excitement: 0.88, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]

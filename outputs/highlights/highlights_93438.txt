@@ -1,0 +1,41 @@
+Match 93438: 12 highlights
+
+Ranked by excitement:
+ 1. [line 62, event: GOAL, player: Evan Ferguson, excitement: 1.00, buildup_length: 9 lines, narrative_context: "moment after a scrappy spell"]
+      "GOOOOOAAAAALLL! FERGUSON WITH THE OPENER! Brighton's dominance pays off as Ferguson strokes the ball past Leno from the edge of the box."
+ 2. [line 141, event: GOAL, player: Joao Palhinha, excitement: 1.00, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+      "GOOOOOOOAAAAAALLLL! PALHINHA LEVELS! Wow."
+ 3. [line 113, event: GOAL, player: Marcus Tavernier, excitement: 1.00, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+      "Brighton scored and conceded in their first nine Premier League games of the season."
+ 4. [line 188, event: GOAL, player: Neto, method: nod, excitement: 0.98, buildup_length: 2 lines, narrative_context: "gradual late build-up"]
+      "It looks destined to find the net, but Robinson gets back on the line to nod it away! So close!"
+ 5. [line 172, event: GOAL, player: Gabriel Martinelli, excitement: 0.91, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "It's the joint most goals scored by subs in a single year by a team in Premier League history, with Spurs in 2008 and Arsenal in 2009 also seeing subs score 15 times."
+ 6. [line 29, event: NEAR MISS, player: Lewis Dunk, method: right foot, excitement: 0.78, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+      "GREAT DOUBLE SAVE! How are Brighton not ahead?! A patient move ends with Baleba finding space to shoot from the edge of the box."
+ 7. [line 177, event: NEAR MISS, player: Bernd Leno, excitement: 0.73, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "SAVE! Joao Pedro breaks in behind the Fulham backline, slightly to the left of goal."
+ 8. [line 200, event: NEAR MISS, player: Pascal Gross, method: from rebound, excitement: 0.73, buildup_length: 4 lines, narrative_context: "sustained late pressure"]
+      "CHANCE! It's panic stations for Fulham as Brighton work it into the box."
+ 9. [line 152, event: NEAR MISS, player: Guglielmo Vicario, method: low shot, excitement: 0.71, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+      "Close! Robinson gets down the Fulham left before hitting a low shot, which goes narrowly wide of the near post."
+10. [line 86, event: NEAR MISS, player: Jason Steele, method: low effort, excitement: 0.70, buildup_length: 3 lines, narrative_context: "sustained pressure"]
+      "With little support, he whips a low effort towards the near post, but Leno reads it well and is able to make a comfortable save."
+11. [line 47, event: NEAR MISS, player: Kaoru Mitoma, method: from assist, excitement: 0.70, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+      "Mitoma appears to get caught in two minds as he bears down on Leno with options in the middle, and his cross-shot is well wide!"
+12. [line 76, event: NEAR MISS, player: Antonee Robinson, method: from free_kick, excitement: 0.68, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "Wide! Webster flings himself at the set-piece delivery with a diving header, sending it as far clear as Robinson, who sends a wild shot well wide from 30 yards out – that's a real waste."
+
+In match order:
+    [line 29, event: NEAR MISS, player: Lewis Dunk, method: right foot, excitement: 0.78, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+    [line 47, event: NEAR MISS, player: Kaoru Mitoma, method: from assist, excitement: 0.70, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+    [line 62, event: GOAL, player: Evan Ferguson, excitement: 1.00, buildup_length: 9 lines, narrative_context: "moment after a scrappy spell"]
+    [line 76, event: NEAR MISS, player: Antonee Robinson, method: from free_kick, excitement: 0.68, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 86, event: NEAR MISS, player: Jason Steele, method: low effort, excitement: 0.70, buildup_length: 3 lines, narrative_context: "sustained pressure"]
+    [line 113, event: GOAL, player: Marcus Tavernier, excitement: 1.00, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+    [line 141, event: GOAL, player: Joao Palhinha, excitement: 1.00, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+    [line 152, event: NEAR MISS, player: Guglielmo Vicario, method: low shot, excitement: 0.71, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+    [line 172, event: GOAL, player: Gabriel Martinelli, excitement: 0.91, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 177, event: NEAR MISS, player: Bernd Leno, excitement: 0.73, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 188, event: GOAL, player: Neto, method: nod, excitement: 0.98, buildup_length: 2 lines, narrative_context: "gradual late build-up"]
+    [line 200, event: NEAR MISS, player: Pascal Gross, method: from rebound, excitement: 0.73, buildup_length: 4 lines, narrative_context: "sustained late pressure"]

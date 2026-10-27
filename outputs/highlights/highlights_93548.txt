@@ -1,0 +1,41 @@
+Match 93548: 12 highlights
+
+Ranked by excitement:
+ 1. [line 24, event: GOAL, player: Dominic Calvert-Lewin, excitement: 0.96, buildup_length: 3 lines, narrative_context: "sustained early pressure"]
+      "The Everton winger strikes it, but he can't quite curl it into the far corner."
+ 2. [line 50, event: GOAL, player: Beto, excitement: 0.76, buildup_length: 5 lines, narrative_context: "sustained pressure"]
+      "It was inches away from going over the line, but the Toffees somehow fail to open the scoring!"
+ 3. [line 68, event: NEAR MISS, method: six-yard, excitement: 0.73, buildup_length: 3 lines, narrative_context: "sustained pressure"]
+      "What a chance! Robinson sends a delivery towards the back post which eventually falls to Castagne."
+ 4. [line 97, event: NEAR MISS, player: Dominic Calvert-Lewin, method: header from assist, excitement: 0.71, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "but his header hits the bar! So close!"
+ 5. [line 129, event: NEAR MISS, player: Jordan Pickford, method: header, excitement: 0.69, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+      "What a save! Willian creates space for himself on the right and floats a delivery towards the back post."
+ 6. [line 57, event: NEAR MISS, player: Arnaut Danjuma, method: right foot, excitement: 0.68, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "He cuts inside onto his right foot and creates space for himself inside the box, but he can't hit the target and fires his shot over the bar."
+ 7. [line 119, event: NEAR MISS, player: Bernd Leno, method: from counter_attack, excitement: 0.65, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "Everton look to counter-attack as Harrison tests the goalkeeper from just inside the penalty area, but it's palmed away by Leno before Tosin clears away from danger."
+ 8. [line 113, event: NEAR MISS, player: James Tarkowski, method: header, excitement: 0.65, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "From the resulting corner, Castagne powers a header towards goal, but it hits the bar with Pickford rooted to the spot! Almost the opener!"
+ 9. [line 138, event: NEAR MISS, player: Dominic Calvert-Lewin, excitement: 0.63, buildup_length: 2 lines, narrative_context: "gradual late build-up"]
+      "De Cordova-Reid swings a leg at it, and his shot whistles past the post with Pickford scrambling across his line."
+10. [line 150, event: NEAR MISS, player: Jordan Pickford, method: from range, excitement: 0.61, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]
+      "He heads it towards goal, but it's straight at Pickford who saves."
+11. [line 92, event: NEAR MISS, player: Jordan Pickford, excitement: 0.57, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "It falls to Muniz who is through on goal, but his effort is saved by Pickford."
+12. [line 38, event: NEAR MISS, excitement: 0.55, buildup_length: 0 lines, narrative_context: "sudden early moment with little build-up"]
+      "It was a real chance for the Toffees to create something, but they need to have more conviction in the final third of the pitch."
+
+In match order:
+    [line 24, event: GOAL, player: Dominic Calvert-Lewin, excitement: 0.96, buildup_length: 3 lines, narrative_context: "sustained early pressure"]
+    [line 38, event: NEAR MISS, excitement: 0.55, buildup_length: 0 lines, narrative_context: "sudden early moment with little build-up"]
+    [line 50, event: GOAL, player: Beto, excitement: 0.76, buildup_length: 5 lines, narrative_context: "sustained pressure"]
+    [line 57, event: NEAR MISS, player: Arnaut Danjuma, method: right foot, excitement: 0.68, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 68, event: NEAR MISS, method: six-yard, excitement: 0.73, buildup_length: 3 lines, narrative_context: "sustained pressure"]
+    [line 92, event: NEAR MISS, player: Jordan Pickford, excitement: 0.57, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 97, event: NEAR MISS, player: Dominic Calvert-Lewin, method: header from assist, excitement: 0.71, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 113, event: NEAR MISS, player: James Tarkowski, method: header, excitement: 0.65, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 119, event: NEAR MISS, player: Bernd Leno, method: from counter_attack, excitement: 0.65, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 129, event: NEAR MISS, player: Jordan Pickford, method: header, excitement: 0.69, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+    [line 138, event: NEAR MISS, player: Dominic Calvert-Lewin, excitement: 0.63, buildup_length: 2 lines, narrative_context: "gradual late build-up"]
+    [line 150, event: NEAR MISS, player: Jordan Pickford, method: from range, excitement: 0.61, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]

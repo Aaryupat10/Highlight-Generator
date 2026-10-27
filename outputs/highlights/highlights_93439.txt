@@ -1,0 +1,41 @@
+Match 93439: 12 highlights
+
+Ranked by excitement:
+ 1. [line 54, event: GOAL, player: Erling Haaland, method: spot-kick, excitement: 1.00, buildup_length: 4 lines, narrative_context: "moment after a scrappy spell"]
+      "GOOOOOOOOOOOOOOOOOALLLL! CITY STRIKE FIRST! After Hojlund’s needless tug on Rodri, Haaland hovers over the spot-kick in front of the Stretford End."
+ 2. [line 114, event: GOAL, player: Phil Foden, method: left-footed, excitement: 1.00, buildup_length: 5 lines, narrative_context: "sustained pressure"]
+      "GOOOOOOOOOOOOALLLLLLL! 2-0 CITY! Guardiola’s visitors tear United to pieces at Old Trafford."
+ 3. [line 74, event: GOAL, player: Erling Haaland, method: right-footed, excitement: 0.99, buildup_length: 3 lines, narrative_context: "sustained pressure"]
+      "Haaland's goal was the first penalty scored by City at Old Trafford in the Premier League, as well as their first awarded in a fixture there in the competition."
+ 4. [line 166, event: GOAL, method: left-footed, excitement: 0.99, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "GOOOOOOOOOOOOALLLLLL! 3-0 TO CITY AND GAME OVER! Grealish takes an age to draw Dalot out before offloading to Rodri, who marauds forward before his left-footed strike is parried away by Onana."
+ 5. [line 92, event: NEAR MISS, player: Josko Gvardiol, method: right-footed, excitement: 0.78, buildup_length: 5 lines, narrative_context: "sustained pressure"]
+      "WHAT A SAVE! Ederson keeps his side's lead intact on the stroke of half-time with a fantastic stop."
+ 6. [line 151, event: NEAR MISS, player: Christian Eriksen, method: right-footed, excitement: 0.75, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "WIDE! Walker completely switches off as Rashford speeds in behind to receive a diagonal pass from Eriksen."
+ 7. [line 43, event: NEAR MISS, player: Andre Onana, method: right-footed, excitement: 0.74, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+      "SAVE! A first City corner of the game comes on the left-hand side after Grealish looks to progress with a gliding run."
+ 8. [line 130, event: NEAR MISS, method: right-footed, curled, excitement: 0.72, buildup_length: 2 lines, narrative_context: "moment after a near miss"]
+      "WIDE! Delightful football has United scrambling all over the place."
+ 9. [line 97, event: NEAR MISS, method: chipped, excitement: 0.72, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+      "ANOTHER GREAT STOP! Silva ghosts down the left flank to latch onto Grealish's chipped pass, before lofting an inviting delivery towards the far post."
+10. [line 30, event: NEAR MISS, player: Andre Onana, method: nods, first-time, excitement: 0.72, buildup_length: 2 lines, narrative_context: "gradual early build-up"]
+      "Foden nods a first-time header towards the top-left corner, where Onana parries away an unconvincing save."
+11. [line 144, event: NEAR MISS, player: Diogo Dalot, method: from assist, excitement: 0.67, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "Down the other end, Dalot's near-post cross is calmly dealt with by Stones."
+12. [line 139, event: NEAR MISS, player: Martin Odegaard, method: left-footed, excitement: 0.64, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "Argentina's World Cup winner sets his sights on the top-left corner but miscues a left-footed effort well wide to the left of goal."
+
+In match order:
+    [line 30, event: NEAR MISS, player: Andre Onana, method: nods, first-time, excitement: 0.72, buildup_length: 2 lines, narrative_context: "gradual early build-up"]
+    [line 43, event: NEAR MISS, player: Andre Onana, method: right-footed, excitement: 0.74, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+    [line 54, event: GOAL, player: Erling Haaland, method: spot-kick, excitement: 1.00, buildup_length: 4 lines, narrative_context: "moment after a scrappy spell"]
+    [line 74, event: GOAL, player: Erling Haaland, method: right-footed, excitement: 0.99, buildup_length: 3 lines, narrative_context: "sustained pressure"]
+    [line 92, event: NEAR MISS, player: Josko Gvardiol, method: right-footed, excitement: 0.78, buildup_length: 5 lines, narrative_context: "sustained pressure"]
+    [line 97, event: NEAR MISS, method: chipped, excitement: 0.72, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+    [line 114, event: GOAL, player: Phil Foden, method: left-footed, excitement: 1.00, buildup_length: 5 lines, narrative_context: "sustained pressure"]
+    [line 130, event: NEAR MISS, method: right-footed, curled, excitement: 0.72, buildup_length: 2 lines, narrative_context: "moment after a near miss"]
+    [line 139, event: NEAR MISS, player: Martin Odegaard, method: left-footed, excitement: 0.64, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 144, event: NEAR MISS, player: Diogo Dalot, method: from assist, excitement: 0.67, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 151, event: NEAR MISS, player: Christian Eriksen, method: right-footed, excitement: 0.75, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 166, event: GOAL, method: left-footed, excitement: 0.99, buildup_length: 2 lines, narrative_context: "gradual build-up"]

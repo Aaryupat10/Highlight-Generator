@@ -1,0 +1,29 @@
+Match 93592: 8 highlights
+
+Ranked by excitement:
+ 1. [line 111, event: GOAL, player: Ben White, method: left-footed from assist, excitement: 1.00, buildup_length: 3 lines, narrative_context: "gradual build-up"]
+      "Having scored Arsenal's fourth, Havertz provides their sixth with a neat lay-off for White to thump home."
+ 2. [line 40, event: GOAL, player: Martin Odegaard, method: placed, excitement: 0.92, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "OWN-GOAL!!! 2-0 ARSENAL! This is some start by the Gunners, whose confidence is oozing out of them."
+ 3. [line 54, event: GOAL, player: Gabriel Jesus, method: fierce from assist, excitement: 0.80, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "HAVERTZ!!! 4-0! It gets better and better for Arsenal! Another devastating counter by the Gunners sees Martinelli help the ball into the path of the German, who advances into the area before drilling a fierce shot across Grbic and into his bottom-left corner."
+ 4. [line 34, event: NEAR MISS, player: Ivo Grbic, excitement: 0.73, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "However, the skipper's attempt is wide of Grbic's right post."
+ 5. [line 137, event: NEAR MISS, method: from outside the area, excitement: 0.72, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]
+      "GOOD SAVE! Jesus and Havertz link up well with the Brazilian taking aim from a tight angle."
+ 6. [line 23, event: NEAR MISS, player: Bukayo Saka, method: volley from assist, excitement: 0.69, buildup_length: 0 lines, narrative_context: "sudden early moment with little build-up"]
+      "OFF THE BAR! Arsenal are quickly into their stride as Saka plays a neat one-two with White to get in behind the defence."
+ 7. [line 29, event: GOAL, player: Martin Odegaard, method: tuck, excitement: 0.67, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "The latter shows great awareness to pull it back into the centre, where an unmarked Odegaard arrives to tuck home from eight yards out."
+ 8. [line 129, event: ROUTINE, player: Leandro Trossard, excitement: 0.54, buildup_length: 0 lines, narrative_context: "sudden late moment with little build-up"]
+      "After taking his goal involvement tally for the season into double figures, Rice is given a well-earned breather as he is replaced by Trossard."
+
+In match order:
+    [line 23, event: NEAR MISS, player: Bukayo Saka, method: volley from assist, excitement: 0.69, buildup_length: 0 lines, narrative_context: "sudden early moment with little build-up"]
+    [line 29, event: GOAL, player: Martin Odegaard, method: tuck, excitement: 0.67, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 34, event: NEAR MISS, player: Ivo Grbic, excitement: 0.73, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 40, event: GOAL, player: Martin Odegaard, method: placed, excitement: 0.92, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 54, event: GOAL, player: Gabriel Jesus, method: fierce from assist, excitement: 0.80, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 111, event: GOAL, player: Ben White, method: left-footed from assist, excitement: 1.00, buildup_length: 3 lines, narrative_context: "gradual build-up"]
+    [line 129, event: ROUTINE, player: Leandro Trossard, excitement: 0.54, buildup_length: 0 lines, narrative_context: "sudden late moment with little build-up"]
+    [line 137, event: NEAR MISS, method: from outside the area, excitement: 0.72, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]

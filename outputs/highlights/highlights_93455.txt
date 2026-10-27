@@ -1,0 +1,41 @@
+Match 93455: 12 highlights
+
+Ranked by excitement:
+ 1. [line 25, event: GOAL, player: Brennan Johnson, method: low cross, side-foots, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+      "GOOOOOAAAAAAAALLL! JOHNSON WITH AN EARLY GOAL FOR SPURS! What a start for the depleted visitors! Tottenham work the ball patiently from side to side, with Kulusevski playing a lovely backheel to Porro on the overlap."
+ 2. [line 201, event: GOAL, player: Pablo Sarabia, excitement: 1.00, buildup_length: 5 lines, narrative_context: "sustained late pressure"]
+      "GOOOOOOAAAAAAALLLLLL! SARABIA LEVELS FOR WOLVES! Just as the clock ticks beyond 90 minutes, Wolves finally take a chance! Cunha whips a lovely ball over the Spurs backline for Sarabia, who takes a great touch on his right foot before volleying past Vicario on his left! What a strike! 1-1 at Molineux!"
+ 3. [line 213, event: GOAL, player: Mario Lemina, method: low cross, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]
+      "GOOOOOOOAAAAAAALLLLL! WOLVES HAVE TURNED IT AROUND! REMARKABLE SCENES AS LEMINA SWEEPS HOME! Doyle's quick free-kick allows Sarabia to burst down the wing, and the substitute cuts inside to swing a low cross into the area."
+ 4. [line 190, event: GOAL, excitement: 0.99, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "O'Neil is making another two changes as Wolves desperately chase an equaliser."
+ 5. [line 195, event: NEAR MISS, player: Jose Sa, method: from rebound, excitement: 0.79, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]
+      "ALMOST GAME OVER! Spurs break on Wolves and create two chances to kill the contest."
+ 6. [line 131, event: NEAR MISS, player: Jose Sa, excitement: 0.77, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "GREAT CHANCE! How many of these are Wolves going to squander?! Toti does brilliantly to bring the ball out of defence, playing a give-and-go with Gomes before finding Ait-Nouri to his left."
+ 7. [line 85, event: NEAR MISS, player: Pape Sarr, method: crashes, excitement: 0.75, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "Save, but the flag is up! Gomes wins possession on the edge of the Spurs box before slipping a pass in behind for Ait-Nouri, who crashes a low shot against the legs of Vicario."
+ 8. [line 78, event: NEAR MISS, player: Guglielmo Vicario, excitement: 0.73, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "SAVE! Semedo cuts inside to find Cunha on the break, and the Brazilian offloads to Lemina to his right."
+ 9. [line 37, event: NEAR MISS, player: Rayan Ait-Nouri, method: long-range, crashes, excitement: 0.65, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+      "CHANCE! Ait-Nouri plays a pass inside to Cunha before flying forward for the return ball."
+10. [line 146, event: GOAL, player: Craig Dawson, method: six-yard, excitement: 0.61, buildup_length: 2 lines, narrative_context: "moment after a scrappy spell"]
+      "GREAT DEFENDING! Bellegarde whips an enticing cross into the six-yard box, where Dawson looks destined to nod it home."
+11. [line 102, event: NEAR MISS, player: Jean-Ricner Bellegarde, method: at the back post, excitement: 0.61, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "OVER! Bellegarde's corner finds Lemina at the back post, and he powers a header over via a deflection off Davies."
+12. [line 107, event: NEAR MISS, player: Guglielmo Vicario, method: header, excitement: 0.58, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "He loops a header on target, but Vicario is able to make a comfortable save."
+
+In match order:
+    [line 25, event: GOAL, player: Brennan Johnson, method: low cross, side-foots, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+    [line 37, event: NEAR MISS, player: Rayan Ait-Nouri, method: long-range, crashes, excitement: 0.65, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+    [line 78, event: NEAR MISS, player: Guglielmo Vicario, excitement: 0.73, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 85, event: NEAR MISS, player: Pape Sarr, method: crashes, excitement: 0.75, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 102, event: NEAR MISS, player: Jean-Ricner Bellegarde, method: at the back post, excitement: 0.61, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 107, event: NEAR MISS, player: Guglielmo Vicario, method: header, excitement: 0.58, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 131, event: NEAR MISS, player: Jose Sa, excitement: 0.77, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 146, event: GOAL, player: Craig Dawson, method: six-yard, excitement: 0.61, buildup_length: 2 lines, narrative_context: "moment after a scrappy spell"]
+    [line 190, event: GOAL, excitement: 0.99, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 195, event: NEAR MISS, player: Jose Sa, method: from rebound, excitement: 0.79, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]
+    [line 201, event: GOAL, player: Pablo Sarabia, excitement: 1.00, buildup_length: 5 lines, narrative_context: "sustained late pressure"]
+    [line 213, event: GOAL, player: Mario Lemina, method: low cross, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]

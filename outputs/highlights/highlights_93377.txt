@@ -1,0 +1,32 @@
+Match 93377: 9 highlights
+
+Ranked by excitement:
+ 1. [line 43, event: GOAL, player: Jarrod Bowen, method: header, at the back post from cross, excitement: 1.00, buildup_length: 8 lines, narrative_context: "gradual build-up"]
+      "GOOOAAAALLL!!! WEST HAM LEAD! 1-0! They've had the better of the ball and West Ham now have their lead through Bowen."
+ 2. [line 91, event: GOAL, player: Jarrod Bowen, method: header, excitement: 1.00, buildup_length: 3 lines, narrative_context: "gradual build-up"]
+      "GOOOAAAALL!! WEST HAM DOUBLE THEIR LEAD! 2-0! A vital second goal from West Ham as they go further ahead from a corner."
+ 3. [line 101, event: GOAL, player: Mads Andersen, method: header, excitement: 1.00, buildup_length: 4 lines, narrative_context: "gradual late build-up"]
+      "The striker cushions a header beautifully into the box and it's met by Andersen who flicks it on further into the net to set up an intriguing last few minutes."
+ 4. [line 16, event: NEAR MISS, player: Ross Barkley, excitement: 0.77, buildup_length: 2 lines, narrative_context: "gradual early build-up"]
+      "The midfielder tries his luck but scuffs his effort well wide of the mark."
+ 5. [line 72, event: NEAR MISS, player: Thomas Kaminski, method: speculative, excitement: 0.74, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "Benrahma now tries his luck with a speculative effort from distance, but it's a comfortable save for Kaminski."
+ 6. [line 26, event: NEAR MISS, player: Ross Barkley, method: from cross, excitement: 0.74, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+      "Another chance now for Luton falls at the feet of Barkley but he pulls his effort wide of the post."
+ 7. [line 34, event: NEAR MISS, player: Thomas Kaminski, method: right-footed, half-volley, excitement: 0.70, buildup_length: 2 lines, narrative_context: "moment after a near miss"]
+      "WIDE! Bowen is allowed to bring down the ball far too easily on the edge of the Luton area, with his right-footed half-volley just wide of the right post with Kaminski beaten."
+ 8. [line 66, event: NEAR MISS, player: Elijah Adebayo, excitement: 0.64, buildup_length: 5 lines, narrative_context: "sustained pressure"]
+      "CLOSE! It's a hopeful ball into the box from Nakamba but a mix-up between Aguerd and Areola almost allows Adebayo to tap the ball in at the back post."
+ 9. [line 86, event: CARD, player: Jose Sa, excitement: 0.52, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "A cynical challenge from Emerson on Chong brings the first yellow card of the game."
+
+In match order:
+    [line 16, event: NEAR MISS, player: Ross Barkley, excitement: 0.77, buildup_length: 2 lines, narrative_context: "gradual early build-up"]
+    [line 26, event: NEAR MISS, player: Ross Barkley, method: from cross, excitement: 0.74, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+    [line 34, event: NEAR MISS, player: Thomas Kaminski, method: right-footed, half-volley, excitement: 0.70, buildup_length: 2 lines, narrative_context: "moment after a near miss"]
+    [line 43, event: GOAL, player: Jarrod Bowen, method: header, at the back post from cross, excitement: 1.00, buildup_length: 8 lines, narrative_context: "gradual build-up"]
+    [line 66, event: NEAR MISS, player: Elijah Adebayo, excitement: 0.64, buildup_length: 5 lines, narrative_context: "sustained pressure"]
+    [line 72, event: NEAR MISS, player: Thomas Kaminski, method: speculative, excitement: 0.74, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 86, event: CARD, player: Jose Sa, excitement: 0.52, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 91, event: GOAL, player: Jarrod Bowen, method: header, excitement: 1.00, buildup_length: 3 lines, narrative_context: "gradual build-up"]
+    [line 101, event: GOAL, player: Mads Andersen, method: header, excitement: 1.00, buildup_length: 4 lines, narrative_context: "gradual late build-up"]

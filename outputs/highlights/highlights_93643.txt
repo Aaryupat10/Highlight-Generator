@@ -1,0 +1,41 @@
+Match 93643: 12 highlights
+
+Ranked by excitement:
+ 1. [line 111, event: GOAL, player: Rico Lewis, method: header, crashes, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "GOALLLL! LEWIS SCORES! 2-1 CITY! The visitors take the lead for the first time! Grealish has possession on the left, getting to the byline before lifting a cross into the box."
+ 2. [line 32, event: GOAL, player: Jean-Philippe Mateta, method: low shot, excitement: 1.00, buildup_length: 2 lines, narrative_context: "gradual early build-up"]
+      "GOALLLL! MATETA SCORES! 1-0 PALACE! What a start for the Eagles! Stones gifts possession to the hosts, who play some quick passes in their own half before Wharton rolls a throughball into Mateta."
+ 3. [line 176, event: GOAL, player: Kevin De Bruyne, method: curling, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]
+      "De Bruyne scored twice and registered an assist but is now coming off for Silva."
+ 4. [line 150, event: GOAL, player: Jean-Philippe Mateta, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "Mateta scored Palace's opener inside three minutes but has not been able to make any sort of impact in the second half."
+ 5. [line 137, event: GOAL, player: Erling Haaland, method: from close, excitement: 1.00, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "GOALLL! HAALAND SCORES! 3-1 CITY! That should be game over! City are patient in possession and wait for an opening, with Grealish rolling a reversed pass down the left through to De Bruyne on the byline."
+ 6. [line 168, event: GOAL, player: Odsonne Edouard, method: low cross, excitement: 1.00, buildup_length: 2 lines, narrative_context: "gradual late build-up"]
+      "GOALLL! EDOUARD SCORES! Palace get one back, with the hosts trailing 4-2! Ahamada drives through the middle of the pitch before playing a pass down the left to Schlupp, who whips a low cross into the box."
+ 7. [line 50, event: GOAL, player: Jean-Philippe Mateta, excitement: 0.99, buildup_length: 2 lines, narrative_context: "moment after a near miss"]
+      "Mateta scored the opener for the Eagles, but he is the only player in a home shirt who is staying forward and looks isolated."
+ 8. [line 45, event: GOAL, player: Kevin De Bruyne, method: low cross, excitement: 0.99, buildup_length: 10 lines, narrative_context: "sustained pressure"]
+      "GOALLLL! WHAT A HIT FROM DE BRUYNE! 1-1! Grealish gets his first chance to dribble at Munoz down the left before his low cross is blocked."
+ 9. [line 142, event: GOAL, player: Kevin De Bruyne, method: low strike, thunders, excitement: 0.99, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "GOALLL! DE BRUYNE SCORES AGAIN! 4-1 CITY! De Bruyne and Grealish play a clever one-two on the left, allowing the England International to get to the byline before cutting the ball back to Rodri."
+10. [line 73, event: NEAR MISS, player: Julian Alvarez, method: chipped, excitement: 0.80, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "WIDE! Alvarez has time and space just to the right outside Palace’s box, but he fires his effort across the goal and wide of the left post."
+11. [line 83, event: NEAR MISS, player: Jose Sa, method: blasts, excitement: 0.74, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+      "CHANCE! Munoz breaks down the right for Palace and cuts the ball back to the edge of the box to Ayew, but his touch is very poor."
+12. [line 126, event: NEAR MISS, player: Thomas Kaminski, method: low strike, excitement: 0.73, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+      "He has time and space, taking one touch before lashing his effort over the top of the bar."
+
+In match order:
+    [line 32, event: GOAL, player: Jean-Philippe Mateta, method: low shot, excitement: 1.00, buildup_length: 2 lines, narrative_context: "gradual early build-up"]
+    [line 45, event: GOAL, player: Kevin De Bruyne, method: low cross, excitement: 0.99, buildup_length: 10 lines, narrative_context: "sustained pressure"]
+    [line 50, event: GOAL, player: Jean-Philippe Mateta, excitement: 0.99, buildup_length: 2 lines, narrative_context: "moment after a near miss"]
+    [line 73, event: NEAR MISS, player: Julian Alvarez, method: chipped, excitement: 0.80, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 83, event: NEAR MISS, player: Jose Sa, method: blasts, excitement: 0.74, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+    [line 111, event: GOAL, player: Rico Lewis, method: header, crashes, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 126, event: NEAR MISS, player: Thomas Kaminski, method: low strike, excitement: 0.73, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+    [line 137, event: GOAL, player: Erling Haaland, method: from close, excitement: 1.00, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 142, event: GOAL, player: Kevin De Bruyne, method: low strike, thunders, excitement: 0.99, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 150, event: GOAL, player: Jean-Philippe Mateta, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 168, event: GOAL, player: Odsonne Edouard, method: low cross, excitement: 1.00, buildup_length: 2 lines, narrative_context: "gradual late build-up"]
+    [line 176, event: GOAL, player: Kevin De Bruyne, method: curling, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]

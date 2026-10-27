@@ -1,0 +1,41 @@
+Match 93541: 12 highlights
+
+Ranked by excitement:
+ 1. [line 85, event: GOAL, player: Alexander Isak, method: slots from rebound, excitement: 1.00, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+      "GOOOOOOOAAAAALLLL!!! How about that - two goals in a minute and Spurs lead 2-1!!! Straight from the restart, the hosts win possession back and Werner carries the ball down the left-hand side."
+ 2. [line 102, event: GOAL, excitement: 1.00, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "GOOOOOAAAAALLL!!! Brentford aren't quite done yet!!! Udogie slips as he makes a back-pass towards Vicario, and Toney, who had stayed high up the pitch, is straight onto it."
+ 3. [line 109, event: GOAL, player: Rodri, method: from assist, excitement: 1.00, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+      "Following their three-goal flurry early in this half, Tottenham have now scored in each of their last 34 Premier League games, their longest scoring streak in their league history."
+ 4. [line 31, event: GOAL, player: Neal Maupay, method: from rebound, excitement: 1.00, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+      "GOOOOOOOAAAALLLL!!!! Denied with one chance, but Brentford hit straight back to take the lead in north London!!! Spurs' high defensive line is exposed again as Norgaard dispossesses Romero on halfway and puts Toney on a clear run into the box."
+ 5. [line 92, event: GOAL, player: Lewis Dunk, method: left-footed from error, excitement: 1.00, buildup_length: 2 lines, narrative_context: "moment after a near miss"]
+      "GOOOOOOAAAAALLL!!! There's the third!!! Udogie canters into wide open space once more before feeding Maddison in the box."
+ 6. [line 115, event: GOAL, excitement: 0.95, buildup_length: 2 lines, narrative_context: "moment after a near miss"]
+      "Joshua Dasilva also comes on with the Bees in the hunt for an equaliser, and he'll replace Roerslev for the final 12 or so minutes here."
+ 7. [line 21, event: NEAR MISS, player: Richarlison, excitement: 0.78, buildup_length: 0 lines, narrative_context: "sudden early moment with little build-up"]
+      "CHANCE!!! Delightful link-up play between Porro and Richarlison allows Skipp to release Kulusevski in behind the defence from long range."
+ 8. [line 43, event: NEAR MISS, player: Guglielmo Vicario, method: curling from assist, excitement: 0.73, buildup_length: 5 lines, narrative_context: "sustained pressure"]
+      "WIDE!!!! Spurs go closer still!!! Kulusevski can't bring Maddison's diagonal ball under control, but Richarlison can, curling a shot goalwards from the edge of the box which beats Flekken before whistling inches wide of the post and into the stanchion behind the uprights!"
+ 9. [line 37, event: NEAR MISS, player: Mark Flekken, excitement: 0.73, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "SAVED!!! Bentancur drives into the box and is."
+10. [line 26, event: NEAR MISS, player: Neal Maupay, excitement: 0.72, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+      "CHANCE!!! A smart pass down the line from Maupay gives Lewis-Potter a free run deep into Spurs' half."
+11. [line 97, event: NEAR MISS, player: Ivan Toney, method: piledriver, excitement: 0.71, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "WIDE!!! Toney plays a one-two with Lewis-Potter before unleashing a piledriver from the edge of the box, which has Vicario clutching at thin air as the venomously-struck ball creeps just beyond the far post!"
+12. [line 52, event: NEAR MISS, excitement: 0.69, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "CHANCE!!! Spurs can't clear from a long Brentford throw-in and the bouncing ball is hooked back towards goal by Mee."
+
+In match order:
+    [line 21, event: NEAR MISS, player: Richarlison, excitement: 0.78, buildup_length: 0 lines, narrative_context: "sudden early moment with little build-up"]
+    [line 26, event: NEAR MISS, player: Neal Maupay, excitement: 0.72, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+    [line 31, event: GOAL, player: Neal Maupay, method: from rebound, excitement: 1.00, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+    [line 37, event: NEAR MISS, player: Mark Flekken, excitement: 0.73, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 43, event: NEAR MISS, player: Guglielmo Vicario, method: curling from assist, excitement: 0.73, buildup_length: 5 lines, narrative_context: "sustained pressure"]
+    [line 52, event: NEAR MISS, excitement: 0.69, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 85, event: GOAL, player: Alexander Isak, method: slots from rebound, excitement: 1.00, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+    [line 92, event: GOAL, player: Lewis Dunk, method: left-footed from error, excitement: 1.00, buildup_length: 2 lines, narrative_context: "moment after a near miss"]
+    [line 97, event: NEAR MISS, player: Ivan Toney, method: piledriver, excitement: 0.71, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 102, event: GOAL, excitement: 1.00, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 109, event: GOAL, player: Rodri, method: from assist, excitement: 1.00, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+    [line 115, event: GOAL, excitement: 0.95, buildup_length: 2 lines, narrative_context: "moment after a near miss"]

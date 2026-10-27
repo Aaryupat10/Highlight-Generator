@@ -1,0 +1,13 @@
+﻿rank,match_id,line_no,start_line,end_line,time,event,event_prob,event_stage4,player,player_source,player_model,method,excitement,buildup_length,narrative_context,text
+1,93489,67,65,67,,goal,0.9999639391899109,goal,Alex Iwobi,stage4,Alex Iwobi,,0.9995,2,gradual build-up,GOALLL! IWOBI SCORES! 1-0 FULHAM! What a goal from the hosts! Bassey brings the ball out of the defence and plays a pass into the feet of Cairney.
+2,93489,184,179,186,,goal,0.9999015927314758,goal,Tom Cairney,stage4,Harry Wilson,,0.9995,5,sustained late pressure,GOALLLL! CAIRNEY SCORES! 5-0 FULHAM! The captain adds Fulham's fifth goal.
+3,93489,163,162,166,,goal,0.999785304069519,goal,Alex Iwobi,stage4,Alex Iwobi,,0.9994,1,sudden moment with little build-up,"GOALLL! IWOBI SCORES! 4-0 FULHAM! The hosts score again! The Cottagers keep possession well down the right, with Pereira playing a pass back to Cairney, who slides the ball into Wilson inside the box."
+4,93489,76,74,78,,goal,0.9994389414787292,goal,Raul Jimenez,stage4,Raul Jimenez,"left foot, blasts",0.9954,2,moment after a near miss,GOALLL! JIMENEZ SCORES! 2-0 FULHAM! The Cottagers get their second of the game.
+5,93489,81,80,81,,goal,0.9997089505195618,goal,Raul Jimenez,stage4,Harry Wilson,,0.9927,1,sudden moment with little build-up,Jimenez collided with Vlachodimos after scoring.
+6,93489,134,129,135,,goal,0.9985878467559814,goal,Raul Jimenez,stage4,Raul Jimenez,curls,0.977,5,sustained pressure,"GOALLL! JIMENEZ SCORES AGAIN! 3-0 FULHAM! What a moment for Jimenez, who is back to his best."
+7,93489,171,164,171,,goal,0.9966700077056885,goal,Alex Iwobi,stage4,Alex Iwobi,,0.9629,7,gradual build-up,He comes off moments after scoring and is replaced by Cordova-Reid.
+8,93489,150,146,150,,goal,0.9949766993522644,goal,Harry Wilson,head_c,Harry Wilson,from cross,0.9441,4,gradual build-up,"He comes off with an assist to his name and is replaced by Wilson, who scored in Fulham's last match."
+9,93489,35,33,35,,goal,0.9006437063217163,routine,Ola Aina,stage4,Ola Aina,header from assist,0.8853,2,gradual early build-up,"However, Aina gets across to head it away against his former side."
+10,93489,51,49,52,,near_miss,0.9999561309814453,near_miss,Nicolas Dominguez,head_c,Nicolas Dominguez,curling,0.7689,2,gradual build-up,CHANCE! Dominguez collects the ball just past the halfway line and turns in possession.
+11,93489,97,95,99,,near_miss,0.999998927116394,near_miss,Alex Iwobi,head_c,Alex Iwobi,,0.7504,2,gradual build-up,WIDE! Iwobi goes close to adding his second and Fulham's third.
+12,93489,62,59,63,,near_miss,0.9992287158966064,near_miss,Willian,head_c,Willian,,0.7328,3,gradual build-up,"POST! Willian wants to take the free-kick, but he steps away from it."

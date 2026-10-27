@@ -1,0 +1,35 @@
+Match 93509: 10 highlights
+
+Ranked by excitement:
+ 1. [line 126, event: GOAL, player: Dan Burn, excitement: 1.00, buildup_length: 2 lines, narrative_context: "gradual late build-up"]
+      "GOOOAAALLL!!! BURN MAKES IT 3-0!!! The defender marks his return from injury with a goal as he makes the points safe."
+ 2. [line 97, event: GOAL, player: Lewis Miley, excitement: 1.00, buildup_length: 6 lines, narrative_context: "gradual build-up"]
+      "His persistent run took the ball deep into the Fulham box before his young midfield partner lashed home."
+ 3. [line 104, event: GOAL, player: Miguel Almiron, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "GOOOAAALLL!!! ALMIRON MAKES IT 2-0!!! Almiron potentially puts the game to bed with one of the easiest finishes of his career."
+ 4. [line 21, event: NEAR MISS, player: Anthony Gordon, method: curling, from range, excitement: 0.77, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+      "WIDE! Schar tries his luck with a free-kick from range, though his curling effort does not quite bend enough and arrows past the right post."
+ 5. [line 35, event: NEAR MISS, player: Bruno Guimaraes, method: first time, excitement: 0.76, buildup_length: 1 line, narrative_context: "moment after a near miss"]
+      "The midfielder opts to shoot first time, but his effort flies high and wide of the target."
+ 6. [line 141, event: NEAR MISS, player: Bernd Leno, method: volley, at the back post, excitement: 0.75, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]
+      "OFF THE POST!!! Wilson is inches away from getting his goal as he brings the ball under his spell before lashing goalwards, though his shot comes back off the post and away from danger!"
+ 7. [line 87, event: NEAR MISS, player: Bernd Leno, method: long-range, powerful, excitement: 0.73, buildup_length: 2 lines, narrative_context: "moment after a near miss"]
+      "BIG SAVE! Leno makes a vital stop to keep the scoreline 0-0."
+ 8. [line 62, event: NEAR MISS, player: Bernd Leno, excitement: 0.73, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "NO PENALTY! Livramento fires a ball into the box, and Longstaff's heavy touch at the near post allows Leno to race out and snuff out the danger."
+ 9. [line 54, event: NEAR MISS, player: Alex Iwobi, method: header from assist, excitement: 0.72, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+      "CHANCE! A huge chance for Fulham goes begging as a neat throughball for Iwobi puts him in on goal."
+10. [line 49, event: NEAR MISS, player: Anthony Gordon, method: at the back post, excitement: 0.69, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "OFF THE BAR!!! SO CLOSE FOR GORDON!!! Newcastle are inches away from taking the lead as a deep cross finds its way to Gordon at the back post."
+
+In match order:
+    [line 21, event: NEAR MISS, player: Anthony Gordon, method: curling, from range, excitement: 0.77, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+    [line 35, event: NEAR MISS, player: Bruno Guimaraes, method: first time, excitement: 0.76, buildup_length: 1 line, narrative_context: "moment after a near miss"]
+    [line 49, event: NEAR MISS, player: Anthony Gordon, method: at the back post, excitement: 0.69, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 54, event: NEAR MISS, player: Alex Iwobi, method: header from assist, excitement: 0.72, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+    [line 62, event: NEAR MISS, player: Bernd Leno, excitement: 0.73, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 87, event: NEAR MISS, player: Bernd Leno, method: long-range, powerful, excitement: 0.73, buildup_length: 2 lines, narrative_context: "moment after a near miss"]
+    [line 97, event: GOAL, player: Lewis Miley, excitement: 1.00, buildup_length: 6 lines, narrative_context: "gradual build-up"]
+    [line 104, event: GOAL, player: Miguel Almiron, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 126, event: GOAL, player: Dan Burn, excitement: 1.00, buildup_length: 2 lines, narrative_context: "gradual late build-up"]
+    [line 141, event: NEAR MISS, player: Bernd Leno, method: volley, at the back post, excitement: 0.75, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]

@@ -1,0 +1,38 @@
+Match 93355: 11 highlights
+
+Ranked by excitement:
+ 1. [line 139, event: GOAL, player: Jhon Duran, method: ambitious, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]
+      "Duran scored only 50 seconds after being substituted on, the quickest an Aston Villa substitute has scored in a Premier League match since John Carew against Everton in October 2009 (46 seconds)."
+ 2. [line 39, event: GOAL, player: John McGinn, method: header, excitement: 0.99, buildup_length: 3 lines, narrative_context: "moment after a scrappy spell"]
+      "GOALLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL!!!! MCGINN BREAKS THE DEADLOCK!!!! 1-0 VILLA!!!!! McGinn is on the spot in the box to turn the ball home and put Villa ahead."
+ 3. [line 102, event: GOAL, player: Leon Bailey, method: from throw_in, excitement: 0.99, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "GOALLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL!!! BAILEY MAKES IT THREE!!!! 3-0!!!!! Everton switch off at the back from a long throw into the box and Bailey slams a half-volley through Pickford's legs."
+ 4. [line 49, event: GOAL, player: Douglas Luiz, method: spot-kick, excitement: 0.99, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+      "GOALLLLLLLLLLLLLLLLLLLLLLLLLLLLLL!!!!!!! DOUGLAS LUIZ CONVERTS!!!!! 2-0!!!! Villa double their lead as Douglas Luiz holds his nerve from 12 yards."
+ 5. [line 134, event: GOAL, player: Jhon Duran, method: from throw_in, excitement: 0.99, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "GOALLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL!!!! DURAN MAKES AN INSTANT IMPACT!!!!! 4-0!!!!!!! Duran pounces on a mistake by Young from a throw-in and skips past Keane before slotting an effort past Pickford."
+ 6. [line 75, event: NEAR MISS, player: Neto, excitement: 0.78, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "SAVE! Danjuma and Garner go for the give-and-go in the inside-right channel."
+ 7. [line 114, event: NEAR MISS, player: Emiliano Martinez, method: first-time, excitement: 0.77, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+      "SAVE! Maupay latches onto a deep cross from Young's corner and shoots first-time, but his effort is saved by Martinez low to his right."
+ 8. [line 27, event: NEAR MISS, player: Declan Rice, excitement: 0.73, buildup_length: 0 lines, narrative_context: "sudden early moment with little build-up"]
+      "OVER! Villa beat the press as McGinn drives forward into the final third."
+ 9. [line 63, event: NEAR MISS, player: Jordan Pickford, method: first-time, excitement: 0.69, buildup_length: 5 lines, narrative_context: "sustained pressure"]
+      "He connects perfectly with his effort, only to see his strike palmed onto the post by the England keeper."
+10. [line 54, event: NEAR MISS, player: Jordan Pickford, method: first-time, excitement: 0.67, buildup_length: 1 line, narrative_context: "moment after a near miss"]
+      "The midfielder opts against a strike first-time and tees up Diaby to shoot, but Pickford gets down to save his strike."
+11. [line 122, event: GOAL, player: Beto, method: right foot, first-time, 20 yards, excitement: 0.53, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "Only twice previously have Everton lost each of their first two league games in a season without scoring a single goal, doing so in 1952-53 in the second tier and 1955-56 in the top-flight."
+
+In match order:
+    [line 27, event: NEAR MISS, player: Declan Rice, excitement: 0.73, buildup_length: 0 lines, narrative_context: "sudden early moment with little build-up"]
+    [line 39, event: GOAL, player: John McGinn, method: header, excitement: 0.99, buildup_length: 3 lines, narrative_context: "moment after a scrappy spell"]
+    [line 49, event: GOAL, player: Douglas Luiz, method: spot-kick, excitement: 0.99, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+    [line 54, event: NEAR MISS, player: Jordan Pickford, method: first-time, excitement: 0.67, buildup_length: 1 line, narrative_context: "moment after a near miss"]
+    [line 63, event: NEAR MISS, player: Jordan Pickford, method: first-time, excitement: 0.69, buildup_length: 5 lines, narrative_context: "sustained pressure"]
+    [line 75, event: NEAR MISS, player: Neto, excitement: 0.78, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 102, event: GOAL, player: Leon Bailey, method: from throw_in, excitement: 0.99, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 114, event: NEAR MISS, player: Emiliano Martinez, method: first-time, excitement: 0.77, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+    [line 122, event: GOAL, player: Beto, method: right foot, first-time, 20 yards, excitement: 0.53, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 134, event: GOAL, player: Jhon Duran, method: from throw_in, excitement: 0.99, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 139, event: GOAL, player: Jhon Duran, method: ambitious, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]

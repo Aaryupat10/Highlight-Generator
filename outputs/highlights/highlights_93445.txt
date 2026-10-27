@@ -1,0 +1,41 @@
+Match 93445: 12 highlights
+
+Ranked by excitement:
+ 1. [line 141, event: GOAL, player: Bernardo Silva, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "SILVA SCORES AGAIN! It all starts with a superb cross-field pass from Doku to pick out Silva's free run down the right."
+ 2. [line 129, event: GOAL, player: Luis Sinisterra, method: from cross, excitement: 1.00, buildup_length: 3 lines, narrative_context: "gradual build-up"]
+      "He plays another early cross into the box, but this one is weighted perfectly, and Sinisterra drags it around Walker before sliding it into the back of the net."
+ 3. [line 150, event: GOAL, player: Nathan Ake, method: six-yard, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]
+      "AKE SCORES! It's more great link-up play from City down their right side and Nunes slides it into Bobb at the byline."
+ 4. [line 112, event: GOAL, player: Phil Foden, excitement: 1.00, buildup_length: 3 lines, narrative_context: "gradual build-up"]
+      "He's in the middle of a crowd, but he gets into a pocket of space before stroking it past Radu into the back of the net."
+ 5. [line 53, event: GOAL, player: Bernardo Silva, excitement: 1.00, buildup_length: 5 lines, narrative_context: "gradual build-up"]
+      "SILVA SCORES! And just like that, City have doubled their lead! It's more wonderful play from Doku, who links up well with Walker down the right before leaving Mepham in a spin with some clever footwork."
+ 6. [line 47, event: GOAL, player: Jeremy Doku, method: first time, excitement: 1.00, buildup_length: 9 lines, narrative_context: "sustained pressure"]
+      "DOKU SCORES! It's a lovely goal by City! Radu punches away Walker's cross, but the hosts quickly win it back once more."
+ 7. [line 59, event: GOAL, player: Manuel Akanji, excitement: 0.99, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "AKANJI SCORES! It's City's seventh corner, and Bournemouth haven't dealt with it whenever it's been played short to Silva."
+ 8. [line 162, event: NEAR MISS, player: Dominic Solanke, excitement: 0.80, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]
+      "SAVE! City almost make a grandstand finish as Lewis slides a wonderful pass through Bournemouth's backline to pick out Kovacic's run."
+ 9. [line 30, event: NEAR MISS, player: Andre Onana, method: from assist, excitement: 0.76, buildup_length: 5 lines, narrative_context: "sustained early pressure"]
+      "SAVE! Silva has three defenders in front of him, but he squeezes a pass through to Alvarez before continuing his run, drawing Bournemouth players to him."
+10. [line 37, event: NEAR MISS, player: Julian Alvarez, method: from cross, excitement: 0.72, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+      "OFF THE POST! Silva checks back twice, but just can't open up space for a shot so he tees up Alvarez for a cross."
+11. [line 100, event: NEAR MISS, player: Mateo Kovacic, excitement: 0.70, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "CHANCE! Doku dances into the box once more, but Senesi slides in to put it out for another corner."
+12. [line 66, event: NEAR MISS, player: Alex Scott, excitement: 0.68, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "CHANCE! It's much better from Bournemouth as they catch City out with a quick break, but Scott kicks through Rodri when the Spaniard cuts the cross out."
+
+In match order:
+    [line 30, event: NEAR MISS, player: Andre Onana, method: from assist, excitement: 0.76, buildup_length: 5 lines, narrative_context: "sustained early pressure"]
+    [line 37, event: NEAR MISS, player: Julian Alvarez, method: from cross, excitement: 0.72, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+    [line 47, event: GOAL, player: Jeremy Doku, method: first time, excitement: 1.00, buildup_length: 9 lines, narrative_context: "sustained pressure"]
+    [line 53, event: GOAL, player: Bernardo Silva, excitement: 1.00, buildup_length: 5 lines, narrative_context: "gradual build-up"]
+    [line 59, event: GOAL, player: Manuel Akanji, excitement: 0.99, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 66, event: NEAR MISS, player: Alex Scott, excitement: 0.68, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 100, event: NEAR MISS, player: Mateo Kovacic, excitement: 0.70, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 112, event: GOAL, player: Phil Foden, excitement: 1.00, buildup_length: 3 lines, narrative_context: "gradual build-up"]
+    [line 129, event: GOAL, player: Luis Sinisterra, method: from cross, excitement: 1.00, buildup_length: 3 lines, narrative_context: "gradual build-up"]
+    [line 141, event: GOAL, player: Bernardo Silva, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 150, event: GOAL, player: Nathan Ake, method: six-yard, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]
+    [line 162, event: NEAR MISS, player: Dominic Solanke, excitement: 0.80, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]

@@ -1,0 +1,41 @@
+Match 93519: 12 highlights
+
+Ranked by excitement:
+ 1. [line 60, event: GOAL, player: Joao Pedro, excitement: 1.00, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+      "GOOOAAAALLL!! BRIGHTON LEAD 2-0! Joao Pedro has been very lively so far today and he has a goal to go with his assist."
+ 2. [line 40, event: GOAL, player: Joao Pedro, excitement: 1.00, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+      "GOOOAAALLL!!! BRIGHTON 1-0 TOTTENHAM! Joao Pedro drives into the box, then back out of it, before picking out Hinshelwood."
+ 3. [line 157, event: GOAL, excitement: 1.00, buildup_length: 4 lines, narrative_context: "moment after a scrappy spell"]
+      "GOOOAAAALLL!!!! BRIGHTON 4-0 TOTTENHAM!! This is getting embarrassing for Tottenham now."
+ 4. [line 171, event: GOAL, method: six-yard, excitement: 1.00, buildup_length: 4 lines, narrative_context: "gradual build-up"]
+      "Perhaps the fact Veliz scored helped him in a way."
+ 5. [line 132, event: GOAL, player: Richarlison, method: slots from assist, excitement: 1.00, buildup_length: 3 lines, narrative_context: "gradual build-up"]
+      "GOOOOAAALLL!!! WHAT A STRIKE! This is superb from the returning Estupinan."
+ 6. [line 110, event: GOAL, player: Richarlison, method: from free_kick, excitement: 0.98, buildup_length: 5 lines, narrative_context: "gradual build-up"]
+      "Richarlison scored an offside goal for Spurs near enough right from kick-off, but since then there has been no danger for the hosts."
+ 7. [line 163, event: GOAL, player: Dejan Kulusevski, method: from assist, excitement: 0.96, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "GOOOAAALLL!!! TOTTENHAM HAVE ONE BACK! Kulusevski refuses to give up and blocks a pass from Dunk."
+ 8. [line 81, event: GOAL, player: Facundo Buonanotte, method: half-volley, excitement: 0.90, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "GOAL DISALLOWED! Buonanotte thinks he has given Brighton a third goal, but he is just offside when meeting - and converting - Welbeck's cross."
+ 9. [line 31, event: GOAL, player: Guglielmo Vicario, method: bend, excitement: 0.88, buildup_length: 3 lines, narrative_context: "sustained early pressure"]
+      "Porro is disposed and the Brighton counter ends with Welbeck aiming to bend one into the far corner, but he does not get enough whip on it and Vicario keeps it out."
+10. [line 120, event: NEAR MISS, player: Jason Steele, method: first-time from assist, excitement: 0.77, buildup_length: 4 lines, narrative_context: "gradual build-up"]
+      "ANOTHER SAVE! Tottenham have well and truly ramped up the pressure."
+11. [line 49, event: NEAR MISS, player: Alphonse Areola, excitement: 0.76, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "ANOTHER SAVE! Vicario is keeping Tottenham in this match."
+12. [line 115, event: NEAR MISS, player: Richarlison, method: curling, excitement: 0.75, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "SO CLOSE! Richarlison controls Son's pass inside the box, turns and sends a shot curling wide of the post."
+
+In match order:
+    [line 31, event: GOAL, player: Guglielmo Vicario, method: bend, excitement: 0.88, buildup_length: 3 lines, narrative_context: "sustained early pressure"]
+    [line 40, event: GOAL, player: Joao Pedro, excitement: 1.00, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+    [line 49, event: NEAR MISS, player: Alphonse Areola, excitement: 0.76, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 60, event: GOAL, player: Joao Pedro, excitement: 1.00, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+    [line 81, event: GOAL, player: Facundo Buonanotte, method: half-volley, excitement: 0.90, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 110, event: GOAL, player: Richarlison, method: from free_kick, excitement: 0.98, buildup_length: 5 lines, narrative_context: "gradual build-up"]
+    [line 115, event: NEAR MISS, player: Richarlison, method: curling, excitement: 0.75, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 120, event: NEAR MISS, player: Jason Steele, method: first-time from assist, excitement: 0.77, buildup_length: 4 lines, narrative_context: "gradual build-up"]
+    [line 132, event: GOAL, player: Richarlison, method: slots from assist, excitement: 1.00, buildup_length: 3 lines, narrative_context: "gradual build-up"]
+    [line 157, event: GOAL, excitement: 1.00, buildup_length: 4 lines, narrative_context: "moment after a scrappy spell"]
+    [line 163, event: GOAL, player: Dejan Kulusevski, method: from assist, excitement: 0.96, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 171, event: GOAL, method: six-yard, excitement: 1.00, buildup_length: 4 lines, narrative_context: "gradual build-up"]

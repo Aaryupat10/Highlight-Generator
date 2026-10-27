@@ -1,0 +1,41 @@
+Match 93512: 12 highlights
+
+Ranked by excitement:
+ 1. [line 201, event: GOAL, player: Christopher Nkunku, method: guides, excitement: 1.00, buildup_length: 4 lines, narrative_context: "gradual late build-up"]
+      "GOOOOOAAAAAALLLL! CHELSEA ARE BACK IN IT! Nkunku with a debut Premier League goal! It's game on at Molineux again as Sterling gets down the right to cross, and Nkunku guides a glancing header into the bottom-left corner when left unmarked."
+ 2. [line 122, event: GOAL, player: Mario Lemina, method: glances, excitement: 1.00, buildup_length: 8 lines, narrative_context: "sustained pressure"]
+      "GOOOOOOOAAAAAAAAALLLLLLL! LEMINA PUTS WOLVES AHEAD! Wolves have caused Chelsea so many problems from set-pieces, and they finally take advantage of one to go 1-0 up! Sarabia swings his deep corner-kick towards the far post, where Lemina glances a deft header into the bottom-left corner! Molineux erupts!"
+ 3. [line 28, event: GOAL, player: Armando Broja, method: from assist, excitement: 0.99, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+      "His pass across the box finds Broja in space near the penalty spot, and he looks destined to open the scoring."
+ 4. [line 93, event: NEAR MISS, player: Djordje Petrovic, method: volley, blast, excitement: 0.75, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "OVER! Wolves miss their best chance of the half! Kilman lifts a great ball over the top of the Chelsea defence, with Petrovic unsure whether to come out or stay on his line."
+ 5. [line 74, event: NEAR MISS, player: Jose Sa, method: from error, excitement: 0.75, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+      "He has a chance to square to Jackson but opts to shoot himself, and Sa spreads himself to make a vital one-on-one save! He had to make up for his earlier error."
+ 6. [line 61, event: GOAL, player: Jean-Ricner Bellegarde, excitement: 0.75, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "It's their longest scoring streak at Molineux in the top flight since a run of 16 between August and March in 1969-70, but they'll need to step things up to keep it going here."
+ 7. [line 56, event: NEAR MISS, player: Nicolas Jackson, excitement: 0.74, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "MISSED CHANCE! Sterling pops up on the right this time, sending a looping cross towards Jackson at the far post."
+ 8. [line 127, event: NEAR MISS, method: from distance, excitement: 0.72, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "Save! The corner runs too long but Toti keeps it alive at the back to find Lemina."
+ 9. [line 67, event: NEAR MISS, player: Raheem Sterling, method: from assist, excitement: 0.70, buildup_length: 3 lines, narrative_context: "moment after a scrappy spell"]
+      "OVER! Sterling beats the wall with his free-kick, but he can't get enough dip on the shot as it flies over Sa's crossbar."
+10. [line 180, event: NEAR MISS, method: powerful, excitement: 0.69, buildup_length: 3 lines, narrative_context: "sustained pressure"]
+      "Good stop!"
+11. [line 196, event: NEAR MISS, player: Jose Sa, method: blasts, excitement: 0.67, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]
+      "Madueke cuts inside from the right, but instead of looking for a team-mate, he blasts a poor effort well wide of Sa's right-hand post."
+12. [line 85, event: NEAR MISS, player: Nelson Semedo, excitement: 0.65, buildup_length: 3 lines, narrative_context: "gradual build-up"]
+      "His scuffed shot almost puts Hwang in on goal, but he's forced wide by Petrovic and can only win a corner."
+
+In match order:
+    [line 28, event: GOAL, player: Armando Broja, method: from assist, excitement: 0.99, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+    [line 56, event: NEAR MISS, player: Nicolas Jackson, excitement: 0.74, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 61, event: GOAL, player: Jean-Ricner Bellegarde, excitement: 0.75, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 67, event: NEAR MISS, player: Raheem Sterling, method: from assist, excitement: 0.70, buildup_length: 3 lines, narrative_context: "moment after a scrappy spell"]
+    [line 74, event: NEAR MISS, player: Jose Sa, method: from error, excitement: 0.75, buildup_length: 6 lines, narrative_context: "sustained pressure"]
+    [line 85, event: NEAR MISS, player: Nelson Semedo, excitement: 0.65, buildup_length: 3 lines, narrative_context: "gradual build-up"]
+    [line 93, event: NEAR MISS, player: Djordje Petrovic, method: volley, blast, excitement: 0.75, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 122, event: GOAL, player: Mario Lemina, method: glances, excitement: 1.00, buildup_length: 8 lines, narrative_context: "sustained pressure"]
+    [line 127, event: NEAR MISS, method: from distance, excitement: 0.72, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 180, event: NEAR MISS, method: powerful, excitement: 0.69, buildup_length: 3 lines, narrative_context: "sustained pressure"]
+    [line 196, event: NEAR MISS, player: Jose Sa, method: blasts, excitement: 0.67, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]
+    [line 201, event: GOAL, player: Christopher Nkunku, method: guides, excitement: 1.00, buildup_length: 4 lines, narrative_context: "gradual late build-up"]

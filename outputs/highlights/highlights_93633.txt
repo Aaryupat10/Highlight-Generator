@@ -1,0 +1,41 @@
+Match 93633: 12 highlights
+
+Ranked by excitement:
+ 1. [line 48, event: GOAL, player: Alexander Isak, method: close-range from corner, excitement: 1.00, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+      "GOOOOOAAALLL!! Arsenal double their lead in fortunate circumstances!!! Trossard is played into space down the byline by Zinchenko's pass and cuts the ball back across the face of goal."
+ 2. [line 32, event: GOAL, player: Martin Odegaard, method: first-time, excitement: 1.00, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+      "GOOOOOOOAAAAAALLL!!! The Gunners strike first and take a deserved lead!! Smith Rowe dispossesses Mpanzu in the middle to find Odegaard and Havertz ahead of him, and the latter feeds his captain to drill a first-time finish into the bottom-left corner!!! 1-0 to the Arsenal, and it's certainly been coming in the opening 24 minutes."
+ 3. [line 60, event: GOAL, player: Martin Odegaard, method: first-time, steered, excitement: 0.95, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "He steered home the opener with a sensational first-time finish, and Arsenal captain Odegaard has been at the centre of everything for the Gunners thus far."
+ 4. [line 25, event: NEAR MISS, player: Martin Odegaard, method: hammer, excitement: 0.75, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+      "CHANCE!!! Odegaard threads a superb ball forward for Havertz on the edge of the box, but he's crowded out from playing in Smith Rowe as five Luton defenders swarm around the pair!"
+ 5. [line 72, event: NEAR MISS, player: Neto, method: low ball from assist, excitement: 0.73, buildup_length: 3 lines, narrative_context: "gradual build-up"]
+      "SAVED!!! Clark finds Onyedinma in the box, who drills a low ball across the face of goal, but Raya sees it all the way through the crowd and makes a comfortable stop!!"
+ 6. [line 88, event: NEAR MISS, player: Gabriel Jesus, method: right footed, curling, excitement: 0.73, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "WIDE!!! Arsenal turn possession over on halfway and stream forward on the counter-attack through Nketiah."
+ 7. [line 19, event: NEAR MISS, player: Thomas Kaminski, method: from cross, excitement: 0.72, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+      "He stands up a cross from the right, which Kaminski tips over the crossbar to give the hosts a corner!"
+ 8. [line 39, event: NEAR MISS, player: Thomas Kaminski, method: point-blank from rebound, excitement: 0.68, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "SAVED!!! With Hashioka down in back-play, Arsenal continue forwards as Partey and Odegaard combine to play in Smith Rowe."
+ 9. [line 97, event: NEAR MISS, player: Thomas Kaminski, method: right foot, low shot, excitement: 0.67, buildup_length: 4 lines, narrative_context: "sustained late pressure"]
+      "The striker cuts onto his right foot and drills a low shot towards the near post, which Kaminski gets down to and parries behind for a corner!!"
+10. [line 53, event: NEAR MISS, player: Thomas Kaminski, method: 25 yards, excitement: 0.66, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "SAVED!!! Luton win a late free-kick on the edge of Arsenal's box after Clark is clipped late by Saliba, but Barkley's strike from 25 yards sails straight into Raya's grasp!"
+11. [line 65, event: NEAR MISS, player: Emile Smith Rowe, method: six-yard, excitement: 0.62, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "Both goalkeepers have seen plenty of the ball in the opening five minutes of the second half, though neither has had a save to make as each team tries to play their way forward from the back!"
+12. [line 80, event: NEAR MISS, player: Gabriel Jesus, method: from assist, excitement: 0.54, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "Another good, wide ball by Chong puts Onyedinma into acres of space down the right, but Gabriel gets in the way of his low cross and blocks it away from the danger area!"
+
+In match order:
+    [line 19, event: NEAR MISS, player: Thomas Kaminski, method: from cross, excitement: 0.72, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+    [line 25, event: NEAR MISS, player: Martin Odegaard, method: hammer, excitement: 0.75, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+    [line 32, event: GOAL, player: Martin Odegaard, method: first-time, excitement: 1.00, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+    [line 39, event: NEAR MISS, player: Thomas Kaminski, method: point-blank from rebound, excitement: 0.68, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 48, event: GOAL, player: Alexander Isak, method: close-range from corner, excitement: 1.00, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+    [line 53, event: NEAR MISS, player: Thomas Kaminski, method: 25 yards, excitement: 0.66, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 60, event: GOAL, player: Martin Odegaard, method: first-time, steered, excitement: 0.95, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 65, event: NEAR MISS, player: Emile Smith Rowe, method: six-yard, excitement: 0.62, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 72, event: NEAR MISS, player: Neto, method: low ball from assist, excitement: 0.73, buildup_length: 3 lines, narrative_context: "gradual build-up"]
+    [line 80, event: NEAR MISS, player: Gabriel Jesus, method: from assist, excitement: 0.54, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 88, event: NEAR MISS, player: Gabriel Jesus, method: right footed, curling, excitement: 0.73, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 97, event: NEAR MISS, player: Thomas Kaminski, method: right foot, low shot, excitement: 0.67, buildup_length: 4 lines, narrative_context: "sustained late pressure"]

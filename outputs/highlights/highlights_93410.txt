@@ -1,0 +1,41 @@
+Match 93410: 12 highlights
+
+Ranked by excitement:
+ 1. [line 153, event: GOAL, player: Curtis Jones, method: headed from assist, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]
+      "GOOOOOOOOOOOOOOALLLLLLLL! ARSENAL 1-0! The Emirates erupts as the Gunners fire themselves into a late lead."
+ 2. [line 115, event: GOAL, player: Rodri, method: right-footed, excitement: 0.99, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "Guardiola will hope his midfielder can channel that energy into scoring past Raya."
+ 3. [line 56, event: NEAR MISS, player: Oleksandr Zinchenko, method: right foot, curling, excitement: 0.81, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "WIDE! Zinchenko clips down the inside left-hand channel for Nketiah as Dias fails to clear."
+ 4. [line 26, event: NEAR MISS, player: Nathan Ake, method: volleys, excitement: 0.75, buildup_length: 0 lines, narrative_context: "sudden early moment with little build-up"]
+      "OFF THE LINE AND OVER! A first corner of the game comes on the right flank for City as Zinchenko cannot keep it in play."
+ 5. [line 137, event: NEAR MISS, player: Gabriel Jesus, method: six-yard from free_kick, excitement: 0.72, buildup_length: 5 lines, narrative_context: "gradual build-up"]
+      "OVER! Martinelli skips inside the challenges of Walker and Silva before offloading inside to his right."
+ 6. [line 44, event: NEAR MISS, player: David Raya, excitement: 0.72, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "CLOSE! Raya almost makes a terrible mistake to gift City the lead."
+ 7. [line 105, event: NEAR MISS, player: Ederson, method: right-footed, first-time, excitement: 0.70, buildup_length: 7 lines, narrative_context: "sustained pressure"]
+      "SAVE! Martinelli has livened up Arsenal's attacking play as Rice frees the winger into the area on the left of goal."
+ 8. [line 67, event: NEAR MISS, player: Erling Haaland, method: six-yard, excitement: 0.59, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "OVER! Haaland gets involved for a rare instance, bringing down Ederson's long pass before offloading to Alvarez."
+ 9. [line 122, event: NEAR MISS, player: Ruben Dias, method: ambitious, excitement: 0.58, buildup_length: 2 lines, narrative_context: "moment after a near miss"]
+      "Dias hangs a back-post centre towards Lewis but White stands tall to head behind for a City corner on the left-hand side."
+10. [line 169, event: CARD, player: Gabriel Jesus, excitement: 0.55, buildup_length: 2 lines, narrative_context: "gradual late build-up"]
+      "Jesus is also shown a yellow card for wasting time by touching the ball away to stop the restart."
+11. [line 80, event: NEAR MISS, player: Oleksandr Zinchenko, method: curling, excitement: 0.51, buildup_length: 3 lines, narrative_context: "gradual build-up"]
+      "Raya gets underneath it and cannot claw away a clearance, but Haaland is caught on his heels as Zinchenko turns behind for a corner."
+12. [line 36, event: CARD, player: Martin Odegaard, excitement: 0.51, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+      "The Italy international is deservedly shown the first yellow card of the match."
+
+In match order:
+    [line 26, event: NEAR MISS, player: Nathan Ake, method: volleys, excitement: 0.75, buildup_length: 0 lines, narrative_context: "sudden early moment with little build-up"]
+    [line 36, event: CARD, player: Martin Odegaard, excitement: 0.51, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+    [line 44, event: NEAR MISS, player: David Raya, excitement: 0.72, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 56, event: NEAR MISS, player: Oleksandr Zinchenko, method: right foot, curling, excitement: 0.81, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 67, event: NEAR MISS, player: Erling Haaland, method: six-yard, excitement: 0.59, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 80, event: NEAR MISS, player: Oleksandr Zinchenko, method: curling, excitement: 0.51, buildup_length: 3 lines, narrative_context: "gradual build-up"]
+    [line 105, event: NEAR MISS, player: Ederson, method: right-footed, first-time, excitement: 0.70, buildup_length: 7 lines, narrative_context: "sustained pressure"]
+    [line 115, event: GOAL, player: Rodri, method: right-footed, excitement: 0.99, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 122, event: NEAR MISS, player: Ruben Dias, method: ambitious, excitement: 0.58, buildup_length: 2 lines, narrative_context: "moment after a near miss"]
+    [line 137, event: NEAR MISS, player: Gabriel Jesus, method: six-yard from free_kick, excitement: 0.72, buildup_length: 5 lines, narrative_context: "gradual build-up"]
+    [line 153, event: GOAL, player: Curtis Jones, method: headed from assist, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]
+    [line 169, event: CARD, player: Gabriel Jesus, excitement: 0.55, buildup_length: 2 lines, narrative_context: "gradual late build-up"]

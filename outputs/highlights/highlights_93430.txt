@@ -1,0 +1,41 @@
+Match 93430: 12 highlights
+
+Ranked by excitement:
+ 1. [line 152, event: GOAL, player: Philip Billing, excitement: 1.00, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "GOALLL! BILLING SCORES! 2-1 BOURNEMOUTH! That could be a vital goal for the hosts! Burnley are poor in possession again, with Vitinho gifting the ball to Billing around the halfway line."
+ 2. [line 167, event: GOAL, player: Philip Billing, excitement: 1.00, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "Billing scored Bournemouth's second and is now coming off."
+ 3. [line 70, event: GOAL, player: Neto, excitement: 1.00, buildup_length: 6 lines, narrative_context: "moment after a scrappy spell"]
+      "The game has changed since Bournemouth netted the equaliser."
+ 4. [line 46, event: GOAL, player: Charlie Taylor, method: ambitious, excitement: 1.00, buildup_length: 3 lines, narrative_context: "gradual early build-up"]
+      "GOALLL! TAYLOR SCORES! 1-0 BURNLEY! What a strike from the defender."
+ 5. [line 177, event: GOAL, player: James Trafford, method: powerful, excitement: 1.00, buildup_length: 2 lines, narrative_context: "gradual late build-up"]
+      "OFFSIDE BUT THERE IS A VAR CHECK! Burnley thought they had netted an equaliser."
+ 6. [line 185, event: GOAL, player: Jay Rodriguez, excitement: 1.00, buildup_length: 0 lines, narrative_context: "sudden late moment with little build-up"]
+      "FINAL DECISION OFFSIDE! There was a very long VAR check to see if Rodriguez was in an offside position when Redmond played the pass into him before scoring."
+ 7. [line 58, event: GOAL, player: Antoine Semenyo, method: from close, excitement: 1.00, buildup_length: 2 lines, narrative_context: "moment after a near miss"]
+      "GOALLL! SEMENYO SCORES! 1-1! Semenyo wins possession off Taylor in Burnley's half and rushes into the box."
+ 8. [line 105, event: GOAL, player: Lyle Foster, excitement: 0.98, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "Koleosho has had the beating of Kelly on the right, but they have only looked like scoring from corners and crosses from open play."
+ 9. [line 193, event: NEAR MISS, player: Andrei Radu, method: header from assist, excitement: 0.82, buildup_length: 7 lines, narrative_context: "sustained late pressure"]
+      "CHANCE! Berge has a late opportunity to score, but his effort deflects into the hands of Radu."
+10. [line 143, event: NEAR MISS, player: Neto, excitement: 0.74, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "OVER! Scott is over the resulting free-kick on the left, with the midfielder whipping his shot over the wall and wide and just over."
+11. [line 83, event: GOAL, player: James Trafford, excitement: 0.73, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "The original cross is punched away by Trafford, but Billing directs the ball back in."
+12. [line 78, event: NEAR MISS, player: Marcus Tavernier, method: low cross, excitement: 0.71, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+      "SAVE! Tavernier is over a corner on the left and he whips a dangerous cross into the box."
+
+In match order:
+    [line 46, event: GOAL, player: Charlie Taylor, method: ambitious, excitement: 1.00, buildup_length: 3 lines, narrative_context: "gradual early build-up"]
+    [line 58, event: GOAL, player: Antoine Semenyo, method: from close, excitement: 1.00, buildup_length: 2 lines, narrative_context: "moment after a near miss"]
+    [line 70, event: GOAL, player: Neto, excitement: 1.00, buildup_length: 6 lines, narrative_context: "moment after a scrappy spell"]
+    [line 78, event: NEAR MISS, player: Marcus Tavernier, method: low cross, excitement: 0.71, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 83, event: GOAL, player: James Trafford, excitement: 0.73, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 105, event: GOAL, player: Lyle Foster, excitement: 0.98, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 143, event: NEAR MISS, player: Neto, excitement: 0.74, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 152, event: GOAL, player: Philip Billing, excitement: 1.00, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 167, event: GOAL, player: Philip Billing, excitement: 1.00, buildup_length: 2 lines, narrative_context: "gradual build-up"]
+    [line 177, event: GOAL, player: James Trafford, method: powerful, excitement: 1.00, buildup_length: 2 lines, narrative_context: "gradual late build-up"]
+    [line 185, event: GOAL, player: Jay Rodriguez, excitement: 1.00, buildup_length: 0 lines, narrative_context: "sudden late moment with little build-up"]
+    [line 193, event: NEAR MISS, player: Andrei Radu, method: header from assist, excitement: 0.82, buildup_length: 7 lines, narrative_context: "sustained late pressure"]

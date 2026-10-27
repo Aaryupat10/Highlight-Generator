@@ -1,0 +1,32 @@
+Match 93622: 9 highlights
+
+Ranked by excitement:
+ 1. [line 91, event: GOAL, player: Ivan Toney, method: volleys, from close, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "OFFSIDE, NO GOAL! Brentford briefly think they have taken the lead as Toney volleys home from close range."
+ 2. [line 117, event: GOAL, player: Kristoffer Ajer, method: slot, excitement: 0.93, buildup_length: 5 lines, narrative_context: "gradual late build-up"]
+      "Toney controls well and drills it across the area, where the unmarked Ajer is on hand to slot home."
+ 3. [line 97, event: NEAR MISS, player: Bryan Mbeumo, method: volley, fierce, excitement: 0.77, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "OFF THE BAR! The woodwork denies Brentford once more! Toney helps Flekken's long free-kick into the path of Mbeumo, whose fierce volley crashes against the crossbar with Onana beaten."
+ 4. [line 37, event: NEAR MISS, player: Neto, method: header from assist, excitement: 0.72, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "OFF THE POST! Wissa neatly helps the ball through for Toney, who holds his run brilliantly to latch onto it."
+ 5. [line 74, event: NEAR MISS, player: Mark Flekken, method: low drive, excitement: 0.70, buildup_length: 3 lines, narrative_context: "sustained pressure"]
+      "DOUBLE-SAVE! Onana comes to United's rescue, not once but twice."
+ 6. [line 51, event: NEAR MISS, player: Yehor Yarmoliuk, excitement: 0.70, buildup_length: 2 lines, narrative_context: "moment after a near miss"]
+      "CHANCE! Janelt splits the United defence with a superb throughball for Roerslev to run onto."
+ 7. [line 56, event: NEAR MISS, player: Mark Flekken, method: from corner, excitement: 0.69, buildup_length: 4 lines, narrative_context: "gradual build-up"]
+      "SAVE! Still, Brentford carry the greater threat."
+ 8. [line 45, event: NEAR MISS, player: Nathan Collins, method: six-yard, excitement: 0.68, buildup_length: 3 lines, narrative_context: "sustained pressure"]
+      "OFF THE BAR! Brentford take a corner short and subsequently send a deep cross towards the far post."
+ 9. [line 82, event: NEAR MISS, player: Pascal Gross, method: volley from assist, excitement: 0.66, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "CLOSE! Toney latches onto Jensen's diagonal ball and his difficult volley is not too far over in all fairness."
+
+In match order:
+    [line 37, event: NEAR MISS, player: Neto, method: header from assist, excitement: 0.72, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 45, event: NEAR MISS, player: Nathan Collins, method: six-yard, excitement: 0.68, buildup_length: 3 lines, narrative_context: "sustained pressure"]
+    [line 51, event: NEAR MISS, player: Yehor Yarmoliuk, excitement: 0.70, buildup_length: 2 lines, narrative_context: "moment after a near miss"]
+    [line 56, event: NEAR MISS, player: Mark Flekken, method: from corner, excitement: 0.69, buildup_length: 4 lines, narrative_context: "gradual build-up"]
+    [line 74, event: NEAR MISS, player: Mark Flekken, method: low drive, excitement: 0.70, buildup_length: 3 lines, narrative_context: "sustained pressure"]
+    [line 82, event: NEAR MISS, player: Pascal Gross, method: volley from assist, excitement: 0.66, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 91, event: GOAL, player: Ivan Toney, method: volleys, from close, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 97, event: NEAR MISS, player: Bryan Mbeumo, method: volley, fierce, excitement: 0.77, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 117, event: GOAL, player: Kristoffer Ajer, method: slot, excitement: 0.93, buildup_length: 5 lines, narrative_context: "gradual late build-up"]

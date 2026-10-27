@@ -1,0 +1,41 @@
+Match 93564: 12 highlights
+
+Ranked by excitement:
+ 1. [line 90, event: GOAL, player: Ross Barkley, method: low cross, excitement: 1.00, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "He loves scoring against the Magpies and comes up with a valuable equaliser."
+ 2. [line 164, event: GOAL, player: Harvey Barnes, method: left foot, curling, low effort, excitement: 1.00, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+      "He went for accuracy rather than power to find the equaliser."
+ 3. [line 35, event: GOAL, player: Sean Longstaff, method: chips, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+      "GOALLLL! LONGSTAFF SCORES! 1-0 NEWCASTLE! The hosts take an early lead."
+ 4. [line 172, event: GOAL, player: Carlton Morris, method: right-footed, excitement: 1.00, buildup_length: 7 lines, narrative_context: "sustained pressure"]
+      "Morris scored Luton's third and is now coming off."
+ 5. [line 57, event: GOAL, player: Diogo Jota, method: header from assist, excitement: 1.00, buildup_length: 3 lines, narrative_context: "gradual build-up"]
+      "The striker knocks it across the box to Osho, who gets away from his maker and powers his header into the net."
+ 6. [line 139, event: GOAL, player: Elijah Adebayo, method: low strike, excitement: 1.00, buildup_length: 10 lines, narrative_context: "moment after a scrappy spell"]
+      "GOALLL! ADEBAYO SCORES! 4-2 LUTON! The Hatters score again! Trippier advances forward and leaves Doughty plenty of space to run into."
+ 7. [line 149, event: GOAL, player: Kieran Trippier, method: curling, excitement: 0.99, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+      "GOALLLLL! TRIPPIER GETS ONE BACK FOR NEWCASTLE! The hosts needed that! Miley finds Guimaraes on the left, with the midfielder curling a cross with the outside of his boot towards Trippier."
+ 8. [line 154, event: GOAL, player: Kieran Trippier, excitement: 0.99, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "Trippier makes a bursting run and scores to get Newcastle's third goal."
+ 9. [line 178, event: NEAR MISS, player: Thomas Kaminski, method: curls, excitement: 0.76, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "WIDE! Schar drives through the middle of the pitch before rolling a pass down the left to Barnes."
+10. [line 203, event: NEAR MISS, player: Neto, method: right-footed, curls from cross, excitement: 0.74, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]
+      "CHANCE! What an opportunity for Luton to score the winner."
+11. [line 120, event: NEAR MISS, player: Callum Wilson, method: low drive, excitement: 0.72, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+      "SAVE! Huge opportunity for Newcastle."
+12. [line 30, event: NEAR MISS, player: Elijah Adebayo, excitement: 0.72, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+      "CHANCE! Luton are causing some early danger."
+
+In match order:
+    [line 30, event: NEAR MISS, player: Elijah Adebayo, excitement: 0.72, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+    [line 35, event: GOAL, player: Sean Longstaff, method: chips, excitement: 1.00, buildup_length: 1 line, narrative_context: "sudden early moment with little build-up"]
+    [line 57, event: GOAL, player: Diogo Jota, method: header from assist, excitement: 1.00, buildup_length: 3 lines, narrative_context: "gradual build-up"]
+    [line 90, event: GOAL, player: Ross Barkley, method: low cross, excitement: 1.00, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 120, event: NEAR MISS, player: Callum Wilson, method: low drive, excitement: 0.72, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 139, event: GOAL, player: Elijah Adebayo, method: low strike, excitement: 1.00, buildup_length: 10 lines, narrative_context: "moment after a scrappy spell"]
+    [line 149, event: GOAL, player: Kieran Trippier, method: curling, excitement: 0.99, buildup_length: 0 lines, narrative_context: "sudden moment with little build-up"]
+    [line 154, event: GOAL, player: Kieran Trippier, excitement: 0.99, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 164, event: GOAL, player: Harvey Barnes, method: left foot, curling, low effort, excitement: 1.00, buildup_length: 4 lines, narrative_context: "sustained pressure"]
+    [line 172, event: GOAL, player: Carlton Morris, method: right-footed, excitement: 1.00, buildup_length: 7 lines, narrative_context: "sustained pressure"]
+    [line 178, event: NEAR MISS, player: Thomas Kaminski, method: curls, excitement: 0.76, buildup_length: 1 line, narrative_context: "sudden moment with little build-up"]
+    [line 203, event: NEAR MISS, player: Neto, method: right-footed, curls from cross, excitement: 0.74, buildup_length: 1 line, narrative_context: "sudden late moment with little build-up"]
