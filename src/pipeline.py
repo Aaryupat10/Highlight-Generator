@@ -245,7 +245,7 @@ def rank_segments(segments: list[Segment], min_score: float = 0.35, merge_gap: f
     for group in groups:
         peak = max(group, key=lambda x: x.score)
         frame = analyze_event(peak.text_english or peak.text, peak.event)
-        peak_text = peak.text_english or peak.text
+        peak_text = " ".join(s.text_english or s.text for s in group)
         previous_texts = [(s.text_english or s.text) for s in segments if s.start < peak.start and s.end >= peak.start - 30.0]
         frame = add_entity_and_coreference_fields(frame, peak_text, previous_texts, entity_aliases or {"team": {}, "player": {}})
         frame["event_evidence"] = sorted({term for s in group for term in analyze_event(s.text_english or s.text, s.event)["event_evidence"]})
@@ -337,13 +337,25 @@ def classifier_context(segments: list[Segment], index: int, radius_seconds: floa
     return " ".join((s.text_english or s.text) for s in segments[left:right])
 
 
-def write_outputs(out_dir: Path, segments: list[Segment], highlights: list[dict[str, Any]], video: Path, model: str, classifier: Any = None, task: str = "transcribe", sequence_predictions: dict[str, Any] | None = None, sequence_model: Any = None) -> None:
+def write_outputs(out_dir: Path, segments: list[Segment], highlights: list[dict[str, Any]], video: Path, model: str, classifier: Any = None, task: str = "transcribe", sequence_predictions: dict[str, Any] | None = None, sequence_model: Any = None, entity_aliases: dict[str, dict[str, Any]] | None = None) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
     with (out_dir / "transcript.csv").open("w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=["start_seconds", "end_seconds", "start_timestamp", "end_timestamp", "text", "text_english", "event", "n_exclaim", "caps_ratio", "n_caps_words", "rule_score", "event_relatedness_score", "supervised_highlight_score", "model_score", "score", "nlp_cues_json"])
         writer.writeheader()
         for i, s in enumerate(segments):
-            frame = analyze_event(s.text_english or s.text, s.event)
+            analysis_text = s.text_english or s.text
+            frame = analyze_event(analysis_text, s.event)
+            previous_texts = []
+            prior_index = i - 1
+            while prior_index >= 0 and segments[prior_index].end >= s.start - 30.0:
+                prior = segments[prior_index]
+                previous_texts.append(prior.text_english or prior.text)
+                prior_index -= 1
+            previous_texts.reverse()
+            frame = add_entity_and_coreference_fields(
+                frame, analysis_text, previous_texts,
+                entity_aliases or {"team": {}, "player": {}, "ambiguous": {}},
+            )
             excitement = excitement_features(s.text)
             frame["source_text_cues"] = excitement
             frame["ranking_text_cues"] = excitement_features(s.text_english or s.text)
@@ -393,7 +405,7 @@ def write_outputs(out_dir: Path, segments: list[Segment], highlights: list[dict[
         "speech_to_text": "pretrained Faster-Whisper; language auto-detection or user override",
         "translation": "optional pretrained NLLB translation to English; timestamps retained",
         "nlp_preprocessing": "project-written Unicode/whitespace cleanup preserving case and punctuation; exclamation/caps features plus negation/hypothetical/retrospective/live-action cues",
-        "coreference": "project-written nearest-mention resolution over verified aliases; resolves only one unique player antecedent and otherwise abstains",
+        "coreference": "project-written nearest-unique verified player/team alias candidate within a 30-second transcript window; ambiguous cases abstain and links require manual verification",
         "event_extraction": "project-written event rules and event-frame patterns emit action, conservative actor candidate, team candidates, and outcome cues; target remains unresolved; not trained SRL",
         "text_representation": "project-fitted TF-IDF unigram/bigram features when TF-IDF checkpoint is selected; otherwise hashed word features",
         "deep_learning": deep_learning_stage,
@@ -416,10 +428,16 @@ def write_outputs(out_dir: Path, segments: list[Segment], highlights: list[dict[
         rank_label = "Hybrid rank score" if classifier is not None or sequence_predictions is not None else "Rule score"
         md += [f"## {i}. {h['event'].replace('_', ' ').title()} — {h['start_timestamp']} to {h['end_timestamp']}", f"{rank_label}: {h['score']:.2f}", f"Peak: {h['event_frame']['peak_timestamp']} | Candidate segments: {h['event_frame']['candidate_segment_count']} | 30-second buildup segments: {h['event_frame']['buildup_segment_count']}", ""]
         role_frame = h["event_frame"].get("event_frame", {})
-        md.append(f"Event frame (project-written patterns): action={role_frame.get('action_type', 'unknown')}; actor={role_frame.get('actor') or 'unresolved'}; outcomes={', '.join(role_frame.get('outcome_cues', [])) or 'none detected'}.")
+        md.append(f"Event frame (project-written patterns): action={role_frame.get('action_type', 'unknown')}; named participant candidate={role_frame.get('actor_candidate') or 'none'}; semantic actor={role_frame.get('actor') or 'unassigned'}; outcomes={', '.join(role_frame.get('outcome_cues', [])) or 'none detected'}.")
         coref = h["event_frame"].get("coreference", {})
         if coref.get("pronouns"):
-            md.append(f"Coreference: {', '.join(coref['pronouns'])} → {coref.get('antecedent_candidate') or 'unresolved'} ({coref.get('method', '')}).")
+            links = coref.get("links", [])
+            rendered_links = ", ".join(
+                f"{link['text']} → {link['antecedent_candidate']}" if link.get("antecedent_candidate")
+                else f"{link['text']} → unresolved"
+                for link in links
+            )
+            md.append(f"Coreference candidates: {rendered_links or ', '.join(coref['pronouns']) + ' → unresolved'} ({coref.get('method', '')}).")
         md.append("")
         if h["event_frame"].get("event_relatedness_score") is not None:
             md.append(f"Event relatedness: {h['event_frame']['event_relatedness_score']:.2f} | Supervised highlight score: {h['event_frame']['supervised_highlight_score']:.2f}")
@@ -542,7 +560,7 @@ def main() -> None:
         parser.error(f"Entity alias file does not exist: {args.entity_aliases}")
     entity_aliases = load_entity_aliases(args.entity_aliases.expanduser() if args.entity_aliases else None, video)
     highlights = rank_segments(segments, args.min_score, args.merge_gap, classifier, sequence_predictions, entity_aliases)
-    write_outputs(args.out.expanduser().resolve(), segments, highlights, video, args.model, classifier, args.task, sequence_predictions, sequence_model)
+    write_outputs(args.out.expanduser().resolve(), segments, highlights, video, args.model, classifier, args.task, sequence_predictions, sequence_model, entity_aliases)
     print(f"Transcript segments: {len(segments)}")
     print(f"Ranked highlight candidates: {len(highlights)}")
     print(f"Results saved in: {args.out.expanduser().resolve()}")

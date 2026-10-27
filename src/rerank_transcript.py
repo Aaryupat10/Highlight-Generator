@@ -64,7 +64,7 @@ def main() -> None:
     entity_aliases = load_entity_aliases(args.entity_aliases.expanduser() if args.entity_aliases else None, Path(args.video_name))
     highlights = rank_segments(segments, args.min_score, args.merge_gap, classifier, sequence_predictions, entity_aliases)
     out = args.out.expanduser().resolve() if args.out else source.parent
-    write_outputs(out, segments, highlights, Path(args.video_name), "saved transcript", classifier, args.task, sequence_predictions, sequence_model)
+    write_outputs(out, segments, highlights, Path(args.video_name), "saved transcript", classifier, args.task, sequence_predictions, sequence_model, entity_aliases)
     print(f"Re-ranked {len(segments)} timestamped segments; candidates: {len(highlights)}")
     print(f"Updated results: {out}")
 
