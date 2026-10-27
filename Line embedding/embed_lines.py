@@ -247,6 +247,7 @@ def main():
     g = ap.add_mutually_exclusive_group(required=True)
     g.add_argument("--match-id")
     g.add_argument("--all", action="store_true")
+    g.add_argument("--ids", help="comma-separated match ids, e.g. 93323,93324 (one model load for all)")
     ap.add_argument("--events-dir", default="outputs/events")
     ap.add_argument("--out-dir", default="outputs/embeddings")
     ap.add_argument("--mode", choices=["both", "text", "struct"], default="both")
@@ -270,7 +271,12 @@ def main():
     args = ap.parse_args()
 
     fields = [f.strip() for f in args.struct_fields.split(",") if f.strip()]
-    ids = find_matches(Path(args.events_dir)) if args.all else [args.match_id]
+    if args.all:
+        ids = find_matches(Path(args.events_dir))
+    elif args.ids:
+        ids = [s.strip() for s in args.ids.split(",") if s.strip()]
+    else:
+        ids = [args.match_id]
     if not ids:
         raise SystemExit(f"No events_*.jsonl in {args.events_dir}")
 
